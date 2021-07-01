@@ -2,4 +2,4 @@
 
 Sou desenvolvedor JavaScript e PHP.
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=filipesalesaraujo&theme=dark&hide_border=true)](https://git.io/streak-stats)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=22pcc3zbg7fnl4nrkgh5ccqka&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
