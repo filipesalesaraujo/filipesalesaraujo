@@ -1,3 +1,3 @@
-### Oi, me chamo Filipe Sales �:metal:
+### Oi, me chamo Filipe Sales :metal:
 
 Sou desenvolvedor JavaScript e PHP.
