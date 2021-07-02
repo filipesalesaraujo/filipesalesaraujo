@@ -1,0 +1,200 @@
+#icon-options-general,
+#icon-settings {
+	background: url( '../images/logo-ithemes.png' ) no-repeat;
+}
+#ithemes-updater-licensed .subtitle {
+	background: url( '../images/icon-licensed.png' ) no-repeat;
+}
+#ithemes-updater-unlicensed .subtitle {
+	background: url( '../images/icon-unlicensed.png' ) no-repeat;
+}
+#ithemes-updater-unrecognized .subtitle {
+	background: url( '../images/icon-unrecognized.png' ) no-repeat;
+}
+#ithemes-updater-settings .subtitle {
+	background: url( '../images/icon-settings.png' ) no-repeat;
+}
+
+
+.wrap h2 + .error,
+.wrap h2 + .updated {
+	margin-top: 2em;
+}
+.wrap .subtitle {
+	font-size: 23px;
+	line-height: 30px;
+	margin: 1.5em 0 .5em;
+	padding: 0 0 0 35px;
+}
+
+
+.wrap .widefat.ithemes-updater-listing th,
+.wrap .widefat.ithemes-updater-listing td {
+	padding: 0;
+	vertical-align: middle;
+}
+.wrap .widefat.ithemes-updater-listing tfoot td {
+	padding: 13px 10px;
+}
+.ithemes-updater-listing label {
+	display: block;
+	padding: 10px;
+}
+.widefat.ithemes-updater-listing th.check-column {
+}
+.widefat.ithemes-updater-listing th.check-column input {
+	margin: 0;
+}
+
+.wrap #ithemes-updater-unrecognized .widefat.ithemes-updater-listing th,
+.wrap #ithemes-updater-unrecognized .widefat.ithemes-updater-listing td {
+	padding: 10px;
+}
+
+
+.widefat.ithemes-updater-listing tr.expiring {
+	background-color: #FFFFE0;
+}
+.widefat.ithemes-updater-listing tr.expiring.alt {
+	background-color: #F5F5D2;
+}
+
+.widefat.ithemes-updater-listing tr.expired {
+	background-color: #FFEBE8;
+}
+.widefat.ithemes-updater-listing tr.expired.alt {
+	background-color: #F9E1DD;
+}
+
+#ithemes-updater-site-url-confirmation {
+	padding-left: 13px;
+}
+#ithemes-updater-site-url-confirmation .ithemes-updater-header {
+	background: url( '../images/ithemes-logo-header.png' ) no-repeat;
+	height: 30px;
+	width: 198px;
+	display: block;
+	margin: 29px 0 32px;
+}
+#ithemes-updater-site-url-confirmation h2 {
+	font-size: 24px;
+}
+#ithemes-updater-site-url-confirmation > p {
+	font-size: 16px;
+}
+#ithemes-updater-site-url-confirmation #ithemes-updater-table-wrapper {
+	background-color: #FFFFFF;
+	padding: 0 20px;
+	border: 4px solid #FFFFFF;
+	border-radius: 4px;
+	max-width: 900px;
+}
+#ithemes-updater-site-url-confirmation form {
+	margin: 24px 0;
+}
+#ithemes-updater-site-url-confirmation table {
+	margin: 0;
+}
+#ithemes-updater-site-url-confirmation th {
+	width: 400px;
+}
+#ithemes-updater-site-url-confirmation td {
+	vertical-align: top;
+	padding: 20px 0 20px 10px;
+}
+#ithemes-updater-site-url-confirmation th label {
+	text-transform: uppercase;
+}
+#ithemes-updater-site-url-confirmation th label+.description {
+	padding-top: 10px;
+}
+#ithemes-updater-site-url-confirmation .description {
+	font-size: 12px;
+	font-weight: normal;
+}
+#ithemes-updater-site-url-confirmation .ithemes-updater-description-warning {
+	font-style: italic;
+}
+#ithemes-updater-site-url-confirmation .submit input[type="submit"] {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 11px 21px;
+	border-radius: 4px;
+}
+
+#ithemes-updater-relicense {
+	padding-left: 13px;
+}
+#ithemes-updater-relicense .ithemes-updater-header {
+	background: url( '../images/ithemes-logo-header.png' ) no-repeat;
+	height: 30px;
+	width: 198px;
+	display: block;
+	margin: 29px 0 32px;
+}
+#ithemes-updater-relicense h2 {
+	font-size: 24px;
+}
+#ithemes-updater-relicense > p {
+	font-size: 16px;
+}
+#ithemes-updater-relicense #ithemes-updater-table-wrapper {
+	background-color: #FFFFFF;
+	padding: 10px;
+	border: 4px solid #FFFFFF;
+	border-radius: 4px;
+	max-width: 900px;
+}
+#ithemes-updater-relicense form {
+	margin: 24px 0;
+}
+#ithemes-updater-relicense table {
+	margin: 0;
+}
+#ithemes-updater-relicense th {
+	width: 250px;
+	padding: 10px;
+}
+#ithemes-updater-relicense td {
+	vertical-align: top;
+	padding: 10px;
+}
+#ithemes-updater-relicense th label {
+	text-transform: uppercase;
+}
+#ithemes-updater-relicense th label+.description {
+	padding-top: 10px;
+}
+#ithemes-updater-relicense th input {
+	margin-top: 10px;
+}
+#ithemes-updater-relicense td input[type="radio"] {
+	margin-left: -23px;
+}
+#ithemes-updater-relicense .description {
+	font-size: 12px;
+	font-weight: normal;
+}
+#ithemes-updater-relicense .ithemes-updater-description-warning {
+	font-style: italic;
+	margin-top: 10px;
+}
+#ithemes-updater-relicense .ithemes-updater-description-notice {
+	font-style: italic;
+	margin-top: 10px;
+	background-color: #D7F0FC;
+	border-radius: 3px;
+	color: #366C92;
+	padding: 5px 8px 5px 29px;
+}
+#ithemes-updater-relicense .ithemes-updater-description-notice .dashicons-warning {
+	margin-left: -23px;
+}
+#ithemes-updater-relicense .submit input[type="submit"] {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 11px 21px;
+	border-radius: 4px;
+}

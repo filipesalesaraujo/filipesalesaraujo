@@ -1,0 +1,51 @@
+# Created by https://www.gitignore.io/
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+### backups ###
+*.rar
+*.zip
+*.pdf
+*.iso
+*.bak
+
+### Cache ###
+assets/scss/sass-cache/
+
+
+### Node Modules ###
+assets/node_modules/
+
+
+### WordPress ###
+*.log
+
+*.zip
+
+HTML/
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+license.txt
+readme.html
+sitemap.xml
+sitemap.xml.gz
+
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+
+
+# End of https://www.gitignore.io/

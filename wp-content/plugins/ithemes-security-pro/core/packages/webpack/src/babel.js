@@ -1,0 +1,11 @@
+module.exports = {
+	presets: [ '@wordpress/default' ],
+	plugins: [
+		[ '@babel/plugin-transform-react-jsx', {
+			pragma: 'createElement',
+		} ],
+		'@babel/plugin-proposal-class-properties',
+		'@babel/plugin-syntax-dynamic-import',
+		'@babel/plugin-proposal-export-default-from',
+	],
+};
