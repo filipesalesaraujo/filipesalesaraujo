@@ -3,7 +3,7 @@
 ```php
 <?php
 
-namespace FilipeSales;
+namespace FilipeSalesAraujo;
 
 class About extends Me
 {
