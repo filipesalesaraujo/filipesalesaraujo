@@ -1,0 +1,11 @@
+.dg-mobilehide {
+	@media(max-width: 991px) {
+		display: none;
+	}
+}
+
+.dg-desktophide {
+	@media(min-width: 992px) {
+		display: none;
+	}
+}

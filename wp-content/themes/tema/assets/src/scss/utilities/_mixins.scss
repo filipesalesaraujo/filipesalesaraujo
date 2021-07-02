@@ -1,0 +1,42 @@
+// Usar mixins:
+// div {
+//  @include nome-do-mixin(parâmetro);
+// }
+
+@mixin animacao($objeto: all, $tempo:300ms, $tipo: ease) {
+    -webkit-transition: $objeto $tempo $tipo;
+    -moz-transition: $objeto $tempo $tipo;
+    -ms-transition: $objeto $tempo $tipo;
+    -o-transition: $objeto $tempo $tipo;
+    transition: $objeto $tempo $tipo;
+}
+
+@mixin gradiente($bgGradiente1: #444, $bgGradiente2: #555) {
+    background: $bgGradiente1;
+    background: -moz-linear-gradient(top, $bgGradiente1 0%, $bgGradiente2 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, $bgGradiente1), color-stop(100%, $bgGradiente2));
+    background: -webkit-linear-gradient(top, $bgGradiente1 0%, $bgGradiente2 100%);
+    background: -o-linear-gradient(top, $bgGradiente1 0%, $bgGradiente2 100%);
+    background: -ms-linear-gradient(top, $bgGradiente1 0%, $bgGradiente2 100%);
+    background: linear-gradient(to bottom, $bgGradiente1 0%, $bgGradiente2 100%);
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$bgGradiente1', endColorstr='$bgGradiente2', GradientType=0 );
+
+    // Ie 9
+    background: $bgGradiente1 \0 !important;
+
+}
+
+
+@mixin border-radius($borderRadius: 3px) {
+    -webkit-border-radius: ($borderRadius);
+    -moz-border-radius: ($borderRadius);
+    -ms-border-radius: ($borderRadius);
+    -o-border-radius: ($borderRadius);
+    border-radius: ($borderRadius);
+}
+
+@mixin box-shadow ($boxHorizontal: 0px, $boxVertical: 2px, $boxFeather: 0px, $boxCor: rgba(0,0,0,0.15)) {
+    -moz-box-shadow: $boxHorizontal $boxVertical $boxFeather $boxCor;
+    -webkit-box-shadow: $boxHorizontal $boxVertical $boxFeather $boxCor;
+    box-shadow: $boxHorizontal $boxVertical $boxFeather $boxCor;
+}
