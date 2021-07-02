@@ -1,5 +1,7 @@
 ### Hi, I'm Filipe Sales Araujo :metal:
 
+---
+
 ```php
 <?php
 
