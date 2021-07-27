@@ -7,17 +7,17 @@ on:
       #- closed
       #- merged
    #status: {}    
-name:  FTP Deploy
+name: 🤘 FTP Deploy
 jobs:
   FTP-Deploy-Action:
-    name: U+1F389 FTP-Deploy-Action
+    name: 👽 FTP-Deploy-Action
     runs-on: ubuntu-16.04
     steps:
-    - name: 🚚 Get latest code
+    - name: 🛸 Get latest code
       uses: actions/checkout@v2.1.0
       with:
         fetch-depth: 2
-    - name: 📂 FTP-Deploy-Action
+    - name: 👾 FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
         ftp-server: ftp://31.170.166.127/
