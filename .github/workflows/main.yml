@@ -7,7 +7,7 @@ on:
       #- closed
       #- merged
    #status: {}    
-name: 🚀 FTP Deploy
+name: :godmode: FTP Deploy
 jobs:
   FTP-Deploy-Action:
     name: 🎉 FTP-Deploy-Action
