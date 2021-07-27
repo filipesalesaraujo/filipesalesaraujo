@@ -1,24 +1,18 @@
 on:
   push:
     branches: [ prod ]
-   #pull_request:
-     #branches: [ prod ]
-     #types:
-      #- closed
-      #- merged
-   #status: {}    
 name: 🤘 FTP Deploy
 jobs:
   FTP-Deploy-Action:
     name: 👽 FTP-Deploy-Action
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
     - name: 🛸 Get latest code
       uses: actions/checkout@v2.1.0
       with:
         fetch-depth: 2
-    - name: 👾 FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+    - name: 👾 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         ftp-server: ftp://31.170.166.127/
         ftp-username: u997469977
