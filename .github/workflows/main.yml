@@ -7,10 +7,10 @@ on:
       #- closed
       #- merged
    #status: {}    
-name: :godmode: FTP Deploy
+name:  FTP Deploy
 jobs:
   FTP-Deploy-Action:
-    name: 🎉 FTP-Deploy-Action
+    name: U+1F389 FTP-Deploy-Action
     runs-on: ubuntu-16.04
     steps:
     - name: 🚚 Get latest code
