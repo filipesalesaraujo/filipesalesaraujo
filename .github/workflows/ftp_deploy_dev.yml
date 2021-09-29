@@ -16,4 +16,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME_DEV }}
         password: ${{ secrets.FTP_PASSWORD_DEV }}
         server-dir: public_html/dev/
-        exclude: "[.github/, .git/, LICENSE/, README.md/, SECURITY.md/, wp-content/themes/filipesalesaraujo/assets/src/, wp-content/themes/filipesalesaraujo/assets/package.json/, wp-content/themes/filipesalesaraujo/assets/webpack.config.js/, wp-content/themes/filipesalesaraujo/assets/node_modules/, wp-content/themes/filipesalesaraujo/assets/node_modules/, wp-content/themes/filipesalesaraujo/.gitignore/]"
+        exclude: "[.git/**, .git**, .git*/**, /.git*/**, .github/**, .github**, .github*/**, /.github*/**, **/LICENSE/**, **/README.md/**, **/SECURITY.md/**, **/src/**, **/package.json/**, **/webpack.config.js/**, **/node_module/**, **/.gitignore/**]"
