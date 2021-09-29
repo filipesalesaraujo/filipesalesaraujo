@@ -1,0 +1,26 @@
+@import "~animate.css/source/animate.css";
+@import "~hamburgers/_sass/hamburgers/hamburgers.scss";
+@import "~hamburgers/_sass/hamburgers/_base.scss";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~aos/dist/aos.css";
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/form';
+
+@import 'layout/footer';
+@import 'layout/header';
+
+@import 'pages/404';
+@import 'pages/archive';
+@import 'pages/index';
+@import 'pages/page';
+@import 'pages/single';
+
+@import 'utilities/functions';
+@import 'utilities/mixins';
+@import 'utilities/variables';

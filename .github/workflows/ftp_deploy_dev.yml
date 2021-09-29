@@ -1,0 +1,31 @@
+on:
+  push:
+    branches: [ dev ]
+name: 🤘 FTP Deploy
+jobs:
+  web-deploy:
+    name: 🔥 FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - name: ⚰️ Get latest code
+      uses: actions/checkout@v2
+    - name: 🩸 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: ${{ secrets.FTP_SERVER_DEV }}
+        username: ${{ secrets.FTP_USERNAME_DEV }}
+        password: ${{ secrets.FTP_PASSWORD_DEV }}
+        server-dir: public_html/dev/
+        exclude: '
+          - .github/
+          - .git/
+          - LICENSE/
+          - README.md/
+          - SECURITY.md/
+          - wp-content/themes/filipesalesaraujo/assets/src/
+          - wp-content/themes/filipesalesaraujo/assets/package.json/
+          - wp-content/themes/filipesalesaraujo/assets/webpack.config.js/
+          - wp-content/themes/filipesalesaraujo/assets/node_modules/
+          - wp-content/themes/filipesalesaraujo/assets/node_modules/
+          - wp-content/themes/filipesalesaraujo/.gitignore/
+          '
