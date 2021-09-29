@@ -15,5 +15,5 @@ jobs:
         server: ${{ secrets.FTP_SERVER_DEV }}
         username: ${{ secrets.FTP_USERNAME_DEV }}
         password: ${{ secrets.FTP_PASSWORD_DEV }}
-        server-dir: public_html/dev/
+        server-dir: dev/
         exclude: "[.git/**, .git**, .git*/**, /.git*/**, .github/**, .github**, .github*/**, /.github*/**, **/LICENSE/**, **/README.md/**, **/SECURITY.md/**, **/src/**, **/package.json/**, **/webpack.config.js/**, **/node_module/**, **/.gitignore/**]"
