@@ -1,39 +1,7 @@
-### Hi, I'm Filipe Sales Araujo :metal:
+### Hi, my name is Filipe Sales Araujo :metal:
 
----
+I'm a self-taught Full Stack developer.
 
-```php
-<?php
-
-namespace FilipeSalesAraujo;
-
-class About extends Me
-{
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'workplace' => [
-                'company' => 'Degrau Publicidade e Internet',
-                'position' => 'Full Stack Developer'         
-            ]
-        ];
-    }
-
-    public function getDailyKnowledge(): array
-    {
-        return [
-            Php::class,
-            Javascript::class,
-        ];
-    }
-
-    public function getFutureGoal(): string
-    {
-        return 'Contributing to development education.';
-    }
-}
-```
-
----
+ <img align="center" src="https://raw.githubusercontent.com/filipesalesaraujo/github-stats-transparent/e20cea7fa54a5076357f00ab16953332eb04646f/generated/languages.svg" />
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=22pcc3zbg7fnl4nrkgh5ccqka&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
