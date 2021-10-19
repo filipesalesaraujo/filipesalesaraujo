@@ -1,7 +1,7 @@
 on:
   push:
     branches: [ dev ]
-name: 🤘 FTP Deploy
+name: 🤘 FTP Deploy Development
 jobs:
   web-deploy:
     name: 🔥 FTP-Deploy-Action
