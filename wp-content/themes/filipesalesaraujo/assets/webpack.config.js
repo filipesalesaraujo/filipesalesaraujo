@@ -30,10 +30,10 @@ module.exports = {
     new ImageminPlugin({
       cacheFolder: "./.cache",
       externalImages: {
-        context: ".",
-        sources: glob.sync("src/images/**/*.{png,jpg,jpeg,gif,svg}"),
-        destination: "dist/images",
-        fileName: "[path][name].[ext]",
+        context: "src",
+        sources: glob.sync("src/img/**/*.{png,jpg,jpeg,gif,svg}"),
+        destination: "dist",
+        fileName: "[path]/[name].[ext]",
       },
       pngquant: { quality: "80-100" },
       plugins: [imageminMozjpeg({ quality: 50 })],
@@ -80,7 +80,7 @@ module.exports = {
         loader: "file-loader",
         options: {
           name: "[name].[ext]",
-          outputPath: "images/",
+          outputPath: "img/",
         },
       },
       {

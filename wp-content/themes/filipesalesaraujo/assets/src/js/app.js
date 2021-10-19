@@ -16,6 +16,7 @@ import gsap from "gsap";
 
 AOS.init({
     disable: 'mobile',
+    once: true
 });
 
 barba.init({
