@@ -15,6 +15,5 @@ jobs:
             token: ${{ secrets.METRICS_TOKEN }}
             base: ""
             plugin_isocalendar: yes
-            plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
             output_action: pull-request
             delay: 120
