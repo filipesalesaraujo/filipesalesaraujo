@@ -1,0 +1,38 @@
+on:
+  push:
+    branches: [ dev ]
+name: 💻 Deploy on development
+jobs:
+  web-deploy:
+    name: 🌐 Deploy on development
+    runs-on: ubuntu-latest
+    steps:
+    - name: 📡 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 🔧 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: ${{ secrets.FTP_SERVER_DIR }}
+        exclude: |
+          git/**
+          .git**
+          .git*/**
+          /.git*/**
+          .github/**
+          .github**
+          .github*/**
+          /.github*/**
+          /**/LICENSE
+          /**/README.md
+          /**/SECURITY.md
+          wp-content/themes/**/assets/src/**
+          wp-content/themes/**/assets/package.json
+          wp-content/themes/**/assets/package-lock.json
+          wp-content/themes/**/assets/webpack.config.js
+          wp-content/themes/**/assets/node_modules/**
+          **/.cache/**
+          **/.gitignore/**

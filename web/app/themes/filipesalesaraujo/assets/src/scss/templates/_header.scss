@@ -1,0 +1,14 @@
+img:not([src]):not([srcset]) {
+    visibility: hidden;
+  }
+  @-moz-document url-prefix() {
+    img:-moz-loading {
+      visibility: hidden;
+    }
+  }
+  @media (max-width: 991px) {
+    html,
+    body {
+      overflow-x: hidden;
+    }
+  }

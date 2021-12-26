@@ -1,0 +1,7 @@
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
