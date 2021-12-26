@@ -29,10 +29,11 @@ jobs:
           /**/LICENSE
           /**/README.md
           /**/SECURITY.md
-          wp-content/themes/**/assets/src/**
-          wp-content/themes/**/assets/package.json
-          wp-content/themes/**/assets/package-lock.json
-          wp-content/themes/**/assets/webpack.config.js
-          wp-content/themes/**/assets/node_modules/**
+          web/app/themes/**/assets/src/**
+          web/app/themes/**/assets/package.json
+          web/app/themes/**/assets/package-lock.json
+          web/app/themes/**/yarn.lock
+          web/app/themes/**/assets/webpack.config.js
+          web/app/themes/**/assets/node_modules/**
           **/.cache/**
           **/.gitignore/**

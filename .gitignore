@@ -3,5 +3,18 @@
 .env.*
 !.env.example
 
-# Logs
 *.log
+*.css.map
+*.rar
+*.zip
+*.pdf
+*.iso
+*.bak
+
+.sass-cache/
+**/sass-cache/
+**/node_modules/
+**/.cache/
+
+license.txt
+readme.html
