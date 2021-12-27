@@ -5,5 +5,6 @@ export default function () {
         perView: 1,
         autoplay: 3000,
         hoverpause: true,
+        focusAt: 'center',
     }).mount()
 }
