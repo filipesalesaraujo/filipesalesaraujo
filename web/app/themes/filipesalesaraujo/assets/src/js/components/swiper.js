@@ -5,17 +5,13 @@ export default function () {
         direction: 'horizontal',
         loop: true,
         slidesPerView: 1,
-        centeredSlides: true,
-        // pagination: {
-        //     el: '.js-swiper__pagination',
-        //     clickable: true,
-        // },
-        // navigation: {
-        //     nextEl: '.js-swiper__button-next',
-        //     prevEl: '.js-swiper__button-prev',
-        // },
-        // scrollbar: {
-        //     el: '.js-swiper__scrollbar',
-        // },
+        pagination: {
+            el: '.js-swiper__pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.js-swiper__button-next',
+            prevEl: '.js-swiper__button-prev',
+        },
     });
 }
