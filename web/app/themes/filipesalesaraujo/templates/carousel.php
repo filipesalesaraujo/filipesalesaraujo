@@ -3,10 +3,10 @@
   <div class="t-carousel__track glide__track" data-glide-el="track" data-scroll>
     <ul class="t-carousel__slides glide__slides" data-scroll>
       <li class="t-carousel__slide glide__slide" data-scroll>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/banners/banner-1.png" alt="Banner 1" class="t-carousel__img" data-scroll>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/banners/banner-1.png" alt="Banner 1" class="t-carousel__img" data-scroll>
       </li>
       <li class="t-carousel__slide glide__slide">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/banners/banner-2.jpg" alt="Banner 2" class="t-carousel__img" data-scroll>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/banners/banner-2.jpg" alt="Banner 2" class="t-carousel__img" data-scroll>
       </li>
     </ul>
   </div>
