@@ -6,5 +6,6 @@ export default function () {
         autoplay: 3000,
         hoverpause: true,
         focusAt: 'center',
+        autoheight: true
     }).mount()
 }
