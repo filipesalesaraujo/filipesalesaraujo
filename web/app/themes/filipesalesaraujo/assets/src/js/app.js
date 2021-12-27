@@ -3,7 +3,7 @@ import barba from "@barba/core";
 import gsap from "gsap";
 import home from "./views/home.js";
 
-import locomotiveScroll from "./components/locomotiveScroll.js";
+// import locomotiveScroll from "./components/locomotiveScroll.js";
 import jarallax from "./components/jarallax.js";
 import imask from "./components/imask.js";
 import sweetalert2 from "./components/sweetalert2.js";
@@ -12,7 +12,7 @@ import lightGallery from "./components/lightGallery.js";
 import atropos from "./components/atropos.js";
 import swiper from "./components/swiper.js";
 
-locomotiveScroll();
+// locomotiveScroll();
 jarallax();
 imask();
 sweetalert2();
