@@ -1,10 +1,12 @@
 <section class="js-swiper t-swiper swiper" data-scroll-section>
   <div class="t-swiper__wrapper swiper-wrapper" data-scroll>
     <div class="t-swiper__slide swiper-slide" data-scroll>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/banners/banner-1.png" alt="Banner 1" class="t-swiper__img" data-scroll>
+      <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/banners/banner-1.png" alt="Banner 1" class="t-swiper__img" data-scroll> -->
+      teste1
     </div>
     <div class="t-swiper__slide swiper-slide" data-scroll>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/banners/banner-2.jpg" alt="Banner 2" class="t-swiper__img" data-scroll>
+      <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/banners/banner-2.jpg" alt="Banner 2" class="t-swiper__img" data-scroll> -->
+      teste2
     </div>
   </div>
   <!-- <div class="t-swiper__pagination js-swiper__pagination swiper-pagination" data-scroll></div>
