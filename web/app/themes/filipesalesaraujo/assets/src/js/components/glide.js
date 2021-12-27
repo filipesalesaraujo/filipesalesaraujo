@@ -3,15 +3,8 @@ export default function () {
     new Glide('.js-carousel', {
         type: 'carousel',
         startAt: 0,
-        perView: 3,
+        perView: 1,
         autoplay: 3000,
         hoverpause: true,
-        gap: 20,
-        breakpoints: {
-            991: {
-                perView: 1,
-                gap: 0
-            }
-        }
     }).mount()
 }
