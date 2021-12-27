@@ -7,7 +7,6 @@
         "@barba/core": "^2.9.7",
         "@fontsource/chakra-petch": "^4.5.0",
         "@fortawesome/fontawesome-free": "^5.15.4",
-        "@glidejs/glide": "^3.5.2",
         "animate.css": "^4.1.1",
         "animejs": "^3.2.1",
         "aos": "^2.3.4",
