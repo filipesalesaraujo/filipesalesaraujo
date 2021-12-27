@@ -10,6 +10,5 @@ function remove_menus()
 {
     remove_menu_page('plugins.php');
     // Url: /wp/wp-admin/plugins.php
-    
 }
 add_action('admin_menu', 'remove_menus');
