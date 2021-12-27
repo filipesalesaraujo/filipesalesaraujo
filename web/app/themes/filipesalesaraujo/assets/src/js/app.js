@@ -19,7 +19,7 @@ sweetalert2();
 anime();
 lightGallery();
 atropos();
-// glide();
+glide();
 
 AOS.init({
   once: true,
