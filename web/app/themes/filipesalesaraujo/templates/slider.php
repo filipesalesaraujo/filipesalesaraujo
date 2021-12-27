@@ -1,4 +1,6 @@
 <!-- https://glidejs.com/docs/ -->
+<div class="teste" style="max-width: 1200px; width: 100%; margin: 0 auto;">
+
 <section class="t-slider glide js-slider" data-scroll-section>
   <div class="t-slider__track glide__track" data-glide-el="track" data-scroll>
     <ul class="t-slider__slides glide__slides" data-scroll>
@@ -15,3 +17,4 @@
     <button class="t-slider__arrow t-slider__arrow--right glide__arrow glide__arrow--right" data-glide-dir=">" data-scroll>next</button>
   </div>
 </section>
+</div>
