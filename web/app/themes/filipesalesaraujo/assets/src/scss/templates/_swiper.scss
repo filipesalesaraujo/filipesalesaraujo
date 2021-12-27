@@ -1,7 +1,7 @@
 .t-swiper {
   &__img {
-    width: 100%;
     height: auto;
+    @include width(100%, 100%, 100%);
   }
   &__button-prev:after {
     color: #f3e600;
