@@ -6,7 +6,10 @@ require_once($template_diretorio . "/includes/menu.php");
 require_once($template_diretorio . "/includes/style.php");
 require_once($template_diretorio . "/includes/thumbnail.php");
 
-function remove_menus(){  
-  remove_menu_page( 'plugins.php' );                //Plugins  
-}  
-add_action( 'admin_menu', 'remove_menus' );  
+function remove_menus()
+{
+    remove_menu_page('plugins.php');
+    // Url: /wp/wp-admin/plugins.php
+    
+}
+add_action('admin_menu', 'remove_menus');
