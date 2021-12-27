@@ -6,5 +6,6 @@ function remove_menus()
     remove_menu_page('options-general.php');        //Settings /wp/wp-admin/options-general.php
     remove_menu_page('tools.php');                  //Tools /wp/wp-admin/tools.php
     remove_menu_page('users.php');                  //Users /wp/wp-admin/users.php
+    remove_menu_page('themes.php');                 //Appearance  /wp/wp-admin/themes.php
 }
 add_action('admin_menu', 'remove_menus');
