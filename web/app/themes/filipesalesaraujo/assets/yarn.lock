@@ -924,6 +924,11 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha512-ws57AidsDvREKrZKYffXddNkyaF14iHNHm8VQnZH6t99E8gczjNN0GpvcGny0imC80yQ0tHz1xVUKk/KFQSUyA==
 
+"@fontsource/chakra-petch@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/chakra-petch/-/chakra-petch-4.5.0.tgz#66d7fb8e1e256d3a9ac119e61a97b392f285923b"
+  integrity sha512-vd5IlnxvZV6F5SIzW9zL73ue4fW193RI0b3F19nGO1xBTlYdEpiAMAavZZFo1Tpz6G7Z58pWKz5nt4Y2BgdxVw==
+
 "@fortawesome/fontawesome-free@^5.15.4":
   version "5.15.4"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.4.tgz#ecda5712b61ac852c760d8b3c79c96adca5554e5"
