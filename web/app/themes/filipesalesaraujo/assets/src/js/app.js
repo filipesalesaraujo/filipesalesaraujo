@@ -10,6 +10,7 @@ import sweetalert2 from "./components/sweetalert2.js";
 import anime from "./components/anime.js";
 import lightGallery from "./components/lightGallery.js";
 import atropos from "./components/atropos.js";
+import swiper from "./components/swiper.js";
 
 locomotiveScroll();
 jarallax();
@@ -18,6 +19,7 @@ sweetalert2();
 anime();
 lightGallery();
 atropos();
+swiper();
 
 AOS.init({
   once: true,

@@ -19,7 +19,8 @@
         "lightgallery": "^2.3.0",
         "locomotive-scroll": "^4.1.3",
         "sassyfication": "^1.0.3",
-        "sweetalert2": "^11.3.0"
+        "sweetalert2": "^11.3.0",
+        "swiper": "^7.4.1"
     },
     "devDependencies": {
         "@babel/cli": "^7.15.7",
