@@ -1,4 +1,5 @@
-import Swiper from 'swiper';
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
 export default function () {
     var Swipes = new Swiper('.js-swiper', {
         direction: 'vertical',
