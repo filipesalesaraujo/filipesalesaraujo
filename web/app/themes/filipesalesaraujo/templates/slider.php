@@ -1,4 +1,4 @@
-<section class="t-swiper js-slider" data-scroll-section>
+<section class="t-swiper js-swiper" data-scroll-section>
   <div class="t-swiper__wrapper js-swiper__wrapper">
     <div class="t-swiper__slide js-swiper__slide">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/banners/banner-1.png" alt="Banner 1" class="t-swiper__img" data-scroll>
