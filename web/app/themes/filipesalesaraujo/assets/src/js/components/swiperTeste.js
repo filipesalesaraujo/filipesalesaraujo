@@ -1,6 +1,5 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
-
 export default function () {
     const swiper = new Swiper('.js-swiper', {
         direction: 'vertical',
