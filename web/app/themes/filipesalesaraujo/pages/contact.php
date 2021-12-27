@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: Home
+Template Name: Contact
 */
 ?>
 <?php get_header(); ?>
-<div class="home" data-barba="container" data-barba-namespace="home">
+<div class="contact" data-barba="container" data-barba-namespace="contact">
     <section data-scroll-section>
         <div class="" data-scroll>
-            hello world
+            contact
         </div>
     </section>
 </div>
