@@ -1,6 +1,6 @@
 import Glide from '@glidejs/glide';
 export default function () {
-    new Glide('.glide', {
+    new Glide('.js-carousel', {
         type: 'carousel',
         startAt: 0,
         perView: 3,
