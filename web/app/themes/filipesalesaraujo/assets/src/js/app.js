@@ -19,7 +19,7 @@ sweetalert2();
 anime();
 lightGallery();
 atropos();
-swiper();
+swiper.init();
 
 AOS.init({
   once: true,
