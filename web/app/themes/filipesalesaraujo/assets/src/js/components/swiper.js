@@ -1,6 +1,6 @@
 import Swiper from 'swiper';
 export default function () {
-    const swiper = new Swiper('.js-swiper', {
+    var Swipes = new Swiper('.js-swiper', {
         direction: 'vertical',
         loop: true,
         pagination: {
