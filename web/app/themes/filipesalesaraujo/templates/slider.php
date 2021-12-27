@@ -1,6 +1,6 @@
 <section class="js-swiper t-swiper swiper" data-scroll-section>
-  <div class="t-swiper__wrapper swiper-wrapper" data-scroll>
-    <div class="t-swiper__slide swiper-slide" data-scroll>
+  <div class="swiper-wrapper t-swiper__wrapper" data-scroll>
+    <div class="swiper-slide t-swiper__slide" data-scroll>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/banners/banner-1.png" alt="Banner 1" class="t-swiper__img" data-scroll>
     </div>
     <div class="t-swiper__slide swiper-slide" data-scroll>
