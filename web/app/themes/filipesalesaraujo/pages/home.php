@@ -4,7 +4,7 @@ Template Name: Home
 */
 ?>
 <?php get_header(); ?>
-<div class="home" data-barba="container" data-barba-namespace="home">
+<div class="p-home" data-barba="container" data-barba-namespace="home">
     <section data-scroll-section>
         <div class="" data-scroll>
             hello world
