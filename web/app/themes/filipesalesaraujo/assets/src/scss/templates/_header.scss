@@ -1,14 +1,33 @@
-img:not([src]):not([srcset]) {
-    visibility: hidden;
+.t-header {
+  background: #f3e600;
+  border-bottom: .125rem solid #0e0e0e;
+  &:before {
+    @include pseudo();
+    height: .1875rem;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(14, 14, 14, 1) 50%
+    );
   }
-  @-moz-document url-prefix() {
-    img:-moz-loading {
-      visibility: hidden;
+  &__grid {
+    @include width(100%, 75rem, 75rem);
+    margin: 0 auto;
+    padding: 1.25rem;    
+  }
+  &__nav {
+    @include flex(row, center, flex-start, nowrap);
+    list-style: none;
+    gap: 1.25rem;
+  }
+  &__link {
+    @include font(600, .875rem, .0625rem);
+    color: #0e0e0e;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: #02d7f2;
     }
   }
-  @media (max-width: 991px) {
-    html,
-    body {
-      overflow-x: hidden;
-    }
-  }
+}
