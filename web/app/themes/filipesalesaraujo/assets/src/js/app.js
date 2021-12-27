@@ -12,9 +12,6 @@ import lightGallery from "./components/lightGallery.js";
 import atropos from "./components/atropos.js";
 import swiper from "./components/swiper.js";
 
-import Swiper from 'swiper/bundle';
-import 'swiper/css/bundle';
-
 locomotiveScroll();
 jarallax();
 imask();
