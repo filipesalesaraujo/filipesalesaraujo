@@ -35,5 +35,6 @@ jobs:
           web/app/themes/**/yarn.lock
           web/app/themes/**/assets/webpack.config.js
           web/app/themes/**/assets/node_modules/**
+          vendor/
           **/.cache/**
           **/.gitignore/**
