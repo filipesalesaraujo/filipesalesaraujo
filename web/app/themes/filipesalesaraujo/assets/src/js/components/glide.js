@@ -5,7 +5,5 @@ export default function () {
         perView: 1,
         autoplay: 3000,
         hoverpause: true,
-        slideWidth: '100%',
-        wrapperWidth : '100%',
     }).mount()
 }
