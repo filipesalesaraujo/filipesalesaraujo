@@ -6,5 +6,6 @@ export default function () {
         autoplay: 3000,
         hoverpause: true,
         slideWidth: '100%',
+        wrapperWidth : '100%',
     }).mount()
 }
