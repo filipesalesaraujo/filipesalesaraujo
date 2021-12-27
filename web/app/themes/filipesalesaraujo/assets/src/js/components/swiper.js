@@ -9,9 +9,5 @@ export default function () {
             el: '.js-swiper__pagination',
             clickable: true,
         },
-        navigation: {
-            nextEl: '.js-swiper__button-next',
-            prevEl: '.js-swiper__button-prev',
-        },
     });
 }
