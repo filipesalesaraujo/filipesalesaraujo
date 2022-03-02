@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <>
       {/* Sobre */}
-      <VStack px={5} py={10}>
-        <Heading m={[0, "auto"]} >Sobre mim</Heading>
-        <Text fontSize={20} w={1280} m={[0, "auto"]} px={5} py={10}>
+      <VStack px="20px" py="20px">
+        <Heading textAlign="center" m={[0, "auto"]} >Sobre mim</Heading>
+        <Text fontSize={20} w={{xl: '1280px', lg: '1000px', md: '700px'}} m={[0, "auto"]}>
           Desenvolvedor full-stack com mais de três anos de experiência no
           mercado de desenvolvimento de sites e aplicações. Com um portfólio
           composto por mais de 50 projetos no ar, sou especialista em
@@ -26,7 +26,7 @@ export default function Home() {
       </VStack>
 
       <Flex>
-        <Heading m={[0, "auto"]} px={5} py={10}>
+        <Heading textAlign="center" m={[0, "auto"]} px="20px" py="20px">
           Conheça minhas stacks de desenvolvimento
         </Heading>
       </Flex>
