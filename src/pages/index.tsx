@@ -13,10 +13,16 @@ import CertificadoRockeseatReactJS from "../../public/images/certificado-rockese
 
 import { Technology } from "../components/Technology";
 import { Certification } from "../components/Certification";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>filipesalesaraujo</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       {/* Sobre */}
       <VStack px="20px" py="20px">
         <Heading textAlign="center" m={[0, "auto"]}>
