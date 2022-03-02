@@ -9,15 +9,30 @@ import TypeScript from "../../public/images/typescript-logo.svg";
 import PHPLogo from "../../public/images/php-logo.svg";
 import WordPressLogo from "../../public/images/wordpress-logo.svg";
 
+import CertificadoRockeseatReactJS from "../../public/images/certificado-rockeseat-reactjs.png";
+
 import { Technology } from "../components/Technology";
+import { Certification } from "../components/Certification";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>filipesalesaraujo</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       {/* Sobre */}
-      <VStack px={5} py={10}>
-        <Heading m={[0, "auto"]} >Sobre mim</Heading>
-        <Text fontSize={20} w={1280} m={[0, "auto"]} px={5} py={10}>
+      <VStack px="20px" py="20px">
+        <Heading textAlign="center" m={[0, "auto"]}>
+          Sobre mim
+        </Heading>
+        <Text
+          fontSize={20}
+          w={{ xl: "1280px", lg: "1000px", md: "700px" }}
+          m={[0, "auto"]}
+        >
           Desenvolvedor full-stack com mais de três anos de experiência no
           mercado de desenvolvimento de sites e aplicações. Com um portfólio
           composto por mais de 50 projetos no ar, sou especialista em
@@ -26,7 +41,7 @@ export default function Home() {
       </VStack>
 
       <Flex>
-        <Heading m={[0, "auto"]} px={5} py={10}>
+        <Heading textAlign="center" m={[0, "auto"]} px="20px" py="20px">
           Conheça minhas stacks de desenvolvimento
         </Heading>
       </Flex>
@@ -109,6 +124,22 @@ export default function Home() {
         color="text.100"
         title="WordPress"
         description="Sistema de Gerenciamento de Conteúdo (CMS) que alimenta mais de 35% de todos os sites da internet. Um CMS é uma aplicação para a internet que permite que donos de sites, editores e autores gerenciem seus sites e publiquem conteúdo sem precisar de conhecimentos em programação.. O WordPress usa PHP e MySQL, linguagens que são suportadas por todos os serviços de hospedagem de site."
+      />
+
+      {/* Titulo da Certificações */}
+      <Flex>
+        <Heading textAlign="center" m={[0, "auto"]} px="20px" py="20px">
+          Conheça minhas principais certificações
+        </Heading>
+      </Flex>
+
+      <Certification
+        title="Trilha ReactJS"
+        imgCertification={CertificadoRockeseatReactJS}
+        bg="rocketseat.500"
+        color="text.100"
+        flexDir="row"
+        description="Desenvolvimento interfaces modernas e reativas na web utilizando uma biblioteca modular e escalável."
       />
     </>
   );

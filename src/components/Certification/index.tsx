@@ -9,23 +9,23 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 
-interface TechnologyProps {
+interface CertificationProps {
   title: string;
   description: string;
   color: string;
-  logo: string;
+  imgCertification: string;
   bg: string;
   flexDir: "row" | "row-reverse";
 }
 
-export function Technology({
+export function Certification({
   title,
   description,
   color,
-  logo,
+  imgCertification,
   bg,
   flexDir,
-}: TechnologyProps) {
+}: CertificationProps) {
   return (
     <Flex bg={bg}>
       <HStack
@@ -36,13 +36,17 @@ export function Technology({
         justify="space-between"
         flexDir={flexDir}
       >
-        <Hide breakpoint="(max-width: 768px)">
-          <Image height={200} width={200} src={logo} alt="Logo" />
-        </Hide>
+        <Image src={imgCertification} alt="Logo" />
         <Spacer />
-        <VStack w={{xl: '80%', lg: '1000px', md: '700px'}} color={color} align="flex-start">
-          <Heading>{title}</Heading>
-          <Text>{description}</Text>
+        <VStack
+          w={{ xl: "100%", lg: "1000px", md: "700px" }}
+          color={color}
+          align="flex-start"
+        >
+          <Hide breakpoint="(max-width: 768px)">
+            <Heading>{title}</Heading>
+            <Text>{description}</Text>
+          </Hide>
         </VStack>
       </HStack>
     </Flex>
