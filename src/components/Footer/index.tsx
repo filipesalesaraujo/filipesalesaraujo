@@ -9,7 +9,7 @@ export function Footer() {
       alignItems="center"
       padding={5}
     >
-      <Text color="text.100">2021</Text>
+      <Text color="text.100">2022</Text>
     </Flex>
   );
 }

@@ -10,7 +10,7 @@ export function Header() {
           <Link href="https://github.com/filipesalesaraujo" target="_blank">
             <FaGithub color="white" size={25} />
           </Link>
-          <Link href="www.linkedin.com/in/filipesales21">
+          <Link href="https://linkedin.com/in/filipesales21" target="_blank">
             <FaLinkedinIn color="white" size={25} />
           </Link>
         </HStack>
