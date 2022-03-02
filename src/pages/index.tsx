@@ -36,7 +36,7 @@ export default function Home() {
           Desenvolvedor full-stack com mais de três anos de experiência no
           mercado de desenvolvimento de sites e aplicações. Com um portfólio
           composto por mais de 50 projetos no ar, sou especialista em
-          desenvolvimento front.
+          desenvolvimento front-end.
         </Text>
       </VStack>
 
@@ -133,6 +133,7 @@ export default function Home() {
         </Heading>
       </Flex>
 
+      {/* Trilha ReactJS */}
       <Certification
         title="Trilha ReactJS"
         imgCertification={CertificadoRockeseatReactJS}
