@@ -39,6 +39,9 @@ export const theme = extendTheme({
     wordpress: {
       "500": "#21759b",
     },
+    rocketseat: {
+      "500": "#8257E6",
+    },
     text: {
       "100": "#ffffff",
       "200": "#f2f2f2",
