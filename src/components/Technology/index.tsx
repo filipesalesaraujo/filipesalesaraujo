@@ -37,7 +37,7 @@ export function Technology({
         flexDir={flexDir}
       >
         <Hide breakpoint="(max-width: 768px)">
-          <Image height={200} width={200} src={logo} alt="Logo" />
+          <Image height={200} width={200} src={logo} alt="Logo"  />
         </Hide>
         <Spacer />
         <VStack w={{xl: '80%', lg: '1000px', md: '700px'}} color={color} align="flex-start">

@@ -14,6 +14,7 @@ import CertificadoRockeseatReactJS from "../../public/images/certificado-rockese
 import { Technology } from "../components/Technology";
 import { Certification } from "../components/Certification";
 import Head from "next/head";
+import { Form } from "../components/Form";
 
 export default function Home() {
   return (
@@ -128,7 +129,7 @@ export default function Home() {
 
       {/* Titulo da Certificações */}
       <Flex>
-        <Heading textAlign="center" m={[0, "auto"]} px="20px" py="20px">
+        <Heading textAlign="center" m={[0, "auto"]} px="20px" py="50px">
           Conheça minhas principais certificações
         </Heading>
       </Flex>
@@ -142,6 +143,13 @@ export default function Home() {
         flexDir="row"
         description="Desenvolvimento interfaces modernas e reativas na web utilizando uma biblioteca modular e escalável."
       />
+
+      {/* Titulo do formulário */}
+      <Flex>
+        <Heading textAlign="center" m={[0, "auto"]} px="20px" py="50px">
+          Entre em contato
+        </Heading>
+      </Flex>
     </>
   );
 }
