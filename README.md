@@ -1,1 +1,2 @@
-<img width="50%" align=top src="https://github.com/filipesalesaraujo/filipesalesaraujo/blob/prod/github-metrics.svg" /><img align=top width="50%" src="https://spotify-github-profile.vercel.app/api/view?uid=22pcc3zbg7fnl4nrkgh5ccqka&cover_image=true&theme=default&bar_color=53b14f&bar_color_cover=false" />
+<div><img width="100%" src="https://github.com/filipesalesaraujo/filipesalesaraujo/blob/prod/gif.gif" /></div>
+<div><img width="50%" align=top src="https://github.com/filipesalesaraujo/filipesalesaraujo/blob/prod/github-metrics.svg" /><img align=top width="50%" src="https://spotify-github-profile.vercel.app/api/view?uid=22pcc3zbg7fnl4nrkgh5ccqka&cover_image=true&theme=default&bar_color=53b14f&bar_color_cover=false" /></div>
