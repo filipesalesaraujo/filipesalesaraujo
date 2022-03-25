@@ -11,7 +11,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           
           user: filipesalesaraujo
-          template: classic
+          template: terminal
           base: header, activity, community
           config_timezone: America/Sao_Paulo
           config_display: large
