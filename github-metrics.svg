@@ -34,13 +34,13 @@
       </div>
 
 <pre><div class="stdin"><span class="ps1-path">filipesalesaraujo@metrics</span>:<span class="ps1-location">~</span># whoami</div><div class="stdout"><b>Filipe Sales Araujo</b> registered=2y, uid=5370, gid=2
-  contributed to 150 repositories <b><span style="color:#40c463">#</span><span style="color:#216e39">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#ebedf0">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#ebedf0">#</span></b>
+  contributed to 152 repositories <b><span style="color:#216e39">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#ebedf0">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#216e39">#</span><span style="color:#30a14e">#</span><span style="color:#ebedf0">#</span></b>
   followed by <b>37</b> users
 </div>
 <div class="stdin"><span class="ps1-path">filipesalesaraujo@metrics</span>:<span class="ps1-location">~</span># git status</div><div class="stdout"><b>Recent activity</b>
-  <b> 8688</b> commits
+  <b> 8747</b> commits
   <b>    0</b> pull requests reviewed
-  <b>  540</b> pull requests opened
+  <b>  493</b> pull requests opened
   <b>    1</b> issue opened
   <b>    0</b> issue comments
 
@@ -48,7 +48,7 @@
   <b>   52</b> users followed
   <b>    0</b> repositories sponsored
   <b>   40</b> repositories starred
-  <b>   64</b> repositories watched
+  <b>   66</b> repositories watched
 </div>
 <div class="stdin"><span class="ps1-path">filipesalesaraujo@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>PHP         </b> [################    ] 76.17%
 <b>JAVASCRIPT  </b> [#####               ] 22.62%
@@ -978,13 +978,18 @@
                       <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.6554621848739495 0,1.6554621848739495 z"/>
                       <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.6554621848739495 1.7,2.6554621848739495 z"/>
                     </g></g><g transform="translate(44.199999999999996, 26)">
-                    <g transform="translate(0, 5.142857142857143)">
-                      <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                      <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.857142857142857 0,1.8571428571428572 z"/>
-                      <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.8571428571428572 1.7,2.857142857142857 z"/>
+                    <g transform="translate(0, 4.235294117647058)">
+                      <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                      <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.764705882352941 0,2.764705882352941 z"/>
+                      <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.764705882352941 1.7,3.764705882352941 z"/>
+                    </g>
+                    <g transform="translate(-1.7, 5.588235294117647)">
+                      <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                      <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.411764705882353 0,2.411764705882353 z"/>
+                      <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.411764705882353 1.7,3.411764705882353 z"/>
                     </g></g></g></svg></div>
-<b>    7</b> consecutive days with commits
-<b>~20.28</b> commits per day in average
+<b>    8</b> consecutive days with commits
+<b>~20.42</b> commits per day in average
 </div>
 
 
