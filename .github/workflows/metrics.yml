@@ -57,8 +57,3 @@ jobs:
           plugin_lines: yes
           plugin_projects: yes
           plugin_projects_limit: 4
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_selector: body
-          plugin_screenshot_title: Screenshot
-          plugin_screenshot_url: http://filipesalesaraujo.com/
