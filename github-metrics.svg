@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1947" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1963" class="">
     <defs>
         <style/>
     </defs>
@@ -82,7 +82,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            8951 Commits
+                            9075 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1363,40 +1363,24 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Degrau-Publicidade-e-Internet/afaceesp</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">dev</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#e763853</div>
-                                        <div class="message">2t8b6hx - voltar o ambiente dev para testes</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
+                                        Pushed 3 commits in
                                         <span class="repo">Degrau-Publicidade-e-Internet/afaceesp</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">prod</span></div>
                                     <div class="commit">
-                                        <div class="sha">#1c96e01</div>
-                                        <div class="message">Merge pull request #59 from Degrau-Publicidade-e-Internet/dev
+                                        <div class="sha">#48f56f2</div>
+                                        <div class="message">Merge pull request #61 from Degrau-Publicidade-e-Internet/dev
 
-2t8b6hx - voltar o ambiente dev para testes</div>
+Dev</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#ac6b02a</div>
+                                        <div class="sha">#95c44e8</div>
+                                        <div class="message">2t8b6hx - voltar o ambiente dev para testes</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8fc55b8</div>
                                         <div class="message">2t8b6hx - voltar o ambiente dev para testes</div>
                                     </div>
                                 </div>
@@ -1410,7 +1394,7 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#59 2t8b6hx - voltar o ambiente dev para testes</span>
+                                        <span class="issue">#61 Dev</span>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -1427,7 +1411,7 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#59 2t8b6hx - voltar o ambiente dev para testes</span>
+                                        <span class="issue">#61 Dev</span>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -1450,7 +1434,27 @@
                                 <div class="details">
                                     <div>on branch <span class="code">dev</span></div>
                                     <div class="commit">
-                                        <div class="sha">#ac6b02a</div>
+                                        <div class="sha">#95c44e8</div>
+                                        <div class="message">2t8b6hx - voltar o ambiente dev para testes</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Degrau-Publicidade-e-Internet/afaceesp</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">dev</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#8fc55b8</div>
                                         <div class="message">2t8b6hx - voltar o ambiente dev para testes</div>
                                     </div>
                                 </div>
@@ -1591,7 +1595,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="50.11666666666666 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="50.63333333333333 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -1613,7 +1617,7 @@
                                     <span class="prefix">Great</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 297 times</div>
+                                <div class="text">Repositories have been deployed 298 times</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -1998,7 +2002,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 11 Jul 2022, 14:11:22 (timezone America/Sao_Paulo) with lowlighter/metrics@3.25.0</span>
+                <span>Last updated 11 Jul 2022, 15:05:51 (timezone America/Sao_Paulo) with lowlighter/metrics@3.25.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
