@@ -29,7 +29,7 @@ const schema = z.object({
     name: z.string().min(2, {message: "Must be 2 or more characters long"}),
     subject: z.string().min(7, {message: "Must be 7 or more characters long"}),
     email: z.string().email({message: "Invalid email address"}),
-    message: z.string().min(5, {message: "Must be 100 or more characters long"}),
+    message: z.string().min(100, {message: "Must be 100 or more characters long"}),
 });
 
 export function Form() {
