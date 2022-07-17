@@ -29,7 +29,6 @@ export function Technologies() {
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
-                    centeredSlides={true}
                     loop={true}
                     autoplay={{
                         delay: 1000,
@@ -37,74 +36,74 @@ export function Technologies() {
                     }}
                     breakpoints={{
                         768: {
-                            slidesPerView: 5,
+                            slidesPerView: 10,
                             spaceBetween: 30,
                         },
                     }}
                     modules={[Autoplay]}
                 >
-                    <SwiperSlide><SiHtml5 size={100}/></SwiperSlide>
-                    <SwiperSlide><SiCss3 size={100}/></SwiperSlide>
-                    <SwiperSlide><SiSass size={100}/></SwiperSlide>
+                    <SwiperSlide><SiHtml5 size={50}/></SwiperSlide>
+                    <SwiperSlide><SiCss3 size={50}/></SwiperSlide>
+                    <SwiperSlide><SiSass size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiJquery size={100}/></SwiperSlide>
+                    <SwiperSlide><SiFontawesome size={50}/></SwiperSlide>
+                    <SwiperSlide><SiBootstrap size={50}/></SwiperSlide>
+                    <SwiperSlide><SiChakraui size={50}/></SwiperSlide>
+                    <SwiperSlide><SiMaterialui size={50}/></SwiperSlide>
+                    <SwiperSlide><SiTailwindcss size={50}/></SwiperSlide>
+                    <SwiperSlide><SiStyledcomponents size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiReact size={100}/></SwiperSlide>
-                    <SwiperSlide><SiVite size={100}/></SwiperSlide>
-                    <SwiperSlide><SiNextdotjs size={100}/></SwiperSlide>
-                    <SwiperSlide><SiVercel size={100}/></SwiperSlide>
+                    <SwiperSlide><SiJquery size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiExpo size={100}/></SwiperSlide>
-                    <SwiperSlide><SiRedux size={100}/></SwiperSlide>
-                    <SwiperSlide><SiGraphql size={100}/></SwiperSlide>
-                    <SwiperSlide><SiApollographql size={100}/></SwiperSlide>
-                    <SwiperSlide><SiAngular size={100}/></SwiperSlide>
+                    <SwiperSlide><SiReact size={50}/></SwiperSlide>
+                    <SwiperSlide><SiVite size={50}/></SwiperSlide>
+                    <SwiperSlide><SiNextdotjs size={50}/></SwiperSlide>
+                    <SwiperSlide><SiVercel size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiJamstack size={100}/></SwiperSlide>
-                    <SwiperSlide><SiJest size={100}/></SwiperSlide>
-                    <SwiperSlide><SiEslint size={100}/></SwiperSlide>
-                    <SwiperSlide><SiPrettier size={100}/></SwiperSlide>
+                    <SwiperSlide><SiExpo size={50}/></SwiperSlide>
+                    <SwiperSlide><SiRedux size={50}/></SwiperSlide>
+                    <SwiperSlide><SiGraphql size={50}/></SwiperSlide>
+                    <SwiperSlide><SiApollographql size={50}/></SwiperSlide>
+                    <SwiperSlide><SiAngular size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiPhp size={100}/></SwiperSlide>
-                    <SwiperSlide><SiNodedotjs size={100}/></SwiperSlide>
-                    <SwiperSlide><SiNodemon size={100}/></SwiperSlide>
-                    <SwiperSlide><SiPython size={100}/></SwiperSlide>
+                    <SwiperSlide><SiJamstack size={50}/></SwiperSlide>
+                    <SwiperSlide><SiJest size={50}/></SwiperSlide>
+                    <SwiperSlide><SiEslint size={50}/></SwiperSlide>
+                    <SwiperSlide><SiPrettier size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiFontawesome size={100}/></SwiperSlide>
-                    <SwiperSlide><SiBootstrap size={100}/></SwiperSlide>
-                    <SwiperSlide><SiChakraui size={100}/></SwiperSlide>
-                    <SwiperSlide><SiMaterialui size={100}/></SwiperSlide>
-                    <SwiperSlide><SiTailwindcss size={100}/></SwiperSlide>
-                    <SwiperSlide><SiStyledcomponents size={100}/></SwiperSlide>
+                    <SwiperSlide><SiPhp size={50}/></SwiperSlide>
+                    <SwiperSlide><SiNodedotjs size={50}/></SwiperSlide>
+                    <SwiperSlide><SiNodemon size={50}/></SwiperSlide>
+                    <SwiperSlide><SiPython size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiWordpress size={100}/></SwiperSlide>
-                    <SwiperSlide><SiWoo size={100}/></SwiperSlide>
-                    <SwiperSlide><SiRoots size={100}/></SwiperSlide>
-                    <SwiperSlide><SiRootsbedrock size={100}/></SwiperSlide>
-                    <SwiperSlide><SiJoomla size={100}/></SwiperSlide>
-                    <SwiperSlide><SiPrismic size={100}/></SwiperSlide>
+                    <SwiperSlide><SiWordpress size={50}/></SwiperSlide>
+                    <SwiperSlide><SiWoo size={50}/></SwiperSlide>
+                    <SwiperSlide><SiRoots size={50}/></SwiperSlide>
+                    <SwiperSlide><SiRootsbedrock size={50}/></SwiperSlide>
+                    <SwiperSlide><SiJoomla size={50}/></SwiperSlide>
+                    <SwiperSlide><SiPrismic size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiCloudflare size={100}/></SwiperSlide>
-                    <SwiperSlide><SiCpanel size={100}/></SwiperSlide>
-                    <SwiperSlide><SiPhpmyadmin size={100}/></SwiperSlide>
-                    <SwiperSlide><SiPostgresql size={100}/></SwiperSlide>
-                    <SwiperSlide><SiMysql size={100}/></SwiperSlide>
-                    <SwiperSlide><SiHeroku size={100}/></SwiperSlide>
+                    <SwiperSlide><SiCloudflare size={50}/></SwiperSlide>
+                    <SwiperSlide><SiCpanel size={50}/></SwiperSlide>
+                    <SwiperSlide><SiPhpmyadmin size={50}/></SwiperSlide>
+                    <SwiperSlide><SiPostgresql size={50}/></SwiperSlide>
+                    <SwiperSlide><SiMysql size={50}/></SwiperSlide>
+                    <SwiperSlide><SiHeroku size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiGit size={100}/></SwiperSlide>
-                    <SwiperSlide><SiGithub size={100}/></SwiperSlide>
-                    <SwiperSlide><SiGithubactions size={100}/></SwiperSlide>
-                    <SwiperSlide><SiGitkraken size={100}/></SwiperSlide>
+                    <SwiperSlide><SiGit size={50}/></SwiperSlide>
+                    <SwiperSlide><SiGithub size={50}/></SwiperSlide>
+                    <SwiperSlide><SiGithubactions size={50}/></SwiperSlide>
+                    <SwiperSlide><SiGitkraken size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiWebpack size={100}/></SwiperSlide>
-                    <SwiperSlide><SiGulp size={100}/></SwiperSlide>
-                    <SwiperSlide><SiGrunt size={100}/></SwiperSlide>
+                    <SwiperSlide><SiWebpack size={50}/></SwiperSlide>
+                    <SwiperSlide><SiGulp size={50}/></SwiperSlide>
+                    <SwiperSlide><SiGrunt size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiNpm size={100}/></SwiperSlide>
-                    <SwiperSlide><SiYarn size={100}/></SwiperSlide>
+                    <SwiperSlide><SiNpm size={50}/></SwiperSlide>
+                    <SwiperSlide><SiYarn size={50}/></SwiperSlide>
 
-                    <SwiperSlide><SiJavascript size={100}/></SwiperSlide>
-                    <SwiperSlide><SiTypescript size={100}/></SwiperSlide>
+                    <SwiperSlide><SiJavascript size={50}/></SwiperSlide>
+                    <SwiperSlide><SiTypescript size={50}/></SwiperSlide>
 
                 </Swiper>
             </Box>
