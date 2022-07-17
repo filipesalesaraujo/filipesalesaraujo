@@ -4,15 +4,17 @@ import {
     Container,
     Flex,
     Heading,
-    HStack, IconButton,
+    IconButton,
     Menu,
-    MenuButton, MenuItem, MenuList,
+    MenuButton,
+    MenuItem,
+    MenuList,
     useColorMode,
     useColorModeValue
 } from "@chakra-ui/react";
 import {NavLink} from "react-router-dom";
 
-import {ChevronDownIcon, HamburgerIcon, MoonIcon, SunIcon} from '@chakra-ui/icons'
+import {HamburgerIcon, MoonIcon, SunIcon} from '@chakra-ui/icons'
 
 export function Header() {
 
@@ -21,6 +23,10 @@ export function Header() {
     const bg = useColorModeValue('gray.100', 'gray.800')
     const textColor = useColorModeValue('gray.800', 'gray.100')
     const buttonVariant = useColorModeValue('solid', 'outline')
+
+    const buttonModeColor = useColorModeValue('gray.800', 'gray.800')
+    const buttonBorderColor = useColorModeValue('red.800', 'yellow.500')
+    const iconModeColor = useColorModeValue('gray.100', 'yellow.500')
 
     return (
         <Box bg={bg} borderBottom='1px' borderColor='gray.300'>
@@ -37,8 +43,10 @@ export function Header() {
                         <NavLink to="/contact" title="Contact">
                             <Button colorScheme='blue' variant={buttonVariant} size='lg'>Contact</Button>
                         </NavLink>
-                        <Button colorScheme='blue' variant={buttonVariant} onClick={toggleColorMode} size='lg'>
-                            {colorMode === 'light' ? <MoonIcon color="gray.100"/> : <SunIcon color="gray.100"/>}
+                        <Button bg={buttonModeColor} border='1px' borderColor={buttonBorderColor}
+                                onClick={toggleColorMode} size='lg' _hover={{background: 'gray.800'}}>
+                            {colorMode === 'light' ? <MoonIcon color={iconModeColor}/> :
+                                <SunIcon color={iconModeColor}/>}
                         </Button>
                     </Flex>
                 </Flex>
@@ -63,8 +71,10 @@ export function Header() {
                             </MenuItem>
                         </MenuList>
                     </Menu>
-                    <Button colorScheme='blue' variant={buttonVariant} onClick={toggleColorMode} size='lg'>
-                        {colorMode === 'light' ? <MoonIcon color="gray.100"/> : <SunIcon color="gray.100"/>}
+                    <Button bg={buttonModeColor} border='1px' borderColor={buttonBorderColor}
+                            onClick={toggleColorMode} size='lg' _hover={{background: 'gray.800'}}>
+                        {colorMode === 'light' ? <MoonIcon color={iconModeColor}/> :
+                            <SunIcon color={iconModeColor}/>}
                     </Button>
                 </Flex>
             </Container>

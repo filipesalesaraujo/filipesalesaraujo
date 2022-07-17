@@ -1,8 +1,10 @@
-import {Box, Container, Heading, Text, useColorMode, useColorModeValue} from "@chakra-ui/react";
+import {Box, Container, Heading, Text, useColorModeValue} from "@chakra-ui/react";
 
 
 import {Form} from "../components/Form";
 import {Technologies} from "../components/Technologies";
+import {MainTechnologies} from "../components/MainTechnologies";
+import {Architectural} from "../components/Architectural";
 
 export function Home() {
 
@@ -10,7 +12,7 @@ export function Home() {
     const textColor = useColorModeValue('gray.800', 'gray.100')
 
     return (
-        <Box bg={bg} >
+        <Box bg={bg}>
             <Container w='100%' maxW='container.xl' p='5'>
                 <Box mb='20'>
                     <Heading color={textColor} as='h1' mb='5'>Hello World!</Heading>
@@ -18,7 +20,8 @@ export function Home() {
                         Meet my development stacks.
                     </Text>
                 </Box>
-
+                <MainTechnologies/>
+                <Architectural />
                 <Technologies/>
                 <Form/>
 
