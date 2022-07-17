@@ -1,4 +1,4 @@
-import {Heading, HStack, Image, Text, useColorModeValue, VStack} from "@chakra-ui/react";
+import {Heading, HStack, Image, Stack, Text, useColorModeValue, VStack} from "@chakra-ui/react";
 
 const profile = new URL('../assets/profile.png', import.meta.url).href
 
@@ -8,8 +8,8 @@ export function TextAbout() {
     const buttonVariant = useColorModeValue('solid', 'outline')
 
     return (
-        <HStack gap='5'>
-            <Image boxSize='sm' borderRadius='10' src={profile}/>
+        <Stack gap='5' flexDir={{base: 'column', md: 'row'}}>
+            <Image boxSize='sm' h={"auto"} borderRadius='10' src={profile}/>
             <VStack gap='5' align='left'>
                 <Heading color={textColor} as='h1' noOfLines={1}>
                     A little about myself
@@ -20,6 +20,6 @@ export function TextAbout() {
                     in front-end development.
                 </Text>
             </VStack>
-        </HStack>
+        </Stack>
     )
 }

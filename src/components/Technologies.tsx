@@ -27,19 +27,23 @@ export function Technologies() {
             <Heading as='h2'  mb='10' >Technologies</Heading>
             <Box >
                 <Swiper
-                    slidesPerView={5}
+                    slidesPerView={1}
                     spaceBetween={30}
-                    loop={true}
                     centeredSlides={true}
+                    loop={true}
                     autoplay={{
                         delay: 1000,
                         disableOnInteraction: false,
                     }}
+                    breakpoints={{
+                        768: {
+                            slidesPerView: 5,
+                            spaceBetween: 30,
+                        },
+                    }}
                     modules={[Autoplay]}
                 >
-                    <SwiperSlide>
-                        <SiHtml5 size={100}/>
-                    </SwiperSlide>
+                    <SwiperSlide><SiHtml5 size={100}/></SwiperSlide>
                     <SwiperSlide><SiCss3 size={100}/></SwiperSlide>
                     <SwiperSlide><SiSass size={100}/></SwiperSlide>
 
