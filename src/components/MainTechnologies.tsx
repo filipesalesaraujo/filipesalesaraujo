@@ -10,7 +10,7 @@ export function MainTechnologies() {
         <Box mb='20'>
             <VStack align='left'>
                 <Heading mb='5'>Main technologies</Heading>
-                <Flex gap='5'>
+                <Flex gap='2' flexDir={{base: 'column', md: 'row'}}>
                     <VStack align='left' gap='5' border='1px' borderRadius='6px' borderColor={border} p='5'>
                         <Flex alignItems='center' gap='5'>
                             <SiReact size={100} color='#61dafb'/>
@@ -30,7 +30,6 @@ export function MainTechnologies() {
                             </Text>
                         </VStack>
                     </VStack>
-
                     <VStack align='left' gap='5' border='1px' borderRadius='6px' borderColor={border} p='5'>
                         <Flex alignItems='center' gap='5'>
                             <SiGraphql size={100} color='#e10098'/>
@@ -53,8 +52,6 @@ export function MainTechnologies() {
                             </Text>
                         </VStack>
                     </VStack>
-
-
                 </Flex>
                 <VStack align='left' gap='5' border='1px' borderRadius='6px' borderColor={border} p='5'>
                     <Flex alignItems='center' gap='5'>
