@@ -5,7 +5,7 @@ import {Contact} from './pages/Contact'
 import {DefaultLayout} from "./layouts/DefaultLayout";
 import {About} from "./pages/About";
 import {Studies} from "./pages/Studies";
-import {IsSEOImportant} from "./pages/IsSEOImportant";
+import {IsSEOImportant} from "./articles/IsSEOImportant";
 
 export function Router() {
     return (
