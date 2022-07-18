@@ -102,7 +102,7 @@ export function Form() {
                             {errors.message?.message}
                         </Text>}
 
-                    <Button mt='5' colorScheme='blue' isLoading={isSubmitting} type="submit" variant={buttonVariant}>
+                    <Button mt='5' colorScheme='blue' isLoading={isSubmitting} type="submit" >
                         Submit
                     </Button>
                 </VStack>
