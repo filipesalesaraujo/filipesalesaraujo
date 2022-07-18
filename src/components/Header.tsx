@@ -23,7 +23,6 @@ export function Header() {
     const bg = useColorModeValue('gray.100', 'gray.800')
     const textColor = useColorModeValue('gray.800', 'gray.100')
     const buttonVariant = useColorModeValue('solid', 'outline')
-
     const buttonModeColor = useColorModeValue('gray.800', 'gray.800')
     const buttonBorderColor = useColorModeValue('red.800', 'yellow.500')
     const iconModeColor = useColorModeValue('gray.100', 'yellow.500')
@@ -42,6 +41,9 @@ export function Header() {
                         </NavLink>
                         <NavLink to="/contact" title="Contact">
                             <Button colorScheme='blue' variant={buttonVariant} size='lg'>Contact</Button>
+                        </NavLink>
+                        <NavLink to="/studies" title="Studies">
+                            <Button colorScheme='blue' variant={buttonVariant} size='lg'>Studies</Button>
                         </NavLink>
                         <Button bg={buttonModeColor} border='1px' borderColor={buttonBorderColor}
                                 onClick={toggleColorMode} size='lg' _hover={{background: 'gray.800'}}>
@@ -68,6 +70,9 @@ export function Header() {
                             </MenuItem>
                             <MenuItem>
                                 <NavLink to="/contact" title="Contact">Contact</NavLink>
+                            </MenuItem>
+                            <MenuItem>
+                                <NavLink to="/studies" title="Studies">Studies</NavLink>
                             </MenuItem>
                         </MenuList>
                     </Menu>
