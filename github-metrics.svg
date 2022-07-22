@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2050" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2083" class="">
     <defs>
         <style/>
     </defs>
@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -82,7 +82,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            9272 Commits
+                            9144 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -140,7 +140,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                             </svg>
-                            Starred 40 repositories
+                            Starred 41 repositories
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -238,14 +238,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="322.00395455849014" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="322.00395455849014" y="0" width="95.62708390187323" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="417.6310384603634" y="0" width="33.628811633522176" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="451.2598500938856" y="0" width="5.441965580329086" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="456.70181567421463" y="0" width="1.694540803381286" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="458.39635647759593" y="0" width="1.1861666150602836" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="459.58252309265623" y="0" width="0.317879814912137" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="459.9004029075683" y="0" width="0.09959709243168348" height="8" fill="#dbb284"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="321.99460703373956" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="321.99460703373956" y="0" width="95.62430792188619" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="417.6189149556257" y="0" width="33.627835415234706" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="451.2467503708604" y="0" width="5.455161047083972" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="456.7019114179444" y="0" width="1.6944916121776497" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="458.3964030301221" y="0" width="1.1861321815645591" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="459.5825352116866" y="0" width="0.3178705871079578" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="459.90040579879457" y="0" width="0.09959420120543172" height="8" fill="#dbb284"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1346,71 +1346,15 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 3 commits in
+                                        Pushed 1 commit in
                                         <span class="repo">filipesalesaraujo/ignite-timer</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d6a4d1d</div>
-                                        <div class="message">Contexto no React - Formatação de data</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9250f75</div>
-                                        <div class="message">Contexto no React - Listagem do histórico</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c5da044</div>
-                                        <div class="message">Contexto no React - Reset do formulário</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">filipesalesaraujo/ignite-timer</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#9e40beb</div>
-                                        <div class="message">Contexto no React - Contexto entre rotas</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4f11a76</div>
-                                        <div class="message">Contexto no React - Contexto no formulário</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">filipesalesaraujo/ignite-timer</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#1d51e0f</div>
-                                        <div class="message">Funcionalidades da aplicação - Prop Drilling no React</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#82234c3</div>
-                                        <div class="message">Funcionalidades da aplicação - Ciclo completo</div>
+                                        <div class="sha">#84239c0</div>
+                                        <div class="message">fix - Uncaught TypeError: t is undefined</div>
                                     </div>
                                 </div>
                             </section>
@@ -1423,14 +1367,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Degrau-Publicidade-e-Internet/ipref</span>
+                                        <span class="repo">filipesalesaraujo/ignite-timer</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">prod</span></div>
+                                    <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#23cb998</div>
-                                        <div class="message">2te32wz - Landing Page 1 - Responda nossa pesquisa</div>
+                                        <div class="sha">#88704c3</div>
+                                        <div class="message">README.md</div>
                                     </div>
                                 </div>
                             </section>
@@ -1443,14 +1387,78 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Degrau-Publicidade-e-Internet/gironews</span>
+                                        <span class="repo">filipesalesaraujo/ignite-timer</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
+                                    <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#37ebbc6</div>
-                                        <div class="message">2ugegqz - Alterar nome de "revistas temáticas" para "edições temáticas"</div>
+                                        <div class="sha">#cd0f99f</div>
+                                        <div class="message">README.md</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">filipesalesaraujo/ignite-timer</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#5230127</div>
+                                        <div class="message">Reducers - Corrigindo listagem do histórico</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 7 commits in
+                                        <span class="repo">filipesalesaraujo/ignite-timer</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#20f7ead</div>
+                                        <div class="message">Reducers - Salvando estado no storage</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8867f53</div>
+                                        <div class="message">Reducers - Utilizando immer</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#bd6fd8c</div>
+                                        <div class="message">Reducers - Separando Actions</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9aeba02</div>
+                                        <div class="message">Reducers - Separando Action Types</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#906d1a5</div>
+                                        <div class="message">Reducers - Marcando ciclo como finalizado</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a86d0d1</div>
+                                        <div class="message">Reducers - Salvando um objeto no Reducer</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#0eb438a</div>
+                                        <div class="message">Reducers - Criando reducer de ciclos</div>
                                     </div>
                                 </div>
                             </section>
@@ -1590,7 +1598,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="5.9675 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="6.2775 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -1612,7 +1620,7 @@
                                     <span class="prefix">Super</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 577 times</div>
+                                <div class="text">Repositories have been deployed 581 times</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -1764,7 +1772,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="30.37688442211055 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="31.155778894472363 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" fill-rule="evenodd">
@@ -1783,7 +1791,7 @@
                                     <span class="prefix"></span>
                                     Stargazer
                                 </div>
-                                <div class="text">Starred 40 repositories</div>
+                                <div class="text">Starred 41 repositories</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -2043,7 +2051,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 22 Jul 2022, 01:22:49 (timezone America/Sao_Paulo) with lowlighter/metrics@3.26.0</span>
+                <span>Last updated 22 Jul 2022, 02:13:02 (timezone America/Sao_Paulo) with lowlighter/metrics@3.26.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
