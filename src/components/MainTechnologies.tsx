@@ -1,10 +1,10 @@
 import {Box, Flex, Heading, Text, useColorModeValue, VStack} from "@chakra-ui/react";
-import {SiGraphql, SiReact, SiWordpress} from "react-icons/all";
+import {SiGraphql, SiNextdotjs, SiReact, SiWordpress} from "react-icons/all";
 
 export function MainTechnologies() {
 
     const border = useColorModeValue('gray.800', 'gray.100')
-
+    const nextJs = useColorModeValue('black', 'white')
 
     return (
         <Box mb='20'>
@@ -55,6 +55,23 @@ export function MainTechnologies() {
                 </Flex>
                 <VStack align='left' gap='5' border='1px' borderRadius='6px' borderColor={border} p='5'>
                     <Flex alignItems='center' gap='5'>
+                        <SiNextdotjs size={100} color={nextJs}/>
+                        <Heading>Next.js</Heading>
+                    </Flex>
+                    <VStack align='left'>
+                        <Text fontSize='2xl'>
+                            Next.js, created by Vercel, takes a hybrid approach that enables both static generation
+                            (SSG) and server-side rendering (SSR), as well as enabling React applications that
+                            automatically pre-render, code-split and hot-reload, with no configuration. It is a very
+                            minimalistic approach to helping frontend developers create amazing experiences for users.
+                        </Text>
+                        <Text fontSize='xx-small' align='right'>
+                            VERCEL. <strong>Vercel Accelerates Frontend Content Delivery to Ensure Highest Quality User Experiences</strong>. Business Wire. 2020.
+                        </Text>
+                    </VStack>
+                </VStack>
+                <VStack align='left' gap='5' border='1px' borderRadius='6px' borderColor={border} p='5'>
+                    <Flex alignItems='center' gap='5'>
                         <SiWordpress size={100} color='#0073aa'/>
                         <Heading>Headless WordPress</Heading>
                     </Flex>
@@ -66,7 +83,8 @@ export function MainTechnologies() {
                             is where the term 'headless' is used.
                         </Text>
                         <Text fontSize='xx-small' align='right'>
-                            STENROOS, J. <strong>Headless WordPress development with React using Gatsby.js</strong>. 2019.
+                            STENROOS, J. <strong>Headless WordPress development with React using Gatsby.js</strong>.
+                            2019.
                         </Text>
                     </VStack>
                 </VStack>
