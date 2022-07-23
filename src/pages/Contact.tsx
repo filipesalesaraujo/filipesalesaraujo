@@ -1,15 +1,14 @@
-import {Form} from "../components/Form";
-import {Box, Container, useColorModeValue} from "@chakra-ui/react";
+import { Form } from '../components/Form'
+import { Box, Container, useColorModeValue } from '@chakra-ui/react'
 
 export function Contact() {
+  const bg = useColorModeValue('gray.100', 'gray.800')
 
-    const bg = useColorModeValue('gray.100', 'gray.800')
-
-    return (
-        <Box bg={bg} h='calc(100vh)'>
-            <Container w='100%' maxW='container.xl' p='5'>
-                <Form/>
-            </Container>
-        </Box>
-    )
+  return (
+    <Box bg={bg} h="calc(100vh)">
+      <Container w="100%" maxW="container.xl" p="5">
+        <Form />
+      </Container>
+    </Box>
+  )
 }

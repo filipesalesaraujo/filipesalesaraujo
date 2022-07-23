@@ -1,0 +1,301 @@
+import {
+  Box,
+  Button,
+  chakra,
+  Container,
+  Flex,
+  Heading,
+  HStack,
+  Image,
+  Text,
+  useColorModeValue,
+  VStack,
+} from '@chakra-ui/react'
+
+import { isValidMotionProp, motion, Reorder } from 'framer-motion'
+import { useRef, useState } from 'react'
+
+const ChakraFramerMotionBox = chakra(motion.div, {
+  shouldForwardProp: (prop) => isValidMotionProp(prop) || prop === 'children',
+})
+
+export function FramerMotion() {
+  const bg = useColorModeValue('gray.100', 'gray.800')
+
+  const constraintsRef = useRef(null)
+
+  const [active, setActive] = useState(false)
+  const [isOn, setIsOn] = useState(false)
+
+  function handleActive() {
+    setActive(!active)
+  }
+
+  function handleIsOn() {
+    setIsOn(!isOn)
+  }
+
+  const card = new URL('../assets/back-card-yu-gi-oh.png', import.meta.url).href
+
+  const cardObelisk = new URL(
+    '../assets/card-yu-gi-oh-obelisk-the-tormentor.jpg',
+    import.meta.url,
+  ).href
+  const cardSlifer = new URL(
+    '../assets/card-yu-gi-oh-slifer-the-sky-dragon.jpg',
+    import.meta.url,
+  ).href
+  const cardDragoOfRa = new URL(
+    '../assets/card-yu-gi-oh-the-winged-dragon-of-ra.jpg',
+    import.meta.url,
+  ).href
+  const cardWhiteDragon = new URL(
+    '../assets/card-yu-gi-oh-blue-eyes-white-dragon.jpg',
+    import.meta.url,
+  ).href
+  const [items, setItems] = useState([cardObelisk, cardSlifer, cardDragoOfRa])
+
+  return (
+    <Box bg={bg}>
+      <Container w="100%" maxW="container.xl" p="5">
+        <Heading mb={5}>Framer Motion</Heading>
+        <Text fontSize="2xl" mb={5}>
+          Framer Motion is a production-ready motion library for React from
+          Framer. It`s simple yet powerful, allowing complex user interactions
+          with robust, semantic markup.
+        </Text>
+        <VStack gap={5} alignItems="start">
+          <Heading>Keyframes</Heading>
+          <Flex
+            w="full"
+            maxW="100%"
+            alignItems="center"
+            justifyContent="center"
+            p={20}
+            border="1px"
+            borderRadius={6}
+          >
+            <ChakraFramerMotionBox
+              animate={{
+                scale: [0.5, 1, 1, 0.5, 0.5],
+                rotate: [0, 0, 270, 270, 0],
+              }}
+              // @ts-ignore
+              transition={{
+                duration: 3,
+                ease: 'easeInOut',
+                repeat: Infinity,
+                repeatType: 'loop',
+              }}
+            >
+              <Box
+                borderRadius={6}
+                w={200}
+                h={290}
+                backgroundImage={card}
+                backgroundSize="cover"
+              />
+            </ChakraFramerMotionBox>
+          </Flex>
+
+          <Heading>Gesture animations</Heading>
+          <Flex
+            w="full"
+            maxW="100%"
+            alignItems="center"
+            justifyContent="center"
+            p={20}
+            border="1px"
+            borderRadius={6}
+          >
+            <ChakraFramerMotionBox
+              whileHover={{
+                scale: 1.3,
+                borderRadius: '50%',
+              }}
+              whileTap={{
+                scale: 0.5,
+                borderRadius: '20%',
+              }}
+            >
+              <Box
+                borderRadius={6}
+                cursor="pointer"
+                w={200}
+                h={290}
+                backgroundImage={card}
+                backgroundSize="cover"
+              />
+            </ChakraFramerMotionBox>
+          </Flex>
+
+          <Heading>Drag</Heading>
+          <Flex
+            ref={constraintsRef}
+            w="full"
+            maxW="100%"
+            alignItems="center"
+            justifyContent="center"
+            p={20}
+            gap={5}
+            border="1px"
+            borderRadius={6}
+          >
+            <ChakraFramerMotionBox
+              drag
+              dragConstraints={constraintsRef}
+              color="yellow.500"
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Box
+                borderRadius={6}
+                cursor="grab"
+                w={200}
+                h={290}
+                backgroundImage={card}
+                backgroundSize="cover"
+              />
+            </ChakraFramerMotionBox>
+            <ChakraFramerMotionBox
+              drag
+              dragConstraints={constraintsRef}
+              color="yellow.500"
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Box
+                borderRadius={6}
+                cursor="grab"
+                w={200}
+                h={290}
+                backgroundImage={card}
+                backgroundSize="cover"
+              />
+            </ChakraFramerMotionBox>
+          </Flex>
+
+          <Heading>Animating state changes</Heading>
+          <VStack
+            w="full"
+            maxW="100%"
+            alignItems="center"
+            justifyContent="center"
+            p={20}
+            gap={5}
+            border="1px"
+            borderRadius={6}
+          >
+            <ChakraFramerMotionBox
+              animate={active ? { rotate: 90 } : { rotate: 0 }}
+            >
+              <Image src={card} alt="" />
+            </ChakraFramerMotionBox>
+            <Button colorScheme="blue" onClick={handleActive}>
+              {active ? (
+                <Text>Switch to Attack Mode</Text>
+              ) : (
+                <Text>Switch to Defense Mode</Text>
+              )}
+            </Button>
+          </VStack>
+
+          <Heading>Reorder</Heading>
+          <Flex
+            w="full"
+            maxW="100%"
+            alignItems="center"
+            justifyContent="center"
+            p={20}
+            border="1px"
+            borderRadius={6}
+          >
+            <Reorder.Group axis="x" values={items} onReorder={setItems}>
+              <HStack gap={5}>
+                {items.map((item) => (
+                  <Reorder.Item
+                    key={item}
+                    value={item}
+                    style={{ listStyle: 'none' }}
+                  >
+                    <Box
+                      borderRadius={6}
+                      cursor="grab"
+                      w={200}
+                      h={290}
+                      backgroundImage={item}
+                      backgroundSize="cover"
+                    />
+                  </Reorder.Item>
+                ))}
+              </HStack>
+            </Reorder.Group>
+          </Flex>
+
+          <Heading>Layout animations</Heading>
+
+          <VStack
+            w="full"
+            maxW="100%"
+            alignItems="center"
+            justifyContent="center"
+            p={20}
+            gap={5}
+            border="1px"
+            borderRadius={6}
+          >
+            <Flex onClick={handleIsOn}>
+              <ChakraFramerMotionBox
+                display="flex"
+                w={670}
+                justifyContent={isOn ? 'flex-end' : 'flex-start'}
+              >
+                {isOn ? (
+                  <ChakraFramerMotionBox
+                    layout
+                    // @ts-ignore
+                    transition={{
+                      type: 'spring',
+                      stiffness: 700,
+                      damping: 30,
+                    }}
+                  >
+                    <Box
+                      borderRadius={6}
+                      cursor="pointer"
+                      w={200}
+                      h={290}
+                      backgroundImage={cardWhiteDragon}
+                      backgroundSize="cover"
+                    />
+                  </ChakraFramerMotionBox>
+                ) : (
+                  <ChakraFramerMotionBox
+                    layout
+                    // @ts-ignore
+                    transition={{
+                      type: 'spring',
+                      stiffness: 700,
+                      damping: 30,
+                    }}
+                  >
+                    <Box
+                      borderRadius={6}
+                      cursor="pointer"
+                      w={200}
+                      h={290}
+                      backgroundImage={card}
+                      backgroundSize="cover"
+                    />
+                  </ChakraFramerMotionBox>
+                )}
+              </ChakraFramerMotionBox>
+            </Flex>
+          </VStack>
+        </VStack>
+      </Container>
+    </Box>
+  )
+}
