@@ -12,8 +12,15 @@ import {
   VStack,
 } from '@chakra-ui/react'
 
-import { isValidMotionProp, motion, Reorder } from 'framer-motion'
+import {
+  isValidMotionProp,
+  motion,
+  Reorder,
+  useMotionValue,
+  useTransform,
+} from 'framer-motion'
 import { useRef, useState } from 'react'
+import { CgFramer } from 'react-icons/all'
 
 const ChakraFramerMotionBox = chakra(motion.div, {
   shouldForwardProp: (prop) => isValidMotionProp(prop) || prop === 'children',
@@ -72,12 +79,25 @@ export function FramerMotion() {
     import.meta.url,
   ).href
 
+  const cardDragonMasterKnight = new URL(
+    '../assets/card-yu-gi-oh-dragon-master-knight.jpg',
+    import.meta.url,
+  ).href
+
   const [items, setItems] = useState([cardObelisk, cardSlifer, cardDragoOfRa])
+
+  const x = useMotionValue(0)
+  const y = useMotionValue(0)
+  const rotateX = useTransform(y, [-100, 100], [60, -60])
+  const rotateY = useTransform(x, [-100, 100], [-60, 60])
 
   return (
     <Box bg={bg}>
       <Container w="100%" maxW="container.xl" p="5">
-        <Heading mb={5}>Framer Motion</Heading>
+        <HStack>
+          <CgFramer size={100} color="#a2e" />
+          <Heading mb={5}>Framer Motion</Heading>
+        </HStack>
         <Text fontSize="2xl" mb={5}>
           Framer Motion is a production-ready motion library for React from
           Framer. It`s simple yet powerful, allowing complex user interactions
@@ -307,7 +327,6 @@ export function FramerMotion() {
               </ChakraFramerMotionBox>
             </Flex>
           </VStack>
-
           <Heading>Hover animations</Heading>
           <HStack
             w="full"
@@ -376,6 +395,40 @@ export function FramerMotion() {
                 w={200}
                 h={290}
                 backgroundImage={cardLegendaryBlackDragon}
+                backgroundSize="cover"
+              />
+            </ChakraFramerMotionBox>
+          </HStack>
+
+          <Heading>Drag: 3D transform</Heading>
+          <HStack
+            w="full"
+            maxW="100%"
+            alignItems="center"
+            justifyContent="center"
+            p={20}
+            gap={5}
+            border="1px"
+            borderRadius={6}
+          >
+            <ChakraFramerMotionBox
+              style={{
+                cursor: 'grab',
+                x,
+                y,
+                rotateX,
+                rotateY,
+              }}
+              drag
+              dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+              dragElastic={0.6}
+              whileTap={{ cursor: 'grabbing' }}
+            >
+              <Box
+                borderRadius={6}
+                w={200}
+                h={290}
+                backgroundImage={cardDragonMasterKnight}
                 backgroundSize="cover"
               />
             </ChakraFramerMotionBox>

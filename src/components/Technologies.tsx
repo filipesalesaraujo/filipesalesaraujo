@@ -17,6 +17,7 @@ import {
   SiEslint,
   SiExpo,
   SiFontawesome,
+  SiFramer,
   SiGit,
   SiGithub,
   SiGithubactions,
@@ -94,6 +95,9 @@ export function Technologies() {
 
           <SwiperSlide>
             <SiFontawesome size={50} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiFramer size={50} />
           </SwiperSlide>
           <SwiperSlide>
             <SiBootstrap size={50} />
