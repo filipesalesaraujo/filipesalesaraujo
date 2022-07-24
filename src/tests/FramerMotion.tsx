@@ -41,18 +41,37 @@ export function FramerMotion() {
     '../assets/card-yu-gi-oh-obelisk-the-tormentor.jpg',
     import.meta.url,
   ).href
+
   const cardSlifer = new URL(
     '../assets/card-yu-gi-oh-slifer-the-sky-dragon.jpg',
     import.meta.url,
   ).href
+
   const cardDragoOfRa = new URL(
     '../assets/card-yu-gi-oh-the-winged-dragon-of-ra.jpg',
     import.meta.url,
   ).href
+
   const cardWhiteDragon = new URL(
     '../assets/card-yu-gi-oh-blue-eyes-white-dragon.jpg',
     import.meta.url,
   ).href
+
+  const cardUltimateDarkDragon = new URL(
+    '../assets/card-yu-gi-oh-blue-eyes-ultimate-dark-dragon.jpg',
+    import.meta.url,
+  ).href
+
+  const cardUltimateDespairDragon = new URL(
+    '../assets/card-yu-gi-oh-cxyz-golden-eyes-ultimate-despair-dragon.jpg',
+    import.meta.url,
+  ).href
+
+  const cardLegendaryBlackDragon = new URL(
+    '../assets/card-yu-gi-oh-legendary-red-eyes-black-dragon.jpg',
+    import.meta.url,
+  ).href
+
   const [items, setItems] = useState([cardObelisk, cardSlifer, cardDragoOfRa])
 
   return (
@@ -97,7 +116,6 @@ export function FramerMotion() {
               />
             </ChakraFramerMotionBox>
           </Flex>
-
           <Heading>Gesture animations</Heading>
           <Flex
             w="full"
@@ -128,7 +146,6 @@ export function FramerMotion() {
               />
             </ChakraFramerMotionBox>
           </Flex>
-
           <Heading>Drag</Heading>
           <Flex
             ref={constraintsRef}
@@ -176,7 +193,6 @@ export function FramerMotion() {
               />
             </ChakraFramerMotionBox>
           </Flex>
-
           <Heading>Animating state changes</Heading>
           <VStack
             w="full"
@@ -201,7 +217,6 @@ export function FramerMotion() {
               )}
             </Button>
           </VStack>
-
           <Heading>Reorder</Heading>
           <Flex
             w="full"
@@ -233,9 +248,7 @@ export function FramerMotion() {
               </HStack>
             </Reorder.Group>
           </Flex>
-
           <Heading>Layout animations</Heading>
-
           <VStack
             w="full"
             maxW="100%"
@@ -294,6 +307,79 @@ export function FramerMotion() {
               </ChakraFramerMotionBox>
             </Flex>
           </VStack>
+
+          <Heading>Hover animations</Heading>
+          <HStack
+            w="full"
+            maxW="100%"
+            alignItems="center"
+            justifyContent="center"
+            p={20}
+            gap={5}
+            border="1px"
+            borderRadius={6}
+          >
+            <ChakraFramerMotionBox
+              whileHover={{
+                position: 'relative',
+                zIndex: 1,
+                scale: [1, 1.4, 1.2],
+                rotate: [0, 10, -10, 0],
+                transition: {
+                  duration: 0.5,
+                },
+              }}
+            >
+              <Box
+                borderRadius={6}
+                cursor="pointer"
+                w={200}
+                h={290}
+                backgroundImage={cardUltimateDarkDragon}
+                backgroundSize="cover"
+              />
+            </ChakraFramerMotionBox>{' '}
+            <ChakraFramerMotionBox
+              whileHover={{
+                position: 'relative',
+                zIndex: 1,
+                scale: [1, 1.4, 1.2],
+                rotate: [0, 10, -10, 0],
+                transition: {
+                  duration: 0.5,
+                },
+              }}
+            >
+              <Box
+                borderRadius={6}
+                cursor="pointer"
+                w={200}
+                h={290}
+                backgroundImage={cardUltimateDespairDragon}
+                backgroundSize="cover"
+              />
+            </ChakraFramerMotionBox>
+            <ChakraFramerMotionBox
+              whileHover={{
+                position: 'relative',
+                zIndex: 1,
+                scale: [1, 1.4, 1.2],
+                rotate: [0, 10, -10, 0],
+                transition: {
+                  duration: 0.5,
+                },
+              }}
+            >
+              <Box
+                borderRadius={6}
+                cursor="pointer"
+                w={200}
+                h={290}
+                backgroundImage={cardLegendaryBlackDragon}
+                backgroundSize="cover"
+              />
+            </ChakraFramerMotionBox>
+          </HStack>
         </VStack>
       </Container>
     </Box>
