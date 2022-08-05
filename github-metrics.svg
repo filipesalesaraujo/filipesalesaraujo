@@ -82,7 +82,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            9329 Commits
+                            9454 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1347,14 +1347,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Degrau-Publicidade-e-Internet/konicaminolta</span>
+                                        <span class="repo">Degrau-Publicidade-e-Internet/afaceesp</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">dev</span></div>
+                                    <div>on branch <span class="code">prod</span></div>
                                     <div class="commit">
-                                        <div class="sha">#49782b8</div>
-                                        <div class="message">21mzz29 - Área de Atuação - Revisar imagens do Box de cada área</div>
+                                        <div class="sha">#1f9b7cb</div>
+                                        <div class="message">Create README.md</div>
                                     </div>
                                 </div>
                             </section>
@@ -1367,14 +1367,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Degrau-Publicidade-e-Internet/konicaminolta</span>
+                                        <span class="repo">Degrau-Publicidade-e-Internet/afaceesp</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">dev</span></div>
                                     <div class="commit">
-                                        <div class="sha">#f41bd4a</div>
-                                        <div class="message">2x0b8c8 - Home - Menu das áreas de interesse</div>
+                                        <div class="sha">#a448ecc</div>
+                                        <div class="message">Update README.md</div>
                                     </div>
                                 </div>
                             </section>
@@ -1387,14 +1387,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Degrau-Publicidade-e-Internet/konicaminolta</span>
+                                        <span class="repo">Degrau-Publicidade-e-Internet/afaceesp</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">dev</span></div>
                                     <div class="commit">
-                                        <div class="sha">#c1682ba</div>
-                                        <div class="message">2x0b8c8 - Home - Menu das áreas de interesse</div>
+                                        <div class="sha">#68d0d59</div>
+                                        <div class="message">Create README.md</div>
                                     </div>
                                 </div>
                             </section>
@@ -1407,14 +1407,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Degrau-Publicidade-e-Internet/konicaminolta</span>
+                                        <span class="repo">Degrau-Publicidade-e-Internet/afaceesp</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">dev</span></div>
                                     <div class="commit">
-                                        <div class="sha">#24c685c</div>
-                                        <div class="message">2x0b8c8 - Home - Menu das áreas de interesse</div>
+                                        <div class="sha">#2e30316</div>
+                                        <div class="message">sem task - tirando o teste</div>
                                     </div>
                                 </div>
                             </section>
@@ -1427,14 +1427,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Degrau-Publicidade-e-Internet/konicaminolta</span>
+                                        <span class="repo">Degrau-Publicidade-e-Internet/afaceesp</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">dev</span></div>
                                     <div class="commit">
-                                        <div class="sha">#34803e7</div>
-                                        <div class="message">2x0b8c8 - Home - Menu das áreas de interesse</div>
+                                        <div class="sha">#30b2ff5</div>
+                                        <div class="message">sem task - tirando o teste</div>
                                     </div>
                                 </div>
                             </section>
@@ -1493,7 +1493,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="34.1 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="34.1775 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -1515,7 +1515,7 @@
                                     <span class="prefix">Super</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 940 times</div>
+                                <div class="text">Repositories have been deployed 941 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
@@ -2027,7 +2027,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 5 Aug 2022, 16:05:36 (timezone America/Sao_Paulo) with lowlighter/metrics@3.26.0</span>
+                <span>Last updated 5 Aug 2022, 17:05:59 (timezone America/Sao_Paulo) with lowlighter/metrics@3.26.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
