@@ -13,7 +13,7 @@ export function Header() {
                 w="full"
                 p={5}
             >
-               <Image src={duck} />
+                <Image src={duck}/>
             </VStack>
         </Flex>
     )
