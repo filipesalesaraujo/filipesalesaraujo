@@ -10,6 +10,7 @@ export function Home() {
                 maxW="1200px"
                 w="full"
                 p={5}
+                gap={5}
                 alignItems="flex-start"
             >
                 <Text fontSize="3xl">
@@ -32,7 +33,7 @@ export function Home() {
                     Como um desenvolvedor full-stack, acredito que a minha habilidade de trabalhar em todas as camadas de uma aplicação me permite ter uma visão geral do projeto, o que é essencial para criar soluções web altamente eficientes e escaláveis. Estou sempre procurando desafios e novas oportunidades para aplicar minhas habilidades e conhecimentos em projetos interessantes e inovadores.
                 </Text>
 
-                <Heading fontSize="2xl">
+                <Heading fontSize="4xl">
                     Next.js como minha plataforma preferida para desenvolvimento web. 
                 </Heading>
 
