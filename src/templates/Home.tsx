@@ -32,6 +32,34 @@ export function Home() {
                     Como um desenvolvedor full-stack, acredito que a minha habilidade de trabalhar em todas as camadas de uma aplicação me permite ter uma visão geral do projeto, o que é essencial para criar soluções web altamente eficientes e escaláveis. Estou sempre procurando desafios e novas oportunidades para aplicar minhas habilidades e conhecimentos em projetos interessantes e inovadores.
                 </Text>
 
+                <Heading fontSize="2xl">
+                    Next.js como minha plataforma preferida para desenvolvimento web. 
+                </Heading>
+
+                <Text fontSize="3xl">
+                    Acredito que suas funcionalidades de geração de páginas estáticas (SSG), renderização do lado do servidor (SSR) e revalidação incremental do servidor (ISR) trazem muitas vantagens para o desenvolvimento de aplicações modernas.
+                </Text>
+
+                <Text fontSize="3xl">
+                    O SSG, por exemplo, é uma funcionalidade que permite que o Next.js pré-renderize todas as páginas do site durante o processo de construção, o que significa que o conteúdo estático pode ser entregue diretamente ao usuário sem precisar de uma nova requisição ao servidor. Isso acelera muito o tempo de carregamento e melhora a experiência do usuário.
+                </Text>
+
+                <Text fontSize="3xl">
+                    O SSR é uma funcionalidade que permite que o Next.js gere as páginas dinamicamente no servidor, em vez de fazê-lo no navegador do usuário. Isso é particularmente útil em casos em que a página precisa ser personalizada com base nas informações do usuário ou em dados dinâmicos do servidor.
+                </Text>
+
+                <Text fontSize="3xl">
+                A funcionalidade de revalidação incremental do servidor (ISR) é uma evolução do SSG e do SSR, que permite que as páginas sejam atualizadas automaticamente em intervalos regulares, sem a necessidade de uma nova requisição do usuário. Isso é especialmente útil em casos em que o conteúdo precisa ser atualizado frequentemente, como notícias ou preços de ações.
+                </Text>
+                
+                <Text fontSize="3xl">
+                Além disso, o Next.js suporta o TypeScript, uma linguagem de programação tipada que fornece mais segurança ao desenvolvimento, pois permite detectar erros de digitação e erros de lógica antes mesmo do código ser executado.
+                </Text>
+
+                <Text fontSize="3xl">
+                Em resumo, eu escolhi o Next.js como minha plataforma preferida porque suas funcionalidades de SSG, SSR e ISR permitem que eu crie aplicações web rápidas e eficientes, enquanto o suporte ao TypeScript garante um desenvolvimento mais seguro e confiável.
+                </Text>
+
             </VStack>
         </Flex>
     )
