@@ -33,7 +33,7 @@ export function Home() {
                     Como um desenvolvedor full-stack, acredito que a minha habilidade de trabalhar em todas as camadas de uma aplicação me permite ter uma visão geral do projeto, o que é essencial para criar soluções web altamente eficientes e escaláveis. Estou sempre procurando desafios e novas oportunidades para aplicar minhas habilidades e conhecimentos em projetos interessantes e inovadores.
                 </Text>
 
-                <Heading fontSize="4xl">
+                <Heading fontSize="4xl" fontWeight="bold">
                     Next.js como minha plataforma preferida para desenvolvimento web. 
                 </Heading>
 
