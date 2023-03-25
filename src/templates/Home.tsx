@@ -12,18 +12,25 @@ export function Home() {
                 p={5}
                 alignItems="flex-start"
             >
-                <Text fontSize="3xl">Oi, me chamo Filipe Sales Araujo. Sou desenvolvedor <Box as="i">Full
-                    Stack.</Box> Graduado em licenciatura em Educação Física, graduando Ciência da Computação e
-                    pós-graduando em Ciência de Dados.</Text>
+                <Text fontSize="3xl">
+                    Olá, meu nome é Filipe Sales Araujo e sou um desenvolvedor full-stack. Meu foco principal está no desenvolvimento de aplicações web, onde utilizo React e seu framework Next.js para criar interfaces de usuário ricas e dinâmicas.
+                </Text>
 
-                <Text fontSize="3xl">Sou especilista em desenvolvimento <Box as="i">Front-end</Box>, sendo a minha
-                    principal <Box as="i">stack</Box> JavaScript. A biblioteca que mais utilizo é React, e seu framework
-                    Next.js.</Text>
+                <Text fontSize="3xl">
+                    Além disso, no back-end, utilizo a plataforma WordPress Headless para fornecer serviços e dados necessários para alimentar essas aplicações. Acredito que a combinação dessas tecnologias me permite criar soluções web altamente escaláveis, flexíveis e fáceis de manter.
+                </Text>
 
-                <Text fontSize="3xl">No <Box as="i">Back-end</Box> utilizo o <Box as="i">CMS</Box> WordPress <Box
-                    as="i">Headless</Box>.</Text>
+                <Text fontSize="3xl">
+                    Embora minha formação acadêmica inicial tenha sido em educação física, percebi que meu verdadeiro interesse estava em tecnologia e, por isso, decidi seguir carreira na área. Atualmente, estou cursando graduação em ciência da computação e também realizando uma pós-graduação em ciência de dados, o que me permite aprofundar meus conhecimentos em áreas como aprendizado de máquina, análise de dados e visualização.
+                </Text>
 
-                <Text fontSize="3xl">Atualmente estudando C# e Python.</Text>
+                <Text fontSize="3xl">
+                    Além disso, estou sempre buscando aprender novas habilidades e tecnologias para melhorar minhas habilidades como desenvolvedor. No momento, estou focado em estudar C# e Python, já que acredito que essas linguagens são essenciais para a criação de aplicativos desktop e soluções de backend escaláveis.
+                </Text>
+
+                <Text fontSize="3xl">
+                    Como um desenvolvedor full-stack, acredito que a minha habilidade de trabalhar em todas as camadas de uma aplicação me permite ter uma visão geral do projeto, o que é essencial para criar soluções web altamente eficientes e escaláveis. Estou sempre procurando desafios e novas oportunidades para aplicar minhas habilidades e conhecimentos em projetos interessantes e inovadores.
+                </Text>
 
             </VStack>
         </Flex>
