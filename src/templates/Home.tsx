@@ -67,7 +67,7 @@ export function Home() {
                 </Text>
 
                 <Heading as="h3" fontSize="4xl" fontWeight="bold">
-                    Porque WordPress HeadLess
+                    Porque WordPress Headless
                 </Heading>
 
                 <Text fontSize="3xl">
