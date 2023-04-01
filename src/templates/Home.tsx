@@ -50,15 +50,43 @@ export function Home() {
                 </Text>
 
                 <Text fontSize="3xl">
-                A funcionalidade de revalidação incremental do servidor (ISR) é uma evolução do SSG e do SSR, que permite que as páginas sejam atualizadas automaticamente em intervalos regulares, sem a necessidade de uma nova requisição do usuário. Isso é especialmente útil em casos em que o conteúdo precisa ser atualizado frequentemente, como notícias ou preços de ações.
+                    A funcionalidade de revalidação incremental do servidor (ISR) é uma evolução do SSG e do SSR, que permite que as páginas sejam atualizadas automaticamente em intervalos regulares, sem a necessidade de uma nova requisição do usuário. Isso é especialmente útil em casos em que o conteúdo precisa ser atualizado frequentemente, como notícias ou preços de ações.
                 </Text>
                 
                 <Text fontSize="3xl">
-                Além disso, o Next.js suporta o TypeScript, uma linguagem de programação tipada que fornece mais segurança ao desenvolvimento, pois permite detectar erros de digitação e erros de lógica antes mesmo do código ser executado.
+                    Além disso, o Next.js suporta o TypeScript, uma linguagem de programação tipada que fornece mais segurança ao desenvolvimento, pois permite detectar erros de digitação e erros de lógica antes mesmo do código ser executado.
                 </Text>
 
                 <Text fontSize="3xl">
-                Em resumo, eu escolhi o Next.js como minha plataforma preferida porque suas funcionalidades de SSG, SSR e ISR permitem que eu crie aplicações web rápidas e eficientes, enquanto o suporte ao TypeScript garante um desenvolvimento mais seguro e confiável.
+                    Escolhi o Next.js como minha plataforma preferida porque suas funcionalidades de SSG, SSR e ISR permitem que eu crie aplicações web rápidas e eficientes, enquanto o suporte ao TypeScript garante um desenvolvimento mais seguro e confiável.
+                </Text>
+
+                <Heading fontSize="4xl" fontWeight="bold">
+                    Porque WordPress HeadLess
+                </Heading>
+
+                <Text fontSize="3xl">
+                    O WordPress Headless é uma abordagem em que o WordPress é utilizado como um CMS (Sistema de Gerenciamento de Conteúdo), mas sem a parte "front-end" (a interface visual que os usuários veem). Em vez disso, os desenvolvedores usam uma camada intermediária para acessar os dados do WordPress e exibi-los em diferentes plataformas, como aplicativos móveis, sites estáticos e outros sistemas.
+                </Text>
+
+                <Text fontSize="3xl">
+                    Uma das principais vantagens do WordPress Headless é a flexibilidade. Como desenvolvedor, posso criar qualquer tipo de interface de usuário ou aplicativo que desejar, sem me preocupar com as limitações do WordPress. Isso significa que posso criar experiências personalizadas para meus usuários e atender às suas necessidades específicas.
+                </Text>
+
+                <Text fontSize="3xl">
+                    Outra vantagem é a escalabilidade. Com o WordPress Headless, posso usar a tecnologia que melhor se adapta às necessidades do meu projeto. Se precisar de mais desempenho, posso adicionar mais recursos de servidor ou usar uma solução de cache. Se precisar de mais segurança, posso usar as mais recentes tecnologias de autenticação e autorização.
+                </Text>
+
+                <Text fontSize="3xl">
+                    Além disso, o WordPress Headless permite a integração fácil com outros serviços e plataformas. Posso conectar meu site com sistemas de comércio eletrônico, sistemas de gerenciamento de clientes, plataformas de marketing e muito mais. Isso me ajuda a criar uma solução completa para meus usuários e atender às suas necessidades.
+                </Text>
+
+                <Text fontSize="3xl">
+                    Outra vantagem do WordPress Headless é a rapidez no desenvolvimento. Posso desenvolver meu site mais rapidamente, pois não preciso me preocupar com a interface do usuário. Isso me permite me concentrar no desenvolvimento da lógica de negócios, bancos de dados e outras funcionalidades avançadas.
+                </Text>
+
+                <Text fontSize="3xl">
+                    O WordPress Headless é uma abordagem flexível, escalável e fácil de integrar que permite aos desenvolvedores criar soluções personalizadas para atender às necessidades de seus usuários. Estou muito animado para continuar explorando essa tecnologia e criar soluções ainda mais avançadas no futuro.
                 </Text>
 
             </VStack>
