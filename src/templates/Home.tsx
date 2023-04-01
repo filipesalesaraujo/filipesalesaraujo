@@ -39,7 +39,7 @@ export function Home() {
                 </Text>
 
                 <Heading as="h2" fontSize="4xl" fontWeight="bold">
-                    Next.js como minha plataforma preferida para desenvolvimento web. 
+                    Next.js como minha plataforma preferida para desenvolvimento web
                 </Heading>
 
                 <Text fontSize="3xl">
