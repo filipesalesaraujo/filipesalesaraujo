@@ -13,8 +13,13 @@ export function Home() {
                 gap={5}
                 alignItems="flex-start"
             >
+
+                <Heading as="h1" fontSize="4xl" fontWeight="bold">
+                    Olá, meu nome é Filipe Sales Araujo
+                </Heading>
+
                 <Text fontSize="3xl">
-                    Olá, meu nome é Filipe Sales Araujo e sou um desenvolvedor full-stack. Meu foco principal está no desenvolvimento de aplicações web, onde utilizo React e seu framework Next.js para criar interfaces de usuário ricas e dinâmicas.
+                     Sou um desenvolvedor full-stack. Meu foco principal está no desenvolvimento de aplicações web, onde utilizo React e seu framework Next.js para criar interfaces de usuário ricas e dinâmicas.
                 </Text>
 
                 <Text fontSize="3xl">
@@ -33,8 +38,8 @@ export function Home() {
                     Como um desenvolvedor full-stack, acredito que a minha habilidade de trabalhar em todas as camadas de uma aplicação me permite ter uma visão geral do projeto, o que é essencial para criar soluções web altamente eficientes e escaláveis. Estou sempre procurando desafios e novas oportunidades para aplicar minhas habilidades e conhecimentos em projetos interessantes e inovadores.
                 </Text>
 
-                <Heading fontSize="4xl" fontWeight="bold">
-                    Next.js como minha plataforma preferida para desenvolvimento web
+                <Heading as="h2" fontSize="4xl" fontWeight="bold">
+                    Next.js como minha plataforma preferida para desenvolvimento web. 
                 </Heading>
 
                 <Text fontSize="3xl">
@@ -61,8 +66,8 @@ export function Home() {
                     Escolhi o Next.js como minha plataforma preferida porque suas funcionalidades de SSG, SSR e ISR permitem que eu crie aplicações web rápidas e eficientes, enquanto o suporte ao TypeScript garante um desenvolvimento mais seguro e confiável.
                 </Text>
 
-                <Heading fontSize="4xl" fontWeight="bold">
-                    Porque WordPress Headless
+                <Heading as="h3" fontSize="4xl" fontWeight="bold">
+                    Porque WordPress HeadLess
                 </Heading>
 
                 <Text fontSize="3xl">
