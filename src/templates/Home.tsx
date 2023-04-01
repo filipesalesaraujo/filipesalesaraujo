@@ -34,7 +34,7 @@ export function Home() {
                 </Text>
 
                 <Heading fontSize="4xl" fontWeight="bold">
-                    Next.js como minha plataforma preferida para desenvolvimento web. 
+                    Next.js como minha plataforma preferida para desenvolvimento web
                 </Heading>
 
                 <Text fontSize="3xl">
@@ -62,7 +62,7 @@ export function Home() {
                 </Text>
 
                 <Heading fontSize="4xl" fontWeight="bold">
-                    Porque WordPress HeadLess
+                    Porque WordPress Headless
                 </Heading>
 
                 <Text fontSize="3xl">
