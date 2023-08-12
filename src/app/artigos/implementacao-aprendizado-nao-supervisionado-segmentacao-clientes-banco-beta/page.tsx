@@ -1,0 +1,30 @@
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Implementação do Aprendizado Não Supervisionado no Banco Beta - Filipe Sales Araujo',
+    description: 'Filipe Sales Araujo explora a implementação do aprendizado não supervisionado, especificamente utilizando o algoritmo k-Nearest Neighbors (kNN), para segmentação de clientes no Banco Beta. Descubra como essa técnica pode aprimorar a personalização do atendimento e melhorar a eficácia das estratégias de marketing.',
+    keywords: 'Filipe Sales Araujo, aprendizado não supervisionado, k-Nearest Neighbors, kNN, Banco Beta, segmentação de clientes, personalização, marketing bancário, hábitos de consumo, serviços bancários'
+}
+
+export default function AprendizadoSegmentacaoBancoBeta(){
+    return(
+        <main>
+            <section className="flex justify-center items-center">
+                <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
+                    <h1 className="text-3xl text-white uppercase">IMPLEMENTAÇÃO DO APRENDIZADO NÃO SUPERVISIONADO PARA SEGMENTAÇÃO DE CLIENTES NO BANCO BETA</h1>
+                    <hr className="text-white"/>
+                    <p className="text-white">A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Através do algoritmo de Aprendizado Não Supervisionado k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes, facilitando a oferta de serviços e produtos adequados às suas necessidades específicas.</p>
+                    <p className="text-white">No cenário em questão, o Banco Beta possui diversas categorias de serviços. A utilização do kNN poderia, por exemplo, agrupar clientes baseado em seus padrões de consumo desses serviços. Clientes que utilizam mais empréstimos podem formar um grupo, aqueles mais ativos em investimentos outro, e assim por diante. O algoritmo kNN opera através da análise da proximidade entre pontos de dados, neste caso, os hábitos de consumo bancário de diferentes clientes.</p>
+                    <p className="text-white">O primeiro passo para a implementação é a coleta e tratamento de dados. Seria necessário identificar variáveis relevantes para a segmentação, como a frequência de uso de cada serviço, a renda, idade, localização geográfica, entre outros. Estes dados precisam ser transformados para serem utilizados no algoritmo, através de técnicas como normalização.</p>
+                    <p className="text-white">Em seguida, uma etapa importante é a seleção de características, que envolve a escolha das variáveis mais relevantes para o modelo. Utilizar todas as variáveis disponíveis pode levar a uma má interpretação dos grupos, pois algumas podem ter pouco impacto na segmentação dos clientes.</p>
+                    <p className="text-white">Uma vez que os grupos são formados, o Banco Beta poderia implementar estratégias específicas de marketing e atendimento para cada um deles, visando aprimorar a personalização e aumentar a satisfação do cliente.</p>
+                    <p className="text-white">A implementação de um algoritmo de aprendizado não supervisionado, como o kNN, no Banco Beta, poderia aprimorar significativamente a personalização do atendimento aos seus clientes. Ao agrupar os clientes em segmentos baseados em seus hábitos de consumo, o banco poderia direcionar ofertas de produtos e serviços mais relevantes para cada grupo, melhorando a eficácia de suas estratégias de marketing e elevando a satisfação do cliente.</p>
+                    <hr className="text-white"/>
+                    <p className="text-white">AHA, D. W.; KIBLER, D.; ALBERT, M. K. Instance-based learning algorithms. Machine Learning, v. 6, n. 1, p. 37-66, 1991.</p>
+                    <p className="text-white">JAIN, A. K.; DUBES, R. C. Algorithms for clustering data. Englewood Cliffs: Prentice-Hall, Inc., 1988.</p>
+                    <p className="text-white">HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. The elements of statistical learning: data mining, inference, and prediction. New York: Springer Science & Business Media, 2009.</p>
+                </div>
+            </section>
+        </main>
+    )
+}
