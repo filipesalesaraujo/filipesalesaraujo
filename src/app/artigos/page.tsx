@@ -1,8 +1,6 @@
 import {Article, WithContext} from "schema-dts";
 
 import Link from "next/link";
-import {Metadata} from "next";
-import Head from "next/head";
 
 export const metadata = {
     title: 'Artigos - Filipe Sales Araujo',
@@ -41,9 +39,7 @@ const jsonLd: WithContext<Article> = {
 export default function Artigos() {
     return (
         <div>
-            <Head>
-                <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}/>
-            </Head>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}/>
             <main>
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
