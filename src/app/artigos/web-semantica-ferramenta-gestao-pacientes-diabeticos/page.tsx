@@ -11,7 +11,7 @@ export default function WebSemanticaGestaoDiabeticos() {
         <main>
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
-                    <h1 className="text-3xl text-white uppercase">A WEB SEM NTICA COMO FERRAMENTA FACILITADORA NA GESTÃO DE PACIENTES DIABÉTICOS</h1>
+                    <h1 className="text-3xl text-white uppercase">A WEB SEMÊNTICA COMO FERRAMENTA FACILITADORA NA GESTÃO DE PACIENTES DIABÉTICOS</h1>
                     <hr className="text-white"/>
                     <p className="text-white">O avanço da Web Semântica na manipulação e interpretação de dados na internet pode transformar profundamente o gerenciamento de doenças crônicas, como o diabetes, alterando a forma como os profissionais de saúde analisam e gerenciam os dados dos pacientes.</p>
                     <p className="text-white">Utilizando padrões como RDF (Resource Description Framework) e OWL (Ontology Web Language), essa tecnologia tem o potencial de oferecer uma visão unificada e facilitada dos dados dos pacientes para os profissionais de saúde. Ela permite a consolidação de informações de glicemia originadas de múltiplos sistemas e formatos, simplificando a tarefa de monitorar a evolução da doença e melhorando a qualidade dos tratamentos ao facilitar a tomada de decisões informadas (Berners-Lee, Hendler & Lassila, 2001; Shadbolt, Berners-Lee & Hall, 2006). A implementação da Web Semântica pode também auxiliar na personalização do tratamento do diabetes, permitindo ajustes de medicação e dieta com base nas tendências individuais de glicemia.</p>
