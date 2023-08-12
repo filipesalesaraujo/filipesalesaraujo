@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 
 export default function AprendizadoReducaoDesperdicioAcacia() {
     return (
-
         <main>
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
@@ -29,7 +28,5 @@ export default function AprendizadoReducaoDesperdicioAcacia() {
                 </div>
             </section>
         </main>
-
-
     )
 }
