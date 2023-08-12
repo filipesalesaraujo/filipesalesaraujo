@@ -23,7 +23,7 @@ export default function BancoNosqlAutomobilistico() {
                     <hr className="text-white"/>
                     <p className="text-white">BANKER, K. MongoDB in Action. Manning Publications Co., 2011.</p>
                     <p className="text-white">HAN, J., PEI, J., KAMBER, M. Data Mining: Concepts and Techniques. 3ª ed. Morgan Kaufmann, 2011.</p>
-                    <p className="text-white">CHODOROW, K. MongoDB: The Definitive Guide. O'Reilly Media, Inc., 2013.</p>
+                    <p className="text-white">CHODOROW, K. MongoDB: The Definitive Guide. O&apos;Reilly Media, Inc., 2013.</p>
                 </div>
             </section>
         </main>

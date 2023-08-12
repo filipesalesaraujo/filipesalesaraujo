@@ -22,7 +22,7 @@ export default function AprendizadoReducaoDesperdicioAcacia() {
                     <hr className="text-white"/>
                     <p className="text-white">ALPAYDIN, E. Introduction to Machine Learning. 3. ed. Cambridge, MA: MIT Press, 2020.</p>
                     <p className="text-white">HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. The Elements of Statistical Learning: Data Mining, Inference, and Prediction. 2. ed. New York: Springer, 2009.</p>
-                    <p className="text-white">KELLEHER, J. D.; MAC NAMEE, B.; D'ARCY, A. Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies. Cambridge, MA: MIT Press, 2015.</p>
+                    <p className="text-white">KELLEHER, J. D.; MAC NAMEE, B.; D&apos;ARCY, A. Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies. Cambridge, MA: MIT Press, 2015.</p>
                     <p className="text-white">RUSSELL, S. J.; NORVIG, P. Artificial Intelligence: A Modern Approach. 3. ed. Upper Saddle River, NJ: Prentice Hall, 2016.</p>
                     <p className="text-white">SOKOLOVA, M.; LAPALME, G. A systematic analysis of performance measures for classification tasks. Information Processing & Management, v. 45, n. 4, p. 427-437, 2009.</p>
                 </div>
