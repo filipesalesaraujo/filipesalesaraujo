@@ -2,9 +2,16 @@ import {Metadata} from "next";
 import {WithContext, Article} from 'schema-dts';
 
 export const metadata: Metadata = {
-    title: 'A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
+    title: 'A web semântica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
     description: 'Filipe Sales Araujo discute a influência da Web Semântica, utilizando padrões como RDF e OWL, na revolução do gerenciamento de doenças crônicas como o diabetes. Descubra como esta tecnologia pode simplificar a interpretação de dados dos pacientes, otimizar o tempo de trabalho dos profissionais de saúde e melhorar a comunicação entre especialistas e pacientes.',
-    keywords: 'Filipe Sales Araujo, Web Semântica, RDF, OWL, gerenciamento de doenças crônicas, diabetes, tratamento personalizado, automação, comunicação em saúde, sistemas de informação, tomada de decisão em saúde'
+    keywords: 'Filipe Sales Araujo, Web Semântica, RDF, OWL, gerenciamento de doenças crônicas, diabetes, tratamento personalizado, automação, comunicação em saúde, sistemas de informação, tomada de decisão em saúde',
+    robots: 'index,follow',
+    openGraph: {
+        title: 'A web semântica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
+        description: 'Filipe Sales Araujo discute a influência da Web Semântica, utilizando padrões como RDF e OWL, na revolução do gerenciamento de doenças crônicas como o diabetes. Descubra como esta tecnologia pode simplificar a interpretação de dados dos pacientes, otimizar o tempo de trabalho dos profissionais de saúde e melhorar a comunicação entre especialistas e pacientes.',
+        type: 'article',
+        url: 'https://filipesalesaraujo.com/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos',
+    }
 }
 
 const jsonLd: WithContext<Article> = {

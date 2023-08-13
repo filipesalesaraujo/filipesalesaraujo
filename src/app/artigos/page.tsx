@@ -51,6 +51,10 @@ export default function Artigos() {
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <h1 className="text-3xl uppercase text-white">ARTIGOS</h1>
                         <div className="flex flex-col gap-5">
+                            <Link href='/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning' className="text-white hover:text-blue-500 transition-colors">Estratégias para implementar modelos de crédito no Banco BHC utilizando programação R e machine learning</Link>
+                            <hr className="text-white "/>
+                            <Link href='/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial' className="text-white hover:text-blue-500 transition-colors">A otimização na resolução do problema das 8 rainhas via inteligência artificial</Link>
+                            <hr className="text-white "/>
                             <Link href='/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude' className="text-white hover:text-blue-500 transition-colors">Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde</Link>
                             <hr className="text-white "/>
                             <Link href='/artigos/implementacao-banco-dados-nosql-industria-automobilistica' className="text-white hover:text-blue-500 transition-colors">Implementação de banco de dados NoSQL na indústria automobilística</Link>

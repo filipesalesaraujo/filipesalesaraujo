@@ -4,7 +4,14 @@ import {WithContext, Article} from 'schema-dts';
 export const metadata: Metadata = {
     title: 'Implementação de Banco de Dados NoSQL na Indústria Automobilística',
     description: 'Neste artigo, é discutida a importância e os benefícios de se implementar um banco de dados NoSQL, especificamente MongoDB, na indústria automobilística. Abordamos os desafios da indústria em lidar com um volume massivo de dados e como o MongoDB pode ser a solução estratégica para esses desafios.',
-    keywords: 'Banco de Dados NoSQL, Indústria Automobilística, MongoDB, Dados Massivos, Estratégia, Escalabilidade, Banco de Dados Orientado a Documentos'
+    keywords: 'Banco de Dados NoSQL, Indústria Automobilística, MongoDB, Dados Massivos, Estratégia, Escalabilidade, Banco de Dados Orientado a Documentos',
+    robots: 'index,follow',
+    openGraph: {
+        title: 'Implementação de Banco de Dados NoSQL na Indústria Automobilística',
+        description: 'Neste artigo, é discutida a importância e os benefícios de se implementar um banco de dados NoSQL, especificamente MongoDB, na indústria automobilística. Abordamos os desafios da indústria em lidar com um volume massivo de dados e como o MongoDB pode ser a solução estratégica para esses desafios.',
+        type: 'article',
+        url: 'https://filipesalesaraujo.com/artigos/implementacao-banco-nosql-industria-automobilistica',
+    }
 }
 
 const jsonLd: WithContext<Article> = {
