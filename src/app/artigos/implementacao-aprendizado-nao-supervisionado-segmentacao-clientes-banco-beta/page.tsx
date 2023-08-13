@@ -1,17 +1,32 @@
 import {Metadata} from "next";
+import {WithContext, Article} from 'schema-dts';
 
 export const metadata: Metadata = {
-    title: 'Implementação do Aprendizado Não Supervisionado no Banco Beta - Filipe Sales Araujo',
-    description: 'Filipe Sales Araujo explora a implementação do aprendizado não supervisionado, especificamente utilizando o algoritmo k-Nearest Neighbors (kNN), para segmentação de clientes no Banco Beta. Descubra como essa técnica pode aprimorar a personalização do atendimento e melhorar a eficácia das estratégias de marketing.',
-    keywords: 'Filipe Sales Araujo, aprendizado não supervisionado, k-Nearest Neighbors, kNN, Banco Beta, segmentação de clientes, personalização, marketing bancário, hábitos de consumo, serviços bancários'
+    title: 'Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta',
+    description: 'A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Utilizando o algoritmo k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes para oferecer serviços personalizados.',
+    keywords: 'Aprendizado Não Supervisionado, k-Nearest Neighbors, kNN, Banco Beta, segmentação de clientes, personalização, serviços bancários'
 }
+
+const jsonLd: WithContext<Article> = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": 'Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta',
+    "description": 'A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Utilizando o algoritmo k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes para oferecer serviços personalizados.',
+    "datePublished": "2023-08-12",
+    "author": {
+        "@type": "Person",
+        "name": "Filipe Sales Araujo"
+    },
+    "articleBody": "A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário... [insira o restante do corpo do artigo aqui]",
+    "keywords": 'Aprendizado Não Supervisionado, k-Nearest Neighbors, kNN, Banco Beta, segmentação de clientes, personalização, serviços bancários'
+};
 
 export default function AprendizadoSegmentacaoBancoBeta(){
     return(
         <main>
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
-                    <h1 className="text-3xl text-white uppercase">IMPLEMENTAÇÃO DO APRENDIZADO NÃO SUPERVISIONADO PARA SEGMENTAÇÃO DE CLIENTES NO BANCO BETA</h1>
+                    <h1 className="text-3xl text-white uppercase">Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta</h1>
                     <hr className="text-white"/>
                     <p className="text-white">A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Através do algoritmo de Aprendizado Não Supervisionado k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes, facilitando a oferta de serviços e produtos adequados às suas necessidades específicas.</p>
                     <p className="text-white">No cenário em questão, o Banco Beta possui diversas categorias de serviços. A utilização do kNN poderia, por exemplo, agrupar clientes baseado em seus padrões de consumo desses serviços. Clientes que utilizam mais empréstimos podem formar um grupo, aqueles mais ativos em investimentos outro, e assim por diante. O algoritmo kNN opera através da análise da proximidade entre pontos de dados, neste caso, os hábitos de consumo bancário de diferentes clientes.</p>

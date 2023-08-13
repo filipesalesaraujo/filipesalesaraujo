@@ -1,10 +1,25 @@
 import {Metadata} from "next";
+import {WithContext, Article} from 'schema-dts';
 
 export const metadata: Metadata = {
-    title: 'Aplicação do Aprendizado de Máquina na Redução do Desperdício - Filipe Sales Araujo',
-    description: 'Filipe Sales Araujo aborda o uso do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde. Explore insights sobre técnicas, aplicação, avaliação de modelos e a contribuição para a sustentabilidade no setor hospitalar.',
-    keywords: 'Filipe Sales Araujo, aprendizado de máquina supervisionado, rede hospitalar Acácia Saúde, desperdício de alimentos, Big Data, inteligência artificial, IA, regressão linear, árvores de decisão, SVM, redes neurais artificiais, precisão, revocação, F1-score'
+    title: 'Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde',
+    description: 'A dissertação aborda as metodologias de aprendizado de máquina supervisionado aplicadas para reduzir o desperdício de alimentos na rede hospitalar Acácia Saúde.',
+    keywords: 'Aprendizado de Máquina Supervisionado, Redução de Desperdício de Alimentos, Rede Hospitalar, Acácia Saúde, Big Data, Inteligência Artificial'
 }
+
+const jsonLd: WithContext<Article> = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": 'Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde',
+    "description": 'A dissertação aborda as metodologias de aprendizado de máquina supervisionado aplicadas para reduzir o desperdício de alimentos na rede hospitalar Acácia Saúde.',
+    "datePublished": "2023-08-12",
+    "author": {
+        "@type": "Person",
+        "name": "Filipe Sales Araujo"
+    },
+    "articleBody": "O desperdício de alimentos é um problema global... [insira o restante do corpo do artigo aqui]",
+    "keywords": 'Aprendizado de Máquina Supervisionado, Redução de Desperdício de Alimentos, Rede Hospitalar, Acácia Saúde, Big Data, Inteligência Artificial',
+};
 
 export default function AprendizadoReducaoDesperdicioAcacia() {
     return (

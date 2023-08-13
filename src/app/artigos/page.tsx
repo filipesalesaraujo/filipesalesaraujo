@@ -1,40 +1,46 @@
-import {Article, WithContext} from "schema-dts";
+import {ItemList, WithContext} from "schema-dts";
 
 import Link from "next/link";
 
 export const metadata = {
     title: 'Artigos - Filipe Sales Araujo',
-    description: 'Explore os artigos de Filipe Sales Araujo, abordando tecnologias e temas como aprendizado de máquina, web semântica, bancos de dados NoSQL e gestão hospitalar. Mantenha-se atualizado com insights especializados.',
+    description: 'Explore os artigos de Filipe Sales Araujo, abordando tecnologias e temas variados, desde aprendizado de máquina até web semântica. Mantenha-se atualizado com insights especializados.',
     keywords: 'Filipe Sales Araujo, artigos, aprendizado de máquina, web semântica, banco de dados NoSQL, gestão hospitalar, análises, insights, tecnologia',
     robots: 'index,follow',
     openGraph: {
         title: 'Artigos - Filipe Sales Araujo',
-        description: 'Explore os artigos de Filipe Sales Araujo, abordando tecnologias e temas como aprendizado de máquina, web semântica, bancos de dados NoSQL e gestão hospitalar. Mantenha-se atualizado com insights especializados.',
+        description: 'Explore os artigos de Filipe Sales Araujo, abordando tecnologias e temas variados. Mantenha-se atualizado com insights especializados.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos',
     }
 }
 
-const jsonLd: WithContext<Article> = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: 'Artigos - Filipe Sales Araujo',
-    description: 'Explore os artigos de Filipe Sales Araujo, abordando tecnologias e temas como aprendizado de máquina, web semântica, bancos de dados NoSQL e gestão hospitalar. Mantenha-se atualizado com insights especializados.',
-    datePublished: "2023-08-12",
-    dateModified: "2023-08-12",
-    author: {
-        '@type': 'Person',
-        name: 'Filipe Sales Araujo'
-    },
-    mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://filipesalesaraujo.com/artigos'
-    },
-    publisher: {
-        '@type': 'Organization',
-        name: 'Filipe Sales Araujo'
-    }
-};
+const jsonLd: WithContext<ItemList> = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://filipesalesaraujo.com/artigos/implementacao-banco-dados-nosql-industria-automobilistica"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta"
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://filipesalesaraujo.com/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos"
+        }
+    ]
+}
 
 export default function Artigos() {
     return (
