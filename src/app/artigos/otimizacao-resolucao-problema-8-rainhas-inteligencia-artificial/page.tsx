@@ -1,5 +1,6 @@
 import {Metadata} from "next";
 import {Article, WithContext} from "schema-dts";
+import Image from "next/image";
 
 export const metadata: Metadata = {
     title: 'A otimização na resolução do problema das 8 rainhas via inteligência artificial',
@@ -28,12 +29,15 @@ const jsonLd: WithContext<Article> = {
     "keywords": '8 rainhas, otimização, inteligência artificial, backtracking, Hill Climbing, algoritmos genéticos'
 };
 
+import featuredImage from '../../../../public/images/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial.png'
+
 export default function Otimizacao8RainhasIA() {
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}/>
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
+                    <Image src={featuredImage} alt="A otimização na resolução do problema das 8 rainhas via inteligência artificial" className="rounded-xl" />
                     <h1 className="text-3xl text-white uppercase">A otimização na resolução do problema das 8 rainhas via inteligência artificial.</h1>
                     <hr className="text-white"/>
                     <p className="text-white">O problema das 8 rainhas é um dos desafios clássicos da computação e da inteligência artificial, demandando formulações precisas e técnicas avançadas para sua solução otimizada (Russell & Norvig, 2010). Com os avanços na área de algoritmos e a crescente importância da otimização em diversos campos da ciência da computação, explorar como as máquinas podem eficientemente resolver tais problemas torna-se não apenas um exercício acadêmico, mas uma necessidade prática. Neste contexto, investigaremos a formulação aprimorada do problema das 8 rainhas e as técnicas contemporâneas de otimização que permitem sua resolução (Eiben & Smith, 2015).</p>
