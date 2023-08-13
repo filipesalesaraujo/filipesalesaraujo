@@ -34,5 +34,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
             url: 'https://filipesalesaraujo.com/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning',
             lastModified: new Date(),
         },
+        {
+            url: 'https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial',
+            lastModified: new Date(),
+        },
     ]
 }
