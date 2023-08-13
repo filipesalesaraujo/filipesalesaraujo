@@ -29,7 +29,7 @@ const jsonLd: WithContext<Article> = {
     "keywords": '8 rainhas, otimização, inteligência artificial, backtracking, Hill Climbing, algoritmos genéticos'
 };
 
-import featuredImage from '../../../../public/images/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial.png'
+import featuredImage from '../../../../public/images/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial.webp'
 
 export default function Otimizacao8RainhasIA() {
     return (
