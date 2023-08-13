@@ -55,7 +55,7 @@ export default function Artigos() {
                             <hr className="text-white "/>
                             <Link href='/artigos/implementacao-banco-dados-nosql-industria-automobilistica' className="text-white hover:text-blue-500 transition-colors">Implementação de banco de dados NoSQL na indústria automobilística</Link>
                             <hr className="text-white"/>
-                            <Link href='/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta' className="text-white hover:text-blue-500 transition-colors">Implementação do aprendizado não supervisionado para segmentação de clientes no banco Beta</Link>
+                            <Link href='/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta' className="text-white hover:text-blue-500 transition-colors">Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta</Link>
                             <hr className="text-white"/>
                             <Link href='/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos' className="text-white hover:text-blue-500 transition-colors">A web semântica como ferramenta facilitadora na gestão de pacientes diabéticos</Link>
                         </div>
