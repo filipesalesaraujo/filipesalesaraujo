@@ -8,6 +8,7 @@ export default function Header() {
                     <ul className="flex gap-5">
                         <li><Link href='/' className="text-white hover:text-blue-500 transition-colors">Início</Link></li>
                         <li><Link href='/artigos' className="text-white hover:text-blue-500 transition-colors">Artigos</Link></li>
+                        <li><Link href='/contato' className="text-white hover:text-blue-500 transition-colors">Contato</Link></li>
                     </ul>
                 </nav>
             </div>

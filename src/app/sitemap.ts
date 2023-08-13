@@ -11,6 +11,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
         },
         {
+            url: 'https://filipesalesaraujo.com/contato',
+            lastModified: new Date(),
+        },
+        {
             url: 'https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude',
             lastModified: new Date(),
         },

@@ -2,7 +2,7 @@ import {Metadata} from "next";
 import {Person, WithContext} from "schema-dts";
 
 export const metadata: Metadata = {
-    title: 'Filipe Sales Araujo - Sobre Mim',
+    title: 'Filipe Sales Araujo',
     description: 'Conheça Filipe Sales Araujo, com formação inicial em Educação Física, e sua transição para a Ciência da Computação. Atualmente, ele se aprofunda na Ciência de Dados e tem uma paixão pelo desenvolvimento web, incluindo ferramentas como Next.js, WordPress Headless e Tailwind CSS.',
     keywords: 'Filipe Sales Araujo, Educação Física, Ciência da Computação, Ciência de Dados, Next.js, WordPress Headless, Tailwind CSS, Vite, Chakra UI',
     robots: 'index,follow',
