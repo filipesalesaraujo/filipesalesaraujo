@@ -1,5 +1,6 @@
 import {Metadata} from "next";
 import {Article, WithContext} from "schema-dts";
+import Image from "next/image";
 
 export const metadata: Metadata = {
     title: 'Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC - Filipe Sales Araujo',
@@ -28,12 +29,15 @@ const jsonLd: WithContext<Article> = {
     "keywords": 'Programação R, Machine Learning, Banco BHC, análise de crédito, avaliação de clientes, otimização, sistema financeiro'
 };
 
+import featuredImage from "../../../../public/images/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning.webp";
+
 export default function ImplementacaoModeloCreditoBHCRML() {
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}/>
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
+                    <Image src={featuredImage} alt="Estratégias para implementar modelos de crédito no Banco BHC utilizando programação R e machine learning" className="rounded-xl" />
                     <h1 className="text-3xl text-white uppercase">Estratégias para implementar modelos de crédito no Banco BHC utilizando programação R e machine learning</h1>
                     <hr className="text-white"/>
                     <p className="text-white">No cenário competitivo do sistema financeiro atual, a combinação da Programação R, especializada em análise estatística, com o Machine Learning é crucial para otimização da análise de crédito (Breiman, 2001). O Banco BHC busca integrar estas ferramentas para estabelecer um sistema mais ágil e eficiente de avaliação de clientes.</p>

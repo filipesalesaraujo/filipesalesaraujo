@@ -1,5 +1,6 @@
 import {Metadata} from "next";
 import {WithContext, Article} from 'schema-dts';
+import Image from "next/image";
 
 export const metadata: Metadata = {
     title: 'A web semântica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
@@ -28,6 +29,8 @@ const jsonLd: WithContext<Article> = {
     "keywords": 'Filipe Sales Araujo, Web Semântica, RDF, OWL, gerenciamento de doenças crônicas, diabetes, tratamento personalizado, automação, comunicação em saúde, sistemas de informação, tomada de decisão em saúde'.split(', '),
 };
 
+import featuredImage from '../../../../public/images/web-semantica-ferramenta-gestao-pacientes-diabeticos.webp'
+
 export default function WebSemanticaGestaoDiabeticos() {
     return (
         <div>
@@ -35,6 +38,7 @@ export default function WebSemanticaGestaoDiabeticos() {
             <main>
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
+                        <Image src={featuredImage} alt="A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos" className="rounded-xl" />
                         <h1 className="text-3xl text-white uppercase">A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos</h1>
                         <hr className="text-white"/>
                         <p className="text-white">O avanço da Web Semântica na manipulação e interpretação de dados na internet pode transformar profundamente o gerenciamento de doenças crônicas, como o diabetes, alterando a forma como os profissionais de saúde analisam e gerenciam os dados dos pacientes.</p>

@@ -1,5 +1,6 @@
 import {Metadata} from "next";
 import {WithContext, Article} from 'schema-dts';
+import Image from "next/image";
 
 export const metadata: Metadata = {
     title: 'Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde - Filipe Sales Araujo',
@@ -28,6 +29,8 @@ const jsonLd: WithContext<Article> = {
     "keywords": 'Aprendizado de Máquina Supervisionado, Redução de Desperdício de Alimentos, Rede Hospitalar, Acácia Saúde, Big Data, Inteligência Artificial',
 };
 
+import featuredImage from "../../../../public/images/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude.webp";
+
 export default function AprendizadoReducaoDesperdicioAcacia() {
     return (
         <div>
@@ -35,6 +38,7 @@ export default function AprendizadoReducaoDesperdicioAcacia() {
             <main>
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
+                        <Image src={featuredImage} alt="Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde" className="rounded-xl" />
                         <h1 className="text-3xl text-white uppercase">Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde</h1>
                         <hr className="text-white"/>
                         <p className="text-white">O desperdício de alimentos é um problema global que atinge diversos setores, inclusive a área da saúde. A rede hospitalar Acácia Saúde, com mais de 100 unidades, enfrenta esse desafio, gerando impactos financeiros e ambientais negativos. Diante disso, foi proposto o objetivo de encontrar uma solução para essa problemática a partir do uso do aprendizado de máquina supervisionado e ferramentas de Big Data e inteligência artificial (IA). Esta dissertação abordará as metodologias de aprendizado de máquina supervisionado aplicadas na redução do desperdício de alimentos na rede hospitalar Acácia Saúde. </p>

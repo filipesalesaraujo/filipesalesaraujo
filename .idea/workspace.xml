@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ba400ad-b217-4ce2-a717-09e744f7adee" name="Changes" comment=":duck:">
-      <change afterPath="$PROJECT_DIR$/public/images/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/implementacao-banco-dados-nosql-industria-automobilistica.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/web-semantica-ferramenta-gestao-pacientes-diabeticos.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/implementacao-banco-dados-nosql-industria-automobilistica/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/implementacao-banco-dados-nosql-industria-automobilistica/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +85,7 @@
       <workItem from="1679192172294" duration="185000" />
       <workItem from="1679407296111" duration="47000" />
       <workItem from="1691863484994" duration="6244000" />
-      <workItem from="1691870526841" duration="23039000" />
+      <workItem from="1691870526841" duration="26551000" />
     </task>
     <task id="LOCAL-00001" summary=":duck:">
       <created>1679019934340</created>
@@ -181,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691963812756</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1691968253907</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691968253907</updated>
+    </task>
+    <task id="LOCAL-00015" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1691968336259</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691968336259</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
