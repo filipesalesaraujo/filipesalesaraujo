@@ -7,12 +7,36 @@ export const metadata: Metadata = {
     title: 'Contato - Filipe Sales Araujo',
     description: 'Entre em contato com Filipe Sales Araujo. Estou sempre aberto a ouvir feedbacks, propostas de projetos e outras oportunidades.',
     keywords: 'Filipe Sales Araujo, contato, feedback, proposta de projeto, oportunidades',
-    robots: 'index,follow',
+    robots: {
+        follow: true,
+        index: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+        },
+    },
+    alternates: {
+        canonical: 'https://filipesalesaraujo.com/contato',
+        languages: {
+            'pt-BR': 'https://filipesalesaraujo.com/contato'
+        }
+    },
+    category: 'technology',
     openGraph: {
         title: 'Contato - Filipe Sales Araujo',
         description: 'Entre em contato com Filipe Sales Araujo. Estou sempre aberto a ouvir feedbacks, propostas de projetos e outras oportunidades.',
         type: 'website',
         url: 'https://filipesalesaraujo.com/contato',
+        images: [
+            {
+                url: 'https://filipesalesaraujo.com/images/open-graph-image.webp',
+                width: 1024,
+                height: 1024,
+            }
+        ],
+        locale: "pt_BR",
+        siteName: 'Filipe Sales Araujo'
     }
 }
 

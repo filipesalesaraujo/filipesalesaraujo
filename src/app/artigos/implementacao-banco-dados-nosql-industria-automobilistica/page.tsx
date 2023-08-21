@@ -6,12 +6,39 @@ export const metadata: Metadata = {
     title: 'Implementação de Banco de Dados NoSQL na Indústria Automobilística',
     description: 'Neste artigo, é discutida a importância e os benefícios de se implementar um banco de dados NoSQL, especificamente MongoDB, na indústria automobilística. Abordamos os desafios da indústria em lidar com um volume massivo de dados e como o MongoDB pode ser a solução estratégica para esses desafios.',
     keywords: 'Banco de Dados NoSQL, Indústria Automobilística, MongoDB, Dados Massivos, Estratégia, Escalabilidade, Banco de Dados Orientado a Documentos',
-    robots: 'index,follow',
+    robots: {
+        follow: true,
+        index: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+        },
+    },
+    authors: {
+        name: 'Filipe Sales Araujo',
+    },
+    alternates: {
+        canonical: 'https://filipesalesaraujo.com/artigos/implementacao-banco-nosql-industria-automobilistica',
+        languages: {
+            'pt-BR': 'https://filipesalesaraujo.com/artigos/implementacao-banco-nosql-industria-automobilistica'
+        }
+    },
+    category: 'technology',
     openGraph: {
         title: 'Implementação de Banco de Dados NoSQL na Indústria Automobilística',
         description: 'Neste artigo, é discutida a importância e os benefícios de se implementar um banco de dados NoSQL, especificamente MongoDB, na indústria automobilística. Abordamos os desafios da indústria em lidar com um volume massivo de dados e como o MongoDB pode ser a solução estratégica para esses desafios.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/implementacao-banco-nosql-industria-automobilistica',
+        images: [
+            {
+                url: 'https://filipesalesaraujo.com/images/open-graph-image.webp',
+                width: 1024,
+                height: 1024,
+            }
+        ],
+        locale: "pt_BR",
+        siteName: 'Filipe Sales Araujo'
     }
 }
 
@@ -38,7 +65,7 @@ export default function BancoNosqlAutomobilistico() {
             <main>
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
-                        <Image src={featuredImage} alt="Implementação de banco de dados nosql na indústria automobilística" className="rounded-xl" />
+                        <Image src={featuredImage} alt="Implementação de banco de dados nosql na indústria automobilística" className="rounded-xl"/>
                         <h1 className="text-3xl text-white uppercase">Implementação de banco de dados nosql na indústria automobilística</h1>
                         <hr className="text-white"/>
                         <p className="text-white">No cenário contemporâneo de coleta de dados massiva, uma indústria automobilística multinacional se depara com o desafio de integrar e armazenar variados tipos de dados. Devido à complexidade, variedade e volume desses dados, os tradicionais bancos de dados relacionais mostram-se limitados, justificando a necessidade de uma solução mais escalável e distribuída.</p>

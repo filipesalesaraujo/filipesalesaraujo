@@ -6,12 +6,39 @@ export const metadata = {
     title: 'Artigos - Filipe Sales Araujo',
     description: 'Explore os artigos de Filipe Sales Araujo, abordando tecnologias e temas variados, desde aprendizado de máquina até web semântica. Mantenha-se atualizado com insights especializados.',
     keywords: 'Filipe Sales Araujo, artigos, aprendizado de máquina, web semântica, banco de dados NoSQL, gestão hospitalar, análises, insights, tecnologia',
-    robots: 'index,follow',
+    robots: {
+        follow: true,
+        index: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+        },
+    },
+    authors: {
+        name: 'Filipe Sales Araujo',
+    },
+    alternates: {
+        canonical: 'https://filipesalesaraujo.com/artigos',
+        languages: {
+            'pt-BR': 'https://filipesalesaraujo.com/artigos'
+        }
+    },
+    category: 'technology',
     openGraph: {
         title: 'Artigos - Filipe Sales Araujo',
         description: 'Explore os artigos de Filipe Sales Araujo, abordando tecnologias e temas variados. Mantenha-se atualizado com insights especializados.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos',
+        images: [
+            {
+                url: 'https://filipesalesaraujo.com/images/open-graph-image.webp',
+                width: 1024,
+                height: 1024,
+            }
+        ],
+        locale: "pt_BR",
+        siteName: 'Filipe Sales Araujo'
     }
 }
 

@@ -6,12 +6,39 @@ export const metadata: Metadata = {
     title: 'A otimização na resolução do problema das 8 rainhas via inteligência artificial',
     description: 'O problema das 8 rainhas é um dos desafios clássicos da computação e da inteligência artificial, demandando formulações precisas e técnicas avançadas para sua solução otimizada.',
     keywords: '8 rainhas, otimização, inteligência artificial, backtracking, Hill Climbing, algoritmos genéticos',
-    robots: 'index,follow',
+    robots: {
+        follow: true,
+        index: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+        },
+    },
+    authors: {
+        name: 'Filipe Sales Araujo',
+    },
+    alternates: {
+        canonical: 'https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial',
+        languages: {
+            'pt-BR': 'https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial'
+        }
+    },
+    category: 'technology',
     openGraph: {
         title: 'A otimização na resolução do problema das 8 rainhas via inteligência artificial',
         description: 'O problema das 8 rainhas é um dos desafios clássicos da computação e da inteligência artificial, demandando formulações precisas e técnicas avançadas para sua solução otimizada.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial',
+        images: [
+            {
+                url: 'https://filipesalesaraujo.com/images/open-graph-image.webp',
+                width: 1024,
+                height: 1024,
+            }
+        ],
+        locale: "pt_BR",
+        siteName: 'Filipe Sales Araujo'
     }
 }
 

@@ -6,12 +6,39 @@ export const metadata: Metadata = {
     title: 'Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde - Filipe Sales Araujo',
     description: 'A dissertação aborda as metodologias de aprendizado de máquina supervisionado aplicadas para reduzir o desperdício de alimentos na rede hospitalar Acácia Saúde.',
     keywords: 'Filipe Sales Araujo, Aprendizado de Máquina Supervisionado, Redução de Desperdício de Alimentos, Rede Hospitalar, Acácia Saúde, Big Data, Inteligência Artificial',
-    robots: 'index,follow',
+    robots: {
+        follow: true,
+        index: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+        },
+    },
+    authors: {
+        name: 'Filipe Sales Araujo',
+    },
+    alternates: {
+        canonical: 'https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude',
+        languages: {
+            'pt-BR': 'https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude'
+        }
+    },
+    category: 'technology',
     openGraph: {
         title: 'Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde - Filipe Sales Araujo',
         description: 'A dissertação aborda as metodologias de aprendizado de máquina supervisionado aplicadas para reduzir o desperdício de alimentos na rede hospitalar Acácia Saúde.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude',
+        images: [
+            {
+                url: 'https://filipesalesaraujo.com/images/open-graph-image.webp',
+                width: 1024,
+                height: 1024,
+            }
+        ],
+        locale: "pt_BR",
+        siteName: 'Filipe Sales Araujo'
     }
 }
 

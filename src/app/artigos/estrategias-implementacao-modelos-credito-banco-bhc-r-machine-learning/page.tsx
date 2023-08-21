@@ -6,12 +6,39 @@ export const metadata: Metadata = {
     title: 'Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC - Filipe Sales Araujo',
     description: 'No cenário competitivo do sistema financeiro atual, a combinação da Programação R com o Machine Learning é crucial para otimizar a análise de crédito. O Banco BHC almeja a integração dessas ferramentas para aprimorar sua avaliação de clientes.',
     keywords: 'Filipe Sales Araujo, Programação R, Machine Learning, Banco BHC, análise de crédito, avaliação de clientes, otimização, sistema financeiro',
-    robots: 'index,follow',
+    robots: {
+        follow: true,
+        index: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+        },
+    },
+    authors: {
+        name: 'Filipe Sales Araujo',
+    },
+    alternates: {
+        canonical: 'https://filipesalesaraujo.com/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning',
+        languages: {
+            'pt-BR': 'https://filipesalesaraujo.com/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning'
+        }
+    },
+    category: 'technology',
     openGraph: {
         title: 'Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC - Filipe Sales Araujo',
         description: 'No cenário competitivo do sistema financeiro atual, a combinação da Programação R com o Machine Learning é crucial para otimizar a análise de crédito. O Banco BHC almeja a integração dessas ferramentas para aprimorar sua avaliação de clientes.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning',
+        images: [
+            {
+                url: 'https://filipesalesaraujo.com/images/open-graph-image.webp',
+                width: 1024,
+                height: 1024,
+            }
+        ],
+        locale: "pt_BR",
+        siteName: 'Filipe Sales Araujo'
     }
 }
 

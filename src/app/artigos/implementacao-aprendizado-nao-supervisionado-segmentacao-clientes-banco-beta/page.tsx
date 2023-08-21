@@ -6,12 +6,39 @@ export const metadata: Metadata = {
     title: 'Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta - Filipe Sales Araujo',
     description: 'A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Utilizando o algoritmo k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes para oferecer serviços personalizados.',
     keywords: 'Filipe Sales Araujo, Aprendizado Não Supervisionado, k-Nearest Neighbors, kNN, Banco Beta, segmentação de clientes, personalização, serviços bancários',
-    robots: 'index,follow',
+    robots: {
+        follow: true,
+        index: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+        },
+    },
+    authors: {
+        name: 'Filipe Sales Araujo',
+    },
+    alternates: {
+        canonical: 'https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta',
+        languages: {
+            'pt-BR': 'https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta'
+        }
+    },
+    category: 'technology',
     openGraph: {
         title: 'Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta - Filipe Sales Araujo',
         description: 'A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Utilizando o algoritmo k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes para oferecer serviços personalizados.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta',
+        images: [
+            {
+                url: 'https://filipesalesaraujo.com/images/open-graph-image.webp',
+                width: 1024,
+                height: 1024,
+            }
+        ],
+        locale: "pt_BR",
+        siteName: 'Filipe Sales Araujo'
     }
 }
 

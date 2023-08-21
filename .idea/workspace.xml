@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ba400ad-b217-4ce2-a717-09e744f7adee" name="Changes" comment=":duck:">
-      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/open-graph-image.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/implementacao-banco-dados-nosql-industria-automobilistica/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/implementacao-banco-dados-nosql-industria-automobilistica/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contato/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contato/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,31 +35,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2N7Ze9TQTorAxEYHVPBAzgxJTx7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "prod",
-    "last_opened_file_path": "D:/ws/filipesalesaraujo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "ts.external.directory.path": "C:\\Users\\filip\\OneDrive\\Documentos\\GitHub\\ws-webstorm\\filipesalesaraujo\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;prod&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ws/filipesalesaraujo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\ws\\filipesalesaraujo\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\filip\OneDrive\Documentos\GitHub\ws-webstorm\filipesalesaraujo\src\app" />
@@ -75,7 +85,8 @@
       <workItem from="1679407296111" duration="47000" />
       <workItem from="1691863484994" duration="6244000" />
       <workItem from="1691870526841" duration="26551000" />
-      <workItem from="1692656428996" duration="31000" />
+      <workItem from="1692656428996" duration="1238000" />
+      <workItem from="1692659566553" duration="2603000" />
     </task>
     <task id="LOCAL-00001" summary=":duck:">
       <created>1679019934340</created>
@@ -195,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691968336259</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1692656468390</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692656468390</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

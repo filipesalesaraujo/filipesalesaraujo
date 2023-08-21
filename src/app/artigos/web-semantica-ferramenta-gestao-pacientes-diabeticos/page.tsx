@@ -6,12 +6,39 @@ export const metadata: Metadata = {
     title: 'A web semântica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
     description: 'Filipe Sales Araujo discute a influência da Web Semântica, utilizando padrões como RDF e OWL, na revolução do gerenciamento de doenças crônicas como o diabetes. Descubra como esta tecnologia pode simplificar a interpretação de dados dos pacientes, otimizar o tempo de trabalho dos profissionais de saúde e melhorar a comunicação entre especialistas e pacientes.',
     keywords: 'Filipe Sales Araujo, Web Semântica, RDF, OWL, gerenciamento de doenças crônicas, diabetes, tratamento personalizado, automação, comunicação em saúde, sistemas de informação, tomada de decisão em saúde',
-    robots: 'index,follow',
+    robots: {
+        follow: true,
+        index: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+        },
+    },
+    authors: {
+        name: 'Filipe Sales Araujo',
+    },
+    alternates: {
+        canonical: 'https://filipesalesaraujo.com/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos',
+        languages: {
+            'pt-BR': 'https://filipesalesaraujo.com/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos'
+        }
+    },
+    category: 'technology',
     openGraph: {
         title: 'A web semântica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
         description: 'Filipe Sales Araujo discute a influência da Web Semântica, utilizando padrões como RDF e OWL, na revolução do gerenciamento de doenças crônicas como o diabetes. Descubra como esta tecnologia pode simplificar a interpretação de dados dos pacientes, otimizar o tempo de trabalho dos profissionais de saúde e melhorar a comunicação entre especialistas e pacientes.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos',
+        images: [
+            {
+                url: 'https://filipesalesaraujo.com/images/open-graph-image.webp',
+                width: 1024,
+                height: 1024,
+            }
+        ],
+        locale: "pt_BR",
+        siteName: 'Filipe Sales Araujo'
     }
 }
 
