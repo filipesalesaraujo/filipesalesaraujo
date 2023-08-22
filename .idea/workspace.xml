@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ba400ad-b217-4ce2-a717-09e744f7adee" name="Changes" comment=":duck:">
-      <change afterPath="$PROJECT_DIR$/public/images/open-graph-image.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/artigos/implementacao-banco-dados-nosql-industria-automobilistica/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/implementacao-banco-dados-nosql-industria-automobilistica/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/artigos/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contato/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contato/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +77,7 @@
       <workItem from="1691863484994" duration="6244000" />
       <workItem from="1691870526841" duration="26551000" />
       <workItem from="1692656428996" duration="1238000" />
-      <workItem from="1692659566553" duration="2603000" />
+      <workItem from="1692659566553" duration="3299000" />
     </task>
     <task id="LOCAL-00001" summary=":duck:">
       <created>1679019934340</created>
@@ -214,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692656468390</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1692662216985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692662216985</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
