@@ -45,25 +45,41 @@ export const metadata = {
 const jsonLd: WithContext<ItemList> = {
     "@context": "https://schema.org",
     "@type": "ItemList",
+    "name": "Artigos",
     "itemListElement": [
         {
             "@type": "ListItem",
             "position": 1,
-            "url": "https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude"
+            "url": "https://filipesalesaraujo.com/artigos/sintaxe-semantica-linguagens-programacao"
         },
         {
             "@type": "ListItem",
             "position": 2,
-            "url": "https://filipesalesaraujo.com/artigos/implementacao-banco-dados-nosql-industria-automobilistica"
+            "url": "https://filipesalesaraujo.com/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning"
         },
         {
             "@type": "ListItem",
             "position": 3,
-            "url": "https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta"
+            "url": "https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial"
         },
         {
             "@type": "ListItem",
             "position": 4,
+            "url": "https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude"
+        },
+        {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://filipesalesaraujo.com/artigos/implementacao-banco-dados-nosql-industria-automobilistica"
+        },
+        {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta"
+        },
+        {
+            "@type": "ListItem",
+            "position": 7,
             "url": "https://filipesalesaraujo.com/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos"
         }
     ]
@@ -78,6 +94,8 @@ export default function Artigos() {
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <h1 className="text-3xl uppercase text-white">ARTIGOS</h1>
                         <div className="flex flex-col gap-5">
+                            <Link href='/artigos/sintaxe-semantica-linguagens-programacao' className="text-white hover:text-blue-500 transition-colors">Sintaxe e semântica em linguagens de programação: entendendo a estrutura e o significado no código</Link>
+                            <hr className="text-white "/>
                             <Link href='/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning' className="text-white hover:text-blue-500 transition-colors">Estratégias para implementar modelos de crédito no Banco BHC utilizando programação R e machine learning</Link>
                             <hr className="text-white "/>
                             <Link href='/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial' className="text-white hover:text-blue-500 transition-colors">A otimização na resolução do problema das 8 rainhas via inteligência artificial</Link>
