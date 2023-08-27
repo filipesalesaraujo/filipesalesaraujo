@@ -57,6 +57,7 @@ const jsonLd: WithContext<Person> = {
 };
 
 import dominandoNextjsImage from '../../public/images/dominando-nextjs.webp'
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -85,6 +86,8 @@ export default function Home() {
                             <li><strong>SEO Aprimorado:</strong> Com a crescente necessidade de visibilidade online, o Next.js traz ferramentas de otimização para mecanismos de busca, ampliando a presença online e impactando positivamente o alcance dos projetos.</li>
                         </ul>
 
+                        <Link href="/contato" className="bg-indigo-500 bg-opacity-50 hover:bg-opacity-80 text-zinc-100 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer aumentar a velocidade do seu site?</Link>
+
                         <hr/>
 
                         <h3 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Expertise em Page Speed</h3>
@@ -97,6 +100,7 @@ export default function Home() {
                             <li><strong>Adaptabilidade a Redes Diversas:</strong> Em regiões ou situações onde a conexão à Internet pode ser instável ou lenta, um site otimizado pode ainda assim oferecer uma experiência satisfatória.</li>
                         </ul>
                         <p className="text-gray-300">Por isso, dedica-se um esforço redobrado em garantir excelentes pontuações no Page Speed. O objetivo não é apenas ter um site que carrega rapidamente, mas criar plataformas que ofereçam a melhor experiência possível, otimizem recursos e maximizem o retorno sobre o investimento.</p>
+                        <Link href="/contato" className="bg-cyan-500 bg-opacity-50 hover:bg-opacity-80 text-zinc-100 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer melhorar a performance do seu site?</Link>
 
                         <hr/>
 
@@ -110,6 +114,7 @@ export default function Home() {
                             <li><strong>Entendimento do Público:</strong> Com o Search Console, é possível ver de que países os usuários estão vindo, em quais dispositivos eles estão navegando e muito mais. Isso permite adaptar o conteúdo para atender melhor às necessidades e expectativas do público-alvo.</li>
                         </ul>
                         <p className="text-gray-300">Desta forma, ao utilizar o Search Console, não se está apenas monitorando a presença de um site nos motores de busca. Está-se ativamente moldando e aperfeiçoando essa presença, assegurando que o site não apenas exista, mas também seja visível, relevante e altamente sintonizado com as necessidades de seu público.</p>
+                        <Link href="/contato" className="bg-emerald-500 bg-opacity-50 hover:bg-opacity-80 text-zinc-100 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer aumentar a visibilidade do seu site nos mecanismos de busca?</Link>
 
                         <hr/>
 
@@ -122,6 +127,7 @@ export default function Home() {
                             <li><strong>Integrações e Flexibilidade:</strong> A capacidade de integrar o GA4 com outras ferramentas e plataformas é vital. Isso proporciona uma visão holística, combinando dados de diferentes fontes e aplicando insights em várias plataformas.</li>
                             <li><strong>Machine Learning Integrado:</strong> As capacidades de aprendizado de máquina do GA4 auxiliam na detecção de tendências e padrões sutis que podem não ser imediatamente aparentes. Isso se traduz em previsões mais precisas e insights mais profundos.</li>
                         </ul>
+                        <Link href="/contato" className="bg-amber-500 bg-opacity-50 hover:bg-opacity-80 text-zinc-100 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer entender melhor o comportamento dos usuários no seu site?</Link>
 
                         <hr/>
 
@@ -135,6 +141,7 @@ export default function Home() {
                             <li><strong>Otimização de Performance e Escala: À medida que os sites crescem, manter uma performance aceitável se torna um desafio. Mas com o Tailwind, a escalabilidade não é uma preocupação. Ele otimiza o site para carregar rapidamente, mesmo em situações onde há uma grande quantidade de estilos e componentes envolvidos.</strong></li>
                             <li><strong>Abordagem Versátil:</strong> O mundo do desenvolvimento web está repleto de ferramentas e abordagens. Enquanto algumas são rígidas, o Tailwind CSS oferece uma base utilitária que pode ser expandida. Se for necessário algo mais específico ou customizado, ainda tenho a opção de integrar soluções como CSS-in-JS, tornando minha abordagem não apenas poderosa, mas também versátil.</li>
                         </ul>
+                        <Link href="/contato" className="bg-violet-500 bg-opacity-50 hover:bg-opacity-80 text-zinc-100 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer criar designs responsivos e visualmente atraentes?</Link>
 
                         <hr />
 
@@ -150,6 +157,7 @@ export default function Home() {
                             <li><strong>Facilidade de Integração:</strong> A abordagem headless facilita a integração com frameworks modernos, como React ou Vue, permitindo a criação de aplicações interativas e inovadoras.</li>
                             <li><strong>Escalabilidade Aprimorada:</strong> Ao se integrar com CDNs modernas, o WordPress headless está mais apto para lidar com grandes volumes de tráfego, garantindo performance constante mesmo sob demanda intensa.</li>
                         </ul>
+                        <Link href="/contato" className="bg-blue-500 bg-opacity-50 hover:bg-opacity-80 text-zinc-100 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer aderir ao Next.js sem deixar de utilizar seu WordPress existente?</Link>
 
                     </div>
                 </section>

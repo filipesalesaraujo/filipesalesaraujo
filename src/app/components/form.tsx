@@ -36,21 +36,22 @@ export default function Form() {
         <form id="emailForm" method="post" className="flex flex-col gap-5" onSubmit={sendEmail}>
             <div className="flex flex-col gap-1">
                 <label htmlFor="nome" className="text-white">Nome:</label>
-                <input id="nome" type="text" name="nome" className="outline-0 bg-white border-white border-2 focus:border-blue-500 p-1 rounded-sm transition-colors"/>
+                <input id="nome" type="text" name="nome" className="text-zinc-300 outline-0 bg-zinc-800 border-white border-{1px} border-zinc-800 p-2 rounded-sm transition-colors border-[1px] focus:border-zinc-300"/>
             </div>
             <div className="flex flex-col gap-1">
                 <label htmlFor="email" className="text-white">E-mail:</label>
-                <input id="email" type="email" name="email" className="outline-0 bg-white border-white border-2 focus:border-blue-500 p-1 rounded-sm transition-colors"/>
+                <input id="email" type="email" name="email" className="text-zinc-300 outline-0 bg-zinc-800 border-white border-{1px} border-zinc-800 p-2 rounded-sm transition-colors border-[1px] focus:border-zinc-300"/>
             </div>
             <div className="flex flex-col gap-1">
                 <label htmlFor="assunto" className="text-white">Assunto:</label>
-                <input id="assunto" type="text" name="assunto" className="outline-0 bg-white border-white border-2 focus:border-blue-500 p-1 rounded-sm transition-colors"/>
+                <input id="assunto" type="text" name="assunto" className="text-zinc-300 outline-0 bg-zinc-800 border-white border-{1px} border-zinc-800 p-2 rounded-sm transition-colors border-[1px] focus:border-zinc-300"/>
             </div>
             <div className="flex flex-col gap-1">
                 <label htmlFor="mensagem" className="text-white">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" className="outline-0 bg-white border-white border-2 focus:border-blue-500 p-1 rounded-sm transition-colors"></textarea>
+                <textarea id="mensagem" name="mensagem" className="text-zinc-300 outline-0 bg-zinc-800 border-white border-{1px} border-zinc-800 p-2 rounded-sm transition-colors border-[1px] focus:border-zinc-300"></textarea>
             </div>
-            <button className="bg-blue-500 rounded-sm text-white text-xl hover:bg-blue-600 transition-colors" type="submit">Enviar</button>
+
+            <button className="bg-zinc-400 text-zinc-800 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-900 hover:bg-zinc-500 transition-colors" type="submit">Enviar</button>
         </form>
     );
 }
