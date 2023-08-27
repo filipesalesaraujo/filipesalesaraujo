@@ -78,11 +78,11 @@ export default function ImportanciaDoWebpDesempenhoPagesPagespeedInsights() {
                         <h6 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Adotando o Futuro: WEBP como Padrão de Otimização Digital</h6>
                         <p className="text-gray-300">Em uma era onde cada milissegundo conta, o formato WEBP emerge como uma inovação vital para a otimização da web. Combinando qualidade e compressão, ele atende às demandas contemporâneas de desempenho e estética, estabelecendo-se como uma ferramenta indispensável para o futuro do design e desenvolvimento web (Tanner, 2018).</p>
                         <p className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Referências Bibliográficas</p>
-                        <p className="text-gray-300">SOUDERS, S. <strong>High Performance Web Sites.</strong> O'Reilly Media, 2007.</p>
+                        <p className="text-gray-300">SOUDERS, S. <strong>High Performance Web Sites.</strong> O&apos;Reilly Media, 2007.</p>
                         <p className="text-gray-300">SMITH, J. <strong>Website Optimization:</strong> An Hour a Day. Sybex, 2012.</p>
-                        <p className="text-gray-300">GRIGSBY, J. <strong>Web Performance:</strong> The Definitive Guide. O'Reilly Media, 2013.</p>
-                        <p className="text-gray-300">FARRELL, S.; GARCIA, M. <strong>Web Performance Daybook Volume 2.</strong> O'Reilly Media, 2015.</p>
-                        <p className="text-gray-300">GUYER, C. <strong>High Performance Images:</strong> Shrink, Load, and Deliver Images for Speed. O'Reilly Media, 2016.</p>
+                        <p className="text-gray-300">GRIGSBY, J. <strong>Web Performance:</strong> The Definitive Guide. O&apos;Reilly Media, 2013.</p>
+                        <p className="text-gray-300">FARRELL, S.; GARCIA, M. <strong>Web Performance Daybook Volume 2.</strong> O&apos;Reilly Media, 2015.</p>
+                        <p className="text-gray-300">GUYER, C. <strong>High Performance Images:</strong> Shrink, Load, and Deliver Images for Speed. O&apos;Reilly Media, 2016.</p>
                         <p className="text-gray-300">TANNER, L. <strong>Optimizing Web Performance.</strong> Apress, 2018.</p>
                     </div>
                 </section>
