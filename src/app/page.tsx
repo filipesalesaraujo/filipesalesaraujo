@@ -90,8 +90,8 @@ export default function Home() {
                         </div>
 
                         <div className="gap-5 flex flex-col">
-                            <h3 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Expertise em Page Speed</h3>
-                            <p className="text-gray-300">Um site rápido não é apenas agradável aos olhos; é vital para a retenção de usuários. Estudos mostram que cada segundo a mais no tempo de carregamento pode levar a uma significativa taxa de abandono. Os benefícios de uma excelente pontuação no Page Speed vão além do simples engajamento do usuário:</p>
+                            <h3 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Expertise em PageSpeed Insights</h3>
+                            <p className="text-gray-300">Um site rápido não é apenas agradável aos olhos; é vital para a retenção de usuários. Estudos mostram que cada segundo a mais no tempo de carregamento pode levar a uma significativa taxa de abandono. Os benefícios de uma excelente pontuação no PageSpeed Insights vão além do simples engajamento do usuário:</p>
                             <ul className="text-gray-300 flex flex-col gap-5 list-disc pl-5">
                                 <li><strong>Melhor Ranking em Buscadores:</strong> Mecanismos de busca, como o Google, priorizam sites que carregam rapidamente. Um site otimizado tem maior probabilidade de aparecer nas primeiras posições em resultados de busca, trazendo mais tráfego orgânico.</li>
                                 <li><strong>Aumento da Conversão:</strong> Usuários têm menos paciência na web atual. Um site que carrega rapidamente diminui as chances de um usuário desistir de uma compra ou ação importante devido à impaciência.</li>
@@ -99,7 +99,7 @@ export default function Home() {
                                 <li><strong>Experiência Positiva do Usuário:</strong> A velocidade é uma das primeiras impressões que um usuário tem de um site. Uma experiência de carregamento ágil pode estabelecer um tom positivo para toda a interação do usuário com a marca ou serviço.</li>
                                 <li><strong>Adaptabilidade a Redes Diversas:</strong> Em regiões ou situações onde a conexão à Internet pode ser instável ou lenta, um site otimizado pode ainda assim oferecer uma experiência satisfatória.</li>
                             </ul>
-                            <p className="text-gray-300">Por isso, dedica-se um esforço redobrado em garantir excelentes pontuações no Page Speed. O objetivo não é apenas ter um site que carrega rapidamente, mas criar plataformas que ofereçam a melhor experiência possível, otimizem recursos e maximizem o retorno sobre o investimento.</p>
+                            <p className="text-gray-300">Por isso, dedica-se um esforço redobrado em garantir excelentes pontuações no PageSpeed Insights. O objetivo não é apenas ter um site que carrega rapidamente, mas criar plataformas que ofereçam a melhor experiência possível, otimizem recursos e maximizem o retorno sobre o investimento.</p>
                             <Link href="/contato" className="bg-cyan-500 bg-opacity-50 hover:bg-opacity-80 text-zinc-100 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer melhorar a performance do seu site?</Link>
                         </div>
 

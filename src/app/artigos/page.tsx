@@ -51,41 +51,46 @@ const jsonLd: WithContext<ItemList> = {
         {
             "@type": "ListItem",
             "position": 1,
-            "url": "https://filipesalesaraujo.com/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores"
+            "url": "https://filipesalesaraujo.com/artigos/importancia-do-webp-desempenho-pages-pagespeed-insights"
         },
         {
             "@type": "ListItem",
             "position": 2,
-            "url": "https://filipesalesaraujo.com/artigos/sintaxe-semantica-linguagens-programacao"
+            "url": "https://filipesalesaraujo.com/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores"
         },
         {
             "@type": "ListItem",
             "position": 3,
-            "url": "https://filipesalesaraujo.com/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning"
+            "url": "https://filipesalesaraujo.com/artigos/sintaxe-semantica-linguagens-programacao"
         },
         {
             "@type": "ListItem",
             "position": 4,
-            "url": "https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial"
+            "url": "https://filipesalesaraujo.com/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning"
         },
         {
             "@type": "ListItem",
             "position": 5,
-            "url": "https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude"
+            "url": "https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial"
         },
         {
             "@type": "ListItem",
             "position": 6,
-            "url": "https://filipesalesaraujo.com/artigos/implementacao-banco-dados-nosql-industria-automobilistica"
+            "url": "https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude"
         },
         {
             "@type": "ListItem",
             "position": 7,
-            "url": "https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta"
+            "url": "https://filipesalesaraujo.com/artigos/implementacao-banco-dados-nosql-industria-automobilistica"
         },
         {
             "@type": "ListItem",
             "position": 8,
+            "url": "https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta"
+        },
+        {
+            "@type": "ListItem",
+            "position": 9,
             "url": "https://filipesalesaraujo.com/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos"
         }
     ]
@@ -99,6 +104,7 @@ import aplicacaoAprendizadoMaquinaReducaoDesperdicioAlimentosAcaciaSaude from ".
 import implementacaoBancoDadosNosqlIndustriaAutomobilistica from "../../../public/images/implementacao-banco-dados-nosql-industria-automobilistica.webp";
 import implementacaoAprendizadoNaoSupervisionadoSegmentacaoClientesBancoBeta from "../../../public/images/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta.webp";
 import webSemanticaFerramentaGestaoPacientesDiabeticos from "../../../public/images/web-semantica-ferramenta-gestao-pacientes-diabeticos.webp";
+import importanciaDoWebpDesempenhoPagesPagespeedInsights from "../../../public/images/importancia-do-webp-desempenho-pages-pagespeed-insights.webp";
 
 
 export default function Artigos() {
@@ -111,6 +117,15 @@ export default function Artigos() {
                         <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Artigos</h1>
                         <div className="flex flex-row flex-wrap gap-5">
 
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={importanciaDoWebpDesempenhoPagesPagespeedInsights} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/importancia-do-webp-desempenho-pages-pagespeed-insights' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">A Importância do WEBP para o Desempenho das Páginas no PageSpeed Insights</Link>
+                                    <p className="text-gray-300">WEBP acelera sites com compressão superior, superando JPEG e PNG. É a escolha ideal para velocidade na web moderna.</p>
+                                </div>
+
+                                <Link href='/artigos/importancia-do-webp-desempenho-pages-pagespeed-insights' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
 
                             <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
                                 <div className="flex flex-col gap-5">

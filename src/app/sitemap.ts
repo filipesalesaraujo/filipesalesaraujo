@@ -46,5 +46,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
             url: 'https://filipesalesaraujo.com/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores',
             lastModified: new Date(),
         },
+        {
+            url: 'https://filipesalesaraujo.com/artigos/importancia-do-webp-desempenho-pages-pagespeed-insights',
+            lastModified: new Date(),
+        },
     ]
 }
