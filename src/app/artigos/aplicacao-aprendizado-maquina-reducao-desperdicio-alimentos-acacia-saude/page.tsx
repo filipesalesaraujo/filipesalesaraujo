@@ -3,7 +3,7 @@ import {WithContext, Article} from 'schema-dts';
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: 'Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde - Filipe Sales Araujo',
+    title: 'Aplicação do Aprendizado de Máquina Supervisionado na Redução do Desperdício de Alimentos na Rede Hospitalar Acácia Saúde - Filipe Sales Araujo',
     description: 'A dissertação aborda as metodologias de aprendizado de máquina supervisionado aplicadas para reduzir o desperdício de alimentos na rede hospitalar Acácia Saúde.',
     keywords: 'Filipe Sales Araujo, Aprendizado de Máquina Supervisionado, Redução de Desperdício de Alimentos, Rede Hospitalar, Acácia Saúde, Big Data, Inteligência Artificial',
     robots: {
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
         googleBot: {
             index: true,
             follow: true,
-            noimageindex: true,
         },
     },
     authors: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
     },
     category: 'technology',
     openGraph: {
-        title: 'Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde - Filipe Sales Araujo',
+        title: 'Aplicação do Aprendizado de Máquina Supervisionado na Redução do Desperdício de Alimentos na Rede Hospitalar Acácia Saúde - Filipe Sales Araujo',
         description: 'A dissertação aborda as metodologias de aprendizado de máquina supervisionado aplicadas para reduzir o desperdício de alimentos na rede hospitalar Acácia Saúde.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude',
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
 const jsonLd: WithContext<Article> = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": 'Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde',
+    "headline": 'Aplicação do Aprendizado de Máquina Supervisionado na Redução do Desperdício de Alimentos na Rede Hospitalar Acácia Saúde - Filipe Sales Araujo',
     "description": 'A dissertação aborda as metodologias de aprendizado de máquina supervisionado aplicadas para reduzir o desperdício de alimentos na rede hospitalar Acácia Saúde.',
     "datePublished": "2023-08-12",
     "author": {
@@ -66,7 +65,7 @@ export default function AprendizadoReducaoDesperdicioAcacia() {
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <Image src={featuredImage} alt="Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde" className="rounded-xl" />
-                        <h1 className="text-3xl text-white uppercase">Aplicação do aprendizado de máquina supervisionado na redução do desperdício de alimentos na rede hospitalar Acácia Saúde</h1>
+                        <h1 className="text-3xl text-white uppercase">Aplicação do Aprendizado de Máquina Supervisionado na Redução do Desperdício de Alimentos na Rede Hospitalar Acácia Saúde</h1>
                         <hr className="text-white"/>
                         <p className="text-white">O desperdício de alimentos é um problema global que atinge diversos setores, inclusive a área da saúde. A rede hospitalar Acácia Saúde, com mais de 100 unidades, enfrenta esse desafio, gerando impactos financeiros e ambientais negativos. Diante disso, foi proposto o objetivo de encontrar uma solução para essa problemática a partir do uso do aprendizado de máquina supervisionado e ferramentas de Big Data e inteligência artificial (IA). Esta dissertação abordará as metodologias de aprendizado de máquina supervisionado aplicadas na redução do desperdício de alimentos na rede hospitalar Acácia Saúde. </p>
                         <p className="text-white">O aprendizado de máquina supervisionado é um método no qual os algoritmos são treinados com dados de entrada e saída rotulados, permitindo que a máquina aprenda a partir dessas informações e faça previsões futuras (Alpaydin, 2020). Diversas técnicas podem ser aplicadas nesse contexto, como a regressão linear, árvores de decisão, máquinas de vetor de suporte (SVM) e redes neurais artificiais (Russell & Norvig, 2016).</p>

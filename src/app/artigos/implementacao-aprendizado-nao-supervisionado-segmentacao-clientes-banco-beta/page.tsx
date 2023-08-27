@@ -3,7 +3,7 @@ import {WithContext, Article} from 'schema-dts';
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: 'Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta - Filipe Sales Araujo',
+    title: 'Implementação do Aprendizado Não Supervisionado para Segmentação de Clientes no Banco Beta - Filipe Sales Araujo',
     description: 'A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Utilizando o algoritmo k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes para oferecer serviços personalizados.',
     keywords: 'Filipe Sales Araujo, Aprendizado Não Supervisionado, k-Nearest Neighbors, kNN, Banco Beta, segmentação de clientes, personalização, serviços bancários',
     robots: {
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
         googleBot: {
             index: true,
             follow: true,
-            noimageindex: true,
         },
     },
     authors: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
     },
     category: 'technology',
     openGraph: {
-        title: 'Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta - Filipe Sales Araujo',
+        title: 'Implementação do Aprendizado Não Supervisionado para Segmentação de Clientes no Banco Beta - Filipe Sales Araujo',
         description: 'A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Utilizando o algoritmo k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes para oferecer serviços personalizados.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta',
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
 const jsonLd: WithContext<Article> = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": 'Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta',
+    "headline": 'Implementação do Aprendizado Não Supervisionado para Segmentação de Clientes no Banco Beta - Filipe Sales Araujo',
     "description": 'A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Utilizando o algoritmo k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes para oferecer serviços personalizados.',
     "datePublished": "2023-08-12",
     "author": {
@@ -66,7 +65,7 @@ export default function AprendizadoSegmentacaoBancoBeta() {
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <Image src={featuredImage} alt="Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta" className="rounded-xl" />
-                        <h1 className="text-3xl text-white uppercase">Implementação do aprendizado não supervisionado para segmentação de clientes no Banco Beta</h1>
+                        <h1 className="text-3xl text-white uppercase">Implementação do Aprendizado Não Supervisionado para Segmentação de Clientes no Banco Beta</h1>
                         <hr className="text-white"/>
                         <p className="text-white">A segmentação da carteira de clientes é um conceito crucial para a personalização do atendimento bancário. Através do algoritmo de Aprendizado Não Supervisionado k-Nearest Neighbors (kNN), é possível criar grupos homogêneos de clientes, facilitando a oferta de serviços e produtos adequados às suas necessidades específicas.</p>
                         <p className="text-white">No cenário em questão, o Banco Beta possui diversas categorias de serviços. A utilização do kNN poderia, por exemplo, agrupar clientes baseado em seus padrões de consumo desses serviços. Clientes que utilizam mais empréstimos podem formar um grupo, aqueles mais ativos em investimentos outro, e assim por diante. O algoritmo kNN opera através da análise da proximidade entre pontos de dados, neste caso, os hábitos de consumo bancário de diferentes clientes.</p>

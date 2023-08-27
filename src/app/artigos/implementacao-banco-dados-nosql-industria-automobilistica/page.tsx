@@ -3,7 +3,7 @@ import {WithContext, Article} from 'schema-dts';
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: 'Implementação de Banco de Dados NoSQL na Indústria Automobilística',
+    title: 'Implementação de Banco de Dados NoSQL na Indústria Automobilística - Filipe Sales Araujo',
     description: 'Neste artigo, é discutida a importância e os benefícios de se implementar um banco de dados NoSQL, especificamente MongoDB, na indústria automobilística. Abordamos os desafios da indústria em lidar com um volume massivo de dados e como o MongoDB pode ser a solução estratégica para esses desafios.',
     keywords: 'Banco de Dados NoSQL, Indústria Automobilística, MongoDB, Dados Massivos, Estratégia, Escalabilidade, Banco de Dados Orientado a Documentos',
     robots: {
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
         googleBot: {
             index: true,
             follow: true,
-            noimageindex: true,
         },
     },
     authors: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
     },
     category: 'technology',
     openGraph: {
-        title: 'Implementação de Banco de Dados NoSQL na Indústria Automobilística',
+        title: 'Implementação de Banco de Dados NoSQL na Indústria Automobilística - Filipe Sales Araujo',
         description: 'Neste artigo, é discutida a importância e os benefícios de se implementar um banco de dados NoSQL, especificamente MongoDB, na indústria automobilística. Abordamos os desafios da indústria em lidar com um volume massivo de dados e como o MongoDB pode ser a solução estratégica para esses desafios.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/implementacao-banco-nosql-industria-automobilistica',
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
 const jsonLd: WithContext<Article> = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": 'Implementação de Banco de Dados NoSQL na Indústria Automobilística',
+    "headline": 'Implementação de Banco de Dados NoSQL na Indústria Automobilística - Filipe Sales Araujo',
     "description": 'Neste artigo, é discutida a importância e os benefícios de se implementar um banco de dados NoSQL, especificamente MongoDB, na indústria automobilística. Abordamos os desafios da indústria em lidar com um volume massivo de dados e como o MongoDB pode ser a solução estratégica para esses desafios.',
     "datePublished": "2023-08-12",
     "author": {
@@ -66,7 +65,7 @@ export default function BancoNosqlAutomobilistico() {
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <Image src={featuredImage} alt="Implementação de banco de dados nosql na indústria automobilística" className="rounded-xl"/>
-                        <h1 className="text-3xl text-white uppercase">Implementação de banco de dados nosql na indústria automobilística</h1>
+                        <h1 className="text-3xl text-white uppercase">Implementação de Banco de Dados NoSQL na Indústria Automobilística</h1>
                         <hr className="text-white"/>
                         <p className="text-white">No cenário contemporâneo de coleta de dados massiva, uma indústria automobilística multinacional se depara com o desafio de integrar e armazenar variados tipos de dados. Devido à complexidade, variedade e volume desses dados, os tradicionais bancos de dados relacionais mostram-se limitados, justificando a necessidade de uma solução mais escalável e distribuída.</p>
                         <p className="text-white">Considerando a diversidade dos dados, bem como as necessidades de escalabilidade e de custos operacionais baixos, o uso de um banco de dados NoSQL se torna uma escolha estratégica. Esses bancos de dados são projetados para armazenamento e recuperação de dados em maneiras que permitem alta operacionalidade e flexibilidade. Dentre as famílias NoSQL, recomendaria um banco de dados orientado a documentos, como o MongoDB.</p>

@@ -3,7 +3,7 @@ import {WithContext, Article} from 'schema-dts';
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: 'A web semântica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
+    title: 'A Web Semântica como Ferramenta Facilitadora na Gestão de Pacientes Diabéticos - Filipe Sales Araujo',
     description: 'Filipe Sales Araujo discute a influência da Web Semântica, utilizando padrões como RDF e OWL, na revolução do gerenciamento de doenças crônicas como o diabetes. Descubra como esta tecnologia pode simplificar a interpretação de dados dos pacientes, otimizar o tempo de trabalho dos profissionais de saúde e melhorar a comunicação entre especialistas e pacientes.',
     keywords: 'Filipe Sales Araujo, Web Semântica, RDF, OWL, gerenciamento de doenças crônicas, diabetes, tratamento personalizado, automação, comunicação em saúde, sistemas de informação, tomada de decisão em saúde',
     robots: {
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
         googleBot: {
             index: true,
             follow: true,
-            noimageindex: true,
         },
     },
     authors: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
     },
     category: 'technology',
     openGraph: {
-        title: 'A web semântica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
+        title: 'A Web Semântica como Ferramenta Facilitadora na Gestão de Pacientes Diabéticos - Filipe Sales Araujo',
         description: 'Filipe Sales Araujo discute a influência da Web Semântica, utilizando padrões como RDF e OWL, na revolução do gerenciamento de doenças crônicas como o diabetes. Descubra como esta tecnologia pode simplificar a interpretação de dados dos pacientes, otimizar o tempo de trabalho dos profissionais de saúde e melhorar a comunicação entre especialistas e pacientes.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos',
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
 const jsonLd: WithContext<Article> = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": 'A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos - Filipe Sales Araujo',
+    "headline": 'A Web Semântica como Ferramenta Facilitadora na Gestão de Pacientes Diabéticos - Filipe Sales Araujo',
     "description": 'Filipe Sales Araujo discute a influência da Web Semântica, utilizando padrões como RDF e OWL, na revolução do gerenciamento de doenças crônicas como o diabetes. Descubra como esta tecnologia pode simplificar a interpretação de dados dos pacientes, otimizar o tempo de trabalho dos profissionais de saúde e melhorar a comunicação entre especialistas e pacientes.',
     "datePublished": "2023-08-12",
     "author": {
@@ -66,7 +65,7 @@ export default function WebSemanticaGestaoDiabeticos() {
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <Image src={featuredImage} alt="A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos" className="rounded-xl" />
-                        <h1 className="text-3xl text-white uppercase">A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos</h1>
+                        <h1 className="text-3xl text-white uppercase">A Web Semântica como Ferramenta Facilitadora na Gestão de Pacientes Diabéticos</h1>
                         <hr className="text-white"/>
                         <p className="text-white">O avanço da Web Semântica na manipulação e interpretação de dados na internet pode transformar profundamente o gerenciamento de doenças crônicas, como o diabetes, alterando a forma como os profissionais de saúde analisam e gerenciam os dados dos pacientes.</p>
                         <p className="text-white">Utilizando padrões como RDF (Resource Description Framework) e OWL (Ontology Web Language), essa tecnologia tem o potencial de oferecer uma visão unificada e facilitada dos dados dos pacientes para os profissionais de saúde. Ela permite a consolidação de informações de glicemia originadas de múltiplos sistemas e formatos, simplificando a tarefa de monitorar a evolução da doença e melhorando a qualidade dos tratamentos ao facilitar a tomada de decisões informadas (Berners-Lee, Hendler & Lassila, 2001; Shadbolt, Berners-Lee & Hall, 2006). A implementação da Web Semântica pode também auxiliar na personalização do tratamento do diabetes, permitindo ajustes de medicação e dieta com base nas tendências individuais de glicemia.</p>

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
         googleBot: {
             index: true,
             follow: true,
-            noimageindex: true,
         },
     },
     authors: {
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
 const jsonLd: WithContext<Article> = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": 'Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC',
+    "headline": 'Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC - Filipe Sales Araujo',
     "description": 'No cenário competitivo do sistema financeiro atual, a combinação da Programação R com o Machine Learning é crucial para otimizar a análise de crédito. O Banco BHC almeja a integração dessas ferramentas para aprimorar sua avaliação de clientes.',
     "datePublished": "2023-08-13",
     "author": {
@@ -65,7 +64,7 @@ export default function ImplementacaoModeloCreditoBHCRML() {
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                     <Image src={featuredImage} alt="Estratégias para implementar modelos de crédito no Banco BHC utilizando programação R e machine learning" className="rounded-xl" />
-                    <h1 className="text-3xl text-white uppercase">Estratégias para implementar modelos de crédito no Banco BHC utilizando programação R e machine learning</h1>
+                    <h1 className="text-3xl text-white uppercase">Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC</h1>
                     <hr className="text-white"/>
                     <p className="text-white">No cenário competitivo do sistema financeiro atual, a combinação da Programação R, especializada em análise estatística, com o Machine Learning é crucial para otimização da análise de crédito (Breiman, 2001). O Banco BHC busca integrar estas ferramentas para estabelecer um sistema mais ágil e eficiente de avaliação de clientes.</p>
                     <h2 className="text-white text-2xl">Metodologia de implementação e otimização</h2>

@@ -3,7 +3,7 @@ import {Article, WithContext} from "schema-dts";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: 'A otimização na resolução do problema das 8 rainhas via inteligência artificial',
+    title: 'A Otimização na Resolução do Problema das 8 Rainhas via Inteligência Artificial - Filipe Sales Araujo',
     description: 'O problema das 8 rainhas é um dos desafios clássicos da computação e da inteligência artificial, demandando formulações precisas e técnicas avançadas para sua solução otimizada.',
     keywords: '8 rainhas, otimização, inteligência artificial, backtracking, Hill Climbing, algoritmos genéticos',
     robots: {
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
         googleBot: {
             index: true,
             follow: true,
-            noimageindex: true,
         },
     },
     authors: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
     },
     category: 'technology',
     openGraph: {
-        title: 'A otimização na resolução do problema das 8 rainhas via inteligência artificial',
+        title: 'A Otimização na Resolução do Problema das 8 Rainhas via Inteligência Artificial - FIlipe Sales Araujo',
         description: 'O problema das 8 rainhas é um dos desafios clássicos da computação e da inteligência artificial, demandando formulações precisas e técnicas avançadas para sua solução otimizada.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial',
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
 const jsonLd: WithContext<Article> = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": 'A otimização na resolução do problema das 8 rainhas via inteligência artificial',
+    "headline": 'A Otimização na Resolução do Problema das 8 Rainhas via Inteligência Artificial - Filipe Sales Araujo',
     "description": 'O problema das 8 rainhas é um dos desafios clássicos da computação e da inteligência artificial, demandando formulações precisas e técnicas avançadas para sua solução otimizada.',
     "datePublished": "2023-08-12",
     "author": {
@@ -65,7 +64,7 @@ export default function Otimizacao8RainhasIA() {
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                     <Image src={featuredImage} alt="A otimização na resolução do problema das 8 rainhas via inteligência artificial" className="rounded-xl" />
-                    <h1 className="text-3xl text-white uppercase">A otimização na resolução do problema das 8 rainhas via inteligência artificial.</h1>
+                    <h1 className="text-3xl text-white uppercase">A Otimização na Resolução do Problema das 8 Rainhas via Inteligência Artificial</h1>
                     <hr className="text-white"/>
                     <p className="text-white">O problema das 8 rainhas é um dos desafios clássicos da computação e da inteligência artificial, demandando formulações precisas e técnicas avançadas para sua solução otimizada (Russell & Norvig, 2010). Com os avanços na área de algoritmos e a crescente importância da otimização em diversos campos da ciência da computação, explorar como as máquinas podem eficientemente resolver tais problemas torna-se não apenas um exercício acadêmico, mas uma necessidade prática. Neste contexto, investigaremos a formulação aprimorada do problema das 8 rainhas e as técnicas contemporâneas de otimização que permitem sua resolução (Eiben & Smith, 2015).</p>
                     <h2 className="text-white text-2xl">Formulação otimizada do problema das 8 rainhas</h2>

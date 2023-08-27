@@ -3,7 +3,7 @@ import {WithContext, Article} from 'schema-dts';
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: 'Sintaxe e semântica em linguagens de programação: entendendo a estrutura e o significado no código - Filipe Sales Araujo',
+    title: 'Sintaxe e Semântica em Linguagens de Programação: Entendendo a Estrutura e o Significado no Código - Filipe Sales Araujo',
     description: 'Filipe Sales Araujo discute as diferenças e importâncias da sintaxe e semântica em linguagens de programação, ilustradas através de exemplos práticos.',
     keywords: 'Filipe Sales Araujo, sintaxe, semântica, linguagens de programação, estrutura de código, significado de código',
     robots: {
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
         googleBot: {
             index: true,
             follow: true,
-            noimageindex: true,
         },
     },
     authors: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
     },
     category: 'technology',
     openGraph: {
-        title: 'Sintaxe e semântica em linguagens de programação: entendendo a estrutura e o significado no código - Filipe Sales Araujo',
+        title: 'Sintaxe e Semântica em Linguagens de Programação: Entendendo a Estrutura e o Significado no Código - Filipe Sales Araujo',
         description: 'Filipe Sales Araujo discute as diferenças e importâncias da sintaxe e semântica em linguagens de programação, ilustradas através de exemplos práticos.',
         type: 'article',
         url: 'https://filipesalesaraujo.com/artigos/sintaxe-semantica-linguagens-programacao',
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
 const jsonLd: WithContext<Article> = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": 'Sintaxe e semântica em linguagens de programação: entendendo a estrutura e o significado no código - Filipe Sales Araujo',
+    "headline": 'Sintaxe e Semântica em Linguagens de Programação: Entendendo a Estrutura e o Significado no Código - Filipe Sales Araujo',
     "description": 'Filipe Sales Araujo discute as diferenças e importâncias da sintaxe e semântica em linguagens de programação, ilustradas através de exemplos práticos.',
     "datePublished": "2023-08-26",
     "author": {
@@ -66,7 +65,7 @@ export default function SintaxeSemanticaProg() {
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <Image src={featuredImage} alt="A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos" className="rounded-xl" />
-                        <h1 className="text-3xl text-white uppercase">SINTAXE E SEMÂNTICA EM LINGUAGENS DE PROGRAMAÇÃO: ENTENDENDO A ESTRUTURA E O SIGNIFICADO NO CÓDIGO</h1>
+                        <h1 className="text-3xl text-white uppercase">Sintaxe e Semântica em Linguagens de Programação: Entendendo a Estrutura e o Significado no Código</h1>
                         <hr className="text-white"/>
                         <p className="text-white">Dentro do vasto mundo da programação, os conceitos de sintaxe e semântica desempenham papéis fundamentais na estruturação e compreensão de códigos. Ambos, embora distintos, são essenciais para o desenvolvimento de programas eficientes e corretos. Neste texto, exploraremos suas diferenças e importâncias, ilustradas através de exemplos práticos (MCCONNELL, 2004).</p>
                         <hr className="text-white"/>
