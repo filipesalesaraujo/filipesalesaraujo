@@ -65,7 +65,7 @@ export default function BancoNosqlAutomobilistico() {
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <Image src={featuredImage} alt="Implementação de banco de dados nosql na indústria automobilística" className="rounded-xl"/>
-                        <h1 className="text-3xl text-gray-300">Implementação de Banco de Dados NoSQL na Indústria Automobilística</h1>
+                        <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Implementação de Banco de Dados NoSQL na Indústria Automobilística</h1>
                         <hr className="text-gray-300"/>
                         <p className="text-gray-300">No cenário contemporâneo de coleta de dados massiva, uma indústria automobilística multinacional se depara com o desafio de integrar e armazenar variados tipos de dados. Devido à complexidade, variedade e volume desses dados, os tradicionais bancos de dados relacionais mostram-se limitados, justificando a necessidade de uma solução mais escalável e distribuída.</p>
                         <p className="text-gray-300">Considerando a diversidade dos dados, bem como as necessidades de escalabilidade e de custos operacionais baixos, o uso de um banco de dados NoSQL se torna uma escolha estratégica. Esses bancos de dados são projetados para armazenamento e recuperação de dados em maneiras que permitem alta operacionalidade e flexibilidade. Dentre as famílias NoSQL, recomendaria um banco de dados orientado a documentos, como o MongoDB.</p>

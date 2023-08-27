@@ -65,7 +65,7 @@ export default function SintaxeSemanticaProg() {
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <Image src={featuredImage} alt="A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos" className="rounded-xl" />
-                        <h1 className="text-3xl text-gray-300">Sintaxe e Semântica em Linguagens de Programação: Entendendo a Estrutura e o Significado no Código</h1>
+                        <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Sintaxe e Semântica em Linguagens de Programação: Entendendo a Estrutura e o Significado no Código</h1>
                         <hr className="text-gray-300"/>
                         <p className="text-gray-300">Dentro do vasto mundo da programação, os conceitos de sintaxe e semântica desempenham papéis fundamentais na estruturação e compreensão de códigos. Ambos, embora distintos, são essenciais para o desenvolvimento de programas eficientes e corretos. Neste texto, exploraremos suas diferenças e importâncias, ilustradas através de exemplos práticos (MCCONNELL, 2004).</p>
                         <hr className="text-gray-300"/>

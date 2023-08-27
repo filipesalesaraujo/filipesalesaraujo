@@ -65,7 +65,7 @@ export default function ConcorrenciaDistribuidaESeusDesafiosEmSistemasMultiproce
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                         <Image src={featuredImage} alt="A web semêntica como ferramenta facilitadora na gestão de pacientes diabéticos" className="rounded-xl" />
-                        <h1 className="text-3xl text-gray-300">Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores</h1>
+                        <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores</h1>
                         <hr className="text-gray-300"/>
                         <p className="text-gray-300">A escalabilidade e a eficiência tornaram-se vitais na era moderna da computação, levando ao surgimento de sistemas multiprocessadores. Embora esses sistemas prometem uma maior capacidade de processamento, programar eficazmente para essas arquiteturas traz seus próprios desafios. Entre estas, as questões de race conditions, DeadLock e LiveLock são especialmente relevantes (Tanenbaum & Van Steen, 2007). Ao explorar cada um desses problemas, podemos desvendar as complexidades da programação concorrente distribuída.</p>
                         <hr className="text-gray-300"/>

@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4ba400ad-b217-4ce2-a717-09e744f7adee" name="Changes" comment=":duck:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/implementacao-banco-dados-nosql-industria-automobilistica/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/implementacao-banco-dados-nosql-industria-automobilistica/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/artigos/sintaxe-semantica-linguagens-programacao/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/artigos/sintaxe-semantica-linguagens-programacao/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/sitemap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sitemap.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +89,7 @@
       <workItem from="1692659566553" duration="10172000" />
       <workItem from="1692900993156" duration="608000" />
       <workItem from="1692975303312" duration="592000" />
-      <workItem from="1693091141953" duration="13307000" />
+      <workItem from="1693091141953" duration="13585000" />
     </task>
     <task id="LOCAL-00001" summary=":duck:">
       <created>1679019934340</created>
@@ -299,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693109299766</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1693110575920</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1693110575920</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

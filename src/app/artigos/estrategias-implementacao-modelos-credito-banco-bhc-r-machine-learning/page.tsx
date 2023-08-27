@@ -64,7 +64,7 @@ export default function ImplementacaoModeloCreditoBHCRML() {
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                     <Image src={featuredImage} alt="Estratégias para implementar modelos de crédito no Banco BHC utilizando programação R e machine learning" className="rounded-xl" />
-                    <h1 className="text-3xl text-gray-300">Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC</h1>
+                    <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC</h1>
                     <hr className="text-gray-300"/>
                     <p className="text-gray-300">No cenário competitivo do sistema financeiro atual, a combinação da Programação R, especializada em análise estatística, com o Machine Learning é crucial para otimização da análise de crédito (Breiman, 2001). O Banco BHC busca integrar estas ferramentas para estabelecer um sistema mais ágil e eficiente de avaliação de clientes.</p>
                     <h2 className="text-gray-300 text-2xl">Metodologia de implementação e otimização</h2>

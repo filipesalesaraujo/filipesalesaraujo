@@ -64,7 +64,7 @@ export default function Otimizacao8RainhasIA() {
             <section className="flex justify-center items-center">
                 <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
                     <Image src={featuredImage} alt="A otimização na resolução do problema das 8 rainhas via inteligência artificial" className="rounded-xl" />
-                    <h1 className="text-3xl text-gray-300">A Otimização na Resolução do Problema das 8 Rainhas via Inteligência Artificial</h1>
+                    <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">A Otimização na Resolução do Problema das 8 Rainhas via Inteligência Artificial</h1>
                     <hr className="text-gray-300"/>
                     <p className="text-gray-300">O problema das 8 rainhas é um dos desafios clássicos da computação e da inteligência artificial, demandando formulações precisas e técnicas avançadas para sua solução otimizada (Russell & Norvig, 2010). Com os avanços na área de algoritmos e a crescente importância da otimização em diversos campos da ciência da computação, explorar como as máquinas podem eficientemente resolver tais problemas torna-se não apenas um exercício acadêmico, mas uma necessidade prática. Neste contexto, investigaremos a formulação aprimorada do problema das 8 rainhas e as técnicas contemporâneas de otimização que permitem sua resolução (Eiben & Smith, 2015).</p>
                     <h2 className="text-gray-300 text-2xl">Formulação otimizada do problema das 8 rainhas</h2>

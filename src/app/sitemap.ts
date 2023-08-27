@@ -37,8 +37,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         {
             url: 'https://filipesalesaraujo.com/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial',
             lastModified: new Date(),
-        },  {
+        },
+        {
             url: 'https://filipesalesaraujo.com/artigos/sintaxe-semantica-linguagens-programacao',
+            lastModified: new Date(),
+        },
+        {
+            url: 'https://filipesalesaraujo.com/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores',
             lastModified: new Date(),
         },
     ]
