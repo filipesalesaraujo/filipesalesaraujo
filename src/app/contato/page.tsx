@@ -1,7 +1,7 @@
 import {Metadata} from "next";
 import {ContactPage, WithContext} from "schema-dts";
 
-import Form from "@/app/components/Form";
+import Form from "@/app/components/form";
 
 export const metadata: Metadata = {
     title: 'Contato - Filipe Sales Araujo',

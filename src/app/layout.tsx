@@ -1,9 +1,10 @@
 import './globals.css'
 import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
-import Header from "@/app/components/Header";
+import Header from "@/app/components/header";
 import Script from "next/script";
 import {Person, WithContext} from "schema-dts";
+import Footer from "@/app/components/footer";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -75,9 +76,12 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
                   gtag('config', 'G-9XQZJ9KDYH');
                 `}
             </Script>
-            <body className={`bg-gray-900 ${inter.className}`}>
-            <Header/>
-            {children}
+            <body className={`bg-gray-900 flex flex-col min-h-screen ${inter.className}`}>
+                <Header/>
+                    <div className="flex-grow">
+                        {children}
+                    </div>
+                <Footer />
             </body>
         </html>
     )
