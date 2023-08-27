@@ -76,9 +76,9 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
                   gtag('config', 'G-9XQZJ9KDYH');
                 `}
             </Script>
-            <body className={`bg-gray-900 flex flex-col min-h-screen ${inter.className}`}>
+            <body className={`bg-black flex flex-col min-h-screen ${inter.className}`}>
                 <Header/>
-                    <div className="flex-grow">
+                    <div className="bg-body-gradient flex-grow">
                         {children}
                     </div>
                 <Footer />

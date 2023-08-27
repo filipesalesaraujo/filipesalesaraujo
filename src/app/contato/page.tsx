@@ -68,7 +68,7 @@ export default function Contato() {
             <main>
                 <div className="flex items-center justify-center">
                     <div className="max-w-[1140px] w-[100%] p-5 flex flex-col gap-5">
-                        <h1 className="text-3xl uppercase text-white">Contato</h1>
+                        <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Contato</h1>
                         <p className="text-white">Use este formulário para se conectar comigo. Estou aqui para responder a qualquer pergunta ou comentário que você possa ter. Aguardo ansiosamente sua mensagem!</p>
                         <Form/>
                     </div>

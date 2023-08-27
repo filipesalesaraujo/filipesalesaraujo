@@ -1,6 +1,7 @@
 import {ItemList, WithContext} from "schema-dts";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
     title: 'Artigos - Filipe Sales Araujo',
@@ -90,6 +91,16 @@ const jsonLd: WithContext<ItemList> = {
     ]
 }
 
+import concorrenciaDistribuidaESeusDesafiosEmSistemasMultiprocessadores from "../../../public/images/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores.webp";
+import sintaxeSemanticaLinguagensProgramacao from "../../../public/images/sintaxe-semantica-linguagens-programacao.webp";
+import estrategiasImplementacaoModelosCreditoBancoBhcRMachineLearning from "../../../public/images/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning.webp";
+import otimizacaoResolucaoProblema8RainhasInteligenciaArtificial from "../../../public/images/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial.webp";
+import aplicacaoAprendizadoMaquinaReducaoDesperdicioAlimentosAcaciaSaude from "../../../public/images/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude.webp";
+import implementacaoBancoDadosNosqlIndustriaAutomobilistica from "../../../public/images/implementacao-banco-dados-nosql-industria-automobilistica.webp";
+import implementacaoAprendizadoNaoSupervisionadoSegmentacaoClientesBancoBeta from "../../../public/images/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta.webp";
+import webSemanticaFerramentaGestaoPacientesDiabeticos from "../../../public/images/web-semantica-ferramenta-gestao-pacientes-diabeticos.webp";
+
+
 export default function Artigos() {
     return (
         <div>
@@ -97,23 +108,83 @@ export default function Artigos() {
             <main>
                 <section className="flex justify-center items-center">
                     <div className="max-w-[1140px] w-[100%] p-5 gap-5 flex flex-col">
-                        <h1 className="text-3xl uppercase text-white">Artigos</h1>
-                        <div className="flex flex-col gap-5">
-                            <Link href='/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores' className="text-white hover:text-blue-500 transition-colors">Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores</Link>
-                            <hr className="text-white"/>
-                            <Link href='/artigos/sintaxe-semantica-linguagens-programacao' className="text-white hover:text-blue-500 transition-colors">Sintaxe e Semântica em Linguagens de Programação: Entendendo a Estrutura e o Significado no Código</Link>
-                            <hr className="text-white"/>
-                            <Link href='/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning' className="text-white hover:text-blue-500 transition-colors">Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC</Link>
-                            <hr className="text-white"/>
-                            <Link href='/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial' className="text-white hover:text-blue-500 transition-colors">A Otimização na Resolução do Problema das 8 Rainhas via Inteligência Artificial</Link>
-                            <hr className="text-white"/>
-                            <Link href='/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude' className="text-white hover:text-blue-500 transition-colors">Aplicação do Aprendizado de Máquina Supervisionado na Redução do Desperdício de Alimentos na Rede Hospitalar Acácia Saúde</Link>
-                            <hr className="text-white"/>
-                            <Link href='/artigos/implementacao-banco-dados-nosql-industria-automobilistica' className="text-white hover:text-blue-500 transition-colors">Implementação de Banco de Dados NoSQL na Indústria Automobilística</Link>
-                            <hr className="text-white"/>
-                            <Link href='/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta' className="text-white hover:text-blue-500 transition-colors">Implementação do Aprendizado Não Supervisionado para Segmentação de Clientes no Banco Beta</Link>
-                            <hr className="text-white"/>
-                            <Link href='/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos' className="text-white hover:text-blue-500 transition-colors">A Web Semântica como Ferramenta Facilitadora na Gestão de Pacientes Diabéticos</Link>
+                        <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Artigos</h1>
+                        <div className="flex flex-row flex-wrap gap-5">
+
+
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={concorrenciaDistribuidaESeusDesafiosEmSistemasMultiprocessadores} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores</Link>
+                                    <p className="text-gray-300">Sistemas multiprocessadores enfrentam desafios como race conditions e DeadLocks. Compreender esses problemas é crucial para a eficiência.</p>
+                                </div>
+
+                                <Link href='/artigos/concorrencia-distribuida-e-seus-desafios-em-sistemas-multiprocessadores' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
+
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={sintaxeSemanticaLinguagensProgramacao} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/sintaxe-semantica-linguagens-programacao' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">Sintaxe e Semântica em Linguagens de Programação: Entendendo a Estrutura e o Significado no Código</Link>
+                                    <p className="text-gray-300">Sintaxe e semântica são fundamentais na programação. Erros sintáticos e semânticos impactam execução e comportamento do código.</p>
+                                </div>
+                                <Link href='/artigos/sintaxe-semantica-linguagens-programacao' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
+
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={estrategiasImplementacaoModelosCreditoBancoBhcRMachineLearning} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">Estratégias para Implementação de Modelos de Crédito Baseados em Programação R e Machine Learning no Banco BHC</Link>
+                                    <p className="text-gray-300">Integração de R e Machine Learning para análise de crédito avançada. Random Forest e agregação de dados visam eficiência e precisão.</p>
+                                </div>
+                                <Link href='/artigos/estrategias-implementacao-modelos-credito-banco-bhc-r-machine-learning' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
+
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={otimizacaoResolucaoProblema8RainhasInteligenciaArtificial} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">A Otimização na Resolução do Problema das 8 Rainhas via Inteligência Artificial</Link>
+                                    <p className="text-gray-300">IA aprimora a resolução das 8 rainhas com abordagens como backtracking e algoritmos genéticos, destacando inovação em IA.</p>
+                                </div>
+                                <Link href='/artigos/otimizacao-resolucao-problema-8-rainhas-inteligencia-artificial' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
+
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={aplicacaoAprendizadoMaquinaReducaoDesperdicioAlimentosAcaciaSaude} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">Aplicação do Aprendizado de Máquina Supervisionado na Redução do Desperdício de Alimentos na Rede Hospitalar Acácia Saúde</Link>
+                                    <p className="text-gray-300">Aplicação de Aprendizado de Máquina otimiza planejamento alimentar, reduzindo desperdício e promovendo sustentabilidade.</p>
+                                </div>
+                                <Link href='/artigos/aplicacao-aprendizado-maquina-reducao-desperdicio-alimentos-acacia-saude' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
+
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={implementacaoBancoDadosNosqlIndustriaAutomobilistica} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/implementacao-banco-dados-nosql-industria-automobilistica' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">Implementação de Banco de Dados NoSQL na Indústria Automobilística</Link>
+                                    <p className="text-gray-300">MongoDB é escolha para gerir volumes variados de dados na indústria automobilística. Flexibilidade e escalabilidade são vantagens.</p>
+                                </div>
+                                <Link href='/artigos/implementacao-banco-dados-nosql-industria-automobilistica' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
+
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={implementacaoAprendizadoNaoSupervisionadoSegmentacaoClientesBancoBeta} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">Implementação do Aprendizado Não Supervisionado para Segmentação de Clientes no Banco Beta</Link>
+                                    <p className="text-gray-300">Utilização de kNN para segmentar clientes, melhorar ofertas e personalizar serviços bancários.</p>
+                                </div>
+                                <Link href='/artigos/implementacao-aprendizado-nao-supervisionado-segmentacao-clientes-banco-beta' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
+
+                            <div className="border-[1px] border-gray-500 rounded-md p-3 xl:max-w-[32.1%] w-[100%] flex flex-col justify-between gap-5">
+                                <div className="flex flex-col gap-5">
+                                    <Image src={webSemanticaFerramentaGestaoPacientesDiabeticos} alt="Concorrência Distribuída e Seus Desafios em Sistemas Multiprocessadores" className="rounded-md"/>
+                                    <Link href='/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos' className="text-xl font-bold text-gray-300 hover:text-white transition-colors">A Web Semântica como Ferramenta Facilitadora na Gestão de Pacientes Diabéticos</Link>
+                                    <p className="text-gray-300">Web Semântica revoluciona gestão de pacientes diabéticos, unificando dados e otimizando monitoramento, melhorando coordenação e decisões médicas.</p>
+                                </div>
+                                <Link href='/artigos/web-semantica-ferramenta-gestao-pacientes-diabeticos' className="bg-zinc-800 text-zinc-400 flex items-center justify-center p-1 rounded-md font-bold hover:text-zinc-300 hover:bg-zinc-700 transition-colors">Leia mais</Link>
+                            </div>
+
                         </div>
                     </div>
                 </section>
