@@ -27,8 +27,13 @@ const config: Config = {
                 'gradient-radial': 'radial-gradient(ellipse at center, #fff, #adadad)',
                 'gradient-linear': 'linear-gradient(180deg, #fff, #adadad)',
 
-                'body-gradient': 'linear-gradient(180deg, #000 30%, #111 50%, #111 100%)'
+                'body-gradient': 'linear-gradient(180deg, #000 30%, #111 50%, #111 100%)',
+
+                'monitoramento-gradient': 'linear-gradient(to right, #D3D3D3, #696969)',
+                'analise-gradient': 'linear-gradient(to right, #FF6D00, #FFC107)',
+                'velocidade-gradient': 'linear-gradient(to right, #42A5F5, #0D47A1)'
             },
+
         },
     },
     plugins: [],
