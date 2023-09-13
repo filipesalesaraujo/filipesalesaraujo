@@ -69,7 +69,7 @@ export default function Contato() {
                 <div className="flex items-center justify-center">
                     <div className="max-w-[1140px] w-[100%] p-5 flex flex-col gap-5">
                         <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Contato</h1>
-                        <p className="text-white">Use este formulário para se conectar comigo. Estou aqui para responder a qualquer pergunta ou comentário que você possa ter. Aguardo ansiosamente sua mensagem! Caso prefire, entre em contato comigo pelo <a href="https://wa.me/5511984583529?text=Olá!%20Gostaria%20de%20entrar%20em%20contato%20com%20você." target="_blank" className="font-bold text-green-500">WhatsApp clicando aqui!</a></p>
+                        <p className="text-white">Preencha este formulário para falar diretamente comigo. Estou à disposição para esclarecer suas dúvidas ou receber seus comentários. Será um prazer ouvir o que você tem a dizer! Se achar mais conveniente, você também pode me contatar via <a href="https://wa.me/5511984583529?text=Olá!%20Gostaria%20de%20entrar%20em%20contato%20com%20você." target="_blank" className="font-bold text-green-500">WhatsApp clicando aqui!</a></p>
                         <Form/>
                     </div>
                 </div>
