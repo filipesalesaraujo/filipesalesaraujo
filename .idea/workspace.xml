@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ba400ad-b217-4ce2-a717-09e744f7adee" name="Changes" comment=":duck:">
-      <change beforePath="$PROJECT_DIR$/src/app/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contato/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contato/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1692975303312" duration="592000" />
       <workItem from="1693091141953" duration="19828000" />
       <workItem from="1693580029221" duration="9000" />
-      <workItem from="1694641814924" duration="5462000" />
+      <workItem from="1694641814924" duration="5560000" />
     </task>
     <task id="LOCAL-00001" summary=":duck:">
       <created>1679019934340</created>
@@ -403,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694647714400</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1694647757402</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1694647757402</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
