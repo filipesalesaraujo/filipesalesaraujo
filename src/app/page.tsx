@@ -90,9 +90,6 @@ export default function Home() {
 
                             <Link href="/contato" className="bg-indigo-500 bg-opacity-50 hover:bg-opacity-80 text-zinc-100 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer aumentar a velocidade do seu site?</Link>
 
-                        </div>
-
-                        <div className="gap-5 flex flex-col">
                             <h4 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Expertise em PageSpeed Insights</h4>
                             <p className="text-gray-300">Um site rápido não é apenas agradável aos olhos; é vital para a retenção de usuários. Estudos mostram que cada segundo a mais no tempo de carregamento pode levar a uma significativa taxa de abandono. Os benefícios de uma excelente pontuação no PageSpeed Insights vão além do simples engajamento do usuário:</p>
                             <ul className="text-gray-300 flex flex-col gap-5 list-disc pl-5">
