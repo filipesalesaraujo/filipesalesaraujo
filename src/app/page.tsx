@@ -68,8 +68,9 @@ export default function Home() {
                     <div className="max-w-[1140px] w-[100%] p-5 gap-10 flex flex-col">
 
                         <div className="gap-5 flex flex-col">
-                            <h1 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Sobre mim</h1>
-                            <p className="text-gray-300">Minha formação inicial foi em Licenciatura em Educação Física. Com o tempo, decidi redirecionar minha trajetória profissional, levando-me à Ciência da Computação. Atualmente, aprofundo meus estudos com uma pós-graduação em Ciência de Dados.</p>
+                            <h1 className="text-[112px] text-gray-300 font-bold leading-none">Monitoramento. Análise. Velocidade.</h1>
+                            <h2 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Otimização Web Avançada: Acelere e Melhore Sua Presença Online</h2>
+                            <p className="text-gray-300">Com um começo na Educação Física, aprendi a importância da disciplina e do compromisso, e apliquei esses princípios quando mudei para a Ciência da Computação, e mais tarde, ao mergulhar no mundo da Ciência de Dados. Você está lutando com desafios na web? Minha expertise em tecnologias avançadas, como Next.js, garante desenvolvimento de ponta, flexibilidade inigualável e uma presença online otimizada para SEO. E se a velocidade do site é uma preocupação para você, minha especialização em otimização com PageSpeed Insights transformará seu site em um raio. Além disso, com monitoramento via Search Console e análise profunda do comportamento do usuário através do GA4, estou equipado para entender e atender às necessidades do seu público. Somado a isso, minha abordagem de design responsivo usando Tailwind CSS e inovação com WordPress Headless significa que você terá soluções web rápidas, seguras e incrivelmente adaptáveis. Se você procura mais do que apenas soluções, mas uma revolução na sua presença online, vamos conversar. Juntos, podemos criar e solucionar qualquer desafio digital.</p>
 
                             <Image src={dominandoNextjsImage} alt="Imandem de um painel de uma nave"/>
 
