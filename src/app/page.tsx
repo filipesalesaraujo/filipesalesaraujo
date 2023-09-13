@@ -68,17 +68,15 @@ export default function Home() {
                     <div className="max-w-[1140px] w-[100%] p-5 gap-10 flex flex-col">
 
                         <div className="gap-5 flex flex-col">
-                            <h1 className="text-[112px] font-bold leading-none flex flex-col">
+                            <h1 className="text-6xl font-bold leading-none text-center">
                                 <span className="bg-monitoramento-gradient text-transparent bg-clip-text">Monitoramento.</span>
                                 <span className="bg-analise-gradient text-transparent bg-clip-text">Análise.</span>
                                 <span className="bg-velocidade-gradient text-transparent bg-clip-text">Velocidade.</span>
                             </h1>
-                            <h2 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Otimização Web Avançada: Acelere e Melhore Sua Presença Online</h2>
+                            <h2 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent text-center">Otimização Web Avançada: Acelere e Melhore Sua Presença Online</h2>
                             <p className="text-gray-300">Você está enfrentando problemas de indexação? <strong>Resolvo isso com monitoramento via Search Console.</strong> Está insatisfeito com a velocidade do seu site? <strong>Minha especialização em PageSpeed Insights otimizará seu site para carregar como um raio.</strong> Procura uma presença online otimizada para SEO? <strong>Com minha expertise em Next.js, garanto desenvolvimento de ponta e flexibilidade inigualável.</strong> Buscando entender melhor o comportamento do seu público? <strong>Com o GA4, faço uma análise profunda e entendo exatamente o que seus usuários procuram.</strong> Precisa de um design web adaptável e rápido? <strong>Uso o Tailwind CSS para entregar designs responsivos e o WordPress Headless para inovação e adaptabilidade.</strong> Se você procura mais do que apenas soluções, mas uma revolução na sua presença online, <strong>vamos conversar</strong>. Juntos, podemos enfrentar e superar qualquer desafio digital.</p>
 
-                            <Image src={dominandoNextjsImage} alt="Imandem de um painel de uma nave"/>
-
-                            <h2 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Dominando o Next.js</h2>
+                            <h3 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Dominando o Next.js</h3>
                             <p className="text-gray-300">No dinâmico universo do desenvolvimento de sites, o Next.js é mais do que apenas uma ferramenta; é um catalisador de eficiência e inovação. Optei por integrar o Next.js ao meu fluxo de trabalho pelos seguintes motivos:</p>
 
                             <ul className="text-gray-300 flex flex-col gap-5 list-disc pl-5">
@@ -95,7 +93,7 @@ export default function Home() {
                         </div>
 
                         <div className="gap-5 flex flex-col">
-                            <h3 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Expertise em PageSpeed Insights</h3>
+                            <h4 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Expertise em PageSpeed Insights</h4>
                             <p className="text-gray-300">Um site rápido não é apenas agradável aos olhos; é vital para a retenção de usuários. Estudos mostram que cada segundo a mais no tempo de carregamento pode levar a uma significativa taxa de abandono. Os benefícios de uma excelente pontuação no PageSpeed Insights vão além do simples engajamento do usuário:</p>
                             <ul className="text-gray-300 flex flex-col gap-5 list-disc pl-5">
                                 <li><strong>Melhor Ranking em Buscadores:</strong> Mecanismos de busca, como o Google, priorizam sites que carregam rapidamente. Um site otimizado tem maior probabilidade de aparecer nas primeiras posições em resultados de busca, trazendo mais tráfego orgânico.</li>
@@ -110,7 +108,7 @@ export default function Home() {
 
 
                         <div className="gap-5 flex flex-col">
-                            <h4 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Decifrando o Search Console</h4>
+                            <h5 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">Decifrando o Search Console</h5>
                             <p className="text-gray-300">Ter um site é uma coisa; garantir que ele seja encontrado é outra. No universo digital, a visibilidade é tão crucial quanto a funcionalidade. É aqui que o Search Console brilha:</p>
                             <ul className="text-gray-300 flex flex-col gap-5 list-disc pl-5">
                                 <li><strong>Insights Detalhados:</strong> Com o Search Console, não se fica apenas &quot;no escuro&quot; esperando que o site seja encontrado. Ele fornece dados detalhados sobre como os usuários chegam ao site, quais palavras-chave são mais eficazes e quais páginas são mais populares.</li>
@@ -124,7 +122,7 @@ export default function Home() {
                         </div>
 
                         <div className="gap-5 flex flex-col">
-                            <h5 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">GA4: Análise Avançada para Decisões Precisas</h5>
+                            <h6 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">GA4: Análise Avançada para Decisões Precisas</h6>
                             <p className="text-gray-300">Dados são o novo ouro do século. Em uma era digital onde cada clique, interação e comportamento pode ser monitorado, é imperativo ter as ferramentas certas para compreender e capitalizar essas informações. É aqui que o GA4 se destaca:</p>
                             <ul className="text-gray-300 flex flex-col gap-5 list-disc pl-5">
                                 <li><strong>Análise de Jornada Completa:</strong> O GA4 não se limita a mostrar páginas vistas ou cliques isolados. Ele permite visualizar a jornada completa do usuário, desde a primeira interação até a conversão, identificando pontos de atrito e oportunidades de otimização.</li>
@@ -137,7 +135,7 @@ export default function Home() {
                         </div>
 
                         <div className="gap-5 flex flex-col">
-                            <h6 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">O Poder do Design Consciente com Tecnologia de Ponta</h6>
+                            <p className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent">O Poder do Design Consciente com Tecnologia de Ponta</p>
                             <p className="text-gray-300">Design é mais do que estética; é sobre funcionalidade. Com Tailwind CSS, posso criar designs que não são apenas visualmente atraentes, mas também altamente responsivos e adaptados às necessidades do usuário.</p>
                             <ul className="text-gray-300 flex flex-col gap-5 list-disc pl-5">
                                 <li><strong>Consistência e Eliminação de Hard Code:</strong> Em um cenário onde muitos projetos se perdem em ajustes manuais frequentes, causando erros e inconsistências, o Tailwind se destaca. Ele traz uma abordagem baseada em um sistema de valores pré-definidos, garantindo que os designs sejam consistentes e que a dependência de valores codificados seja minimizada. Isso significa menos erros visuais e uma estética mais harmoniosa.</li>
