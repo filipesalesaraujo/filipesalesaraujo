@@ -68,7 +68,7 @@ export default function Home() {
                     <div className="max-w-[1140px] w-[100%] p-5 gap-10 flex flex-col">
 
                         <div className="gap-5 flex flex-col">
-                            <h1 className="text-6xl font-bold leading-none text-center">
+                            <h1 className="text-3xl lg:text-6xl font-bold leading-none text-center flex flex-wrap justify-center">
                                 <span className="bg-monitoramento-gradient text-transparent bg-clip-text">Monitoramento.</span>
                                 <span className="bg-analise-gradient text-transparent bg-clip-text">Análise.</span>
                                 <span className="bg-velocidade-gradient text-transparent bg-clip-text">Velocidade.</span>
