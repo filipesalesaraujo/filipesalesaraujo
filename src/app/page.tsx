@@ -77,20 +77,35 @@ export default function Home() {
                     <div className="max-w-[1140px] w-[100%] p-5 gap-10 flex flex-col">
 
                         <div className="gap-5 flex flex-col">
+
                             <h1 className="text-3xl lg:text-6xl font-bold leading-none text-center flex flex-wrap justify-center gap-5">
                                 <span className="bg-monitoramento-gradient text-transparent bg-clip-text">Monitoramento.</span>
                                 <span className="bg-analise-gradient text-transparent bg-clip-text">Análise.</span>
                                 <span className="bg-velocidade-gradient text-transparent bg-clip-text">Velocidade.</span>
                             </h1>
-                            <h2 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent text-center">Otimização Web Avançada: Acelere e Melhore Sua Presença Online</h2>
-                            <p className="text-gray-300">Você está enfrentando problemas de indexação? <strong>Resolvo isso com monitoramento via Search Console.</strong></p>
-                            <p className="text-gray-300">Está insatisfeito com a velocidade do seu site? <strong>Minha especialização em PageSpeed Insights otimizará seu site para carregar como um raio.</strong></p>
-                            <p className="text-gray-300">Procura uma presença online otimizada para SEO? <strong>Com minha expertise em Next.js, garanto desenvolvimento de ponta e flexibilidade inigualável.</strong></p>
-                            <p className="text-gray-300">Buscando entender melhor o comportamento do seu público? <strong>Com o GA4, faço uma análise profunda e entendo exatamente o que seus usuários procuram.</strong></p>
-                            <p className="text-gray-300">Precisa de um design web adaptável e rápido? <strong>Uso o Tailwind CSS para entregar designs responsivos e o WordPress Headless para inovação e adaptabilidade.</strong></p>
-                            <p className="text-gray-300">Se você procura mais do que apenas soluções, mas uma revolução na sua presença online, <strong>vamos conversar</strong>. Juntos, podemos enfrentar e superar qualquer desafio digital.</p>
 
-                            <a href="https://wa.me/5511984583529?text=Olá!%20Gostaria%20de%20entrar%20em%20contato%20com%20você." target="_blank" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer melhorar a performance do seu site? Clique aqui e saiba mais!</a>
+                            <h2 className="text-3xl font-extrabold bg-gradient-linear bg-clip-text text-transparent text-center">Otimização Web Avançada: Acelere e Melhore Sua Presença Online</h2>
+
+                            <p className="text-gray-300">Problemas de indexação podem afetar a visibilidade do seu site nos motores de busca. <strong>Com o monitoramento via Search Console, identifico e resolvo tais problemas, garantindo que seu site seja facilmente encontrado.</strong></p>
+                            <a href="https://wa.me/5511984583529?text=Olá!%20Estou%20com%20problemas%20de%20indexação%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Search%20Console." target="_blank" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Fale comigo no WhatsApp e melhore sua indexação!</a>
+
+                            <p className="text-gray-300">A velocidade de um site é crucial para a experiência do usuário e SEO. <strong>Minha especialização em PageSpeed Insights vai além de apenas otimizar; transformo sites lentos em plataformas rápidas e eficientes.</strong></p>
+                            <a href="https://wa.me/5511984583529?text=Olá!%20Meu%20site%20está%20lento%20e%20gostaria%20de%20saber%20mais%20sobre%20PageSpeed%20Insights." target="_blank" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Vamos acelerar seu site? Entre em contato!</a>
+
+                            <p className="text-gray-300">Uma presença online otimizada é fundamental na era digital. <strong>Com a força do Next.js, proporciono um desenvolvimento de vanguarda que combina desempenho com a adaptabilidade que o SEO moderno exige.</strong></p>
+                            <a href="https://wa.me/5511984583529?text=Olá!%20Estou%20buscando%20otimizar%20minha%20presença%20online%20para%20SEO%20e%20gostaria%20de%20saber%20mais%20sobre%20Next.js." target="_blank" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Maximize sua presença online com Next.js. Saiba mais!</a>
+
+                            <p className="text-gray-300">Compreender o comportamento do seu público pode ser a chave para o sucesso do seu negócio. <strong>Usando GA4, mergulho nos dados, revelando insights valiosos sobre o que seus usuários realmente desejam.</strong></p>
+                            <a href="https://wa.me/5511984583529?text=Olá!%20Quero%20entender%20melhor%20o%20comportamento%20do%20meu%20público.%20Como%20o%20GA4%20pode%20ajudar?" target="_blank" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Desvende o comportamento do seu público com o GA4. Converse comigo!</a>
+
+                            <p className="text-gray-300">Um design responsivo e veloz é mais do que uma necessidade; é uma expectativa dos usuários. <strong>Combinando o poder do Tailwind CSS e a inovação do WordPress Headless, entrego soluções web modernas, adaptáveis e com tempos de carregamento surpreendentes.</strong></p>
+                            <a href="https://wa.me/5511984583529?text=Olá!%20Estou%20em%20busca%20de%20um%20design%20web%20adaptável%20e%20rápido.%20Gostaria%20de%20saber%20mais%20sobre%20Tailwind%20CSS%20e%20WordPress%20Headless." target="_blank" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Desfrute de designs incríveis com Tailwind e WordPress Headless. Contate-me!</a>
+
+                            <p className="text-gray-300">A era digital está em constante evolução, e estar preparado é essencial. <strong>Se você busca não apenas adaptação, mas uma verdadeira revolução na sua presença online, estou aqui para te ajudar.</strong></p>
+                            <a href="https://wa.me/5511984583529?text=Olá!%20Quero%20revolucionar%20minha%20presença%20online%20e%20preciso%20da%20sua%20ajuda." target="_blank" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors" >Transforme sua presença digital. Fale comigo no WhatsApp!</a>
+
+                            <p className="text-gray-300">Se você não chegou aqui buscando soluções de trabalho, mas sim para ler um artigo ou adquirir conhecimento, saiba que é igualmente bem-vindo! Valorizo a troca de informações e estou sempre animado para compartilhar e aprender com entusiastas e curiosos. Explore, leia e sinta-se à vontade para mergulhar no conteúdo disponível.</p>
+
                         </div>
 
                         <div className="flex justify-between">
