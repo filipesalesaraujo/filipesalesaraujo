@@ -81,7 +81,7 @@ export default function Home() {
                             <p className="text-gray-300">Precisa de um design web adaptável e rápido? <strong>Uso o Tailwind CSS para entregar designs responsivos e o WordPress Headless para inovação e adaptabilidade.</strong></p>
                             <p className="text-gray-300">Se você procura mais do que apenas soluções, mas uma revolução na sua presença online, <strong>vamos conversar</strong>. Juntos, podemos enfrentar e superar qualquer desafio digital.</p>
 
-                            <Link href="/contato" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer melhorar a performance do seu site? Clique aqui e saiba mais!</Link>
+                            <a href="https://wa.me/5511984583529?text=Olá!%20Gostaria%20de%20entrar%20em%20contato%20com%20você." target="_blank" className="bg-green-500 bg-opacity-50 hover:bg-opacity-80 text-gray-300 flex items-center justify-center p-1 rounded-md font-bold transition-colors">Quer melhorar a performance do seu site? Clique aqui e saiba mais!</a>
                         </div>
 
 
