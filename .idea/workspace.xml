@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba400ad-b217-4ce2-a717-09e744f7adee" name="Changes" comment=":duck:">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a0bbdd80-474f-40db-9fae-0603da2b5bfa" name="Changes" comment=":duck:" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript JSX File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,464 +16,61 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2N7Ze9TQTorAxEYHVPBAzgxJTx7" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2VXH82CSmXU8HD5VBMCExR4eyZ4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;prod&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ws/filipesalesaraujo/public/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\ws\\filipesalesaraujo\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\ws\\filipesalesaraujo\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ws\filipesalesaraujo\public\images" />
-      <recent name="D:\ws\filipesalesaraujo\src\app" />
-      <recent name="C:\Users\filip\OneDrive\Documentos\GitHub\ws-webstorm\filipesalesaraujo\src\app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\filip\OneDrive\Documentos\GitHub\ws-webstorm\filipesalesaraujo\public\images" />
-      <recent name="C:\Users\filip\OneDrive\Documentos\GitHub\ws-webstorm\filipesalesaraujo\src\app\api\send-email" />
-      <recent name="C:\Users\filip\OneDrive\Documentos\GitHub\ws-webstorm\filipesalesaraujo\src\app\api\teste" />
-      <recent name="C:\Users\filip\OneDrive\Documentos\GitHub\ws-webstorm\filipesalesaraujo\src\app\contato" />
-      <recent name="C:\Users\filip\OneDrive\Documentos\GitHub\ws-webstorm\filipesalesaraujo\src\app" />
-    </key>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4ba400ad-b217-4ce2-a717-09e744f7adee" name="Changes" comment="" />
-      <created>1679017174087</created>
+      <changelist id="a0bbdd80-474f-40db-9fae-0603da2b5bfa" name="Changes" comment="" />
+      <created>1694975344548</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679017174087</updated>
-      <workItem from="1679017175260" duration="3130000" />
-      <workItem from="1679192172294" duration="185000" />
-      <workItem from="1679407296111" duration="47000" />
-      <workItem from="1691863484994" duration="6244000" />
-      <workItem from="1691870526841" duration="26551000" />
-      <workItem from="1692656428996" duration="1238000" />
-      <workItem from="1692659566553" duration="10172000" />
-      <workItem from="1692900993156" duration="608000" />
-      <workItem from="1692975303312" duration="592000" />
-      <workItem from="1693091141953" duration="19828000" />
-      <workItem from="1693580029221" duration="9000" />
-      <workItem from="1694641814924" duration="8852000" />
+      <updated>1694975344548</updated>
+      <workItem from="1694975352704" duration="7375000" />
     </task>
     <task id="LOCAL-00001" summary=":duck:">
-      <created>1679019934340</created>
+      <option name="closed" value="true" />
+      <created>1694983054774</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1679019934340</updated>
+      <updated>1694983054774</updated>
     </task>
     <task id="LOCAL-00002" summary=":duck:">
-      <created>1679020193462</created>
+      <option name="closed" value="true" />
+      <created>1694983139905</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1679020193462</updated>
+      <updated>1694983139905</updated>
     </task>
-    <task id="LOCAL-00003" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691870584544</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691870584544</updated>
-    </task>
-    <task id="LOCAL-00004" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691870786287</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1691870786287</updated>
-    </task>
-    <task id="LOCAL-00005" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691871641665</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1691871641665</updated>
-    </task>
-    <task id="LOCAL-00006" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691876328318</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1691876328318</updated>
-    </task>
-    <task id="LOCAL-00007" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691877422642</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1691877422642</updated>
-    </task>
-    <task id="LOCAL-00008" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691892680406</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1691892680406</updated>
-    </task>
-    <task id="LOCAL-00009" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691893154866</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1691893154866</updated>
-    </task>
-    <task id="LOCAL-00010" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691903073712</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1691903073712</updated>
-    </task>
-    <task id="LOCAL-00011" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691903370644</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1691903370644</updated>
-    </task>
-    <task id="LOCAL-00012" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691963625186</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1691963625186</updated>
-    </task>
-    <task id="LOCAL-00013" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691963812756</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1691963812756</updated>
-    </task>
-    <task id="LOCAL-00014" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691968253907</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1691968253907</updated>
-    </task>
-    <task id="LOCAL-00015" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1691968336259</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1691968336259</updated>
-    </task>
-    <task id="LOCAL-00016" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1692656468390</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1692656468390</updated>
-    </task>
-    <task id="LOCAL-00017" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1692662216985</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1692662216985</updated>
-    </task>
-    <task id="LOCAL-00018" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1692668673151</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1692668673151</updated>
-    </task>
-    <task id="LOCAL-00019" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1692668698843</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1692668698843</updated>
-    </task>
-    <task id="LOCAL-00020" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1692715114532</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1692715114532</updated>
-    </task>
-    <task id="LOCAL-00021" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1692715762027</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1692715762027</updated>
-    </task>
-    <task id="LOCAL-00022" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693093457054</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1693093457054</updated>
-    </task>
-    <task id="LOCAL-00023" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693094582775</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1693094582775</updated>
-    </task>
-    <task id="LOCAL-00024" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693102178605</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1693102178605</updated>
-    </task>
-    <task id="LOCAL-00025" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693102277499</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1693102277499</updated>
-    </task>
-    <task id="LOCAL-00026" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693102344120</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1693102344120</updated>
-    </task>
-    <task id="LOCAL-00027" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693109299766</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1693109299766</updated>
-    </task>
-    <task id="LOCAL-00028" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693110575920</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1693110575920</updated>
-    </task>
-    <task id="LOCAL-00029" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693110873258</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1693110873258</updated>
-    </task>
-    <task id="LOCAL-00030" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693111201642</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1693111201642</updated>
-    </task>
-    <task id="LOCAL-00031" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693112155817</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1693112155817</updated>
-    </task>
-    <task id="LOCAL-00032" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693165446143</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1693165446143</updated>
-    </task>
-    <task id="LOCAL-00033" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693166943814</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1693166943814</updated>
-    </task>
-    <task id="LOCAL-00034" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1693167088503</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1693167088503</updated>
-    </task>
-    <task id="LOCAL-00035" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694641955238</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1694641955238</updated>
-    </task>
-    <task id="LOCAL-00036" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694644196604</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1694644196604</updated>
-    </task>
-    <task id="LOCAL-00037" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694647029243</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1694647029243</updated>
-    </task>
-    <task id="LOCAL-00038" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694647319434</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1694647319434</updated>
-    </task>
-    <task id="LOCAL-00039" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694647436855</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1694647436855</updated>
-    </task>
-    <task id="LOCAL-00040" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694647714400</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1694647714400</updated>
-    </task>
-    <task id="LOCAL-00041" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694647757402</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1694647757402</updated>
-    </task>
-    <task id="LOCAL-00042" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694647852465</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1694647852465</updated>
-    </task>
-    <task id="LOCAL-00043" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694648276363</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1694648276363</updated>
-    </task>
-    <task id="LOCAL-00044" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694648354590</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1694648354590</updated>
-    </task>
-    <task id="LOCAL-00045" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694648763878</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1694648763878</updated>
-    </task>
-    <task id="LOCAL-00046" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694649805795</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1694649805795</updated>
-    </task>
-    <task id="LOCAL-00047" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694649842083</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1694649842083</updated>
-    </task>
-    <task id="LOCAL-00048" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694650075909</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1694650075909</updated>
-    </task>
-    <option name="localTasksCounter" value="49" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":duck:" />

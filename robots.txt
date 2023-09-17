@@ -1,6 +1,0 @@
-Sitemap: https://filipesalesaraujo.com/sitemap.xml
-
-User-agent: *
-Allow: /*
-
-Disallow: /dev/
