@@ -42,7 +42,7 @@ export default function Document() {
             <body>
             <header className="flex items-center justify-center border-b-[1px] border-black">
                 <div className="max-w-7xl p-5">
-                    <Link href="/">[filipesalesaraujo]</Link>
+                    <Link href="/" className="font-bold">[filipesalesaraujo]</Link>
                 </div>
             </header>
             <Main/>
