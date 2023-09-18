@@ -123,7 +123,7 @@ export default function Slug({posts}: ISlug) {
                                 }}
                             />
                         </Head>
-                        <h1>{post.title.rendered}</h1>
+                        <h1 className="text-4xl font-bold mb-5">{post.title.rendered}</h1>
                         <div dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
                     </div>
                 ))}
