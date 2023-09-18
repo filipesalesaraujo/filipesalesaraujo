@@ -40,7 +40,7 @@ export default function Home({posts}: IBlog) {
             <main className="flex items-center justify-center">
                 <div className="max-w-7xl p-5 flex flex-wrap gap-5">
                     {posts.map((post) => (
-                            <div key={post.id} className="gap-5 p-5 border-[1px] border-black w-[32%] flex flex-col justify-between items-start rounded-md">
+                            <div key={post.id} className="gap-5 p-5 border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start rounded-md">
                                 <div className="flex flex-col gap-5">
                                     <h1 className="font-bold">{post.title.rendered}</h1>
                                     <p>{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
