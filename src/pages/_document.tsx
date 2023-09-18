@@ -44,7 +44,7 @@ export default function Document() {
             <header className="flex items-center justify-center bg-black-white">
                 <div className="max-w-7xl w-[100%] flex justify-between items-center">
                     <div className="bg-black p-5 max-w-[20%] w-[100%] rounded-br-3xl flex justify-center">
-                        <Link href="/" className="font-bold text-white spaced-animation">[filipesalesaraujo]</Link>
+                        <Link href="/" className="font-bold text-white">[filipesalesaraujo]</Link>
                     </div>
                     <div className="p-5 max-w-[80%] w-[100%] flex justify-end gap-5">
                         <Link href='/artigos' className="underline-animation">Artigos</Link>
