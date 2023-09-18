@@ -17,7 +17,6 @@ export type TPost = {
     modified: string
     _embedded: any;
     acf: {
-        "title": string,
         "description": string,
         "keywords": string,
     }
@@ -75,18 +74,18 @@ export default function Slug({posts}: ISlug) {
                 {posts.map((post) => (
                     <div key={post.id} className="max-w-7xl p-5">
                         <Head>
-                            <title>{post.acf.title}</title>
+                            <title>{post.title.rendered}</title>
                             <meta name="description" content={post.acf.description}/>
                             <meta name="keywords" content={post.acf.keywords}/>
                             <meta name="author" content="Filipe Sales Araujo"/>
                             <link rel="canonical" href={post.slug}/>
-                            <meta property="og:title" content={post.acf.title}/>
+                            <meta property="og:title" content={post.title.rendered}/>
                             <meta property="og:description" content={post.acf.description}/>
                             <meta property="og:image" content="URL da imagem de destaque"/>
                             <meta property="og:url" content={post.slug}/>
                             <meta property="og:type" content="article"/>
                             <meta name="twitter:card" content="summary"/>
-                            <meta name="twitter:title" content={post.acf.title}/>
+                            <meta name="twitter:title" content={post.title.rendered}/>
                             <meta name="twitter:description" content={post.acf.description}/>
                             <meta name="twitter:image" content="URL da imagem de destaque"/>
                             <script
@@ -98,7 +97,7 @@ export default function Slug({posts}: ISlug) {
                                             "@type": "WebPage",
                                             "@id": `${post.slug}`
                                         },
-                                        "headline": `${post.acf.title}`,
+                                        "headline": `${post.title.rendered}`,
                                         "image": [
                                             "https://example.com/image1.jpg",
                                         ],
@@ -110,7 +109,7 @@ export default function Slug({posts}: ISlug) {
                                         },
                                         "publisher": {
                                             "@type": "Organization",
-                                            "name": "Filipe Sales Araujo",
+                                            "name": "[filipesalesaraujo]",
                                             "logo": {
                                                 "@type": "ImageObject",
                                                 "url": "https://example.com/logo.jpg"
