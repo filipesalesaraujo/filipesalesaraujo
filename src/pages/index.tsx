@@ -43,23 +43,23 @@ export default function Home({posts}: IBlog) {
     return (
         <main className="flex items-center justify-center flex-col">
 
-            <section className="max-w-7xl p-5 flex flex-wrap gap-10 flex-col ">
+            <section className="max-w-4xl p-5 flex flex-wrap gap-10 flex-col ">
                 <h1 className="text-4xl text-center">
                     <span className={crimsonPro.className}>Oi! Meu nome é </span>
                     <strong className="text-7xl block">Filipe Sales Araujo</strong>
                 </h1>
-                <p className="text-3xl max-w-4xl">Com formação em <strong className="underline font-normal decoration-2 underline-offset-2">Educação Física</strong> e experiência em docência, tanto em ambientes escolares quanto em academias. Mergulhei no universo do <strong className="underline font-normal decoration-2 underline-offset-2">desenvolvimento web</strong> e estou aprofundando meus conhecimentos em <strong className="underline font-normal decoration-2 underline-offset-2">Ciência de Dados</strong> através de uma pós-graduação. Minha trajetória multifacetada me permite conectar diferentes mundos e trazer uma perspectiva única aos projetos. </p>
-                <p className="text-3xl max-w-4xl">No cenário digital atual, é essencial equilibrar inovação com confiabilidade. Por isso, orgulho-me de trabalhar com tecnologia de ponta, como o <strong className="underline font-normal decoration-2 underline-offset-2">Next.js</strong>, para proporcionar experiências web rápidas e dinâmicas. Ao mesmo tempo, valorizo a robustez e versatilidade de plataformas consolidadas, como o <strong className="underline font-normal decoration-2 underline-offset-2">WordPress</strong>. Esta combinação permite-me entregar soluções modernas, eficientes e confiáveis para qualquer desafio que venha pela frente.</p>
+                <p className="text-3xl">Com formação em <strong className="underline font-normal decoration-2 underline-offset-2">Educação Física</strong> e experiência em docência, tanto em ambientes escolares quanto em academias. Mergulhei no universo do <strong className="underline font-normal decoration-2 underline-offset-2">desenvolvimento web</strong> e estou aprofundando meus conhecimentos em <strong className="underline font-normal decoration-2 underline-offset-2">Ciência de Dados</strong> através de uma pós-graduação. Minha trajetória multifacetada me permite conectar diferentes mundos e trazer uma perspectiva única aos projetos. </p>
+                <p className="text-3xl">No cenário digital atual, é essencial equilibrar inovação com confiabilidade. Por isso, orgulho-me de trabalhar com tecnologia de ponta, como o <strong className="underline font-normal decoration-2 underline-offset-2">Next.js</strong>, para proporcionar experiências web rápidas e dinâmicas. Ao mesmo tempo, valorizo a robustez e versatilidade de plataformas consolidadas, como o <strong className="underline font-normal decoration-2 underline-offset-2">WordPress</strong>. Esta combinação permite-me entregar soluções modernas, eficientes e confiáveis para qualquer desafio que venha pela frente.</p>
             </section>
 
             <div className="max-w-4xl p-5 flex gap-5 flex-col lg:flex-row">
 
-               <div className="w-[100%] max-w-[32%] flex flex-col gap-2 items-start">
+               <div className="w-[100%] max-w-[30%] flex flex-col gap-2 items-start">
                    <h2 className="text-3xl ">Artigos recentes</h2>
                    <Link href="/artigos" className="underline-animation">ver todos</Link>
                </div>
 
-                <div className="flex flex-wrap gap-5 flex-col">
+                <div className="flex flex-wrap gap-5 flex-col max-w-[70%]">
                     {posts.map((post) => (
                             <div key={post.id} className="border-[1px] border-black w-[100%] max-w-[100%] flex flex-col justify-between items-start rounded-md overflow-hidden">
                                 <div className="gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
