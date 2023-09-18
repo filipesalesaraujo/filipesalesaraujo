@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.underline-animation{
+    position: relative;
+}
+
+.underline-animation::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: currentColor;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    transition: right 0.4s ease-in, left 0.4s ease-in;
+}
+
+.underline-animation:hover::before {
+    right: 0;
+    transition: right 0.4s ease-in;
+}
+
+.spaced-animation {
+    transition: letter-spacing 0.4s ease-in-out;
+}
+
+.spaced-animation:hover {
+    letter-spacing: 4px; /* Você pode ajustar este valor conforme sua preferência */
+}

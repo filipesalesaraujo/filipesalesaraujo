@@ -1,4 +1,5 @@
 import {Html, Head, Main, NextScript} from 'next/document'
+
 import Link from "next/link";
 
 import {FaRegEnvelope, FaGithubAlt, FaWhatsapp, FaLinkedinIn} from "react-icons/fa6";
@@ -40,22 +41,28 @@ export default function Document() {
                 />
             </Head>
             <body>
-            <header className="flex items-center justify-center border-b-[1px] border-black">
-                <div className="max-w-7xl p-5">
-                    <Link href="/" className="font-bold">[filipesalesaraujo]</Link>
+            <header className="flex items-center justify-center bg-black-white">
+                <div className="max-w-7xl w-[100%] flex justify-between items-center">
+                    <div className="bg-black p-5 max-w-[20%] w-[100%] rounded-br-3xl flex justify-center">
+                        <Link href="/" className="font-bold text-white spaced-animation">[filipesalesaraujo]</Link>
+                    </div>
+                    <div className="p-5 max-w-[80%] w-[100%] flex justify-end gap-5">
+                        <Link href='/artigos' className="underline-animation">Artigos</Link>
+                        <a href="https://wa.me/5511984583529" className="underline-animation" target="_blank">Contato</a>
+                    </div>
                 </div>
             </header>
             <Main/>
             <NextScript/>
-            <footer className="flex items-center justify-center border-t-[1px] border-black justify-betwee">
+            <footer className="flex items-center justify-center border-t-[1px] border-black justify-betwee bg-black">
                 <div className="max-w-7xl p-5 flex gap-5">
-                    <a href="https://github.com/filipesalesaraujo" target="_blank" className="hover:text-purple-500 transition-colors"><FaGithubAlt size={25}/></a>
-                    <a href="mailto:filipesalesaraujo@gmail.com" className="hover:text-red-500 transition-colors"><FaRegEnvelope size={25}/></a>
-                    <a href="https://wa.me/5511984583529" target="_blank" className="hover:text-green-500 transition-colors"><FaWhatsapp size={25}/></a>
-                    <a href="https://www.linkedin.com/in/filipesales21/" className="hover:text-blue-500 transition-colors" target="_blank"><FaLinkedinIn size="25"/></a>
+                    <a href="https://github.com/filipesalesaraujo" target="_blank" className="text-white hover:text-purple-500 transition-colors"><FaGithubAlt size={25}/></a>
+                    <a href="mailto:filipesalesaraujo@gmail.com" className="text-white hover:text-red-500 transition-colors"><FaRegEnvelope size={25}/></a>
+                    <a href="https://wa.me/5511984583529" target="_blank" className="text-white hover:text-green-500 transition-colors"><FaWhatsapp size={25}/></a>
+                    <a href="https://www.linkedin.com/in/filipesales21/" className="text-white hover:text-blue-500 transition-colors" target="_blank"><FaLinkedinIn size="25"/></a>
                 </div>
             </footer>
             </body>
         </Html>
-    )
+)
 }
