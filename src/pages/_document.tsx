@@ -62,6 +62,7 @@ export default function Document() {
                     <a href="https://wa.me/5511984583529" target="_blank" className="text-white hover:text-green-500 transition-colors"><FaWhatsapp size={25}/></a>
                     <a href="https://www.linkedin.com/in/filipesales21/" className="text-white hover:text-blue-500 transition-colors" target="_blank"><FaLinkedinIn size="25"/></a>
                 </div>
+                <a href="https://wa.me/5511984583529" target="_blank" className="fixed bottom-0 right-0 bg-black rounded-full text-2xl m-5 text-white p-3 hover:bg-green-500 transition-colors" ><FaWhatsapp /></a>
             </footer>
             </body>
         </Html>
