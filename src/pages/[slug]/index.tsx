@@ -1,5 +1,6 @@
 import {GetStaticPaths, GetStaticProps, GetStaticPropsContext} from "next";
 import Head from "next/head";
+import Image from "next/image";
 
 export type TPost = {
     excerpt?: {
@@ -17,8 +18,8 @@ export type TPost = {
     modified: string
     _embedded: any;
     acf: {
-        "description": string,
-        "keywords": string,
+        description: string,
+        keywords: string,
     }
 }
 
@@ -72,7 +73,7 @@ export default function Slug({posts}: ISlug) {
         <>
             <div className="flex justify-center items-center">
                 {posts.map((post) => (
-                    <div key={post.id} className="max-w-7xl p-5">
+                    <div key={post.id} className="max-w-7xl p-5 flex flex-col gap-5">
                         <Head>
                             <title>{post.title.rendered}</title>
                             <meta name="description" content={post.acf.description}/>
@@ -81,13 +82,13 @@ export default function Slug({posts}: ISlug) {
                             <link rel="canonical" href={post.slug}/>
                             <meta property="og:title" content={post.title.rendered}/>
                             <meta property="og:description" content={post.acf.description}/>
-                            <meta property="og:image" content="URL da imagem de destaque"/>
+                            <meta property="og:image" content={post._embedded['wp:featuredmedia']['0'].source_url}/>
                             <meta property="og:url" content={post.slug}/>
                             <meta property="og:type" content="article"/>
                             <meta name="twitter:card" content="summary"/>
                             <meta name="twitter:title" content={post.title.rendered}/>
                             <meta name="twitter:description" content={post.acf.description}/>
-                            <meta name="twitter:image" content="URL da imagem de destaque"/>
+                            <meta name="twitter:image" content={post._embedded['wp:featuredmedia']['0'].source_url}/>
                             <script
                                 type="application/ld+json"
                                 dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -99,7 +100,7 @@ export default function Slug({posts}: ISlug) {
                                         },
                                         "headline": `${post.title.rendered}`,
                                         "image": [
-                                            "https://example.com/image1.jpg",
+                                            `${post._embedded['wp:featuredmedia']['0'].source_url}`,
                                         ],
                                         "datePublished": `${post.date}`,
                                         "dateModified": `${post.modified}`,
@@ -110,10 +111,6 @@ export default function Slug({posts}: ISlug) {
                                         "publisher": {
                                             "@type": "Organization",
                                             "name": "[filipesalesaraujo]",
-                                            "logo": {
-                                                "@type": "ImageObject",
-                                                "url": "https://example.com/logo.jpg"
-                                            }
                                         },
                                         "description": `${post.acf.description}`,
                                         "keywords": `${post.acf.keywords}`,
@@ -122,8 +119,9 @@ export default function Slug({posts}: ISlug) {
                                 }}
                             />
                         </Head>
-                        <h1 className="text-4xl font-bold mb-5">{post.title.rendered}</h1>
-                        <div dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
+                        <h1 className="text-7xl font-bold mb-5">{post.title.rendered}</h1>
+                        <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url}  alt={post.title.rendered}/>
+                        <div className='text-3xl' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
                     </div>
                 ))}
             </div>
