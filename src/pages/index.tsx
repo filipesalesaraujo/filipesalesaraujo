@@ -64,21 +64,21 @@ export default function Home({posts}: IBlog) {
                        <div className="flex gap-5 justify-between flex-col lg:flex-row">
                            <div className="flex flex-col rounded-md border-white border-[1px] p-5 gap-5 items-center lg:w-1/4 justify-between">
                                <div className="text-3xl"><TbDeviceDesktopAnalytics/></div>
-                               <p className="text-center">Google Analytics 4</p>
+                               <p className="text-lg text-center">Google Analytics 4</p>
                            </div>
 
                            <div className="flex flex-col rounded-md border-white border-[1px] p-5 gap-5 items-center lg:w-1/4 justify-between">
                                <div className="text-3xl"><SiPagespeedinsights/></div>
-                               <p className="text-center">PageSpeed Insights</p>
+                               <p className="text-lg text-center">PageSpeed Insights</p>
                            </div>
 
                            <div className="flex flex-col rounded-md border-white border-[1px] p-5 gap-5 items-center lg:w-1/4 justify-between">
                                <div className="text-3xl"><MdScreenSearchDesktop/></div>
-                               <p className="text-center">Google Search Console</p>
+                               <p className="text-lg text-center">Google Search Console</p>
                            </div>
                            <div className="flex flex-col rounded-md border-white border-[1px] p-5 gap-5 items-center lg:w-1/4 justify-between">
                                <div className="text-3xl"><FaLaptopCode/></div>
-                               <p className="text-center">Desenvolvimento Web</p>
+                               <p className="text-lg text-center">Desenvolvimento Web</p>
                            </div>
                        </div>
 
@@ -96,12 +96,13 @@ export default function Home({posts}: IBlog) {
                 <div className="flex gap-5 flex-col lg:flex-row">
                     {posts.map((post) => (
                             <div key={post.id} className="border-[1px] border-black w-[100%] flex flex-col justify-between rounded-md overflow-hidden">
+                                <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url}  alt={post.title.rendered}/>
                                 <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                                     <div className="flex flex-col gap-5 ">
-                                        <h1 className="font-bold">{post.title.rendered}</h1>
-                                        <p>{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
+                                        <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
+                                        <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
-                                    <Link href={post.slug} className="border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                    <Link href={post.slug} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
                                 </div>
                             </div>
                         )

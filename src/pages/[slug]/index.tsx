@@ -119,9 +119,9 @@ export default function Slug({posts}: ISlug) {
                                 }}
                             />
                         </Head>
-                        <h1 className="text-7xl font-bold mb-5">{post.title.rendered}</h1>
-                        {post._embedded['wp:featuredmedia']['0'].source_url ?? <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url}  alt={post.title.rendered}/>}
-                        <div className='text-3xl' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
+                        <h1 className="text-2xl font-bold mb-5">{post.title.rendered}</h1>
+                        <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url}  alt={post.title.rendered}/>
+                        <div className='text-lg' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
                     </div>
                 ))}
             </div>
