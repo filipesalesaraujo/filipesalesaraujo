@@ -1,4 +1,3 @@
-
 import {GetStaticProps, GetStaticPropsContext} from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -16,42 +15,67 @@ export interface TPost {
 }
 
 export interface IBlog {
-    posts: TPost[]
+    postsCienciaDeDados: TPost[]
+    postsPerformance: TPost[]
 }
 
 export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsContext) => {
 
-    const postsFetch = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true`)
-    const postsArr = await postsFetch.json()
-    const posts = await postsArr
+    const postsFetchCienciaDeDados = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?categories=2&_embed=true`)
+    const postsArrCienciaDeDados = await postsFetchCienciaDeDados.json()
+    const postsCienciaDeDados = await postsArrCienciaDeDados
+
+    const postsFetchPerformance = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?categories=3&_embed=true`)
+    const postsArrPerformance = await postsFetchPerformance.json()
+    const postsPerformance = await postsArrPerformance
 
     return {
         props: {
-            posts,
+            postsCienciaDeDados,
+            postsPerformance
         },
         revalidate: 10,
     }
 }
 
-export default function Artigos({posts}: IBlog) {
+export default function Artigos({postsCienciaDeDados, postsPerformance}: IBlog) {
 
 
     return (
         <main className="flex items-center justify-center">
-            <div className="max-w-7xl p-5 flex flex-wrap gap-5">
-                {posts.map((post) => (
-                        <div key={post.id} className=" border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start rounded-md overflow-hidden">
-                            <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url}  alt={post.title.rendered}/>
-                            <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
-                                <div className="flex flex-col gap-5 ">
-                                    <h1 className="text-lg font-bold">{post.title.rendered}</h1>
-                                    <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
+            <div className="max-w-7xl p-5 flex flex-col gap-5">
+                <h1 className="text-3xl">Ciência de Dados</h1>
+                <div className="flex flex-wrap gap-5">
+                    {postsCienciaDeDados.map((post) => (
+                            <div key={post.id} className=" border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start rounded-md overflow-hidden">
+                                <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                                <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
+                                    <div className="flex flex-col gap-5 ">
+                                        <h1 className="text-lg font-bold">{post.title.rendered}</h1>
+                                        <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
+                                    </div>
+                                    <Link href={post.slug} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
                                 </div>
-                                <Link href={post.slug} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
                             </div>
-                        </div>
-                    )
-                )}
+                        )
+                    )}
+                </div>
+                <h1  className="text-3xl">Performance</h1>
+                <div className="flex flex-wrap gap-5">
+                    {postsPerformance.map((post) => (
+                            <div key={post.id} className=" border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start rounded-md overflow-hidden">
+                                <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                                <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
+                                    <div className="flex flex-col gap-5 ">
+                                        <h1 className="text-lg font-bold">{post.title.rendered}</h1>
+                                        <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
+                                    </div>
+                                    <Link href={post.slug} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                </div>
+                            </div>
+                        )
+                    )}
+                </div>
             </div>
         </main>
     )
