@@ -110,7 +110,7 @@ export default function Home({posts}: IBlog) {
 
                 <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                     <h3 className="text-3xl ">Artigos em destaque</h3>
-                    <Link href="/src/pages/blog" className="underline-animation">ver todos</Link>
+                    <Link href="/blog/" className="underline-animation">ver todos</Link>
                 </div>
 
                 <div className="flex gap-5 flex-col lg:flex-row">
