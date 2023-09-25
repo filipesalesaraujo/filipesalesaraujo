@@ -30,7 +30,7 @@ export interface IBlog {
 
 export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsContext) => {
 
-    const postsFetch = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&per_page=2`)
+    const postsFetch = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&per_page=3`)
     const postsArr = await postsFetch.json()
     const posts = await postsArr
 
@@ -48,7 +48,7 @@ export default function Home({posts}: IBlog) {
     return (
         <main className="flex items-center justify-center flex-col">
 
-            <section className="max-w-4xl p-5 flex flex-wrap gap-10 flex-col ">
+            <section className="max-w-7xl p-5 flex flex-wrap gap-10 flex-col ">
                 <h1 className="text-4xl text-center">
                     <span className={crimsonPro.className}>Oi! Meu nome é </span>
                     <strong className="text-7xl block">Filipe Sales Araujo</strong>
@@ -61,11 +61,10 @@ export default function Home({posts}: IBlog) {
                     </div>
                     <Image className="flex md:w-1/2" src={i} alt="Quadrinhos de uma pessoa de óculos"/>
                 </div>
-
             </section>
 
             <div className="bg-black w-[100%] flex justify-center items-center">
-                <div className="max-w-4xl p-5 flex gap-5 flex-col w-[100%] text-white">
+                <div className="max-w-7xl p-5 flex gap-5 flex-col w-[100%] text-white">
                     <div className="w-[100%] max-w-[100%] flex flex-col gap-5">
                         <h2 className="text-3xl ">Soluções</h2>
 
@@ -94,7 +93,7 @@ export default function Home({posts}: IBlog) {
                 </div>
             </div>
 
-            <div className="max-w-4xl p-5 flex gap-5 flex-col">
+            <div className="max-w-7xl p-5 flex gap-5 flex-col">
 
                 <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                     <h3 className="text-3xl ">Artigos em destaque</h3>
