@@ -3,13 +3,14 @@ import {Crimson_Pro} from 'next/font/google'
 const crimsonPro = Crimson_Pro({subsets: ['latin']})
 
 import i from '../../public/i.png'
+import ga4 from '../../public/ga4.png'
+import pagespeed from '../../public/pagespeed.png'
+import searchconsole from '../../public/searchconsole.png'
+import devweb from '../../public/devweb.png'
 
 import {GetStaticProps, GetStaticPropsContext} from "next";
 import Link from "next/link";
 import Image from "next/image";
-import {TbBrandGoogleAnalytics, TbDeviceDesktopAnalytics} from "react-icons/tb";
-import {SiPagespeedinsights} from "react-icons/si";
-import {MdScreenSearchDesktop} from "react-icons/md";
 import {FaLaptopCode} from "react-icons/fa";
 
 export interface TPost {
@@ -69,23 +70,35 @@ export default function Home({posts}: IBlog) {
                         <h2 className="text-3xl ">Soluções</h2>
 
                         <div className="flex gap-5 justify-between flex-col lg:flex-row">
-                            <div className="flex flex-col rounded-md border-white border-[1px] p-5 gap-5 items-center lg:w-1/4 justify-between">
-                                <div className="text-3xl"><TbDeviceDesktopAnalytics/></div>
-                                <p className="text-lg text-center">Google Analytics 4</p>
+                            <div className="flex flex-col border-white border-[1px] items-center lg:w-1/4 justify-between">
+                                <div className="text-3xl"><Image src={ga4} alt="Desenho de uma pessoa apresentado graficos"/></div>
+                                <div className="p-5 flex flex-col gap-5">
+                                    <p className="text-lg text-center  ">Google Analytics 4</p>
+                                    <a className="text-center flex text-lg px-5 py-1 rounded-3xl text-black bg-white hover:bg-gray-300 transition-colors" href="https://wa.me/5511984583529?text=Olá!%20Estou%20interessado(a)%20em%20saber%20mais%20sobre%20o%20Google%20Analytics%204.%20Poderia%20me%20ajudar?">Descubra o poder do GA4 com minha ajuda!</a>
+                                </div>
                             </div>
 
-                            <div className="flex flex-col rounded-md border-white border-[1px] p-5 gap-5 items-center lg:w-1/4 justify-between">
-                                <div className="text-3xl"><SiPagespeedinsights/></div>
-                                <p className="text-lg text-center">PageSpeed Insights</p>
+                            <div className="flex flex-col border-white border-[1px] items-center lg:w-1/4 justify-between">
+                                <div className="text-3xl"><Image src={pagespeed} alt="Desenho de uma pessoa apresentado graficos"/></div>
+                                <div className="p-5 flex flex-col gap-5">
+                                    <p className="text-lg text-center ">PageSpeed Insights</p>
+                                    <a className="text-center flex text-lg px-5 py-1 rounded-3xl text-black bg-white hover:bg-gray-300 transition-colors" href="https://wa.me/5511984583529?text=Olá!%20Tenho%20algumas%20perguntas%20sobre%20a%20velocidade%20do%20meu%20site%20e%20como%20melhorá-la.%20Você%20pode%20me%20orientar?">Melhore a velocidade do seu site agora!</a>
+                                </div>
                             </div>
 
-                            <div className="flex flex-col rounded-md border-white border-[1px] p-5 gap-5 items-center lg:w-1/4 justify-between">
-                                <div className="text-3xl"><MdScreenSearchDesktop/></div>
-                                <p className="text-lg text-center">Google Search Console</p>
+                            <div className="flex flex-col border-white border-[1px] items-center lg:w-1/4 justify-between">
+                                <div className="text-3xl"><Image src={searchconsole} alt="Desenho de um detetive"/></div>
+                                <div className="p-5 flex flex-col gap-5">
+                                    <p className="text-lg text-center">Google Search Console</p>
+                                    <a className="text-center flex text-lg px-5 py-1 rounded-3xl text-black bg-white hover:bg-gray-300 transition-colors" href="https://wa.me/5511984583529?text=Olá!%20Estou procurando ajuda para melhorar o meu site com o Google Search Console. Você pode me orientar?">Aprimore seu site com o Google Search Console!</a>
+                                </div>
                             </div>
-                            <div className="flex flex-col rounded-md border-white border-[1px] p-5 gap-5 items-center lg:w-1/4 justify-between">
-                                <div className="text-3xl"><FaLaptopCode/></div>
-                                <p className="text-lg text-center">Desenvolvimento Web</p>
+                            <div className="flex flex-col  border-white border-[1px] items-center lg:w-1/4 justify-between">
+                                <div className="text-3xl"><Image src={devweb} alt="Desenho de um programador sentado na mesa com um computador"/></div>
+                                <div className="p-5 flex flex-col gap-5">
+                                    <p className="text-lg text-center">Desenvolvimento Web</p>
+                                    <a className="text-center flex text-lg px-5 py-1 rounded-3xl text-black bg-white hover:bg-gray-300 transition-colors" href="https://wa.me/5511984583529?text=Estou interessado em serviços de desenvolvimento web. Podemos conversar?">Vamos falar sobre desenvolvimento web?</a>
+                                </div>
                             </div>
                         </div>
 
@@ -102,7 +115,7 @@ export default function Home({posts}: IBlog) {
 
                 <div className="flex gap-5 flex-col lg:flex-row">
                     {posts.map((post) => (
-                            <div key={post.id} className="border-[1px] border-black w-[100%] flex flex-col justify-between rounded-md overflow-hidden">
+                            <div key={post.id} className="border-[1px] border-black w-[100%] flex flex-col justify-between overflow-hidden">
                                 <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                                 <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                                     <div className="flex flex-col gap-5 ">

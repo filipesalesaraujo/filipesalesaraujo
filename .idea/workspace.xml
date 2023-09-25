@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0bbdd80-474f-40db-9fae-0603da2b5bfa" name="Changes" comment=":duck:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/artigos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/artigos.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695606468620</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1695606990887</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695606990887</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
