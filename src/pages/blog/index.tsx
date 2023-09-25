@@ -38,7 +38,7 @@ export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsCon
     }
 }
 
-export default function Artigos({postsCienciaDeDados, postsPerformance}: IBlog) {
+export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
 
 
     return (
@@ -57,7 +57,7 @@ export default function Artigos({postsCienciaDeDados, postsPerformance}: IBlog) 
                                         <h1 className="text-lg font-bold">{post.title.rendered}</h1>
                                         <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
-                                    <Link href={post.slug} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                    <Link href={`/blog/${post.slug}`}  className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
                                 </div>
                             </div>
                         )
@@ -74,7 +74,7 @@ export default function Artigos({postsCienciaDeDados, postsPerformance}: IBlog) 
                                         <h1 className="text-lg font-bold">{post.title.rendered}</h1>
                                         <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
-                                    <Link href={post.slug} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                    <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
                                 </div>
                             </div>
                         )

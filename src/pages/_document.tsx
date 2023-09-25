@@ -48,7 +48,7 @@ export default function Document() {
                     </div>
                     <div className="p-5 lg:max-w-[80%] w-[100%] flex justify-end gap-5">
                         <Link href="/" className="underline-animation">Início</Link>
-                        <Link href='/artigos' className="underline-animation">Artigos</Link>
+                        <Link href='/blog' className="underline-animation">Blog</Link>
                         <a href="https://wa.me/5511984583529" className="underline-animation" target="_blank">Contato</a>
                     </div>
                 </div>

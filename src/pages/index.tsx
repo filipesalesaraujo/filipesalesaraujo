@@ -64,7 +64,7 @@ export default function Home({posts}: IBlog) {
                 </div>
             </section>
 
-            <div className="bg-black w-[100%] flex justify-center items-center">
+            <section className="bg-black w-[100%] flex justify-center items-center">
                 <div className="max-w-7xl p-5 flex gap-5 flex-col w-[100%] text-white">
                     <div className="w-[100%] max-w-[100%] flex flex-col gap-5">
                         <h2 className="text-3xl ">Soluções</h2>
@@ -104,13 +104,13 @@ export default function Home({posts}: IBlog) {
 
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="max-w-7xl p-5 flex gap-5 flex-col">
+            <section className="max-w-7xl p-5 flex gap-5 flex-col">
 
                 <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                     <h3 className="text-3xl ">Artigos em destaque</h3>
-                    <Link href="/artigos" className="underline-animation">ver todos</Link>
+                    <Link href="/src/pages/blog" className="underline-animation">ver todos</Link>
                 </div>
 
                 <div className="flex gap-5 flex-col lg:flex-row">
@@ -122,14 +122,15 @@ export default function Home({posts}: IBlog) {
                                         <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
                                         <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
-                                    <Link href={post.slug} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                    <Link href={`/blog/${post.slug}`}  className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
                                 </div>
                             </div>
                         )
                     )}
                 </div>
 
-            </div>
+            </section>
+
         </main>
     )
 }
