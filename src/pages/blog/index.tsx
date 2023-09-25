@@ -1,6 +1,11 @@
+import {Crimson_Pro} from 'next/font/google'
+
+const crimsonPro = Crimson_Pro({subsets: ['latin']})
+
 import {GetStaticProps, GetStaticPropsContext} from "next";
 import Link from "next/link";
 import Image from "next/image";
+import i from "../../../public/i.png";
 
 export interface TPost {
     _embedded: any;
@@ -45,9 +50,15 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
         <main className="flex items-center justify-center">
             <div className="max-w-7xl p-5 flex flex-col gap-5">
 
+                <h1 className="text-4xl text-center flex justify-center flex-col items-center">
+                    <div className='w-full bg-red max-w-xl'>
+                        <span className={`${crimsonPro.className}`}>Pegue o seu café, aprochegue em sua poltrona e delicie-se com os meus </span>
+                    </div>
+                    <strong className="text-7xl block">Artigos</strong>
+                </h1>
                 <p className="text-lg">Mergulhe profundamente nas minhas análises sobre dados, performance web e desenvolvimento. Explore como esses elementos estão moldando o futuro do mundo digital e descubra insights valiosos que podem transformar sua visão sobre a tecnologia. </p>
 
-                <h1  className="text-3xl">Performance</h1>
+                <h1 className="text-3xl">Performance</h1>
                 <div className="flex flex-wrap gap-5">
                     {postsPerformance.map((post) => (
                             <div key={post.id} className=" border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
@@ -57,7 +68,7 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                                         <h1 className="text-lg font-bold">{post.title.rendered}</h1>
                                         <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
-                                    <Link href={`/blog/${post.slug}`}  className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                    <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
                                 </div>
                             </div>
                         )
