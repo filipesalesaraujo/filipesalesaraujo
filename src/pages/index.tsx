@@ -59,6 +59,7 @@ export default function Home({posts}: IBlog) {
                     <div className="flex md:w-1/2 flex-col gap-5">
                         <p className="text-lg">Com formação em <strong className="underline font-normal decoration-2 underline-offset-2">Educação Física</strong> e experiência em docência, tanto em ambientes escolares quanto em academias. Mergulhei no universo do <strong className="underline font-normal decoration-2 underline-offset-2">desenvolvimento web</strong> e estou aprofundando meus conhecimentos em <strong className="underline font-normal decoration-2 underline-offset-2">Ciência de Dados</strong> através de uma pós-graduação. Minha trajetória multifacetada me permite conectar diferentes mundos e trazer uma perspectiva única aos projetos. </p>
                         <p className="text-lg">No cenário digital atual, é essencial equilibrar inovação com confiabilidade. Por isso, orgulho-me de trabalhar com tecnologia de ponta, como o <strong className="underline font-normal decoration-2 underline-offset-2">Next.js</strong>, para proporcionar experiências web rápidas e dinâmicas. Ao mesmo tempo, valorizo a robustez e versatilidade de plataformas consolidadas, como o <strong className="underline font-normal decoration-2 underline-offset-2">WordPress</strong>. Esta combinação permite-me entregar soluções modernas, eficientes e confiáveis para qualquer desafio que venha pela frente.</p>
+                        <p className="text-lg">Além disso, sou apaixonado por otimização e análise de dados. Faço uso de ferramentas como o Google Analytics 4 (GA4), PageSpeed Insights e o Google Search Console para aprimorar o desempenho dos projetos, garantindo que os sites que desenvolvo atinjam a melhor velocidade e visibilidade possível na web. Estou comprometido em oferecer resultados excepcionais e melhorar continuamente a presença online dos meus clientes.</p>
                     </div>
                     <Image className="flex md:w-1/2" src={i} alt="Quadrinhos de uma pessoa de óculos"/>
                 </div>
@@ -122,7 +123,7 @@ export default function Home({posts}: IBlog) {
                                         <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
                                         <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
-                                    <Link href={`/blog/${post.slug}`}  className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                    <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
                                 </div>
                             </div>
                         )
