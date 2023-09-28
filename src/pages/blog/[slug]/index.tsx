@@ -2,6 +2,7 @@ import {GetStaticPaths, GetStaticProps, GetStaticPropsContext} from "next";
 import Head from "next/head";
 import Image from "next/image";
 import {EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, RedditIcon, RedditShareButton, TelegramIcon, TelegramShareButton, TwitterIcon, TwitterShareButton, WhatsappIcon, WhatsappShareButton} from "next-share";
+import Link from "next/link";
 
 export type TPost = {
     excerpt?: {
@@ -26,6 +27,7 @@ export type TPost = {
 
 export interface ISlug {
     posts: TPost[]
+    postsRecentes: TPost[]
 }
 
 export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsContext) => {
@@ -40,9 +42,15 @@ export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsCon
     const posts = await postsArr
 
 
+    const postsRecentesFetch = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&per_page=3`)
+    const postsRecentesArr = await postsRecentesFetch.json()
+    const postsRecentes = await postsRecentesArr
+
+
     return {
         props: {
             posts,
+            postsRecentes
         },
         revalidate: 10,
     };
@@ -69,10 +77,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
         };
     }
 ;
-export default function Slug({posts}: ISlug) {
+export default function Slug({posts, postsRecentes}: ISlug) {
     return (
         <>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center flex-col gap-5">
                 {posts.map((post) => (
                     <div key={post.id} className="max-w-7xl p-5 flex flex-col gap-5">
                         <Head>
@@ -179,9 +187,34 @@ export default function Slug({posts}: ISlug) {
                             </div>
 
                         </div>
+                        <hr/>
+
                     </div>
+
                 ))}
+                <section className="max-w-7xl p-5 flex gap-5 flex-col">
+                    <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
+                        <h3 className="text-3xl ">Artigos recentes</h3>
+                        <Link href="/blog/" className="underline-animation">ver todos</Link>
+                    </div>
+                    <div className="flex gap-5 flex-col lg:flex-row">
+                        {postsRecentes.map((post) => (
+                                <div key={post.id} className="border-[1px] border-black w-[100%] flex flex-col justify-between overflow-hidden">
+                                    <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                                    <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
+                                        <div className="flex flex-col gap-5 ">
+                                            <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
+                                            <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
+                                        </div>
+                                        <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                    </div>
+                                </div>
+                            )
+                        )}
+                    </div>
+                </section>
             </div>
+
         </>
     )
 }
