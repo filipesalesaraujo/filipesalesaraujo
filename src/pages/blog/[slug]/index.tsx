@@ -1,6 +1,7 @@
 import {GetStaticPaths, GetStaticProps, GetStaticPropsContext} from "next";
 import Head from "next/head";
 import Image from "next/image";
+import {EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, RedditIcon, RedditShareButton, TelegramIcon, TelegramShareButton, TwitterIcon, TwitterShareButton, WhatsappIcon, WhatsappShareButton} from "next-share";
 
 export type TPost = {
     excerpt?: {
@@ -79,11 +80,11 @@ export default function Slug({posts}: ISlug) {
                             <meta name="description" content={post.acf.description}/>
                             <meta name="keywords" content={post.acf.keywords}/>
                             <meta name="author" content="Filipe Sales Araujo"/>
-                            <link rel="canonical" href={post.slug}/>
+                            <link rel="canonical" href={`https://filipesalesaraujo.com/blog/${post.slug}`}/>
                             <meta property="og:title" content={post.title.rendered}/>
                             <meta property="og:description" content={post.acf.description}/>
                             <meta property="og:image" content={post._embedded['wp:featuredmedia']['0'].source_url}/>
-                            <meta property="og:url" content={post.slug}/>
+                            <meta property="og:url" content={`https://filipesalesaraujo.com/blog/${post.slug}`}/>
                             <meta property="og:type" content="article"/>
                             <meta name="twitter:card" content="summary"/>
                             <meta name="twitter:title" content={post.title.rendered}/>
@@ -91,7 +92,8 @@ export default function Slug({posts}: ISlug) {
                             <meta name="twitter:image" content={post._embedded['wp:featuredmedia']['0'].source_url}/>
                             <script
                                 type="application/ld+json"
-                                dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                                dangerouslySetInnerHTML={{
+                                    __html: JSON.stringify({
                                         "@context": "https://schema.org",
                                         "@type": "Article",
                                         "mainEntityOfPage": {
@@ -120,8 +122,63 @@ export default function Slug({posts}: ISlug) {
                             />
                         </Head>
                         <h1 className="text-2xl font-bold mb-5">{post.title.rendered}</h1>
-                        <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url}  alt={post.title.rendered}/>
+
+                        <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                         <div className='text-lg' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
+                        <hr/>
+                        <div className="flex gap-5">
+                            <p className="text-black text-xl">Compatilhar via:</p>
+                            <div className="flex gap-2.5">
+                                <WhatsappShareButton
+                                    url={`https://filipesalesaraujo.com/blog/${post.slug}`}
+                                    title={`${post.title.rendered}`}
+                                    separator=" - "
+                                >
+                                    <WhatsappIcon size={32} borderRadius={10}/>
+                                </WhatsappShareButton>
+
+                                <TwitterShareButton
+                                    url={`https://filipesalesaraujo.com/blog/${post.slug}`}
+                                    title={`${post.title.rendered}`}
+                                >
+                                    <TwitterIcon size={32} borderRadius={10}/>
+                                </TwitterShareButton>
+
+                                <LinkedinShareButton url={`https://filipesalesaraujo.com/blog/${post.slug}`}>
+                                    <LinkedinIcon size={32} borderRadius={10}/>
+                                </LinkedinShareButton>
+
+                                <FacebookShareButton
+                                    url={`https://filipesalesaraujo.com/blog/${post.slug}`}
+                                    quote={`${post.title.rendered}`}
+                                >
+                                    <FacebookIcon size={32} borderRadius={10}/>
+                                </FacebookShareButton>
+
+                                <RedditShareButton
+                                    url={`https://filipesalesaraujo.com/blog/${post.slug}`}
+                                    title={`${post.title.rendered}`}
+                                >
+                                    <RedditIcon size={32} borderRadius={10}/>
+                                </RedditShareButton>
+
+                                <TelegramShareButton
+                                    url={`https://filipesalesaraujo.com/blog/${post.slug}`}
+                                    title={`${post.title.rendered}`}
+                                >
+                                    <TelegramIcon size={32} borderRadius={10}/>
+                                </TelegramShareButton>
+
+                                <EmailShareButton
+                                    url={`https://filipesalesaraujo.com/blog/${post.slug}`}
+                                    subject={`${post.title.rendered}`}
+                                    body={`${post.content?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}`}
+                                >
+                                    <EmailIcon size={32} borderRadius={10}/>
+                                </EmailShareButton>
+                            </div>
+
+                        </div>
                     </div>
                 ))}
             </div>
