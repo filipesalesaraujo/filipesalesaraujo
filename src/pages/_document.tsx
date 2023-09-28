@@ -3,6 +3,7 @@ import {Html, Head, Main, NextScript} from 'next/document'
 import Link from "next/link";
 
 import {FaRegEnvelope, FaGithubAlt, FaWhatsapp, FaLinkedinIn} from "react-icons/fa6";
+import Script from "next/script";
 
 export default function Document() {
     return (
@@ -39,6 +40,16 @@ export default function Document() {
                         })
                     }}
                 />
+                <Script src="https://www.googletagmanager.com/gtag/js?id=G-9XQZJ9KDYH" />
+                <Script id="google-analytics">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'G-9XQZJ9KDYH');
+                    `}
+                </Script>
             </Head>
             <body>
             <header className="flex items-center justify-center lg:bg-black-white">
