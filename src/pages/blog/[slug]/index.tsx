@@ -80,7 +80,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export default function Slug({posts, postsRecentes}: ISlug) {
     return (
         <>
-            <div className="flex justify-center items-center flex-col gap-5">
+            <div className="flex justify-center items-center flex-col">
                 {posts.map((post) => (
                     <div key={post.id} className="max-w-7xl p-5 flex flex-col gap-5">
                         <Head>
