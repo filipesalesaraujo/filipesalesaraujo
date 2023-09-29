@@ -44,8 +44,9 @@ export default function Document() {
             <body>
             <header className="flex items-center justify-center lg:bg-black-white">
                 <div className="max-w-7xl w-[100%] flex justify-between items-center">
-                    <div className="hidden lg:flex bg-black p-5 max-w-[20%] w-[100%] rounded-br-3xl justify-start">
-                        <Link href="/" className="font-bold text-white">[filipesalesaraujo]</Link>
+                    <div className="bg-black p-5 max-w-[20%] w-[100%] rounded-br-3xl justify-start">
+                        <Link href="/" className="hidden lg:flex font-bold text-white">[filipesalesaraujo]</Link>
+                        <Link href="/" className="lg:hidden flex font-bold text-white">[ ]</Link>
                     </div>
                     <div className="p-5 lg:max-w-[80%] w-[100%] flex justify-end gap-5">
                         <Link href="/" className="underline-animation">Início</Link>
