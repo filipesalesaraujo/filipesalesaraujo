@@ -130,11 +130,10 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                             />
                         </Head>
                         <h1 className="text-2xl font-bold mb-5">{post.title.rendered}</h1>
-
                         <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                         <div className='text-lg' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
                         <hr/>
-                        <div className="flex gap-5">
+                        <div className="flex flex-col md:flex-row gap-5">
                             <p className="text-black text-xl">Compatilhar via:</p>
                             <div className="flex gap-2.5">
                                 <WhatsappShareButton
