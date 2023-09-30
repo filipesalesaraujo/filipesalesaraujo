@@ -1,18 +1,21 @@
-import type { Config } from 'tailwindcss'
+import type {Config} from 'tailwindcss'
 
 const config: Config = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        'black-white': 'linear-gradient(to right, black 17%, white 15%)',
-      },
+    content: [
+        './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    ],
+    theme: {
+        extend: {
+            colors: {
+                'marca-texto': '#FFEB3B'
+            },
+            backgroundImage: {
+                'black-white': 'linear-gradient(to right, black 17%, white 15%)',
+            },
+        },
     },
-  },
-  plugins: [],
+    plugins: [],
 }
 export default config
