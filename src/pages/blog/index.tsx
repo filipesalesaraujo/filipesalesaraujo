@@ -58,7 +58,7 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                 </h1>
                 <p className="text-lg">Mergulhe profundamente nas minhas análises sobre dados, performance web e desenvolvimento. Explore como esses elementos estão moldando o futuro do mundo digital e descubra insights valiosos que podem transformar sua visão sobre a tecnologia. </p>
 
-                <h1 className="text-3xl">Performance</h1>
+                <h2 className="text-3xl">Performance</h2>
                 <div className="flex flex-wrap gap-5">
                     {postsPerformance.map((post) => (
                             <div key={post.id} className=" border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
@@ -75,7 +75,7 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                     )}
                 </div>
 
-                <h2 className="text-3xl">Ciência de Dados</h2>
+                <h3 className="text-3xl">Ciência de Dados</h3>
                 <div className="flex flex-wrap gap-5">
                     {postsCienciaDeDados.map((post) => (
                             <div key={post.id} className=" border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
