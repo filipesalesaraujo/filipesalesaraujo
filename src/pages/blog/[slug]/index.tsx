@@ -84,7 +84,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                 <div className="max-w-7xl flex justify-center flex-col lg:flex-row">
 
                     {posts.map((post) => (
-                        <div key={post.id} className=" p-5 flex flex-col gap-5">
+                        <div key={post.id} className=" p-5 flex flex-col gap-5 lg:basis-2/3">
                             <Head>
                                 <title>{post.title.rendered}</title>
                                 <meta name="description" content={post.acf.description}/>
@@ -193,7 +193,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                         </div>
 
                     ))}
-                    <div className="p-5 flex gap-5 flex-col">
+                    <div className="p-5 flex gap-5 flex-col lg:basis-1/3">
                         <div className="w-[100%] flex flex-col lg:flex-row justify-between items-center gap-2 items-start">
                             <h3 className="text-2xl ">Artigos recentes</h3>
                             <Link href="/blog/" className="underline-animation">ver todos</Link>
