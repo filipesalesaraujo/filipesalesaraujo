@@ -23,6 +23,7 @@ export default function Document() {
                 <meta name="twitter:title" content="[filipesalesaraujo]"/>
                 <meta name="twitter:description" content="Este portal é dedicado à Gestão Avançada de Dados e Análise, focando em tecnologias inovadoras em armazenamento, processamento e análise de dados. Explore a fundo tecnologias como bancos de dados NoSQL, aprendizado de máquina e inteligência artificial, além de estratégias de implementação. Descubra como essas soluções estão transformando indústrias como a automobilística, saúde, finanças e muito mais. Acesse artigos técnicos, estudos de caso e tutoriais para aprimorar seus conhecimentos e se manter atualizado sobre as últimas tendências em ciência de dados e tecnologia da informação."/>
                 <meta name="twitter:image" content="URL da imagem de destaque"/>
+                <meta name="google-adsense-account" content="ca-pub-5173897460796128"/>
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
