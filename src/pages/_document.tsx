@@ -51,7 +51,6 @@ export default function Document() {
                     <div className="p-5 lg:max-w-[80%] w-[100%] flex justify-end gap-5">
                         <Link href="/" className="underline-animation">Início</Link>
                         <Link href='/blog' className="underline-animation">Blog</Link>
-                        <a href="https://wa.me/5511984583529" className="underline-animation" target="_blank">Contato</a>
                     </div>
                 </div>
             </header>
@@ -61,10 +60,8 @@ export default function Document() {
                 <div className="max-w-7xl p-5 flex gap-5">
                     <a href="https://github.com/filipesalesaraujo" target="_blank" className="text-white hover:text-purple-500 transition-colors"><FaGithubAlt size={25}/></a>
                     <a href="mailto:filipesalesaraujo@gmail.com" className="text-white hover:text-red-500 transition-colors"><FaRegEnvelope size={25}/></a>
-                    <a href="https://wa.me/5511984583529" target="_blank" className="text-white hover:text-green-500 transition-colors"><FaWhatsapp size={25}/></a>
                     <a href="https://www.linkedin.com/in/filipesales21/" className="text-white hover:text-blue-500 transition-colors" target="_blank"><FaLinkedinIn size="25"/></a>
                 </div>
-                <a href="https://wa.me/5511984583529" target="_blank" className="fixed bottom-0 right-0 bg-black rounded-full text-2xl m-5 text-white p-3 hover:bg-green-500 transition-colors" ><FaWhatsapp /></a>
             </footer>
             </body>
         </Html>

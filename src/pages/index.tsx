@@ -57,55 +57,13 @@ export default function Home({posts}: IBlog) {
 
                 <div className="flex gap-5 items-start flex-col md:flex-row">
                     <div className="flex flex-col gap-5 items-start">
-                        <p className="text-lg">Desenvolvo websites que se destacam pela sua <strong className="bg-marca-texto px-1">velocidade surpreendente, design responsivo e modernidade</strong>. Cada projeto é meticulosamente otimizado para garantir que os usuários tenham a melhor experiência possível, independentemente do dispositivo que estejam usando.</p>
-                        <p className="text-lg">Meus sites não apenas impressionam visualmente, mas também em termos de desempenho. Eles consistentemente <strong className="bg-marca-texto px-1">alcançam pontuações perfeitas no PageSpeed Insights</strong>, refletindo o comprometimento com a excelência técnica. Além disso, faço um monitoramento contínuo através do Google Search Console, garantindo que todos os links sejam <strong className="bg-marca-texto px-1">corretamente indexados</strong>. Complementando essa análise, utilizo o Google Analytics 4 (GA4) para rastrear e entender o comportamento das visitas, proporcionando insights valiosos sobre a interação dos usuários com o conteúdo.</p>
-                        <p className="text-lg">Opto por desenvolver utilizando o <strong className="bg-marca-texto px-1">Next.js</strong>, uma das frameworks mais avançadas do mercado. A decisão de utilizar o Next.js não é apenas uma escolha técnica, mas também estratégica. Ele possibilita que os sites sejam <strong className="bg-marca-texto px-1">altamente otimizados</strong>, facilmente escaláveis e com capacidade de integração a diversas ferramentas e plataformas, ampliando assim o potencial de qualquer projeto na web.</p>
-                        <a href="https://wa.me/5511984583529" target="_blank" className={`uppercase text-xl px-5 py-1 font-medium text-black bg-marca-texto hover:text-black transition-colors `}>QUER UM SITE VELOZ, RESPONSIVO E MODERNO? <strong className="font-black">CLIQUE AQUI</strong> E VAMOS TRANSFORMAR SUA PRESENÇA ONLINE!</a>
+                        <p className="text-lg">Formado em Licenciatura em Educação Física e Bacharel em Ciência da Computação, minha trajetória acadêmica se enriquece a cada dia. Atualmente, estou me aprofundando ainda mais no universo da tecnologia e estou realizando uma pós-graduação em Ciência de Dados. Esta formação combinada permite que eu possa abordar desafios com uma perspectiva única, unindo a disciplina do corpo e mente com a precisão e inovação da computação.</p>
+                        <p className="text-lg">No desenvolvimento de sites, priorizo sempre a eficiência e a otimização. É essencial para mim que a velocidade de carregamento das páginas esteja à altura das melhores práticas sugeridas pelo PageSpeed Insights. Além disso, tenho especial atenção à correta indexação das páginas, usando ferramentas como o Google Search Console, garantindo que o conteúdo seja facilmente encontrado e classificado. Não menos importante, utilizo o GA4 para analisar o tráfego dos sites, compreendendo assim o comportamento dos usuários e otimizando a experiência online.</p>
+                        <p className="text-lg">No âmbito técnico, escolhi usar o Next.js no front-end devido à sua eficiência e adaptabilidade. Para o back-end, optei pelo WordPress Headless, uma solução robusta e flexível que se integra perfeitamente ao conjunto, proporcionando um desempenho superior e uma experiência de usuário mais fluida.</p>
                     </div>
                 </div>
             </section>
 
-            <section className="bg-black w-[100%] flex justify-center items-center">
-                <div className="max-w-7xl p-5 flex gap-5 flex-col w-[100%] text-white">
-                    <div className="w-[100%] max-w-[100%] flex flex-col gap-5">
-                        <h2 className="text-3xl ">Soluções</h2>
-
-                        <div className="flex gap-5 justify-between flex-col lg:flex-row">
-                            <div className="flex flex-col border-white border-[1px] items-center lg:w-1/4 justify-between">
-                                <div className="text-3xl"><Image src={ga4} alt="Desenho de uma pessoa apresentado graficos"/></div>
-                                <div className="p-5 flex flex-col gap-5">
-                                    <p className="text-lg text-center  ">Google Analytics 4</p>
-                                    <a className="text-center flex text-lg px-5 py-1 rounded-3xl text-black bg-white hover:bg-gray-300 transition-colors" href="https://wa.me/5511984583529?text=Olá!%20Estou%20interessado(a)%20em%20saber%20mais%20sobre%20o%20Google%20Analytics%204.%20Poderia%20me%20ajudar?">Descubra o poder do GA4 com minha ajuda!</a>
-                                </div>
-                            </div>
-
-                            <div className="flex flex-col border-white border-[1px] items-center lg:w-1/4 justify-between">
-                                <div className="text-3xl"><Image src={pagespeed} alt="Desenho de uma pessoa apresentado graficos"/></div>
-                                <div className="p-5 flex flex-col gap-5">
-                                    <p className="text-lg text-center ">PageSpeed Insights</p>
-                                    <a className="text-center flex text-lg px-5 py-1 rounded-3xl text-black bg-white hover:bg-gray-300 transition-colors" href="https://wa.me/5511984583529?text=Olá!%20Tenho%20algumas%20perguntas%20sobre%20a%20velocidade%20do%20meu%20site%20e%20como%20melhorá-la.%20Você%20pode%20me%20orientar?">Melhore a velocidade do seu site agora!</a>
-                                </div>
-                            </div>
-
-                            <div className="flex flex-col border-white border-[1px] items-center lg:w-1/4 justify-between">
-                                <div className="text-3xl"><Image src={searchconsole} alt="Desenho de um detetive"/></div>
-                                <div className="p-5 flex flex-col gap-5">
-                                    <p className="text-lg text-center">Google Search Console</p>
-                                    <a className="text-center flex text-lg px-5 py-1 rounded-3xl text-black bg-white hover:bg-gray-300 transition-colors" href="https://wa.me/5511984583529?text=Olá!%20Estou procurando ajuda para melhorar o meu site com o Google Search Console. Você pode me orientar?">Aprimore seu site com o Google Search Console!</a>
-                                </div>
-                            </div>
-                            <div className="flex flex-col  border-white border-[1px] items-center lg:w-1/4 justify-between">
-                                <div className="text-3xl"><Image src={devweb} alt="Desenho de um programador sentado na mesa com um computador"/></div>
-                                <div className="p-5 flex flex-col gap-5">
-                                    <p className="text-lg text-center">Desenvolvimento Web</p>
-                                    <a className="text-center flex text-lg px-5 py-1 rounded-3xl text-black bg-white hover:bg-gray-300 transition-colors" href="https://wa.me/5511984583529?text=Estou interessado em serviços de desenvolvimento web. Podemos conversar?">Vamos falar sobre desenvolvimento web?</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
 
             <section className="max-w-7xl p-5 flex gap-5 flex-col">
 
