@@ -194,8 +194,8 @@ export default function Slug({posts, postsRecentes}: ISlug) {
 
                     ))}
                     <div className="p-5 flex gap-5 flex-col">
-                        <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
-                            <h3 className="text-3xl ">Artigos recentes</h3>
+                        <div className="w-[100%] flex flex-col lg:flex-row justify-between items-center gap-2 items-start">
+                            <h3 className="text-2xl ">Artigos recentes</h3>
                             <Link href="/blog/" className="underline-animation">ver todos</Link>
                         </div>
                         <div className="flex gap-5 flex-col">
