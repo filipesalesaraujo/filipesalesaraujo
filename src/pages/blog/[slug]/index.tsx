@@ -1,8 +1,30 @@
 import {GetStaticPaths, GetStaticProps, GetStaticPropsContext} from "next";
 import Head from "next/head";
 import Image from "next/image";
-import {EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, RedditIcon, RedditShareButton, TelegramIcon, TelegramShareButton, TwitterIcon, TwitterShareButton, WhatsappIcon, WhatsappShareButton} from "next-share";
+import {
+    EmailIcon,
+    EmailShareButton,
+    FacebookIcon,
+    FacebookShareButton,
+    LinkedinIcon,
+    LinkedinShareButton,
+    RedditIcon,
+    RedditShareButton,
+    TelegramIcon,
+    TelegramShareButton,
+    TwitterIcon,
+    TwitterShareButton,
+    WhatsappIcon,
+    WhatsappShareButton
+} from "next-share";
 import Link from "next/link";
+
+import moment from 'moment';
+import 'moment/locale/pt-br';
+
+moment.locale('pt-br');
+
+import profile from '../../../../public/profile.jpeg'
 
 export type TPost = {
     excerpt?: {
@@ -78,6 +100,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
     }
 ;
 export default function Slug({posts, postsRecentes}: ISlug) {
+
+
     return (
         <div>
             <div className="flex justify-center items-center flex-row">
@@ -99,7 +123,8 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                 <meta name="twitter:card" content="summary"/>
                                 <meta name="twitter:title" content={post.title.rendered}/>
                                 <meta name="twitter:description" content={post.acf.description}/>
-                                <meta name="twitter:image" content={post._embedded['wp:featuredmedia']['0'].source_url}/>
+                                <meta name="twitter:image"
+                                      content={post._embedded['wp:featuredmedia']['0'].source_url}/>
                                 <script
                                     type="application/ld+json"
                                     dangerouslySetInnerHTML={{
@@ -131,13 +156,28 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                     }}
                                 />
                             </Head>
-                            <h1 className="text-2xl font-bold mb-5">{post.title.rendered}</h1>
-                            <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                            <h1 className="text-2xl font-bold">{post.title.rendered}</h1>
+                            <div className="flex gap-5">
+                                <Image
+                                    width={50}
+                                    height={50}
+                                    className="rounded-full"
+                                    src={profile}
+                                    alt="Foto de perfil de Filipe Sales Araujo"
+                                />
+                                <div>
+                                    <div>
+                                        Filipe Sales Araujo
+                                    </div>
+                                    <div className="text-gray-500">
+                                        {moment(post.date).format('D [de] MMMM [de] YYYY')}
+                                    </div>
+                                </div>
+                            </div>
                             <div className='text-lg' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
-                            <hr/>
                             <div className="flex flex-col md:flex-row gap-5">
                                 <p className="text-black text-xl">Compatilhar via:</p>
-                                <div className="flex gap-2.5">
+                                <div className="flex gap-2.5 flex-wrap">
                                     <WhatsappShareButton
                                         url={`https://filipesalesaraujo.com/blog/${post.slug}`}
                                         title={`${post.title.rendered}`}
@@ -194,20 +234,29 @@ export default function Slug({posts, postsRecentes}: ISlug) {
 
                     ))}
                     <div className="p-5 flex gap-5 flex-col lg:basis-1/3">
-                        <div className="w-[100%] flex flex-col lg:flex-row justify-between items-center gap-2 items-start">
+                        <div
+                            className="w-[100%] flex flex-col lg:flex-row justify-between items-center gap-2 items-start">
                             <h3 className="text-2xl ">Artigos recentes</h3>
-                            <Link href="/blog/" className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">ver todos</Link>
+                            <Link href="/blog/"
+                                  className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">ver
+                                todos</Link>
                         </div>
                         <div className="flex gap-5 flex-col">
                             {postsRecentes.map((post) => (
-                                    <div key={post.id} className="border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
-                                        <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
-                                        <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
+                                    <div key={post.id}
+                                         className="border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
+                                        <Image width={1680} height={720}
+                                               src={post._embedded['wp:featuredmedia']['0'].source_url}
+                                               alt={post.title.rendered}/>
+                                        <div
+                                            className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                                             <div className="flex flex-col gap-5 ">
                                                 <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
                                                 <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                             </div>
-                                            <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">Ler mais</Link>
+                                            <Link href={`/blog/${post.slug}`}
+                                                  className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">Ler
+                                                mais</Link>
                                         </div>
                                     </div>
                                 )

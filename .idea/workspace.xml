@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0bbdd80-474f-40db-9fae-0603da2b5bfa" name="Changes" comment=":duck:">
-      <change afterPath="$PROJECT_DIR$/src/pages/politica-de-privacidade.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/termos-de-uso.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/profile.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/[slug]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/[slug]/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "prod",
+    "last_opened_file_path": "C:/Users/pichau/Documents/GitHub/filipesalesaraujo/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +60,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pichau\Documents\GitHub\filipesalesaraujo\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pichau\Documents\GitHub\filipesalesaraujo\public" />
       <recent name="D:\ws\filipesalesaraujo\src\pages\blog" />
       <recent name="D:\ws\filipesalesaraujo\src\pages\index" />
     </key>
@@ -84,15 +91,7 @@
       <workItem from="1696032198987" duration="3155000" />
       <workItem from="1696048155850" duration="350000" />
       <workItem from="1696214127160" duration="2549000" />
-      <workItem from="1696706157980" duration="4278000" />
-    </task>
-    <task id="LOCAL-00002" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694983139905</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1694983139905</updated>
+      <workItem from="1696706157980" duration="5720000" />
     </task>
     <task id="LOCAL-00003" summary=":duck:">
       <option name="closed" value="true" />
@@ -478,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696709510633</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1696712817396</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1696712817396</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

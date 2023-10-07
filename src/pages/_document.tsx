@@ -54,10 +54,6 @@ export default function Document() {
                               className="text-white hover:text-white transition-colors text-2xl hidden lg:flex font-bold">
                             [filipesalesaraujo]
                         </Link>
-                        <Link href="/"
-                              className="text-white hover:text-white transition-colors text-2xl lg:hidden flex font-bold">
-                            [ ]
-                        </Link>
                     </div>
                     <div className="p-5 lg:max-w-[80%] w-[100%] flex justify-end gap-5">
                         <Link href="/"
