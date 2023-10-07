@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0bbdd80-474f-40db-9fae-0603da2b5bfa" name="Changes" comment=":duck:">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/[slug]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/[slug]/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,15 +86,7 @@
       <workItem from="1696032198987" duration="3155000" />
       <workItem from="1696048155850" duration="350000" />
       <workItem from="1696214127160" duration="2549000" />
-      <workItem from="1696706157980" duration="5977000" />
-    </task>
-    <task id="LOCAL-00004" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1694984089658</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1694984089658</updated>
+      <workItem from="1696706157980" duration="6043000" />
     </task>
     <task id="LOCAL-00005" summary=":duck:">
       <option name="closed" value="true" />
@@ -482,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696714320207</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1696714536469</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1696714536469</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

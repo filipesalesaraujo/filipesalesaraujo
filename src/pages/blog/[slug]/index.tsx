@@ -175,6 +175,8 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                 </div>
                             </div>
                             <div className='text-lg' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
+                            <hr/>
+
                             <div className="flex flex-col md:flex-row gap-5">
                                 <p className="text-black text-xl">Compatilhar via:</p>
                                 <div className="flex gap-2.5 flex-wrap">
@@ -228,7 +230,6 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                 </div>
 
                             </div>
-                            <hr/>
 
                         </div>
 
