@@ -61,7 +61,7 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                 <h2 className="text-3xl">Performance</h2>
                 <div className="flex flex-wrap gap-5">
                     {postsPerformance.map((post) => (
-                            <div key={post.id} className=" border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
+                            <div key={post.id} className=" border-[1px] border-gray-300 w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
                                 <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                                 <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
                                     <div className="flex flex-col gap-5 ">
@@ -78,7 +78,7 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                 <h3 className="text-3xl">Ciência de Dados</h3>
                 <div className="flex flex-wrap gap-5">
                     {postsCienciaDeDados.map((post) => (
-                            <div key={post.id} className=" border-[1px] border-black w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
+                            <div key={post.id} className=" border-[1px] border-gray-300 w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
                                 <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                                 <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
                                     <div className="flex flex-col gap-5 ">

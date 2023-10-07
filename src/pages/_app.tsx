@@ -1,13 +1,13 @@
-import {JetBrains_Mono} from "next/font/google";
+import {Inter} from "next/font/google";
 
-const jetBrainsMono = JetBrains_Mono({subsets: ['latin']})
+const inter = Inter({subsets: ['latin']})
 import '@/styles/globals.css'
 import type {AppProps} from 'next/app'
 import Script from "next/script";
 
 export default function App({Component, pageProps}: AppProps) {
     return (
-        <div className={jetBrainsMono.className}>
+        <div className={inter.className}>
             <Script src="https://www.googletagmanager.com/gtag/js?id=G-9XQZJ9KDYH"/>
             <Script id="google-analytics">
                 {`

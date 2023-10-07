@@ -46,8 +46,8 @@ export default function Document() {
             <header className="flex items-center justify-center bg-[#27282c]">
                 <div className="max-w-7xl w-[100%] flex justify-between items-center">
                     <div className="p-5 max-w-[20%] w-[100%] rounded-br-3xl justify-start">
-                        <Link href="/" className="text-gray-400 hover:text-white transition-colors text-2xl hidden lg:flex font-bold">[filipesalesaraujo]</Link>
-                        <Link href="/" className="text-gray-400 hover:text-white transition-colors text-2xl lg:hidden flex font-bold">[ ]</Link>
+                        <Link href="/" className="text-white hover:text-white transition-colors text-2xl hidden lg:flex font-bold">[filipesalesaraujo]</Link>
+                        <Link href="/" className="text-white hover:text-white transition-colors text-2xl lg:hidden flex font-bold">[ ]</Link>
                     </div>
                     <div className="p-5 lg:max-w-[80%] w-[100%] flex justify-end gap-5">
                         <Link href="/" className="text-gray-400 hover:text-white transition-colors text-2xl">Início</Link>
@@ -57,7 +57,7 @@ export default function Document() {
             </header>
             <Main/>
             <NextScript/>
-            <footer className="flex items-center justify-center border-t-[1px] border-black justify-betwee bg-black">
+            <footer className="flex items-center justify-center border-t-[1px] border-black justify-betwee bg-[#27282c]">
                 <div className="max-w-7xl p-5 flex gap-5">
                     <a href="https://github.com/filipesalesaraujo" target="_blank" className="text-white hover:text-purple-500 transition-colors"><FaGithubAlt size={25}/></a>
                     <a href="mailto:filipesalesaraujo@gmail.com" className="text-white hover:text-red-500 transition-colors"><FaRegEnvelope size={25}/></a>

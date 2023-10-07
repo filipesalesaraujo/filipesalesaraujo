@@ -200,7 +200,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                         </div>
                         <div className="flex gap-5 flex-col">
                             {postsRecentes.map((post) => (
-                                    <div key={post.id} className="border-[1px] border-black w-[100%] flex flex-col justify-between overflow-hidden">
+                                    <div key={post.id} className="border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
                                         <Image width={1680} height={720} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                                         <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                                             <div className="flex flex-col gap-5 ">
