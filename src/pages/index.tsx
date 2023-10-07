@@ -67,7 +67,6 @@ export default function Home({posts}: IBlog) {
                 </div>
             </section>
 
-
             <section className=" w-full flex items-center justify-center">
                 <div className="max-w-7xl px-5 py-10 flex gap-5 flex-col">
 

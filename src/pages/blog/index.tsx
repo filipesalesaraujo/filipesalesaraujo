@@ -71,7 +71,7 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                         )
                     )}
                 </div>
-
+                <hr/>
                 <h3 className="text-3xl">Ciência de Dados</h3>
                 <div className="flex flex-wrap gap-5">
                     {postsCienciaDeDados.map((post) => (
