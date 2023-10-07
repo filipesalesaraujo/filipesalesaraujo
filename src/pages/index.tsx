@@ -46,10 +46,10 @@ export default function Home({posts}: IBlog) {
                 </h1>
                 <div className="flex gap-5 items-start flex-col md:flex-row">
                     <div className="flex flex-col gap-5 items-start">
-                        <p className="text-2xl">Formado em Licenciatura em Educação Física e Bacharel em Ciência da
-                            Computação, minha trajetória acadêmica se enriquece a cada dia. Atualmente, estou me
+                        <p className="text-2xl">Formado em Licenciatura em Educação Física e Bacharel em <strong>Ciência da
+                            Computação</strong>, minha trajetória acadêmica se enriquece a cada dia. Atualmente, estou me
                             aprofundando ainda mais no universo da tecnologia e estou realizando uma pós-graduação em
-                            Ciência de Dados. Esta formação combinada permite que eu possa abordar desafios com uma
+                            <strong> Ciência de Dados</strong>. Esta formação combinada permite que eu possa abordar desafios com uma
                             perspectiva única, unindo a disciplina do corpo e mente com a precisão e inovação da
                             computação.</p>
                         <p className="text-2xl">No desenvolvimento de sites, priorizo sempre a eficiência e a otimização.
