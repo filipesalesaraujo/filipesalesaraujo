@@ -44,7 +44,6 @@ export default function Home({posts}: IBlog) {
                     <span>Oi! Meu nome é </span>
                     <strong className="text-7xl block">Filipe Sales Araujo</strong>
                 </h1>
-
                 <div className="flex gap-5 items-start flex-col md:flex-row">
                     <div className="flex flex-col gap-5 items-start">
                         <p className="text-2xl">Formado em Licenciatura em Educação Física e Bacharel em Ciência da

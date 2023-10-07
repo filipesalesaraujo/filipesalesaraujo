@@ -51,12 +51,9 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
             <div className="max-w-7xl p-5 flex flex-col gap-5">
 
                 <h1 className="text-4xl text-center flex justify-center flex-col items-center">
-                    <div className='w-full bg-red max-w-xl'>
-                        <span className={`${crimsonPro.className}`}>Pegue o seu café, aprochegue em sua poltrona e delicie-se com os meus </span>
-                    </div>
                     <strong className="text-7xl block">Artigos</strong>
                 </h1>
-                <p className="text-lg">Mergulhe profundamente nas minhas análises sobre dados, performance web e desenvolvimento. Explore como esses elementos estão moldando o futuro do mundo digital e descubra insights valiosos que podem transformar sua visão sobre a tecnologia. </p>
+                <p className="text-2xl">Mergulhe profundamente nas minhas análises sobre dados, performance web e desenvolvimento. Explore como esses elementos estão moldando o futuro do mundo digital e descubra insights valiosos que podem transformar sua visão sobre a tecnologia. </p>
 
                 <h2 className="text-3xl">Performance</h2>
                 <div className="flex flex-wrap gap-5">
