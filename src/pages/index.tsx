@@ -1,12 +1,3 @@
-import {Crimson_Pro} from 'next/font/google'
-
-const crimsonPro = Crimson_Pro({subsets: ['latin']})
-
-import i from '../../public/i.png'
-import ga4 from '../../public/ga4.png'
-import pagespeed from '../../public/pagespeed.png'
-import searchconsole from '../../public/searchconsole.png'
-import devweb from '../../public/devweb.png'
 
 import {GetStaticProps, GetStaticPropsContext} from "next";
 import Link from "next/link";
@@ -51,7 +42,7 @@ export default function Home({posts}: IBlog) {
 
             <section className="max-w-7xl p-5 flex flex-wrap gap-10 flex-col ">
                 <h1 className="text-4xl text-center">
-                    <span className={crimsonPro.className}>Oi! Meu nome é </span>
+                    <span>Oi! Meu nome é </span>
                     <strong className="text-7xl block">Filipe Sales Araujo</strong>
                 </h1>
 
@@ -69,7 +60,7 @@ export default function Home({posts}: IBlog) {
 
                 <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                     <h3 className="text-3xl ">Artigos recentes</h3>
-                    <Link href="/blog/" className="underline-animation">ver todos</Link>
+                    <Link href="/blog/" className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">ver todos</Link>
                 </div>
 
                 <div className="flex gap-5 flex-col lg:flex-row">
@@ -81,7 +72,7 @@ export default function Home({posts}: IBlog) {
                                         <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
                                         <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
-                                    <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                    <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">Ler mais</Link>
                                 </div>
                             </div>
                         )

@@ -43,15 +43,15 @@ export default function Document() {
                 />
             </Head>
             <body>
-            <header className="flex items-center justify-center lg:bg-black-white">
+            <header className="flex items-center justify-center bg-[#27282c]">
                 <div className="max-w-7xl w-[100%] flex justify-between items-center">
-                    <div className="bg-black p-5 max-w-[20%] w-[100%] rounded-br-3xl justify-start">
-                        <Link href="/" className="hidden lg:flex font-bold text-white">[filipesalesaraujo]</Link>
-                        <Link href="/" className="lg:hidden flex font-bold text-white">[ ]</Link>
+                    <div className="p-5 max-w-[20%] w-[100%] rounded-br-3xl justify-start">
+                        <Link href="/" className="text-gray-400 hover:text-white transition-colors text-2xl hidden lg:flex font-bold">[filipesalesaraujo]</Link>
+                        <Link href="/" className="text-gray-400 hover:text-white transition-colors text-2xl lg:hidden flex font-bold">[ ]</Link>
                     </div>
                     <div className="p-5 lg:max-w-[80%] w-[100%] flex justify-end gap-5">
-                        <Link href="/" className="underline-animation">Início</Link>
-                        <Link href='/blog' className="underline-animation">Blog</Link>
+                        <Link href="/" className="text-gray-400 hover:text-white transition-colors text-2xl">Início</Link>
+                        <Link href='/blog' className="text-gray-400 hover:text-white transition-colors text-2xl">Blog</Link>
                     </div>
                 </div>
             </header>

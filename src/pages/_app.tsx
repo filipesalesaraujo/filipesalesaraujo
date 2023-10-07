@@ -1,14 +1,13 @@
-import {Open_Sans} from 'next/font/google'
+import {JetBrains_Mono} from "next/font/google";
 
-const openSans = Open_Sans({subsets: ['latin']})
-
+const jetBrainsMono = JetBrains_Mono({subsets: ['latin']})
 import '@/styles/globals.css'
 import type {AppProps} from 'next/app'
 import Script from "next/script";
 
 export default function App({Component, pageProps}: AppProps) {
     return (
-        <div className={openSans.className}>
+        <div className={jetBrainsMono.className}>
             <Script src="https://www.googletagmanager.com/gtag/js?id=G-9XQZJ9KDYH"/>
             <Script id="google-analytics">
                 {`

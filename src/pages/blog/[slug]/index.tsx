@@ -196,7 +196,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                     <div className="p-5 flex gap-5 flex-col lg:basis-1/3">
                         <div className="w-[100%] flex flex-col lg:flex-row justify-between items-center gap-2 items-start">
                             <h3 className="text-2xl ">Artigos recentes</h3>
-                            <Link href="/blog/" className="underline-animation">ver todos</Link>
+                            <Link href="/blog/" className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">ver todos</Link>
                         </div>
                         <div className="flex gap-5 flex-col">
                             {postsRecentes.map((post) => (
@@ -207,7 +207,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                                 <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
                                                 <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                             </div>
-                                            <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-black px-5 py-1 rounded-3xl text-white bg-black hover:bg-white hover:text-black transition-colors">Ler mais</Link>
+                                            <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">Ler mais</Link>
                                         </div>
                                     </div>
                                 )
