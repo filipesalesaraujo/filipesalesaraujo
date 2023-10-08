@@ -25,6 +25,7 @@ import 'moment/locale/pt-br';
 moment.locale('pt-br');
 
 import profile from '../../../../public/profile.jpeg'
+import {GrGithub, GrLinkedin, GrMail} from "react-icons/gr";
 
 export type TPost = {
     excerpt?: {
@@ -159,15 +160,20 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                             <h1 className="text-2xl font-bold">{post.title.rendered}</h1>
                             <div className="flex gap-5">
                                 <Image
-                                    width={50}
-                                    height={50}
-                                    className="rounded-full"
+                                    width={60}
+                                    height={60}
+                                    className="rounded-full w-[60px] h-[60px]"
                                     src={profile}
                                     alt="Foto de perfil de Filipe Sales Araujo"
                                 />
                                 <div>
                                     <div>
                                         Filipe Sales Araujo
+                                    </div>
+                                    <div className="flex gap-1">
+                                        <a href="https://www.linkedin.com/in/filipesales21/" target="_blank" className="text-blue-600 hover:opacity-80 transition-opacity"><GrLinkedin /></a>
+                                        <a href="https://github.com/filipesalesaraujo" target="_blank" className="text-black hover:opacity-80 transition-opacity"><GrGithub /></a>
+                                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank" className="text-red-500 hover:opacity-80 transition-opacity"><GrMail /></a>
                                     </div>
                                     <div className="text-gray-500">
                                         {moment(post.date).format('D [de] MMMM [de] YYYY')}
