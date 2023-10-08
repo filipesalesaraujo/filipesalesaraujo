@@ -63,8 +63,8 @@ export default function Home({posts}: IBlog) {
                             que o conteúdo seja facilmente encontrado e classificado. Não menos importante, utilizo o
                             GA4 para analisar o tráfego dos sites, compreendendo assim o comportamento dos usuários e
                             otimizando a experiência online.</p>
-                        <p className="text-2xl">No âmbito técnico, escolhi usar o Next.js no front-end devido à sua
-                            eficiência e adaptabilidade. Para o back-end, optei pelo WordPress Headless, uma solução
+                        <p className="text-2xl">No âmbito técnico, escolhi usar o <strong>Next.js</strong> no front-end devido à sua
+                            eficiência e adaptabilidade. Para o back-end, optei pelo <strong>WordPress Headless</strong>, uma solução
                             robusta e flexível que se integra perfeitamente ao conjunto, proporcionando um desempenho
                             superior e uma experiência de usuário mais fluida.</p>
                     </div>
