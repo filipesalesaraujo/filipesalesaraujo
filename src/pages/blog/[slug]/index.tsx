@@ -236,7 +236,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                     ))}
                     <div className="p-5 flex gap-5 flex-col lg:basis-1/3">
                         <div
-                            className="w-[100%] flex flex-col lg:flex-row justify-between items-center gap-2 items-start">
+                            className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                             <h3 className="text-2xl ">Artigos recentes</h3>
                             <Link href="/blog/"
                                   className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">ver
