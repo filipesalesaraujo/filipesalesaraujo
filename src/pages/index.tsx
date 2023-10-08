@@ -73,13 +73,13 @@ export default function Home({posts}: IBlog) {
                 <div className="max-w-7xl px-5 py-10 flex gap-5 flex-col lg:flex-row">
 
                     <div
-                        className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
+                        className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden bg-purple-gradient">
                         <div
                             className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
-                                <h1 className="font-bold text-lg">Next.js: A Revolução da Performance e Produtividade no
+                                <h1 className="text-white font-bold text-lg">Next.js: A Revolução da Performance e Produtividade no
                                     Front-End</h1>
-                                <p className="text-lg">O Next.js, framework popular para React, otimiza a performance
+                                <p className="text-white text-lg">O Next.js, framework popular para React, otimiza a performance
                                     via Renderização no Lado do Servidor e geração estática de páginas. Ele promove
                                     desenvolvimento eficiente através de rotas simples e recarga automática,
                                     adaptando-se às demandas do projeto, desde blogs pessoais até plataformas
@@ -92,13 +92,13 @@ export default function Home({posts}: IBlog) {
                     </div>
 
                     <div
-                        className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
+                        className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden bg-blue-gradient">
                         <div
                             className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
-                                <h1 className="font-bold text-lg">WordPress Headless: Reinventando o CMS para a Era
+                                <h1 className="text-white font-bold text-lg">WordPress Headless: Reinventando o CMS para a Era
                                     Moderna</h1>
-                                <p className="text-lg">O WordPress Headless desvincula a gestão de conteúdo de sua
+                                <p className="text-white text-lg">O WordPress Headless desvincula a gestão de conteúdo de sua
                                     apresentação tradicional, permitindo liberdade na criação de interfaces usando
                                     tecnologias variadas. Esta abordagem eleva a performance, oferece experiências
                                     fluidas ao usuário e proporciona adaptabilidade, integrando-se facilmente com outras

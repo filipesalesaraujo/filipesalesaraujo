@@ -13,6 +13,8 @@ const config: Config = {
             },
             backgroundImage: {
                 'black-white': 'linear-gradient(to right, black 17%, white 15%)',
+                'purple-gradient': 'linear-gradient(161deg, #f687b3, #805ad5)',
+                'blue-gradient': 'linear-gradient(161deg, #63b3ed, #2c5282)',
             },
         },
     },
