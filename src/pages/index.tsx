@@ -54,7 +54,7 @@ export default function Home({posts}: IBlog) {
                             precisão e inovação da computação.</p>
                         <p className="text-2xl">No desenvolvimento de sites, priorizo sempre a eficiência e a
                             otimização. É essencial para mim que a velocidade de carregamento das páginas esteja à
-                            altura das melhores práticas sugeridas pelo PageSpeed Insights. Além disso, tenho especial
+                            altura das melhores práticas sugeridas pelo <strong>PageSpeed Insights</strong>. Além disso, tenho especial
                             atenção à correta indexação das páginas, usando ferramentas como o Google Search Console,
                             garantindo que o conteúdo seja facilmente encontrado e classificado. Não menos importante,
                             utilizo o GA4 para analisar o tráfego dos sites, compreendendo assim o comportamento dos
