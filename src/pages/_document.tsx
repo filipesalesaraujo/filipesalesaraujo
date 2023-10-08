@@ -49,13 +49,13 @@ export default function Document() {
             <body>
             <header className="flex items-center justify-center bg-[#27282c]">
                 <div className="max-w-7xl w-[100%] flex justify-between items-center">
-                    <div className="p-5 max-w-[20%] w-[100%] rounded-br-3xl justify-start">
+                    <div className="p-5 min-w-[243px] max-w-[19%] w-[100%] justify-start bg-black  hidden lg:flex ">
                         <Link href="/"
-                              className="text-white hover:text-white transition-colors text-2xl hidden lg:flex font-bold">
+                              className="text-white hover:text-white transition-colors text-2xl font-bold bg-black">
                             [filipesalesaraujo]
                         </Link>
                     </div>
-                    <div className="p-5 lg:max-w-[80%] w-[100%] flex justify-end gap-5">
+                    <div className="p-5 lg:max-w-[81%] w-[100%] flex justify-end gap-5">
                         <Link href="/"
                               className="text-gray-400 hover:text-white transition-colors text-2xl">Início</Link>
                         <Link href='/blog'
