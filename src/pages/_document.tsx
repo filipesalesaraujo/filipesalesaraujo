@@ -19,14 +19,14 @@ export default function Document() {
                 <meta property="og:title" content="[filipesalesaraujo]"/>
                 <meta property="og:description"
                       content="Este portal é dedicado à Gestão Avançada de Dados e Análise, focando em tecnologias inovadoras em armazenamento, processamento e análise de dados. Explore a fundo tecnologias como bancos de dados NoSQL, aprendizado de máquina e inteligência artificial, além de estratégias de implementação. Descubra como essas soluções estão transformando indústrias como a automobilística, saúde, finanças e muito mais. Acesse artigos técnicos, estudos de caso e tutoriais para aprimorar seus conhecimentos e se manter atualizado sobre as últimas tendências em ciência de dados e tecnologia da informação."/>
-                <meta property="og:image" content="URL da imagem de destaque"/>
+                <meta property="og:image" content="http://localhost:3000/_next/image?url=https%3A%2F%2Fpainel.filipesalesaraujo.com%2Fwp-content%2Fuploads%2F2023%2F09%2FDotPeek.png&w=1920&q=75"/>
                 <meta property="og:url" content="https://filipesalesaraujo.com/"/>
                 <meta property="og:type" content="article"/>
                 <meta name="twitter:card" content="summary"/>
                 <meta name="twitter:title" content="[filipesalesaraujo]"/>
                 <meta name="twitter:description"
                       content="Este portal é dedicado à Gestão Avançada de Dados e Análise, focando em tecnologias inovadoras em armazenamento, processamento e análise de dados. Explore a fundo tecnologias como bancos de dados NoSQL, aprendizado de máquina e inteligência artificial, além de estratégias de implementação. Descubra como essas soluções estão transformando indústrias como a automobilística, saúde, finanças e muito mais. Acesse artigos técnicos, estudos de caso e tutoriais para aprimorar seus conhecimentos e se manter atualizado sobre as últimas tendências em ciência de dados e tecnologia da informação."/>
-                <meta name="twitter:image" content="URL da imagem de destaque"/>
+                <meta name="twitter:image" content="http://localhost:3000/_next/image?url=https%3A%2F%2Fpainel.filipesalesaraujo.com%2Fwp-content%2Fuploads%2F2023%2F09%2FDotPeek.png&w=1920&q=75"/>
                 <meta name="google-adsense-account" content="ca-pub-5173897460796128"/>
                 <script
                     type="application/ld+json"
