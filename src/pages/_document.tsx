@@ -60,7 +60,7 @@ export default function Document() {
                               className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Início</Link>
                         <Link href='/blog'
                               className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Blog</Link>
-                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank" className=" text-xs lg:text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">Contato</a>
+                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank" className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Contato</a>
 
                     </div>
                 </div>
