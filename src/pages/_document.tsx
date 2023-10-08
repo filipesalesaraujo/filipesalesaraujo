@@ -49,18 +49,18 @@ export default function Document() {
             <body>
             <header className="flex items-center justify-center bg-[#27282c]">
                 <div className="max-w-7xl w-[100%] flex justify-between items-center">
-                    <div className="p-5 min-w-[243px] max-w-[19%] w-[100%] justify-start bg-black  hidden lg:flex ">
+                    <div className="p-5 lg:min-w-[243px] lg:max-w-[19%] w-[100%] justify-start bg-black">
                         <Link href="/"
-                              className="text-white hover:text-white transition-colors text-2xl font-bold bg-black">
+                              className="text-white hover:text-white transition-colors text-xs lg:text-2xl font-bold bg-black">
                             [filipesalesaraujo]
                         </Link>
                     </div>
-                    <div className="p-5 lg:max-w-[81%] w-[100%] flex justify-end gap-5">
+                    <div className="p-5 lg:max-w-[81%] w-[100%] flex justify-end items-center gap-5">
                         <Link href="/"
-                              className="text-gray-400 hover:text-white transition-colors text-2xl">Início</Link>
+                              className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Início</Link>
                         <Link href='/blog'
-                              className="text-gray-400 hover:text-white transition-colors text-2xl">Blog</Link>
-                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank" className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">Contato</a>
+                              className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Blog</Link>
+                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank" className=" text-xs lg:text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">Contato</a>
 
                     </div>
                 </div>
