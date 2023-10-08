@@ -8,6 +8,17 @@ import Script from "next/script";
 export default function App({Component, pageProps}: AppProps) {
     return (
         <div className={inter.className}>
+            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5173897460796128" crossOrigin="anonymous" />
+            <Script src="https://www.googletagmanager.com/gtag/js?id=G-9XQZJ9KDYH"/>
+            <Script id="google-analytics">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-9XQZJ9KDYH');
+                `}
+            </Script>
             <Component {...pageProps} />
         </div>
     )
