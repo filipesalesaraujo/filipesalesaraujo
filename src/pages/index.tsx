@@ -47,33 +47,30 @@ export default function Home({posts}: IBlog) {
                 <div className="flex gap-5 items-start flex-col md:flex-row">
                     <div className="flex flex-col gap-5 items-start">
                         <p className="text-2xl">Formado em Licenciatura em Educação Física e Bacharel em <strong>Ciência
-                            da
-                            Computação</strong>, minha trajetória acadêmica se enriquece a cada dia. Atualmente, estou
-                            me
-                            aprofundando ainda mais no universo da tecnologia e estou realizando uma pós-graduação em
-                            <strong> Ciência de Dados</strong>. Esta formação combinada permite que eu possa abordar
-                            desafios com uma
-                            perspectiva única, unindo a disciplina do corpo e mente com a precisão e inovação da
-                            computação.</p>
+                            da Computação</strong>, minha trajetória acadêmica se enriquece a cada dia. Atualmente,
+                            estou me aprofundando ainda mais no universo da tecnologia e estou realizando uma
+                            pós-graduação em<strong> Ciência de Dados</strong>. Esta formação combinada permite que eu
+                            possa abordar desafios com uma perspectiva única, unindo a disciplina do corpo e mente com a
+                            precisão e inovação da computação.</p>
                         <p className="text-2xl">No desenvolvimento de sites, priorizo sempre a eficiência e a
-                            otimização.
-                            É essencial para mim que a velocidade de carregamento das páginas esteja à altura das
-                            melhores práticas sugeridas pelo PageSpeed Insights. Além disso, tenho especial atenção à
-                            correta indexação das páginas, usando ferramentas como o Google Search Console, garantindo
-                            que o conteúdo seja facilmente encontrado e classificado. Não menos importante, utilizo o
-                            GA4 para analisar o tráfego dos sites, compreendendo assim o comportamento dos usuários e
-                            otimizando a experiência online.</p>
-                        <p className="text-2xl">No âmbito técnico, escolhi usar o <strong>Next.js</strong> no front-end devido à sua
-                            eficiência e adaptabilidade. Para o back-end, optei pelo <strong>WordPress Headless</strong>, uma solução
-                            robusta e flexível que se integra perfeitamente ao conjunto, proporcionando um desempenho
-                            superior e uma experiência de usuário mais fluida.</p>
+                            otimização. É essencial para mim que a velocidade de carregamento das páginas esteja à
+                            altura das melhores práticas sugeridas pelo PageSpeed Insights. Além disso, tenho especial
+                            atenção à correta indexação das páginas, usando ferramentas como o Google Search Console,
+                            garantindo que o conteúdo seja facilmente encontrado e classificado. Não menos importante,
+                            utilizo o GA4 para analisar o tráfego dos sites, compreendendo assim o comportamento dos
+                            usuários e otimizando a experiência online.</p>
+                        <p className="text-2xl">No âmbito técnico, escolhi usar o <strong>Next.js</strong> no front-end
+                            devido à sua eficiência e adaptabilidade. Para o back-end, optei pelo <strong>WordPress
+                                Headless</strong>, uma solução robusta e flexível que se integra perfeitamente ao
+                            conjunto, proporcionando um desempenho superior e uma experiência de usuário mais fluida.
+                        </p>
                     </div>
                 </div>
             </section>
 
 
             <section className=" w-full flex items-center justify-center">
-                <div className="max-w-7xl px-5 py-10 flex gap-5 flex-row">
+                <div className="max-w-7xl px-5 py-10 flex gap-5 flex-col lg:flex-row">
 
                     <div
                         className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
@@ -99,7 +96,8 @@ export default function Home({posts}: IBlog) {
                         <div
                             className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
-                                <h1 className="font-bold text-lg">WordPress Headless: Reinventando o CMS para a Era Moderna</h1>
+                                <h1 className="font-bold text-lg">WordPress Headless: Reinventando o CMS para a Era
+                                    Moderna</h1>
                                 <p className="text-lg">O WordPress Headless desvincula a gestão de conteúdo de sua
                                     apresentação tradicional, permitindo liberdade na criação de interfaces usando
                                     tecnologias variadas. Esta abordagem eleva a performance, oferece experiências
