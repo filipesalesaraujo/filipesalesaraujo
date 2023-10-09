@@ -39,7 +39,7 @@ export default function Home({posts}: IBlog) {
     return (
         <main className="flex items-center justify-center flex-col">
 
-            <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col ">
+            <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col bg-home bg-no-repeat bg-[center_-10px]">
                 <h1 className="text-4xl text-center">
                     <span>Oi! Meu nome é </span>
                     <strong className="text-7xl block">Filipe Sales Araujo</strong>
