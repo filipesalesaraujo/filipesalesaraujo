@@ -110,6 +110,9 @@ function calculateReadingTime(text: string) {
 }
 
 export default function Slug({posts, postsRecentes}: ISlug) {
+
+    const currentPostId = posts[0].id;
+
     return (
         <div>
             <div className="flex justify-center items-center flex-row">
@@ -260,7 +263,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                 todos</Link>
                         </div>
                         <div className="flex gap-5 flex-col">
-                            {postsRecentes.map((post) => (
+                            {postsRecentes.filter(postRecente => postRecente.id !== currentPostId).map((post) => (
                                     <div key={post.id}
                                          className="border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
                                         <Image width={1680} height={720}
