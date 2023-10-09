@@ -36,7 +36,7 @@ export default function WordpressHeadlessReinventandoCmsEraModerna() {
                     usuários.</p>
 
 
-                <h4 className="text-4xl font-bold">Performance e Experiência do Usuário</h4>
+                <h4 className="text-4xl font-bold">Flexibilidade e Adaptação</h4>
 
                 <p className="text-lg">Um dos maiores benefícios do WordPress Headless é a sua capacidade de adaptação.
                     Com a lógica de apresentação separada da lógica de dados, é mais fácil adaptar e expandir o site ou
