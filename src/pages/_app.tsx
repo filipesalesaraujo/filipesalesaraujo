@@ -11,7 +11,6 @@ import {useEffect} from "react";
 export default function App({Component, pageProps}: AppProps) {
 
     useEffect(() => {
-        // Função para adicionar os scripts ao final do carregamento
         const addScripts = () => {
             const adsbygoogleScript = document.createElement('script');
             adsbygoogleScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5173897460796128';
