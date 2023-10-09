@@ -113,7 +113,7 @@ export default function Home({posts}: IBlog) {
                 </div>
             </section>
 
-            <section className=" w-full flex items-center justify-center">
+            <section className=" w-full flex items-center justify-center bg-gray-100">
                 <div className="max-w-7xl px-5 py-10 flex gap-5 flex-col">
 
                     <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
