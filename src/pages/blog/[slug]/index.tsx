@@ -182,11 +182,11 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                     </div>
                                     <div className="flex gap-1">
                                         <a href="https://www.linkedin.com/in/filipesales21/" target="_blank"
-                                           className="text-blue-600 hover:opacity-80 transition-opacity"><GrLinkedin/></a>
+                                           className="text-blue-600 hover:opacity-80 transition-opacity" aria-label="LinkedIn"><GrLinkedin/></a>
                                         <a href="https://github.com/filipesalesaraujo" target="_blank"
-                                           className="text-black hover:opacity-80 transition-opacity"><GrGithub/></a>
+                                           className="text-black hover:opacity-80 transition-opacity" aria-label="GitHub"><GrGithub/></a>
                                         <a href="mailto:filipesalesaraujo@gmail.com" target="_blank"
-                                           className="text-red-500 hover:opacity-80 transition-opacity"><GrMail/></a>
+                                           className="text-red-500 hover:opacity-80 transition-opacity" aria-label="E-mail"><GrMail/></a>
                                     </div>
                                     <div className="text-gray-500">
                                         {moment(post.date).format('D [de] MMMM [de] YYYY')}
@@ -259,7 +259,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                             className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                             <h3 className="text-2xl ">Artigos recentes</h3>
                             <Link href="/blog/"
-                                  className="text-lg border-[1px] border-green-500 px-5 py-1 rounded-3xl text-white bg-green-500 hover:opacity-80 transition-opacity">ver
+                                  className="text-lg border-[1px] border-green-600 px-5 py-1 rounded-3xl text-white bg-green-600 hover:opacity-80 transition-opacity">ver
                                 todos</Link>
                         </div>
                         <div className="flex gap-5 flex-col">
@@ -276,7 +276,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                                 <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                             </div>
                                             <Link href={`/blog/${post.slug}`}
-                                                  className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">Ler
+                                                  className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler
                                                 mais</Link>
                                         </div>
                                     </div>
