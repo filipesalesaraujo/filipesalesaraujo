@@ -100,9 +100,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
         };
     }
 ;
+
+function calculateReadingTime(text: string) {
+    const wordsPerMinute = 200;
+    const wordCount = text.split(/\s/g).length;
+    const readingTime = Math.ceil(wordCount / wordsPerMinute);
+
+    return `${readingTime} minutos de leitura`;
+}
+
 export default function Slug({posts, postsRecentes}: ISlug) {
-
-
     return (
         <div>
             <div className="flex justify-center items-center flex-row">
@@ -160,26 +167,30 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                             <h1 className="text-2xl font-bold">{post.title.rendered}</h1>
                             <div className="flex gap-5">
                                 <Image
-                                    width={60}
-                                    height={60}
-                                    className="rounded-full w-[60px] h-[60px]"
+                                    width={70}
+                                    height={70}
+                                    className="rounded-full w-[70px] h-[70px]"
                                     src={profile}
                                     alt="Foto de perfil de Filipe Sales Araujo"
                                 />
-                                <div>
+                                <div className="flex flex-col gap-1">
                                     <div>
                                         Filipe Sales Araujo
                                     </div>
                                     <div className="flex gap-1">
-                                        <a href="https://www.linkedin.com/in/filipesales21/" target="_blank" className="text-blue-600 hover:opacity-80 transition-opacity"><GrLinkedin /></a>
-                                        <a href="https://github.com/filipesalesaraujo" target="_blank" className="text-black hover:opacity-80 transition-opacity"><GrGithub /></a>
-                                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank" className="text-red-500 hover:opacity-80 transition-opacity"><GrMail /></a>
+                                        <a href="https://www.linkedin.com/in/filipesales21/" target="_blank"
+                                           className="text-blue-600 hover:opacity-80 transition-opacity"><GrLinkedin/></a>
+                                        <a href="https://github.com/filipesalesaraujo" target="_blank"
+                                           className="text-black hover:opacity-80 transition-opacity"><GrGithub/></a>
+                                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank"
+                                           className="text-red-500 hover:opacity-80 transition-opacity"><GrMail/></a>
                                     </div>
                                     <div className="text-gray-500">
                                         {moment(post.date).format('D [de] MMMM [de] YYYY')}
                                     </div>
                                 </div>
                             </div>
+                            <div className="text-xs text-gray-500">{calculateReadingTime(post.content.rendered)}</div>
                             <div className='text-lg' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
                             <hr/>
 
