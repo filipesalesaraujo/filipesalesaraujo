@@ -266,7 +266,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                             {postsRecentes.filter(postRecente => postRecente.id !== currentPostId).map((post) => (
                                     <div key={post.id}
                                          className="border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
-                                        <Image width={1680} height={720}
+                                        <Image width={394} height={222}
                                                src={post._embedded['wp:featuredmedia']['0'].source_url}
                                                alt={post.title.rendered}/>
                                         <div
