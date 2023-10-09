@@ -259,7 +259,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                             className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                             <h3 className="text-2xl ">Artigos recentes</h3>
                             <Link href="/blog/"
-                                  className="text-lg border-[1px] border-blue-500 px-5 py-1 rounded-3xl text-white bg-blue-500 hover:opacity-80 transition-opacity">ver
+                                  className="text-lg border-[1px] border-green-500 px-5 py-1 rounded-3xl text-white bg-green-500 hover:opacity-80 transition-opacity">ver
                                 todos</Link>
                         </div>
                         <div className="flex gap-5 flex-col">

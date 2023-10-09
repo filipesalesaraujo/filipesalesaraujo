@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0bbdd80-474f-40db-9fae-0603da2b5bfa" name="Changes" comment=":duck:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/[slug]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/[slug]/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,15 +89,7 @@
       <workItem from="1696048155850" duration="350000" />
       <workItem from="1696214127160" duration="2549000" />
       <workItem from="1696706157980" duration="16939000" />
-      <workItem from="1696818805923" duration="1618000" />
-    </task>
-    <task id="LOCAL-00033" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1695611649458</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1695611649458</updated>
+      <workItem from="1696818805923" duration="1916000" />
     </task>
     <task id="LOCAL-00034" summary=":duck:">
       <option name="closed" value="true" />
@@ -482,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696821616543</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1696821702641</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1696821702641</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
