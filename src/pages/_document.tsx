@@ -52,7 +52,7 @@ export default function Document() {
                 <div className="max-w-7xl w-[100%] flex justify-between items-center">
                     <div className="p-5 lg:min-w-[243px] lg:max-w-[19%] w-[100%] justify-start bg-black">
                         <Link href="/"
-                              className="text-white hover:text-white transition-colors text-xs lg:text-2xl font-bold bg-black hover:opacity-80 transition-opacity">
+                              className="text-white hover:text-white text-xs lg:text-2xl font-bold bg-black hover:opacity-80 transition-opacity">
                             [filipesalesaraujo]
                         </Link>
                     </div>
