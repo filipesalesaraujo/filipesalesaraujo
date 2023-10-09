@@ -127,7 +127,7 @@ export default function Home({posts}: IBlog) {
                         {posts.map((post) => (
                                 <div key={post.id}
                                      className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
-                                    <Image width={1680} height={720}
+                                    <Image width={398} height={223}
                                            src={post._embedded['wp:featuredmedia']['0'].source_url}
                                            alt={post.title.rendered}/>
                                     <div
