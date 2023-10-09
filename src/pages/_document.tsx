@@ -72,12 +72,12 @@ export default function Document() {
                 className="flex items-center justify-center flex-col border-t-[1px] border-black justify-betwee bg-[#27282c]">
                 <div className="max-w-7xl w-[100%] flex justify-between items-center flex-col lg:flex-row">
                     <div className="p-5 flex gap-5 w-full">
-                        <a href="https://github.com/filipesalesaraujo" target="_blank"
+                        <a href="https://github.com/filipesalesaraujo" aria-label="GitHub" target="_blank"
                            className="text-white hover:text-purple-500 transition-colors"><FaGithubAlt size={25}/></a>
-                        <a href="mailto:filipesalesaraujo@gmail.com"
+                        <a href="mailto:filipesalesaraujo@gmail.com" aria-label="E-mail" target="_blank"
                            className="text-white hover:text-red-500 transition-colors"><FaRegEnvelope size={25}/></a>
-                        <a href="https://www.linkedin.com/in/filipesales21/"
-                           className="text-white hover:text-blue-500 transition-colors" target="_blank"><FaLinkedinIn
+                        <a href="https://www.linkedin.com/in/filipesales21/" aria-label="LinkedIn" target="_blank"
+                           className="text-white hover:text-blue-500 transition-colors"><FaLinkedinIn
                             size="25"/></a>
                     </div>
                     <div className="p-5 flex gap-5 lg:justify-end flex-col lg:flex-row w-full">
