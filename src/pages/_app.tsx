@@ -11,7 +11,7 @@ import {useEffect} from "react";
 export default function App({Component, pageProps}: AppProps) {
     return (
         <div className={inter.className}>
-            <Script  id="adsbygoogle-init" strategy="afterInteractive" crossOrigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5173897460796128" />
+            <Script id="adsbygoogle-init" strategy="afterInteractive" crossOrigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5173897460796128" />
             <Script src="https://www.googletagmanager.com/gtag/js?id=G-9XQZJ9KDYH"/>
             <Script id="google-analytics">
                 {`
