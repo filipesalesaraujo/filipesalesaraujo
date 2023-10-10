@@ -9,38 +9,19 @@ import Script from "next/script";
 import {useEffect} from "react";
 
 export default function App({Component, pageProps}: AppProps) {
-
-    useEffect(() => {
-        const addScripts = () => {
-            const adsbygoogleScript = document.createElement('script');
-            adsbygoogleScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5173897460796128';
-            adsbygoogleScript.crossOrigin = 'anonymous';
-            document.head.appendChild(adsbygoogleScript);
-
-            const gtagScript = document.createElement('script');
-            gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-9XQZJ9KDYH';
-            document.head.appendChild(gtagScript);
-
-            const analyticsScript = document.createElement('script');
-            analyticsScript.innerHTML = `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'G-9XQZJ9KDYH');
-            `;
-            document.head.appendChild(analyticsScript);
-        };
-
-        window.addEventListener('load', addScripts);
-
-        return () => {
-            window.removeEventListener('load', addScripts);
-        };
-    }, []);
-
     return (
         <div className={inter.className}>
+            <Script  id="adsbygoogle-init" strategy="afterInteractive" crossOrigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5173897460796128" />
+            <Script src="https://www.googletagmanager.com/gtag/js?id=G-9XQZJ9KDYH"/>
+            <Script id="google-analytics">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-9XQZJ9KDYH');
+                `}
+            </Script>
             <Component {...pageProps} />
         </div>
     )
