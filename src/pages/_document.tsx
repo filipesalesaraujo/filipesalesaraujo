@@ -81,6 +81,7 @@ export default function Document() {
                             size="25"/></a>
                     </div>
                     <div className="p-5 flex gap-5 lg:justify-end flex-col lg:flex-row w-full">
+                        <Link className="text-gray-400 hover:text-white transition-colors" href="/direitos-autorais">Direitos Autorais</Link>
                         <Link className="text-gray-400 hover:text-white transition-colors" href="/politica-de-privacidade">Política de Privacidade</Link>
                         <Link className="text-gray-400 hover:text-white transition-colors" href="/termos-de-uso">Termos de Uso</Link>
                     </div>
