@@ -37,12 +37,12 @@ export default function Home({posts}: IBlog) {
 
 
     return (
-        <main className="flex items-center justify-center flex-col">
+        <main className="flex items-center justify-center flex-col bg-home bg-cover bg-no-repeat bg-[center_-10px]">
 
-            <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col bg-home bg-no-repeat bg-[center_-10px]">
+            <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col ">
                 <h1 className="text-4xl text-center">
                     <span>Bem-vindo ao </span>
-                    <strong className="text-7xl block">[filipesalesaraujo]</strong>
+                    <strong className=" text-4xl lg:text-7xl block">[filipesalesaraujo]</strong>
                 </h1>
                 <div className="flex gap-5 items-start flex-col md:flex-row">
                     <div className="flex flex-col gap-5 items-start">
@@ -62,7 +62,7 @@ export default function Home({posts}: IBlog) {
                 <div className="max-w-7xl px-5 py-10 flex gap-5 flex-col lg:flex-row">
 
                     <div
-                        className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden bg-purple-gradient">
+                        className="shadow-md bg-white w-[100%] rounded-2xl flex flex-col justify-between overflow-hidden bg-purple-gradient">
                         <div
                             className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
@@ -81,7 +81,7 @@ export default function Home({posts}: IBlog) {
                     </div>
 
                     <div
-                        className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden bg-blue-gradient">
+                        className="shadow-md bg-white rounded-2xl w-[100%] flex flex-col justify-between overflow-hidden bg-blue-gradient">
                         <div
                             className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
@@ -102,7 +102,7 @@ export default function Home({posts}: IBlog) {
                 </div>
             </section>
 
-            <section className=" w-full flex items-center justify-center bg-gray-100">
+            <section className=" w-full flex items-center justify-center ">
                 <div className="max-w-7xl px-5 py-10 flex gap-5 flex-col">
 
                     <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
@@ -115,7 +115,7 @@ export default function Home({posts}: IBlog) {
                     <div className="flex gap-5 flex-col lg:flex-row">
                         {posts.map((post) => (
                                 <div key={post.id}
-                                     className="bg-white border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
+                                     className="shadow-md bg-white rounded-2xl w-[100%] flex flex-col justify-between overflow-hidden">
                                     <Image width={398} height={223}
                                            src={post._embedded['wp:featuredmedia']['0'].source_url}
                                            alt={post.title.rendered}/>

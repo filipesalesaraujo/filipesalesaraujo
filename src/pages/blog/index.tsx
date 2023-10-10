@@ -61,7 +61,7 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                 <div className="flex flex-wrap gap-5">
                     {postsPerformance.map((post) => (
                             <div key={post.id}
-                                 className=" border-[1px] border-gray-300 w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
+                                 className="shadow-md rounded-2xl w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
                                 <Image width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url}
                                        alt={post.title.rendered}/>
                                 <div
@@ -83,7 +83,7 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                 <div className="flex flex-wrap gap-5">
                     {postsCienciaDeDados.map((post) => (
                             <div key={post.id}
-                                 className=" border-[1px] border-gray-300 w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
+                                 className="shadow-md rounded-2xl w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
                                 <Image width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url}
                                        alt={post.title.rendered}/>
                                 <div
