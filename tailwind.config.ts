@@ -16,6 +16,7 @@ const config: Config = {
                 'purple-gradient': 'linear-gradient(161deg, #f687b3, #805ad5)',
                 'blue-gradient': 'linear-gradient(161deg, #63b3ed, #2c5282)',
                 'home' : "url('/bg-home.svg')",
+                'about' : "url('/bg-about.svg')",
             },
         },
     },
