@@ -19,6 +19,7 @@ const config: Config = {
                 'about' : "url('/bg-about.svg')",
                 'blog' : "url('/bg-blog.svg')",
                 'contact' : "url('/bg-contact.svg')",
+                'slug' : "url('/bg-slug.svg')",
             },
         },
     },

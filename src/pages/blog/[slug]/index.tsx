@@ -114,8 +114,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
     const currentPostId = posts[0].id;
 
     return (
-        <div>
-            <div className="flex justify-center items-center flex-row">
+            <main className="flex justify-center items-center flex-row bg-[length:35%] bg-slug bg-no-repeat bg-[right_-50px_top_-50px] lg:bg-[right_-100px_top_-50px]">
                 <div className="max-w-7xl flex justify-center flex-col lg:flex-row gap-5 px-5 py-10">
 
                     {posts.map((post) => (
@@ -231,7 +230,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                         </div>
                         <div className="flex gap-5 flex-col">
                             {postsRecentes.filter(postRecente => postRecente.id !== currentPostId).map((post) => (
-                                <div key={post.id} className="border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
+                                <div key={post.id} className="bg-white shadow-md  w-[100%] flex flex-col justify-between overflow-hidden">
                                     <Image className="w-full" width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                                     <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                                         <div className="flex flex-col gap-5 ">
@@ -245,7 +244,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </main>
+
     )
 }
