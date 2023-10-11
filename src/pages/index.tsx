@@ -1,8 +1,9 @@
 import {GetStaticProps, GetStaticPropsContext} from "next";
 import Link from "next/link";
 import Image from "next/image";
-import {FaLaptopCode} from "react-icons/fa";
-import moment from "moment";
+
+import moment from 'moment';
+import 'moment/locale/pt-br';
 
 export interface TPost {
     _embedded: any;
