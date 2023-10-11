@@ -230,10 +230,13 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                         </div>
                         <div className="flex gap-5 flex-col">
                             {postsRecentes.filter(postRecente => postRecente.id !== currentPostId).map((post) => (
-                                <div key={post.id} className="bg-white shadow-md  w-[100%] flex flex-col justify-between overflow-hidden">
+                                <div key={post.id} className="rounded-2xl bg-white shadow-md  w-[100%] flex flex-col justify-between overflow-hidden">
                                     <Image className="w-full" width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                                     <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                                         <div className="flex flex-col gap-5 ">
+                                            <div className="text-gray-500">
+                                                {moment(post.date).format('D [de] MMMM [de] YYYY')}
+                                            </div>
                                             <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
                                             <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                         </div>

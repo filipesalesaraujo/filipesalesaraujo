@@ -2,6 +2,7 @@ import {GetStaticProps, GetStaticPropsContext} from "next";
 import Link from "next/link";
 import Image from "next/image";
 import {FaLaptopCode} from "react-icons/fa";
+import moment from "moment";
 
 export interface TPost {
     _embedded: any;
@@ -13,6 +14,7 @@ export interface TPost {
     };
     slug: string;
     id: string;
+    date: string;
 }
 
 export interface IBlog {
@@ -100,8 +102,8 @@ export default function Home({posts, stickys}: IBlog) {
                                 <Image className="w-full" width={398} height={223} src={sticky._embedded['wp:featuredmedia']['0'].source_url} alt={sticky.title.rendered}/>
                                 <div
                                     className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
-                                    <div className="flex flex-col gap-5 ">
-                                        <h1 className="font-bold text-lg	">{sticky.title.rendered}</h1>
+                                    <div className="flex flex-col gap-5">
+                                        <h1 className="font-bold text-lg">{sticky.title.rendered}</h1>
                                         <p className="text-lg">{sticky.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
                                     <Link href={`/blog/${sticky.slug}`} className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler mais</Link>
@@ -116,8 +118,9 @@ export default function Home({posts, stickys}: IBlog) {
                                 <Image className="w-full" width={398} height={223} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                                 <div
                                     className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
-                                    <div className="flex flex-col gap-5 ">
-                                        <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
+                                    <div className="flex flex-col gap-5" >
+                                        {moment(post.date).format('D [de] MMMM [de] YYYY')}
+                                        <h1 className="font-bold text-lg">{post.title.rendered}</h1>
                                         <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
                                     <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler mais</Link>

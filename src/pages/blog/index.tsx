@@ -6,6 +6,7 @@ import {GetStaticProps, GetStaticPropsContext} from "next";
 import Link from "next/link";
 import Image from "next/image";
 import i from "../../../public/i.png";
+import moment from "moment/moment";
 
 export interface TPost {
     _embedded: any;
@@ -17,6 +18,7 @@ export interface TPost {
     };
     slug: string;
     id: string;
+    date: string;
 }
 
 export interface IBlog {
@@ -61,6 +63,9 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                         <Image className="w-full" width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                         <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
+                                <div className="text-gray-500">
+                                    {moment(post.date).format('D [de] MMMM [de] YYYY')}
+                                </div>
                                 <h1 className="text-lg font-bold">{post.title.rendered}</h1>
                                 <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                             </div>
@@ -77,6 +82,9 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                         <Image className="w-full" width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                         <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
+                                <div className="text-gray-500">
+                                    {moment(post.date).format('D [de] MMMM [de] YYYY')}
+                                </div>
                                 <h1 className="text-lg font-bold">{post.title.rendered}</h1>
                                 <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                             </div>
