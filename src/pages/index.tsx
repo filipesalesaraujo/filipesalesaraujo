@@ -17,6 +17,7 @@ export interface TPost {
 
 export interface IBlog {
     posts: TPost[]
+    stickys: TPost[]
 }
 
 export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsContext) => {
@@ -25,15 +26,20 @@ export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsCon
     const postsArr = await postsFetch.json()
     const posts = await postsArr
 
+    const stickysFetch = await fetch('https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&sticky=true');
+    const stickysArr = await stickysFetch.json()
+    const stickys = await stickysArr
+
     return {
         props: {
             posts,
+            stickys
         },
         revalidate: 10,
     }
 }
 
-export default function Home({posts}: IBlog) {
+export default function Home({posts, stickys}: IBlog) {
 
     return (
         <main className="flex items-center justify-center flex-col bg-home bg-cover bg-no-repeat bg-[center_-10px]">
@@ -86,6 +92,22 @@ export default function Home({posts}: IBlog) {
                     <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                         <p className="text-3xl ">Artigos recentes</p>
                         <Link href="/blog/" className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">ver todos</Link>
+                    </div>
+
+                    <div className="flex gap-5 flex-col lg:flex-row">
+                        {stickys.map((sticky) => (
+                            <div key={sticky.id} className="shadow-md bg-white rounded-2xl w-[100%] flex flex-col lg:flex-row  justify-between overflow-hidden">
+                                <Image className="w-full" width={398} height={223} src={sticky._embedded['wp:featuredmedia']['0'].source_url} alt={sticky.title.rendered}/>
+                                <div
+                                    className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
+                                    <div className="flex flex-col gap-5 ">
+                                        <h1 className="font-bold text-lg	">{sticky.title.rendered}</h1>
+                                        <p className="text-lg">{sticky.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
+                                    </div>
+                                    <Link href={`/blog/${sticky.slug}`} className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler mais</Link>
+                                </div>
+                            </div>
+                        ))}
                     </div>
 
                     <div className="flex gap-5 flex-col lg:flex-row">
