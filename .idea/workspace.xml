@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0bbdd80-474f-40db-9fae-0603da2b5bfa" name="Changes" comment=":duck:">
+      <change afterPath="$PROJECT_DIR$/public/bg-blog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bg-contact.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contato.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contato.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/direitos-autorais.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/direitos-autorais.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/politica-de-privacidade.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/politica-de-privacidade.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sobre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sobre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,15 +95,7 @@
       <workItem from="1696818805923" duration="2244000" />
       <workItem from="1696822681084" duration="2636000" />
       <workItem from="1696959078244" duration="3614000" />
-      <workItem from="1696984620774" duration="1519000" />
-    </task>
-    <task id="LOCAL-00055" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1696715632236</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1696715632236</updated>
+      <workItem from="1696984620774" duration="1958000" />
     </task>
     <task id="LOCAL-00056" summary=":duck:">
       <option name="closed" value="true" />
@@ -488,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696990373252</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1696990780200</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1696990780200</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

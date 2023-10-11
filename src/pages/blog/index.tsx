@@ -47,58 +47,44 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
 
 
     return (
-        <main className="flex items-center justify-center">
+        <main className="flex items-center justify-center bg-blog bg-no-repeat bg-[center_-30px]">
             <div className="max-w-7xl p-5 flex flex-col gap-5">
 
                 <h1 className="text-4xl text-center flex justify-center flex-col items-center">
                     <strong className="text-7xl block">Artigos</strong>
                 </h1>
-                <p className="text-2xl">Mergulhe profundamente nas minhas análises sobre dados, performance web e
-                    desenvolvimento. Explore como esses elementos estão moldando o futuro do mundo digital e descubra
-                    insights valiosos que podem transformar sua visão sobre a tecnologia. </p>
+                <p className="text-2xl">Mergulhe profundamente nas minhas análises sobre dados, performance web e desenvolvimento. Explore como esses elementos estão moldando o futuro do mundo digital e descubra insights valiosos que podem transformar sua visão sobre a tecnologia. </p>
 
                 <p className="text-3xl">Performance</p>
-                <div className="flex flex-wrap gap-5">
-                    {postsPerformance.map((post) => (
-                            <div key={post.id}
-                                 className="shadow-md rounded-2xl w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
-                                <Image width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url}
-                                       alt={post.title.rendered}/>
-                                <div
-                                    className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
-                                    <div className="flex flex-col gap-5 ">
-                                        <h1 className="text-lg font-bold">{post.title.rendered}</h1>
-                                        <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
-                                    </div>
-                                    <Link href={`/blog/${post.slug}`}
-                                          className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler
-                                        mais</Link>
-                                </div>
+                <div className="flex flex-wrap gap-5">{postsPerformance.map((post) => (
+                    <div key={post.id} className="shadow-md bg-white rounded-2xl w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
+                        <Image width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                        <div
+                            className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
+                            <div className="flex flex-col gap-5 ">
+                                <h1 className="text-lg font-bold">{post.title.rendered}</h1>
+                                <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                             </div>
-                        )
-                    )}
+                            <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler mais</Link>
+                        </div>
+                    </div>
+                ))}
                 </div>
                 <hr/>
                 <p className="text-3xl">Ciência de Dados</p>
-                <div className="flex flex-wrap gap-5">
-                    {postsCienciaDeDados.map((post) => (
-                            <div key={post.id}
-                                 className="shadow-md rounded-2xl w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
-                                <Image width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url}
-                                       alt={post.title.rendered}/>
-                                <div
-                                    className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
-                                    <div className="flex flex-col gap-5 ">
-                                        <h1 className="text-lg font-bold">{post.title.rendered}</h1>
-                                        <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
-                                    </div>
-                                    <Link href={`/blog/${post.slug}`}
-                                          className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler
-                                        mais</Link>
-                                </div>
+                <div className="flex flex-wrap gap-5">{postsCienciaDeDados.map((post) => (
+                    <div key={post.id}
+                         className="shadow-md bg-white rounded-2xl w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
+                        <Image width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                        <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
+                            <div className="flex flex-col gap-5 ">
+                                <h1 className="text-lg font-bold">{post.title.rendered}</h1>
+                                <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                             </div>
-                        )
-                    )}
+                            <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler mais</Link>
+                        </div>
+                    </div>
+                ))}
                 </div>
             </div>
         </main>

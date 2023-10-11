@@ -17,6 +17,8 @@ const config: Config = {
                 'blue-gradient': 'linear-gradient(161deg, #63b3ed, #2c5282)',
                 'home' : "url('/bg-home.svg')",
                 'about' : "url('/bg-about.svg')",
+                'blog' : "url('/bg-blog.svg')",
+                'contact' : "url('/bg-contact.svg')",
             },
         },
     },
