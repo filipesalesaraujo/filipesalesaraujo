@@ -169,24 +169,13 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                             </Head>
                             <h1 className="text-2xl font-bold">{post.title.rendered}</h1>
                             <div className="flex gap-5">
-                                <Image
-                                    width={70}
-                                    height={70}
-                                    className="rounded-full w-[70px] h-[70px]"
-                                    src={profile}
-                                    alt="Foto de perfil de Filipe Sales Araujo"
-                                />
+                                <Image width={70} height={70} className="rounded-full w-[70px] h-[70px]" src={profile} alt="Foto de perfil de Filipe Sales Araujo"/>
                                 <div className="flex flex-col gap-1">
-                                    <div>
-                                        Filipe Sales Araujo
-                                    </div>
+                                    <div>Filipe Sales Araujo</div>
                                     <div className="flex gap-1">
-                                        <a href="https://www.linkedin.com/in/filipesales21/" target="_blank"
-                                           className="text-blue-600 hover:opacity-80 transition-opacity" aria-label="LinkedIn"><GrLinkedin/></a>
-                                        <a href="https://github.com/filipesalesaraujo" target="_blank"
-                                           className="text-black hover:opacity-80 transition-opacity" aria-label="GitHub"><GrGithub/></a>
-                                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank"
-                                           className="text-red-500 hover:opacity-80 transition-opacity" aria-label="E-mail"><GrMail/></a>
+                                        <a href="https://www.linkedin.com/in/filipesales21/" target="_blank" className="text-blue-600 hover:opacity-80 transition-opacity" aria-label="LinkedIn"><GrLinkedin/></a>
+                                        <a href="https://github.com/filipesalesaraujo" target="_blank" className="text-black hover:opacity-80 transition-opacity" aria-label="GitHub"><GrGithub/></a>
+                                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank" className="text-red-500 hover:opacity-80 transition-opacity" aria-label="E-mail"><GrMail/></a>
                                     </div>
                                     <div className="text-gray-500">
                                         {moment(post.date).format('D [de] MMMM [de] YYYY')}
@@ -200,18 +189,11 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                             <div className="flex flex-col md:flex-row gap-5">
                                 <p className="text-black text-xl">Compatilhar via:</p>
                                 <div className="flex gap-2.5 flex-wrap">
-                                    <WhatsappShareButton
-                                        url={`https://filipesalesaraujo.com/blog/${post.slug}`}
-                                        title={`${post.title.rendered}`}
-                                        separator=" - "
-                                    >
+                                    <WhatsappShareButton url={`https://filipesalesaraujo.com/blog/${post.slug}`} title={`${post.title.rendered}`} separator=" - ">
                                         <WhatsappIcon size={32} borderRadius={10}/>
                                     </WhatsappShareButton>
 
-                                    <TwitterShareButton
-                                        url={`https://filipesalesaraujo.com/blog/${post.slug}`}
-                                        title={`${post.title.rendered}`}
-                                    >
+                                    <TwitterShareButton url={`https://filipesalesaraujo.com/blog/${post.slug}`} title={`${post.title.rendered}`}>
                                         <TwitterIcon size={32} borderRadius={10}/>
                                     </TwitterShareButton>
 
@@ -219,32 +201,19 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                         <LinkedinIcon size={32} borderRadius={10}/>
                                     </LinkedinShareButton>
 
-                                    <FacebookShareButton
-                                        url={`https://filipesalesaraujo.com/blog/${post.slug}`}
-                                        quote={`${post.title.rendered}`}
-                                    >
+                                    <FacebookShareButton url={`https://filipesalesaraujo.com/blog/${post.slug}`} quote={`${post.title.rendered}`}>
                                         <FacebookIcon size={32} borderRadius={10}/>
                                     </FacebookShareButton>
 
-                                    <RedditShareButton
-                                        url={`https://filipesalesaraujo.com/blog/${post.slug}`}
-                                        title={`${post.title.rendered}`}
-                                    >
+                                    <RedditShareButton url={`https://filipesalesaraujo.com/blog/${post.slug}`} title={`${post.title.rendered}`}>
                                         <RedditIcon size={32} borderRadius={10}/>
                                     </RedditShareButton>
 
-                                    <TelegramShareButton
-                                        url={`https://filipesalesaraujo.com/blog/${post.slug}`}
-                                        title={`${post.title.rendered}`}
-                                    >
+                                    <TelegramShareButton url={`https://filipesalesaraujo.com/blog/${post.slug}`} title={`${post.title.rendered}`}>
                                         <TelegramIcon size={32} borderRadius={10}/>
                                     </TelegramShareButton>
 
-                                    <EmailShareButton
-                                        url={`https://filipesalesaraujo.com/blog/${post.slug}`}
-                                        subject={`${post.title.rendered}`}
-                                        body={`${post.content?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}`}
-                                    >
+                                    <EmailShareButton url={`https://filipesalesaraujo.com/blog/${post.slug}`} subject={`${post.title.rendered}`} body={`${post.content?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}`}>
                                         <EmailIcon size={32} borderRadius={10}/>
                                     </EmailShareButton>
                                 </div>
@@ -258,30 +227,21 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                         <div
                             className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                             <h3 className="text-2xl ">Artigos recentes</h3>
-                            <Link href="/blog/"
-                                  className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">ver
-                                todos</Link>
+                            <Link href="/blog/" className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">ver todos</Link>
                         </div>
                         <div className="flex gap-5 flex-col">
                             {postsRecentes.filter(postRecente => postRecente.id !== currentPostId).map((post) => (
-                                    <div key={post.id}
-                                         className="border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
-                                        <Image width={394} height={222}
-                                               src={post._embedded['wp:featuredmedia']['0'].source_url}
-                                               alt={post.title.rendered}/>
-                                        <div
-                                            className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
-                                            <div className="flex flex-col gap-5 ">
-                                                <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
-                                                <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
-                                            </div>
-                                            <Link href={`/blog/${post.slug}`}
-                                                  className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler
-                                                mais</Link>
+                                <div key={post.id} className="border-[1px] border-gray-300 w-[100%] flex flex-col justify-between overflow-hidden">
+                                    <Image className="w-full" width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                                    <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
+                                        <div className="flex flex-col gap-5 ">
+                                            <h1 className="font-bold text-lg	">{post.title.rendered}</h1>
+                                            <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                         </div>
+                                        <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler mais</Link>
                                     </div>
-                                )
-                            )}
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

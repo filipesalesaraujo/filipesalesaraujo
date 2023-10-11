@@ -57,10 +57,9 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
 
                 <p className="text-3xl">Performance</p>
                 <div className="flex flex-wrap gap-5">{postsPerformance.map((post) => (
-                    <div key={post.id} className="shadow-md bg-white rounded-2xl w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
-                        <Image width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
-                        <div
-                            className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
+                    <div key={post.id} className="shadow-md bg-white rounded-2xl w-[100%] lg:w-[32%] flex flex-col justify-between items-start overflow-hidden">
+                        <Image className="w-full" width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                        <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
                                 <h1 className="text-lg font-bold">{post.title.rendered}</h1>
                                 <p className="text-lg">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
@@ -74,8 +73,8 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                 <p className="text-3xl">Ciência de Dados</p>
                 <div className="flex flex-wrap gap-5">{postsCienciaDeDados.map((post) => (
                     <div key={post.id}
-                         className="shadow-md bg-white rounded-2xl w-[100%] xl:w-[32%] flex flex-col justify-between items-start overflow-hidden">
-                        <Image width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
+                         className="shadow-md bg-white rounded-2xl w-[100%] lg:w-[32%] flex flex-col justify-between items-start overflow-hidden">
+                        <Image className="w-full" width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
                         <div className="h-[100%] gap-5 p-5 flex flex-col justify-between items-start rounded-md overflow-hidden">
                             <div className="flex flex-col gap-5 ">
                                 <h1 className="text-lg font-bold">{post.title.rendered}</h1>
