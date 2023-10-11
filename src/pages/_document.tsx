@@ -59,7 +59,7 @@ export default function Document() {
                         <Link href="/" className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Início</Link>
                         <Link href="/sobre" className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Sobre</Link>
                         <Link href='/blog' className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Blog</Link>
-                        <a href="mailto:filipesalesaraujo@gmail.com" target="_blank" className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Contato</a>
+                        <Link href='/contato' className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Contato</Link>
                     </div>
                 </div>
             </header>
