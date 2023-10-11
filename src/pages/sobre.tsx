@@ -1,6 +1,6 @@
 export default function Sobre() {
     return (
-        <main className="flex items-center justify-center flex-col bg-about bg-cover bg-no-repeat bg-[center_-30px]">
+        <main className="flex items-center flex-col bg-about bg-cover bg-no-repeat bg-[center_-30px] min-h-screen">
             <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col ">
                 <h1 className="text-4xl text-center">
                     <span>Oi! Meu nome é </span>
