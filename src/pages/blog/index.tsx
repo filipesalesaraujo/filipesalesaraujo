@@ -26,11 +26,11 @@ export interface IBlog {
 
 export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsContext) => {
 
-    const postsFetchCienciaDeDados = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?categories=2&_embed=true`)
+    const postsFetchCienciaDeDados = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?categories=2&_embed=true&per_page=100`)
     const postsArrCienciaDeDados = await postsFetchCienciaDeDados.json()
     const postsCienciaDeDados = await postsArrCienciaDeDados
 
-    const postsFetchPerformance = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?categories=3&_embed=true`)
+    const postsFetchPerformance = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?categories=3&_embed=true&per_page=100`)
     const postsArrPerformance = await postsFetchPerformance.json()
     const postsPerformance = await postsArrPerformance
 
@@ -100,7 +100,6 @@ export default function Index({postsCienciaDeDados, postsPerformance}: IBlog) {
                         )
                     )}
                 </div>
-
             </div>
         </main>
     )
