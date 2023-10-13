@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import moment from 'moment';
 import 'moment/locale/pt-br';
+import Head from "next/head";
 
 export interface TPost {
     _embedded: any;
@@ -45,7 +46,40 @@ export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsCon
 export default function Home({posts, stickys}: IBlog) {
 
     return (
-        <main className="flex items-center justify-center flex-col bg-home bg-cover bg-no-repeat bg-[center_-10px]">
+        <>
+            <Head>
+            <title>[filipesalesaraujo]</title>
+            <meta name="description" content="Este portal é dedicado à Gestão Avançada de Dados e Análise, focando em tecnologias inovadoras em armazenamento, processamento e análise de dados. Explore a fundo tecnologias como bancos de dados NoSQL, aprendizado de máquina e inteligência artificial, além de estratégias de implementação. Descubra como essas soluções estão transformando indústrias como a automobilística, saúde, finanças e muito mais. Acesse artigos técnicos, estudos de caso e tutoriais para aprimorar seus conhecimentos e se manter atualizado sobre as últimas tendências em ciência de dados e tecnologia da informação."/>
+            <meta name="keywords" content="gestão de dados, análise de dados, tecnologia da informação, NoSQL, aprendizado de máquina, inteligência artificial, automobilística, saúde, finanças, ciência de dados, inovação tecnológica, Big Data, armazenamento de dados, processamento de dados, estratégias de implementação, tendências tecnológicas"/>
+            <meta name="author" content="Filipe Sales Araujo"/>
+            <link rel="canonical" content="https://filipesalesaraujo.com/"/>
+            <meta property="og:title" content="[filipesalesaraujo]"/>
+            <meta property="og:description" content="Este portal é dedicado à Gestão Avançada de Dados e Análise, focando em tecnologias inovadoras em armazenamento, processamento e análise de dados. Explore a fundo tecnologias como bancos de dados NoSQL, aprendizado de máquina e inteligência artificial, além de estratégias de implementação. Descubra como essas soluções estão transformando indústrias como a automobilística, saúde, finanças e muito mais. Acesse artigos técnicos, estudos de caso e tutoriais para aprimorar seus conhecimentos e se manter atualizado sobre as últimas tendências em ciência de dados e tecnologia da informação."/>
+            <meta property="og:image" content="https://filipesalesaraujo.com/_next/image?url=https%3A%2F%2Fpainel.filipesalesaraujo.com%2Fwp-content%2Fuploads%2F2023%2F09%2FJetBrains.png&w=1920&q=75"/>
+            <meta property="og:url" content="https://filipesalesaraujo.com/"/>
+            <meta property="og:type" content="article"/>
+            <meta name="twitter:card" content="summary"/>
+            <meta name="twitter:title" content="[filipesalesaraujo]"/>
+            <meta name="twitter:description" content="Este portal é dedicado à Gestão Avançada de Dados e Análise, focando em tecnologias inovadoras em armazenamento, processamento e análise de dados. Explore a fundo tecnologias como bancos de dados NoSQL, aprendizado de máquina e inteligência artificial, além de estratégias de implementação. Descubra como essas soluções estão transformando indústrias como a automobilística, saúde, finanças e muito mais. Acesse artigos técnicos, estudos de caso e tutoriais para aprimorar seus conhecimentos e se manter atualizado sobre as últimas tendências em ciência de dados e tecnologia da informação."/>
+            <meta name="twitter:image" content="https://filipesalesaraujo.com/_next/image?url=https%3A%2F%2Fpainel.filipesalesaraujo.com%2Fwp-content%2Fuploads%2F2023%2F09%2FJetBrains.png&w=1920&q=75"/>
+            <meta name="google-adsense-account" content="ca-pub-5173897460796128"/>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "Organization",
+                    "name": "[filipesalesaraujo]",
+                    "url": "https://filipesalesaraujo.com/",
+                    "logo": "http://www.seusite.com.br/logo.png",
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "telephone": "+55-11-98458-3529",
+                        "contactType": "customer support"
+                    }
+                })
+            }}
+            />
+        </Head>
+            <main className="flex items-center justify-center flex-col bg-home bg-cover bg-no-repeat bg-[center_-10px]">
 
             <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col ">
                 <h1 className="text-4xl text-center">
@@ -134,5 +168,6 @@ export default function Home({posts, stickys}: IBlog) {
             </section>
 
         </main>
+        </>
     )
 }

@@ -133,8 +133,7 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                 <meta name="twitter:card" content="summary"/>
                                 <meta name="twitter:title" content={post.title.rendered}/>
                                 <meta name="twitter:description" content={post.acf.description}/>
-                                <meta name="twitter:image"
-                                      content={post._embedded['wp:featuredmedia']['0'].source_url}/>
+                                <meta name="twitter:image" content={post._embedded['wp:featuredmedia']['0'].source_url}/>
                                 <script
                                     type="application/ld+json"
                                     dangerouslySetInnerHTML={{
