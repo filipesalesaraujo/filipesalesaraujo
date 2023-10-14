@@ -82,9 +82,9 @@ export default function Home({posts, stickys}: IBlog) {
             <main className="flex items-center justify-center flex-col bg-home bg-cover bg-no-repeat bg-[center_-10px]">
 
             <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col ">
-                <h1 className="text-4xl text-center">
+                <h1 className="text-2xl lg:text-4xl text-center">
                     <span>Bem-vindo ao </span>
-                    <strong className=" text-4xl lg:text-7xl block">[filipesalesaraujo]</strong>
+                    <strong className=" text-3xl lg:text-7xl block">[filipesalesaraujo]</strong>
                 </h1>
                 <div className="flex gap-5 items-start flex-col md:flex-row">
                     <div className="flex flex-col gap-5 items-start">
