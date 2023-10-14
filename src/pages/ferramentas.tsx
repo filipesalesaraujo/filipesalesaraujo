@@ -21,7 +21,17 @@ export default function Ferramentas() {
                                 <h1 className="font-bold text-lg">Calculadora IMC</h1>
                                 <p className="text-lg">Calcule seu IMC agora! Descubra seu índice de massa corporal em segundos.</p>
                             </div>
-                            <Link href="/calculadora-imc" className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Ler mais</Link>
+                            <Link href="/calculadora-imc" className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Calcular</Link>
+                        </div>
+                    </div>
+
+                    <div className="shadow-md bg-white rounded-2xl w-[100%] flex flex-col justify-between overflow-hidden">
+                        <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
+                            <div className="flex flex-col gap-5" >
+                                <h1 className="font-bold text-lg">Calculadora RCQ</h1>
+                                <p className="text-lg">Calcule sua Razão Cintura-Quadril facilmente aqui.</p>
+                            </div>
+                            <Link href="/calculadora-rcq" className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Calcular</Link>
                         </div>
                     </div>
                 </div>
