@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0bbdd80-474f-40db-9fae-0603da2b5bfa" name="Changes" comment=":duck:">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/calculadora-imc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/calculadora-imc.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/calculadora-rcq.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/calculadora-rcq.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ferramentas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ferramentas.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,15 +94,7 @@
       <workItem from="1697031975277" duration="9000" />
       <workItem from="1697224626193" duration="1120000" />
       <workItem from="1697254845007" duration="2759000" />
-      <workItem from="1697313436753" duration="7830000" />
-    </task>
-    <task id="LOCAL-00081" summary=":duck:">
-      <option name="closed" value="true" />
-      <created>1696821616543</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1696821616543</updated>
+      <workItem from="1697313436753" duration="7997000" />
     </task>
     <task id="LOCAL-00082" summary=":duck:">
       <option name="closed" value="true" />
@@ -491,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697321529398</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary=":duck:">
+      <option name="closed" value="true" />
+      <created>1697321690220</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1697321690220</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

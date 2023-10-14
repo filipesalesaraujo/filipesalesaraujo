@@ -31,7 +31,7 @@ export default function Ferramentas() {
                                 <h1 className="font-bold text-lg">Calculadora de Relação Cintura-Quadril (RCQ)</h1>
                                 <p className="text-lg">Descubra sua saúde cardiovascular com a Calculadora de RCQ e tome medidas para uma vida mais saudável.</p>
                             </div>
-                            <Link href="/calculadora-imc" className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Calcular</Link>
+                            <Link href="/calculadora-rcq" className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Calcular</Link>
                         </div>
                     </div>
 
