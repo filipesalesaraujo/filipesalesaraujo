@@ -63,8 +63,16 @@ export default function Index({postsCienciaDeDados, postsPerformance, postsEduca
                 <h1 className="text-4xl text-center flex justify-center flex-col items-center">
                     <strong className="text-7xl block">Artigos</strong>
                 </h1>
-                <p className="text-2xl">Mergulhe profundamente nas minhas análises sobre dados, performance web, desenvolvimento e educação física. Explore como esses elementos estão moldando o futuro do mundo digital e do condicionamento físico, e descubra insights valiosos que podem transformar sua visão sobre tecnologia e saúde.</p>
-                <p className="text-3xl font-bold">Performance</p>
+                <p className="text-2xl">Mergulhe profundamente nas minhas análises sobre <strong>dados</strong>, <strong>performance web</strong>, <strong>desenvolvimento</strong> e <strong>educação física</strong>. Explore como esses elementos estão moldando o futuro do mundo digital e do condicionamento físico, e descubra insights valiosos que podem transformar sua visão sobre tecnologia e saúde.</p>
+
+                <div className="flex justify-between gap-5">
+                    <a href="#perfomance" className="w-full flex items-center justify-center text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Perfomance</a>
+                    <a href="#cieciadedados" className="w-full flex items-center justify-center text-lg border-[1px] border-green-600 px-5 py-1 rounded-3xl text-white bg-green-600 hover:opacity-80 transition-opacity">Ciência de Dados</a>
+                    <a href="#educacaofisica" className="w-full flex items-center justify-center text-lg border-[1px] border-orange-600 px-5 py-1 rounded-3xl text-white bg-orange-600 hover:opacity-80 transition-opacity">Educação Física</a>
+                </div>
+
+
+                <p id="perfomance" className="text-3xl font-bold">Performance</p>
                 <div className="flex flex-wrap gap-5">{postsPerformance.map((post) => (
                     <div key={post.id} className="shadow-md bg-white rounded-2xl w-[100%] lg:w-[32%] flex flex-col justify-between items-start overflow-hidden">
                         <Image className="w-full" width={394} height={222} src={post._embedded['wp:featuredmedia']['0'].source_url} alt={post.title.rendered}/>
@@ -86,7 +94,7 @@ export default function Index({postsCienciaDeDados, postsPerformance, postsEduca
             <section className="bg-gray-100 w-full flex items-center justify-center">
 
                 <div className="max-w-7xl px-5 flex flex-col gap-5 py-10">
-                    <p className="text-3xl font-bold">Ciência de Dados</p>
+                    <p id="cieciadedados" className="text-3xl font-bold">Ciência de Dados</p>
                     <div className="flex flex-wrap gap-5">{postsCienciaDeDados.map((post) => (
                         <div key={post.id}
                              className="shadow-md bg-white rounded-2xl w-[100%] lg:w-[32%] flex flex-col justify-between items-start overflow-hidden">
@@ -109,7 +117,7 @@ export default function Index({postsCienciaDeDados, postsPerformance, postsEduca
 
             <section className="max-w-7xl px-5 flex flex-col gap-5 py-10">
 
-                <p className="text-3xl font-bold">Educação Física</p>
+                <p id="educacaofisica" className="text-3xl font-bold">Educação Física</p>
                 <div className="flex flex-wrap gap-5">{postsEducacaoFisica.map((post) => (
                     <div key={post.id}
                          className="shadow-md bg-white rounded-2xl w-[100%] lg:w-[32%] flex flex-col justify-between items-start overflow-hidden">
