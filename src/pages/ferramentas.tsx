@@ -11,7 +11,7 @@ export default function Ferramentas() {
                 </h1>
                 <div className="flex gap-5 items-start flex-col md:flex-row">
                     <div className="flex flex-col gap-5 items-start">
-                        <p className="text-2xl">Descubra uma vasta gama de ferramentas poderosas, cuidadosamente projetadas para simplificar suas tarefas relacionadas à educação física, análise de dados, conversão de arquivos e cálculos. Nossa suíte abrangente oferece soluções intuitivas para profissionais, estudantes e entusiastas, permitindo que você extraia insights valiosos, planeje seus exercícios, converta facilmente formatos de arquivo e realize cálculos com precisão. Simplifique suas tarefas diárias com nossas ferramentas acessíveis e eficazes, projetadas para tornar sua vida mais fácil.</p>
+                        <p className="text-2xl">Descubra uma vasta gama de ferramentas poderosas, cuidadosamente projetadas para simplificar suas tarefas relacionadas à educação física, análise de dados, conversão de arquivos e cálculos. A suíte abrangente oferece soluções intuitivas para profissionais, estudantes e entusiastas, permitindo que você extraia insights valiosos, planeje seus exercícios, converta facilmente formatos de arquivo e realize cálculos com precisão. Simplifique suas tarefas diárias com ferramentas acessíveis e eficazes, projetadas para tornar sua vida mais fácil.</p>
                     </div>
                 </div>
                 <div className="flex gap-5 flex-col lg:flex-row">
