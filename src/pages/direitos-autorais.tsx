@@ -1,6 +1,6 @@
 export default function DireitosAutorais() {
     return (
-        <main className="flex items-center min-h-screen flex-col">
+        <main className="flex items-center min-h-screen flex-col bg-about bg-cover bg-no-repeat bg-[center_-30px]">
             <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col ">
 
                 <h1 className="text-4xl font-bold">Direitos Autorais</h1>
