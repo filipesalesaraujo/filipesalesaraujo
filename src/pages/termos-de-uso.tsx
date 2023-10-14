@@ -10,8 +10,7 @@ export default function TermosDeUso() {
                 <p className="text-lg">Sob nenhuma circunstância filipesalesaraujo.com ou suas partes afiliadas serão responsáveis por danos resultantes do uso ou da incapacidade de usar o site ou seu conteúdo, seja esses danos diretos, indiretos, incidentais ou consequentes.</p>
                 <p className="text-lg">Reforçamos que reservamos o direito de modificar ou substituir estes Termos de Uso a qualquer momento e a nosso critério. Alterações nos termos terão efeito imediato após sua publicação no site, e o uso contínuo do site após tais alterações implica na aceitação destas.</p>
                 <p className="text-lg">Caso tenha dúvidas ou preocupações relacionadas a estes termos, por favor, entre em contato conosco através do filipesalesaraujo@gmail.com.</p>
-
-                </section>
+            </section>
         </main>
     )
 }
