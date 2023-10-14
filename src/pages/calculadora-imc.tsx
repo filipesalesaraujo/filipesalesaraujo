@@ -92,11 +92,14 @@ export default function CalculadoraIMC(): JSX.Element {
 
                 <h1 className="text-3xl font-bold">Calculadora de Índice de Massa Corporal (IMC)</h1>
                 <p className="text-lg">A calculadora de Índice de Massa Corporal (IMC) é uma ferramenta simples, mas poderosa, que ajuda você a avaliar sua saúde com base no seu peso e altura. O IMC é uma medida amplamente reconhecida que ajuda a determinar se você está dentro de uma faixa de peso saudável.</p>
-                <p className="text-lg"><strong>O que é o IMC?</strong> O IMC é um número calculado dividindo seu peso (em quilogramas) pela sua altura (em metros) ao quadrado. Essa fórmula fornece uma estimativa da quantidade de gordura corporal em relação à sua altura.</p>
-                <p className="text-lg"><strong>Por que o IMC é importante?</strong> O IMC é usado para avaliar se você está abaixo do peso, no peso ideal, com sobrepeso ou obeso. Essa informação pode ajudar na prevenção de problemas de saúde relacionados ao peso, como diabetes, doenças cardíacas e hipertensão.</p>
 
+                <h2 className="text-3xl font-bold">O que é o IMC?</h2>
+                <p className="text-lg">O IMC é um número calculado dividindo seu peso (em quilogramas) pela sua altura (em metros) ao quadrado. Essa fórmula fornece uma estimativa da quantidade de gordura corporal em relação à sua altura.</p>
 
-                <h2 className="text-3xl font-bold">Como usar a Calculadora de IMC</h2>
+                <h3 className="text-3xl font-bold">Por que o IMC é importante?</h3>
+                <p className="text-lg">O IMC é usado para avaliar se você está abaixo do peso, no peso ideal, com sobrepeso ou obeso. Essa informação pode ajudar na prevenção de problemas de saúde relacionados ao peso, como diabetes, doenças cardíacas e hipertensão.</p>
+
+                <h4 className="text-3xl font-bold">Como usar a Calculadora de IMC</h4>
 
                 <ul className="text-lg list-decimal pl-5">
                     <li>Insira seu peso atual em quilogramas no campo &quot;Peso (em kg)&quot;.</li>

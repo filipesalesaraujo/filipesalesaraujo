@@ -64,7 +64,7 @@ export default function CalculadoraRCQ() {
                 <h1 className="text-3xl font-bold">Calculadora de Relação Cintura-Quadril (RCQ)</h1>
                 <p className="text-lg">A Calculadora de Relação Cintura-Quadril (RCQ) é uma ferramenta essencial para avaliar a distribuição de gordura corporal e o risco de doenças cardiovasculares. A relação cintura-quadril é um indicador importante da saúde e pode fornecer informações valiosas sobre sua condição física geral.</p>
 
-                <h2 className="text-3xl font-bold">Calculadora de Relação Cintura-Quadril (RCQ)</h2>
+                <h2 className="text-3xl font-bold">O que é a Relação Cintura-Quadril (RCQ)?</h2>
                 <p className="text-lg">A RCQ é uma medida que compara a circunferência da sua cintura com a circunferência do quadril. Essa relação pode indicar como a gordura está distribuída em seu corpo. Uma RCQ elevada, que significa uma cintura proporcionalmente mais larga em relação ao quadril, está associada a um maior risco de doenças cardiovasculares, diabetes e outras condições de saúde.</p>
 
                 <h3 className="text-3xl font-bold">Por que a RCQ é importante?</h3>

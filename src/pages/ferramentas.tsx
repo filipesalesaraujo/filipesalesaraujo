@@ -25,6 +25,16 @@ export default function Ferramentas() {
                         </div>
                     </div>
 
+                    <div className="shadow-md bg-white rounded-2xl w-[100%] flex flex-col justify-between overflow-hidden">
+                        <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
+                            <div className="flex flex-col gap-5" >
+                                <h1 className="font-bold text-lg">Calculadora de Relação Cintura-Quadril (RCQ)</h1>
+                                <p className="text-lg">Descubra sua saúde cardiovascular com a Calculadora de RCQ e tome medidas para uma vida mais saudável.</p>
+                            </div>
+                            <Link href="/calculadora-imc" className="text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Calcular</Link>
+                        </div>
+                    </div>
+
 
                 </div>
             </section>
