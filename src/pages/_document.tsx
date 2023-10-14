@@ -12,7 +12,7 @@ export default function Document() {
             <body>
             <header className="flex items-center justify-center bg-[#27282c]">
                 <div className="max-w-7xl w-[100%] flex justify-between items-center">
-                    <div className="p-5 lg:min-w-[243px] lg:max-w-[19%] w-[100%] justify-start bg-black">
+                    <div className="p-5 lg:min-w-[243px] lg:max-w-[19%] w-[100%] justify-start bg-black hidden lg:flex ">
                         <Link href="/" className="text-white hover:text-white text-xs lg:text-2xl font-bold bg-black hover:opacity-80 transition-opacity">
                             [filipesalesaraujo]
                         </Link>

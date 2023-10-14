@@ -61,11 +61,11 @@ export default function Index({postsCienciaDeDados, postsPerformance, postsEduca
             <section className="max-w-7xl px-5 flex flex-col gap-5 py-10">
 
                 <h1 className="text-4xl text-center flex justify-center flex-col items-center">
-                    <strong className="text-7xl block">Artigos</strong>
+                    <strong className="text-6xl block">Artigos</strong>
                 </h1>
                 <p className="text-2xl">Mergulhe profundamente nas minhas análises sobre <strong>dados</strong>, <strong>performance web</strong>, <strong>desenvolvimento</strong> e <strong>educação física</strong>. Explore como esses elementos estão moldando o futuro do mundo digital e do condicionamento físico, e descubra insights valiosos que podem transformar sua visão sobre tecnologia e saúde.</p>
 
-                <div className="flex justify-between gap-5">
+                <div className="flex justify-between gap-5 flex-col lg:flex-row">
                     <a href="#perfomance" className="w-full flex items-center justify-center text-lg border-[1px] border-blue-600 px-5 py-1 rounded-3xl text-white bg-blue-600 hover:opacity-80 transition-opacity">Perfomance</a>
                     <a href="#cieciadedados" className="w-full flex items-center justify-center text-lg border-[1px] border-green-600 px-5 py-1 rounded-3xl text-white bg-green-600 hover:opacity-80 transition-opacity">Ciência de Dados</a>
                     <a href="#educacaofisica" className="w-full flex items-center justify-center text-lg border-[1px] border-orange-600 px-5 py-1 rounded-3xl text-white bg-orange-600 hover:opacity-80 transition-opacity">Educação Física</a>
