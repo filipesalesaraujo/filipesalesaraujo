@@ -63,8 +63,7 @@ export default function Index({postsCienciaDeDados, postsPerformance, postsEduca
                 <h1 className="text-4xl text-center flex justify-center flex-col items-center">
                     <strong className="text-7xl block">Artigos</strong>
                 </h1>
-                <p className="text-2xl">Mergulhe profundamente nas minhas análises sobre dados, performance web e desenvolvimento. Explore como esses elementos estão moldando o futuro do mundo digital e descubra insights valiosos que podem transformar sua visão sobre a tecnologia. </p>
-
+                <p className="text-2xl">Mergulhe profundamente nas minhas análises sobre dados, performance web, desenvolvimento e educação física. Explore como esses elementos estão moldando o futuro do mundo digital e do condicionamento físico, e descubra insights valiosos que podem transformar sua visão sobre tecnologia e saúde.</p>
                 <p className="text-3xl font-bold">Performance</p>
                 <div className="flex flex-wrap gap-5">{postsPerformance.map((post) => (
                     <div key={post.id} className="shadow-md bg-white rounded-2xl w-[100%] lg:w-[32%] flex flex-col justify-between items-start overflow-hidden">
