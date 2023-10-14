@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent } from 'react';
+import React, {useState, ChangeEvent, useEffect} from 'react';
 
 type Category =
     | 'Abaixo do Peso'
@@ -31,7 +31,12 @@ export default function CalculadoraIMC(): JSX.Element {
     const [weight, setWeight] = useState<string>('');
     const [height, setHeight] = useState<string>('');
     const [result, setResult] = useState<string>('');
-    const [category, setCategory] = useState<Category | null>(null); // Inicializado como null
+    const [category, setCategory] = useState<Category | null>(null);
+    const [isButtonDisabled, setIsButtonDisabled] = useState(true);
+
+    useEffect(() => {
+        setIsButtonDisabled(weight === '' || height === '');
+    }, [weight, height]);
 
     const validateNumberInput = (value: string): boolean => {
         // Verificar se o valor é um número válido
@@ -82,26 +87,59 @@ export default function CalculadoraIMC(): JSX.Element {
     };
 
     return (
-        <main className="flex items-center justify-center flex-col bg-orange-gradient lg:min-h-screen p-5">
-            <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-lg">
-                <h1 className="text-2xl font-semibold mb-4">Calculadora de IMC</h1>
-                <div className="mb-4">
-                    <label className="block text-gray-700">Peso (em kg)</label>
-                    <input type="text" className="w-full p-2 border border-gray-300 rounded" value={weight} onChange={handleWeightChange} />
-                </div>
-                <div className="mb-4">
-                    <label className="block text-gray-700">Altura (em cm)</label>
-                    <input type="text" className="w-full p-2 border border-gray-300 rounded" value={height} onChange={handleHeightChange} />
-                </div>
-                <button className="w-full bg-blue-500 text-white py-2 rounded hover:opacity-80 transition-opacity" onClick={calculateIMC}>Calcular IMC</button>
-                {result !== '' && category !== null && (
-                    <div className={`mt-4 ${getBackgroundColorClass(category)} text-white rounded-lg p-4`}>
-                        <p className="text-white">Seu IMC é:</p>
-                        <p className="text-2xl font-semibold text-white">{result}</p>
-                        <p className="mt-2 text-white">Categoria: {category}</p>
+        <main className="flex items-center min-h-screen flex-col bg-about bg-cover bg-no-repeat bg-[center_-30px]">
+            <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col ">
+
+                <h1 className="text-3xl font-bold">Calculadora de Índice de Massa Corporal (IMC)</h1>
+                <p className="text-lg">A calculadora de Índice de Massa Corporal (IMC) é uma ferramenta simples, mas poderosa, que ajuda você a avaliar sua saúde com base no seu peso e altura. O IMC é uma medida amplamente reconhecida que ajuda a determinar se você está dentro de uma faixa de peso saudável.</p>
+                <p className="text-lg"><strong>O que é o IMC?</strong> O IMC é um número calculado dividindo seu peso (em quilogramas) pela sua altura (em metros) ao quadrado. Essa fórmula fornece uma estimativa da quantidade de gordura corporal em relação à sua altura.</p>
+                <p className="text-lg"><strong>Por que o IMC é importante?</strong> O IMC é usado para avaliar se você está abaixo do peso, no peso ideal, com sobrepeso ou obeso. Essa informação pode ajudar na prevenção de problemas de saúde relacionados ao peso, como diabetes, doenças cardíacas e hipertensão.</p>
+
+
+                <h2 className="text-3xl font-bold">Como usar a Calculadora de IMC</h2>
+
+                <ul className="text-lg list-decimal pl-5">
+                    <li>Insira seu peso atual em quilogramas no campo &quot;Peso (em kg)&quot;.</li>
+                    <li>Insira sua altura atual em centímetros no campo &quot;Altura (em cm)&quot;.</li>
+                    <li>Clique no botão &quot;Calcular IMC&quot;.</li>
+                </ul>
+
+                <p className="text-lg">A calculadora apresentará seu IMC com duas casas decimais. Além disso, classificará seu IMC em uma das seguintes categorias:</p>
+
+                <ul className="text-lg list-disc pl-5">
+                    <li><strong>Abaixo do Peso:</strong> IMC menor que 18,5</li>
+                    <li><strong>Peso Normal:</strong> IMC entre 18,5 e 24,9</li>
+                    <li><strong>Sobrepeso:</strong> IMC entre 25 e 29,9</li>
+                    <li><strong>Obesidade Grau 1:</strong> IMC entre 30 e 34,9</li>
+                    <li><strong>Obesidade Grau 2:</strong> IMC entre 35 e 39,9</li>
+                    <li><strong>Obesidade Grau 3 (Mórbida):</strong> IMC igual ou superior a 40</li>
+                </ul>
+
+                <p className="text-lg">O IMC é uma ferramenta valiosa para avaliar sua saúde, mas lembre-se de que ele é apenas uma parte do quadro completo. Consultar um profissional de saúde é sempre uma boa ideia para obter orientação personalizada sobre sua saúde e estilo de vida.</p>
+                <p className="text-lg">Comece a usar a calculadora agora e saiba mais sobre sua saúde com base no seu IMC!</p>
+
+                <div>
+                    <div className="mb-4">
+                        <label className="text-lg">Peso (em kg)</label>
+                        <input type="text" className="text-lg w-full p-2 border border-gray-300 rounded" value={weight} onChange={handleWeightChange} />
                     </div>
-                )}
-            </div>
+                    <div className="mb-4">
+                        <label className="text-lg">Altura (em cm)</label>
+                        <input type="text" className="text-lg w-full p-2 border border-gray-300 rounded" value={height} onChange={handleHeightChange} />
+                    </div>
+                    <button className={`w-full bg-blue-500 text-white py-2 rounded hover:opacity-80 transition-opacity ${isButtonDisabled ? 'opacity-50 cursor-not-allowed' : ''}`} onClick={calculateIMC} disabled={isButtonDisabled}>Calcular IMC</button>
+                    {result !== '' && category !== null && (
+                        <div className={`mt-4 ${getBackgroundColorClass(category)} text-white rounded-lg p-4`}>
+                            <p className="text-white">Seu IMC é:</p>
+                            <p className="text-2xl font-semibold text-white">{result}</p>
+                            <p className="mt-2 text-white">Categoria: {category}</p>
+                        </div>
+                    )}
+                </div>
+
+            </section>
+
+
         </main>
     );
 }
