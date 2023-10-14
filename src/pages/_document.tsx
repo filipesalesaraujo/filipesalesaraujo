@@ -7,7 +7,7 @@ import Script from "next/script";
 
 export default function Document() {
     return (
-        <Html lang="en">
+        <Html lang="pt-BR">
             <Head />
             <body>
             <header className="flex items-center justify-center bg-[#27282c]">
