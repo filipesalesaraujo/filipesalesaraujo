@@ -65,8 +65,8 @@ export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsCon
     const posts = await postsArr
 
 
-    const postsRecentesFetch = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&per_page=3`)
-    const postsRecentesArr = await postsRecentesFetch.json()
+    const postsRecentesFetch = await fetch('https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&per_page=3&categories_exclude=5');
+    const postsRecentesArr = await postsRecentesFetch.json();
     const postsRecentes = await postsRecentesArr
 
 

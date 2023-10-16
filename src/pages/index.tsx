@@ -26,8 +26,8 @@ export interface IBlog {
 
 export const getStaticProps: GetStaticProps = async ({params}: GetStaticPropsContext) => {
 
-    const postsFetch = await fetch(`https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&per_page=3`)
-    const postsArr = await postsFetch.json()
+    const postsFetch = await fetch('https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&per_page=3&categories_exclude=5');
+    const postsArr = await postsFetch.json();
     const posts = await postsArr
 
     const stickysFetch = await fetch('https://painel.filipesalesaraujo.com/wp-json/wp/v2/posts?_embed=true&sticky=true');
