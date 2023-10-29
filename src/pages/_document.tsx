@@ -18,7 +18,6 @@ export default function Document() {
                         <Link href="/" className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Início</Link>
                         <Link href="/sobre" className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Sobre</Link>
                         <Link href='/blog' className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Blog</Link>
-                        <Link href='/ferramentas' className="text-gray-400 hover:text-white transition-colors text-xs lg:text-2xl">Ferramentas</Link>
                     </div>
                 </div>
             </header>
