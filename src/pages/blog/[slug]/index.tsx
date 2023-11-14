@@ -1,31 +1,11 @@
 import {GetStaticPaths, GetStaticProps, GetStaticPropsContext} from "next";
 import Head from "next/head";
-import Image from "next/image";
-import {
-    EmailIcon,
-    EmailShareButton,
-    FacebookIcon,
-    FacebookShareButton,
-    LinkedinIcon,
-    LinkedinShareButton,
-    RedditIcon,
-    RedditShareButton,
-    TelegramIcon,
-    TelegramShareButton,
-    TwitterIcon,
-    TwitterShareButton,
-    WhatsappIcon,
-    WhatsappShareButton
-} from "next-share";
 import Link from "next/link";
 
 import moment from 'moment';
 import 'moment/locale/pt-br';
 
 moment.locale('pt-br');
-
-import profile from '../../../../public/profile.jpeg'
-import {GrGithub, GrLinkedin, GrMail} from "react-icons/gr";
 
 export type TPost = {
     excerpt?: {
@@ -127,13 +107,11 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                 <link rel="canonical" href={`https://filipesalesaraujo.com/blog/${post.slug}`}/>
                                 <meta property="og:title" content={post.title.rendered}/>
                                 <meta property="og:description" content={post.acf.description}/>
-                                <meta property="og:image" content={post._embedded['wp:featuredmedia']['0'].source_url}/>
                                 <meta property="og:url" content={`https://filipesalesaraujo.com/blog/${post.slug}`}/>
                                 <meta property="og:type" content="article"/>
                                 <meta name="twitter:card" content="summary"/>
                                 <meta name="twitter:title" content={post.title.rendered}/>
                                 <meta name="twitter:description" content={post.acf.description}/>
-                                <meta name="twitter:image" content={post._embedded['wp:featuredmedia']['0'].source_url}/>
                                 <script
                                     type="application/ld+json"
                                     dangerouslySetInnerHTML={{
@@ -145,9 +123,6 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                                 "@id": `${post.slug}`
                                             },
                                             "headline": `${post.title.rendered}`,
-                                            "image": [
-                                                `${post._embedded['wp:featuredmedia']['0'].source_url}`,
-                                            ],
                                             "datePublished": `${post.date}`,
                                             "dateModified": `${post.modified}`,
                                             "author": {
