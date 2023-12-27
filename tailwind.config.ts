@@ -1,4 +1,4 @@
-import type {Config} from 'tailwindcss'
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
     content: [
@@ -9,18 +9,18 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                'marca-texto': '#FFEB3B'
+                'marca-texto': '#FFEB3B',
             },
             backgroundImage: {
                 'black-white': 'linear-gradient(to right, black 17%, white 15%)',
                 'purple-gradient': 'linear-gradient(161deg, #f687b3, #805ad5)',
                 'blue-gradient': 'linear-gradient(161deg, #63b3ed, #2c5282)',
                 'orange-gradient': 'linear-gradient(161deg, #FFA500, #FFFF00, #63b3ed, #2c5282)',
-                'home' : "url('/bg-home.svg')",
-                'about' : "url('/bg-about.svg')",
-                'blog' : "url('/bg-blog.svg')",
-                'contact' : "url('/bg-contact.svg')",
-                'slug' : "url('/bg-slug.svg')",
+                'home': "url('/bg-home.svg')",
+                'about': "url('/bg-about.svg')",
+                'blog': "url('/bg-blog.svg')",
+                'contact': "url('/bg-contact.svg')",
+                'slug': "url('/bg-slug.svg')",
             },
         },
     },

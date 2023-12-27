@@ -28,5 +28,14 @@
 }
 
 .spaced-animation:hover {
-    letter-spacing: 4px; /* Você pode ajustar este valor conforme sua preferência */
+    letter-spacing: 4px;
 }
+
+.bg-dark-rainbow {
+  background: linear-gradient(to left, #2F0000, #2F1800, #2F2F00, #182F00, #002F2F, #18002F, #2F002F);
+}
+
+.text-dark-rainbow {
+    background: linear-gradient(to left, #2F0000, #2F1800, #2F2F00, #182F00, #002F2F, #18002F, #2F002F);
+ 
+  }
