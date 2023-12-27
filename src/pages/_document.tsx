@@ -25,7 +25,7 @@ export default function Document() {
                 <footer className="text-dark-rainbow  flex items-center justify-center flex-col border-t-[1px] border-gray-500 justify-betwee bg-black">
                     <div className="max-w-7xl w-[100%] flex justify-between items-center flex-col lg:flex-row">
                         <div className="p-5 flex gap-5 flex-col lg:flex-row w-full">
-                            <p className='text-white italic'>"Ele é antes de todas as coisas, e nele tudo subsiste." (Colossenses 1:17)</p>
+                            <p className='text-white italic'>&quotEle é antes de todas as coisas, e nele tudo subsiste.&quot (Colossenses 1:17)</p>
                         </div>
                         <div className="p-5 flex gap-5 lg:justify-end flex-col lg:flex-row w-full">
                             <Link className="text-white hover:text-white transition-colors" href="/direitos-autorais">Direitos Autorais</Link>
