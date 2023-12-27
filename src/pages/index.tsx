@@ -82,11 +82,11 @@ export default function Home({posts, stickys}: IBlog) {
             <main className="flex items-center justify-center flex-col bg-black">
 
             <section className="max-w-7xl px-5 py-10 flex flex-wrap gap-10 flex-col">
-                <h1 className="text-2xl lg:text-4xl text-center text-gray-500">
+                <h1 className="text-2xl lg:text-4xl text-center text-white">
                     <span>Bem-vindo ao </span>
                     <strong className=" text-3xl lg:text-7xl block">[filipesalesaraujo]</strong>
                 </h1>
-                <div className="flex gap-5 items-start flex-col md:flex-row text-gray-500">
+                <div className="flex gap-5 items-start flex-col md:flex-row text-white">
                     <div className="flex flex-col gap-5 items-start">
                         <p className="text-2xl">A análise rigorosa da ciência de dados aplicada ao desenvolvimento web foca nos mecanismos que influenciam o ranqueamento e a performance online. <strong>É este o tipo de conteúdo que se espera encontrar aqui:</strong> um olhar profundo sobre a eficácia de uma plataforma digital, determinada não só pelo design, mas também pela forma como os dados são processados, analisados e implementados. </p>
                         <p className="text-2xl">Ferramentas como PageSpeed Insights, Google Search Console e GA4 são indispensáveis para medir e otimizar a experiência do usuário. Estas, aliadas ao poder do Looker Studio, permitem uma visualização clara e concisa do comportamento do usuário, conduzindo a ajustes e melhorias contínuas. </p>
@@ -100,8 +100,8 @@ export default function Home({posts, stickys}: IBlog) {
                 <div className="max-w-7xl px-5 py-10 flex gap-5 flex-col">
 
                     <div className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
-                        <p className="text-3xl text-gray-500">Artigos recentes</p>
-                        <Link href="/blog/" className="text-lg border-[1px] border-gray-500 px-5 py-1 rounded-3xl text-gray-500 hover:opacity-80 transition-opacity">ver todos</Link>
+                        <p className="text-3xl text-white">Artigos recentes</p>
+                        <Link href="/blog/" className="text-lg border-[1px] border-gray-500 px-5 py-1 rounded-3xl text-white hover:opacity-80 transition-opacity">ver todos</Link>
                     </div>
 
                     <div className="flex gap-5 flex-col lg:flex-row">
@@ -109,11 +109,11 @@ export default function Home({posts, stickys}: IBlog) {
                             <div key={post.id} className="shadow-md rounded-2xl w-[100%] flex flex-col justify-between overflow-hidden bg-black border-gray-500 border-[1px]">
                                 <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                                     <div className="flex flex-col gap-5" >
-                                        <p className="text-gray-500">{moment(post.date).format('D [de] MMMM [de] YYYY')}</p>
-                                        <h1 className="font-bold text-lg text-gray-500">{post.title.rendered}</h1>
-                                        <p className="text-lg text-gray-500">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
+                                        <p className="text-white">{moment(post.date).format('D [de] MMMM [de] YYYY')}</p>
+                                        <h1 className="font-bold text-lg text-white">{post.title.rendered}</h1>
+                                        <p className="text-lg text-white">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                     </div>
-                                    <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-gray-500 px-5 py-1 rounded-3xl text-gray-500 hover:opacity-80 transition-opacity">Ler mais</Link>
+                                    <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-gray-500 px-5 py-1 rounded-3xl text-white hover:opacity-80 transition-opacity">Ler mais</Link>
                                 </div>
                             </div>
                         ))}

@@ -140,9 +140,9 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                                     }}
                                 />
                             </Head>
-                            <h1 className="text-2xl font-bold text-gray-500">{post.title.rendered}</h1>
-                            <div className="text-xs text-gray-500">{calculateReadingTime(post.content.rendered)}</div>
-                            <div className='text-lg text-gray-500' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
+                            <h1 className="text-2xl font-bold text-white">{post.title.rendered}</h1>
+                            <div className="text-xs text-white">{calculateReadingTime(post.content.rendered)}</div>
+                            <div className='text-lg text-white' dangerouslySetInnerHTML={{__html: post.content.rendered}}/>
                         </div>
 
                     ))}
@@ -150,18 +150,18 @@ export default function Slug({posts, postsRecentes}: ISlug) {
                         <div
                             className="w-[100%] flex flex-col lg:flex-row justify-between gap-2 items-start">
                             <h3 className="text-2xl ">Artigos recentes</h3>
-                            <Link href="/blog/" className="text-lg border-[1px] border-gray-500 px-5 py-1 rounded-3xl text-gray-500 hover:opacity-80 transition-opacity">ver todos</Link>
+                            <Link href="/blog/" className="text-lg border-[1px] border-gray-500 px-5 py-1 rounded-3xl text-white hover:opacity-80 transition-opacity">ver todos</Link>
                         </div>
                         <div className="flex gap-5 flex-col">
                             {postsRecentes.filter(postRecente => postRecente.id !== currentPostId).map((post) => (
                                 <div key={post.id} className="shadow-md rounded-2xl w-[100%] flex flex-col justify-between overflow-hidden bg-black border-gray-500 border-[1px]">
                                     <div className="gap-5 p-5 flex flex-col justify-between h-[100%] items-start rounded-md overflow-hidden">
                                         <div className="flex flex-col gap-5" >
-                                            <p className="text-gray-500">{moment(post.date).format('D [de] MMMM [de] YYYY')}</p>
-                                            <h1 className="font-bold text-lg text-gray-500">{post.title.rendered}</h1>
-                                            <p className="text-lg text-gray-500">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
+                                            <p className="text-white">{moment(post.date).format('D [de] MMMM [de] YYYY')}</p>
+                                            <h1 className="font-bold text-lg text-white">{post.title.rendered}</h1>
+                                            <p className="text-lg text-white">{post.excerpt?.rendered.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, '')}</p>
                                         </div>
-                                        <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-gray-500 px-5 py-1 rounded-3xl text-gray-500 hover:opacity-80 transition-opacity">Ler mais</Link>
+                                        <Link href={`/blog/${post.slug}`} className="text-lg border-[1px] border-gray-500 px-5 py-1 rounded-3xl text-white hover:opacity-80 transition-opacity">Ler mais</Link>
                                     </div>
                                 </div>
                             ))}
